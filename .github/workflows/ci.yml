@@ -18,8 +18,8 @@ jobs:
       MIX_ENV: test
     steps:
       - uses: actions/checkout@v4
-      - name: Start PostgreSQL (PostGIS, pgvector)
-        run: docker compose up -d --wait postgres
+      - name: Start PostgreSQL, RabbitMQ and Meilisearch
+        run: docker compose up -d --wait postgres rabbitmq meilisearch
       - uses: erlef/setup-beam@v1
         with:
           elixir-version: ${{ env.ELIXIR_VERSION }}
@@ -38,6 +38,7 @@ jobs:
             ~/.cargo/registry
             ~/.cargo/git
             native/*/target
+            priv/native
           key: ${{ runner.os }}-basa-${{ hashFiles('mix.lock', 'native/*/Cargo.lock') }}
           restore-keys: ${{ runner.os }}-basa-
       - run: mix deps.get
