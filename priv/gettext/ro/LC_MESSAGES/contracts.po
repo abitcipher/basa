@@ -1,0 +1,252 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0||(n%100>0 && n%100<20)) ? 1 : 2);\n"
+
+#: lib/basa/witness/contract.ex:68
+#, elixir-autogen, elixir-format
+msgid "Acceptor: %{name} (BASA user %{id})."
+msgstr "Acceptant: %{name} (utilizator BASA %{id})."
+
+#: lib/basa/witness/contract.ex:221
+#, elixir-autogen, elixir-format
+msgid "At the end of the term the acceptor returns it in the same condition, apart from normal wear, and files a return act with photos."
+msgstr "La sfârșitul perioadei, acceptantul restituie totul în aceeași stare, cu excepția uzurii normale, și întocmește un proces-verbal de restituire cu fotografii."
+
+#: lib/basa/witness/contract.ex:75
+#, elixir-autogen, elixir-format
+msgid "BASA keeps the evidence package of this contract: this document, photos, voice recordings and other files the parties add. Its BASA-HASH identifies it."
+msgstr "BASA păstrează pachetul de probe al acestui contract: acest document, fotografii, înregistrări vocale și alte fișiere adăugate de părți. BASA-HASH îl identifică."
+
+#: lib/basa/witness/contract.ex:83
+#, elixir-autogen, elixir-format
+msgid "BASA provides reliable information, verified cryptographically and procedurally, to the witness, who is a party to this contract. BASA itself is not a party to this contract."
+msgstr "BASA furnizează informații fiabile, verificate criptografic și procedural, martorului, care este parte la acest contract. BASA nu este parte la acest contract."
+
+#: lib/basa/witness/contract.ex:216
+#, elixir-autogen, elixir-format
+msgid "Condition and return"
+msgstr "Starea și restituirea"
+
+#: lib/basa/witness/contract.ex:95
+#, elixir-autogen, elixir-format
+msgid "Consumer rights"
+msgstr "Drepturile consumatorului"
+
+#: lib/basa/witness/contract.ex:236
+#, elixir-autogen, elixir-format
+msgid "Draft template: not legal text until a lawyer has reviewed it."
+msgstr "Proiect de model: nu este text juridic până când nu este verificat de un avocat."
+
+#: lib/basa/witness/contract.ex:89
+#, elixir-autogen, elixir-format
+msgid "Each party agrees that BASA stores their voice recordings and photos in the evidence package to identify them as a party to this contract. The files are kept for the period in BASA's terms and opened only as described above."
+msgstr "Fiecare parte este de acord ca BASA să îi păstreze înregistrările vocale și fotografiile în pachetul de probe pentru a o identifica drept parte la acest contract. Fișierele sunt păstrate pe durata prevăzută în condițiile BASA și sunt deschise numai așa cum se arată mai sus."
+
+#: lib/basa/witness/contract.ex:113
+#, elixir-autogen, elixir-format
+msgid "Each party signs electronically on their own device, by signing the BASA-HASH of the evidence package that includes this document."
+msgstr "Fiecare parte semnează electronic pe propriul dispozitiv, semnând BASA-HASH al pachetului de probe care include acest document."
+
+#: lib/basa/witness/contract.ex:74
+#, elixir-autogen, elixir-format
+msgid "Evidence"
+msgstr "Probe"
+
+#: lib/basa/witness/contract.ex:196
+#, elixir-autogen, elixir-format
+msgid "From %{start} to %{end} (time zone %{timezone})."
+msgstr "De la %{start} până la %{end} (fus orar %{timezone})."
+
+#: lib/basa/witness/contract.ex:96
+#, elixir-autogen, elixir-format
+msgid "Governing law and disputes"
+msgstr "Legea aplicabilă și litigii"
+
+#: lib/basa/witness/contract.ex:104
+#, elixir-autogen, elixir-format
+msgid "Languages"
+msgstr "Limbi"
+
+#: lib/basa/witness/contract.ex:126
+#, elixir-autogen, elixir-format
+msgid "Lease contract"
+msgstr "Contract de închiriere"
+
+#: lib/basa/witness/contract.ex:283
+#, elixir-autogen, elixir-format
+msgid "Mobile setup based in %{city}; the parties agree the exact address."
+msgstr "Echipament mobil cu bază în %{city}; părțile stabilesc adresa exactă."
+
+#: lib/basa/witness/contract.ex:129
+#, elixir-autogen, elixir-format
+msgid "No. %{number} · %{date} · %{place}"
+msgstr "Nr. %{number} · %{date} · %{place}"
+
+#: lib/basa/witness/contract.ex:64
+#, elixir-autogen, elixir-format
+msgid "Offeror: %{name} (BASA user %{id})."
+msgstr "Ofertant: %{name} (utilizator BASA %{id})."
+
+#: lib/basa/witness/contract.ex:63
+#, elixir-autogen, elixir-format
+msgid "Parties"
+msgstr "Părțile"
+
+#: lib/basa/witness/contract.ex:88
+#, elixir-autogen, elixir-format
+msgid "Personal data"
+msgstr "Date cu caracter personal"
+
+#: lib/basa/witness/contract.ex:149
+#: lib/basa/witness/contract.ex:194
+#, elixir-autogen, elixir-format
+msgid "Place"
+msgstr "Locul"
+
+#: lib/basa/witness/contract.ex:202
+#, elixir-autogen, elixir-format
+msgid "Price and deposit"
+msgstr "Prețul și garanția"
+
+#: lib/basa/witness/contract.ex:112
+#, elixir-autogen, elixir-format
+msgid "Signing"
+msgstr "Semnarea"
+
+#: lib/basa/witness/contract.ex:141
+#: lib/basa/witness/contract.ex:186
+#, elixir-autogen, elixir-format
+msgid "Subject"
+msgstr "Obiectul"
+
+#: lib/basa/witness/contract.ex:195
+#, elixir-autogen, elixir-format
+msgid "Term"
+msgstr "Durata"
+
+#: lib/basa/witness/contract.ex:247
+#, elixir-autogen, elixir-format
+msgid "The acceptor is a consumer. Nothing in this contract limits the protection given to them by the mandatory consumer law of the country where they live."
+msgstr "Acceptantul este consumator. Nimic din acest contract nu limitează protecția pe care i-o acordă legislația imperativă privind consumatorii din țara în care locuiește."
+
+#: lib/basa/witness/contract.ex:240
+#, elixir-autogen, elixir-format
+msgid "The acceptor is a consumer. Nothing in this contract limits their rights under the consumer protection law of Ukraine."
+msgstr "Acceptantul este consumator. Nimic din acest contract nu îi limitează drepturile conferite de legislația ucraineană privind protecția consumatorilor."
+
+#: lib/basa/witness/contract.ex:210
+#, elixir-autogen, elixir-format
+msgid "The acceptor leaves a deposit of %{deposit}."
+msgstr "Acceptantul lasă o garanție de %{deposit}."
+
+#: lib/basa/witness/contract.ex:79
+#, elixir-autogen, elixir-format
+msgid "The files are encrypted with a key split between the offeror, the acceptor and BASA; any two of them can open the files. BASA also holds a recovery key, used only on a court order or another formal lawful request, or when the parties cannot act; every use is logged."
+msgstr "Fișierele sunt criptate cu o cheie împărțită între ofertant, acceptant și BASA; oricare doi dintre ei pot deschide fișierele. BASA deține și o cheie de recuperare, folosită numai pe baza unei hotărâri judecătorești sau a altei cereri legale formale ori când părțile nu pot acționa; fiecare utilizare este înregistrată."
+
+#: lib/basa/witness/contract.ex:225
+#, elixir-autogen, elixir-format
+msgid "The offeror accepts the return act or raises a claim within %{count} day; after that the return counts as accepted."
+msgid_plural "The offeror accepts the return act or raises a claim within %{count} days; after that the return counts as accepted."
+msgstr[0] "Ofertantul acceptă procesul-verbal de restituire sau formulează o reclamație în termen de %{count} zi; după aceea, restituirea se consideră acceptată."
+msgstr[1] "Ofertantul acceptă procesul-verbal de restituire sau formulează o reclamație în termen de %{count} zile; după aceea, restituirea se consideră acceptată."
+msgstr[2] "Ofertantul acceptă procesul-verbal de restituire sau formulează o reclamație în termen de %{count} de zile; după aceea, restituirea se consideră acceptată."
+
+#: lib/basa/witness/contract.ex:165
+#: lib/basa/witness/contract.ex:217
+#, elixir-autogen, elixir-format
+msgid "The offeror hands over everything in the condition shown in the photos of the evidence package."
+msgstr "Ofertantul predă totul în starea arătată în fotografiile din pachetul de probe."
+
+#: lib/basa/witness/contract.ex:188
+#, elixir-autogen, elixir-format
+msgid "The offeror lets the acceptor use “%{offer}”, made up of:"
+msgstr "Ofertantul pune la dispoziția acceptantului „%{offer}”, alcătuit din:"
+
+#: lib/basa/witness/contract.ex:98
+#, elixir-autogen, elixir-format
+msgid "The parties first try to settle any dispute amicably; otherwise a competent court decides."
+msgstr "Părțile încearcă mai întâi să rezolve pe cale amiabilă orice litigiu; în caz contrar, decide o instanță competentă."
+
+#: lib/basa/witness/contract.ex:158
+#: lib/basa/witness/contract.ex:203
+#, elixir-autogen, elixir-format
+msgid "The price is %{price}. The parties settle payment between themselves; BASA takes no part in the payment."
+msgstr "Prețul este de %{price}. Părțile își fac plata între ele; BASA nu participă la plată."
+
+#: lib/basa/witness/contract.ex:213
+#, elixir-autogen, elixir-format
+msgid "There is no deposit."
+msgstr "Nu există garanție."
+
+#: lib/basa/witness/contract.ex:254
+#, elixir-autogen, elixir-format
+msgid "This contract is governed by the law of Ukraine, in particular the Civil Code of Ukraine."
+msgstr "Prezentul contract este guvernat de legea Ucrainei, în special de Codul civil al Ucrainei."
+
+#: lib/basa/witness/contract.ex:261
+#, elixir-autogen, elixir-format
+msgid "This contract is governed by the law of the country where the offeror lives, without taking from a consumer the protection of the mandatory rules of their own country."
+msgstr "Prezentul contract este guvernat de legea țării în care locuiește ofertantul, fără a priva un consumator de protecția normelor imperative din propria țară."
+
+#: lib/basa/witness/contract.ex:105
+#, elixir-autogen, elixir-format
+msgid "This contract is made in these languages: %{languages}. If the versions differ, the version in this language prevails: %{primary}."
+msgstr "Prezentul contract este încheiat în aceste limbi: %{languages}. Dacă versiunile diferă, prevalează versiunea în această limbă: %{primary}."
+
+#: lib/basa/witness/contract.ex:169
+#, elixir-autogen, elixir-format
+msgid "At the handover the acceptor confirms receipt with a delivery act and photos."
+msgstr "La predare, acceptantul confirmă primirea printr-un proces-verbal de livrare cu fotografii."
+
+#: lib/basa/witness/contract.ex:164
+#, elixir-autogen, elixir-format
+msgid "Condition and claims"
+msgstr "Starea și reclamațiile"
+
+#: lib/basa/witness/contract.ex:150
+#, elixir-autogen, elixir-format
+msgid "Handover"
+msgstr "Predare"
+
+#: lib/basa/witness/contract.ex:155
+#, elixir-autogen, elixir-format
+msgid "Ownership passes to the acceptor at the handover."
+msgstr "Dreptul de proprietate trece la acceptant la predare."
+
+#: lib/basa/witness/contract.ex:157
+#, elixir-autogen, elixir-format
+msgid "Price"
+msgstr "Preț"
+
+#: lib/basa/witness/contract.ex:125
+#, elixir-autogen, elixir-format
+msgid "Sale contract"
+msgstr "Contract de vânzare"
+
+#: lib/basa/witness/contract.ex:173
+#, elixir-autogen, elixir-format
+msgid "The acceptor may raise a claim for defects not shown in the photos within %{count} day of delivery; after that the delivery counts as accepted."
+msgid_plural "The acceptor may raise a claim for defects not shown in the photos within %{count} days of delivery; after that the delivery counts as accepted."
+msgstr[0] "Acceptantul poate reclama vicii care nu apar în fotografii în termen de %{count} zi de la livrare; după aceea livrarea se consideră acceptată."
+msgstr[1] "Acceptantul poate reclama vicii care nu apar în fotografii în termen de %{count} zile de la livrare; după aceea livrarea se consideră acceptată."
+msgstr[2] "Acceptantul poate reclama vicii care nu apar în fotografii în termen de %{count} de zile de la livrare; după aceea livrarea se consideră acceptată."
+
+#: lib/basa/witness/contract.ex:151
+#, elixir-autogen, elixir-format
+msgid "The handover is on %{date} (time zone %{timezone})."
+msgstr "Predarea are loc pe %{date} (fus orar %{timezone})."
+
+#: lib/basa/witness/contract.ex:143
+#, elixir-autogen, elixir-format
+msgid "The offeror sells to the acceptor “%{offer}”, made up of:"
+msgstr "Ofertantul vinde acceptantului „%{offer}”, alcătuit din:"

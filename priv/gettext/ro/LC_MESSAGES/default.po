@@ -1,0 +1,5703 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0||(n%100>0 && n%100<20)) ? 1 : 2);\n"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:471
+#, elixir-autogen, elixir-format
+msgid "%{h} h"
+msgstr "%{h} h"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "A person's time"
+msgstr "Timpul unei persoane"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:677
+#, elixir-autogen, elixir-format
+msgid "Above ground"
+msgstr "Deasupra solului"
+
+#: lib/basa_web/components/table.ex:117
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: lib/basa_web/components/basa_components.ex:528
+#: lib/basa_web/live/admin/geo_live.ex:112
+#: lib/basa_web/live/my/basket_wizard_live.ex:265
+#: lib/basa_web/live/my/room_wizard_live.ex:392
+#: lib/basa_web/live/transaction_live.ex:1451
+#, elixir-autogen, elixir-format
+msgid "Add"
+msgstr "Adaugă"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:84
+#, elixir-autogen, elixir-format
+msgid "Add a name for the person."
+msgstr "Adaugă un nume pentru persoană."
+
+#: lib/basa_web/live/my/items_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "Add a photo first."
+msgstr "Adaugă mai întâi o fotografie."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:406
+#, elixir-autogen, elixir-format
+msgid "Add a room"
+msgstr "Adaugă un spațiu"
+
+#: lib/basa_web/live/my/items_live.ex:643
+#, elixir-autogen, elixir-format
+msgid "Add all %{n} as separate items"
+msgstr "Adaugă toate cele %{n} ca obiecte separate"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:222
+#, elixir-autogen, elixir-format
+msgid "Add an item"
+msgstr "Adaugă un obiect"
+
+#: lib/basa/telegram/bot.ex:250
+#: lib/basa_web/live/app_home_live.ex:24
+#: lib/basa_web/live/my/items_live.ex:520
+#: lib/basa_web/live/my/items_live.ex:585
+#, elixir-autogen, elixir-format
+msgid "Add item"
+msgstr "Adaugă obiect"
+
+#: lib/basa_web/live/my/items_live.ex:278
+#, elixir-autogen, elixir-format
+msgid "Added %{n} items. Open each one to check the details."
+msgstr "Au fost adăugate %{n} obiecte. Deschide-le pe rând pentru a verifica detaliile."
+
+#: lib/basa/telegram/bot.ex:196
+#, elixir-autogen, elixir-format
+msgid "Added to your inventory. I'm looking at the photo; check the details when you're ready."
+msgstr "Adăugat în inventarul tău. Mă uit la fotografie; verifică detaliile când ești gata."
+
+#: lib/basa_web/live/my/import_source_live.ex:489
+#: lib/basa_web/live/my/room_wizard_live.ex:549
+#, elixir-autogen, elixir-format
+msgid "Address"
+msgstr "Adresă"
+
+#: lib/basa_web/live/admin/data_live.ex:12
+#: lib/basa_web/live/admin/geo_live.ex:12
+#: lib/basa_web/live/admin/import_live.ex:17
+#: lib/basa_web/live/admin/photos_live.ex:11
+#: lib/basa_web/live/admin/review_live.ex:12
+#: lib/basa_web/live/admin/rule_editor_live.ex:21
+#: lib/basa_web/live/admin/rules_live.ex:16
+#: lib/basa_web/live/admin/settings_live.ex:16
+#: lib/basa_web/live/admin/witness_live.ex:14
+#, elixir-autogen, elixir-format
+msgid "Admins only."
+msgstr "Doar pentru administratori."
+
+#: lib/basa_web/live/home_live.ex:355
+#, elixir-autogen, elixir-format
+msgid "Any city"
+msgstr "Orice oraș"
+
+#: lib/basa_web/live/home_live.ex:386
+#, elixir-autogen, elixir-format
+msgid "Anything"
+msgstr "Orice"
+
+#: lib/basa_web/live/admin/review_live.ex:67
+#: lib/basa_web/live/admin/witness_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "Approve"
+msgstr "Aprobă"
+
+#: lib/basa_web/live/my/dashboard_live.ex:276
+#, elixir-autogen, elixir-format
+msgid "Archive"
+msgstr "Arhivează"
+
+#: lib/basa_web/live/my/dashboard_live.ex:272
+#, elixir-autogen, elixir-format
+msgid "Archive this offer? Existing bookings stay."
+msgstr "Arhivezi această ofertă? Rezervările existente rămân."
+
+#: lib/basa_web/components/basa_components.ex:194
+#, elixir-autogen, elixir-format
+msgid "Archived"
+msgstr "Arhivată"
+
+#: lib/basa_web/live/lot_live.ex:539
+#: lib/basa_web/live/my/basket_wizard_live.ex:260
+#, elixir-autogen, elixir-format
+msgid "Assistant"
+msgstr "Asistent"
+
+#: lib/basa_web/components/alert.ex:149
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr "Se încearcă reconectarea"
+
+#: lib/basa_web/live/lot_live.ex:543
+#, elixir-autogen, elixir-format
+msgid "Attendant"
+msgstr "Însoțitor"
+
+#: lib/basa_web/live/appearance_live.ex:184
+#: lib/basa_web/live/lot_live.ex:233
+#: lib/basa_web/live/my/basket_wizard_live.ex:270
+#: lib/basa_web/live/my/basket_wizard_live.ex:292
+#: lib/basa_web/live/my/lot_wizard_live.ex:640
+#: lib/basa_web/live/my/room_wizard_live.ex:649
+#, elixir-autogen, elixir-format
+msgid "Back"
+msgstr "Înapoi"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Basics"
+msgstr "Elemente de bază"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:40
+#: lib/basa_web/live/my/lot_wizard_live.ex:360
+#, elixir-autogen, elixir-format
+msgid "Basket"
+msgstr "Coș"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:131
+#, elixir-autogen, elixir-format
+msgid "Basket saved. Next: place it in a room and publish an offer."
+msgstr "Coș salvat. Urmează: pune-l într-un spațiu și publică o ofertă."
+
+#: lib/basa_web/live/my/dashboard_live.ex:136
+#: lib/basa_web/live/my/dashboard_live.ex:287
+#, elixir-autogen, elixir-format
+msgid "Baskets"
+msgstr "Coșuri"
+
+#: lib/basa_web/live/appearance_live.ex:175
+#: lib/basa_web/live/lot_live.ex:521
+#, elixir-autogen, elixir-format
+msgid "Book"
+msgstr "Rezervă"
+
+#: lib/basa_web/live/lot_live.ex:466
+#, elixir-autogen, elixir-format
+msgid "Book %{title}"
+msgstr "Rezervă „%{title}”"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:608
+#, elixir-autogen, elixir-format
+msgid "Book at least, h ahead"
+msgstr "Rezervare cu cel puțin, h înainte"
+
+#: lib/basa_web/live/lot_live.ex:87
+#, elixir-autogen, elixir-format
+msgid "Booked! See you there."
+msgstr "Rezervat! Ne vedem acolo."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:580
+#, elixir-autogen, elixir-format
+msgid "Booking"
+msgstr "Rezervare"
+
+#: lib/basa/notifications/text.ex:28
+#, elixir-autogen, elixir-format
+msgid "Booking update for “%{lot}”."
+msgstr "Noutăți despre rezervarea „%{lot}”."
+
+#: lib/basa/telegram/bot.ex:247
+#: lib/basa_web/components/layouts.ex:35
+#: lib/basa_web/components/layouts.ex:148
+#: lib/basa_web/live/admin/data_live.ex:50
+#: lib/basa_web/live/admin/data_live.ex:72
+#: lib/basa_web/live/app_home_live.ex:13
+#: lib/basa_web/live/bookings_live.ex:17
+#: lib/basa_web/live/bookings_live.ex:136
+#: lib/basa_web/live/my/stats_live.ex:50
+#: lib/basa_web/live/my/stats_live.ex:96
+#: lib/basa_web/live/transaction_live.ex:603
+#, elixir-autogen, elixir-format
+msgid "Bookings"
+msgstr "Rezervări"
+
+#: lib/basa_web/live/my/import_source_live.ex:485
+#: lib/basa_web/live/my/items_live.ex:752
+#, elixir-autogen, elixir-format
+msgid "Brand"
+msgstr "Marcă"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:601
+#, elixir-autogen, elixir-format
+msgid "Break between bookings, min"
+msgstr "Pauză între rezervări, min"
+
+#: lib/basa_web/live/my/dashboard_live.ex:139
+#, elixir-autogen, elixir-format
+msgid "Bundle what you rent together"
+msgstr "Grupează ce închiriezi împreună"
+
+#: lib/basa_web/live/home_live.ex:397
+#, elixir-autogen, elixir-format
+msgid "Bundles"
+msgstr "Pachete"
+
+#: lib/basa_web/live/dev/qes_live.ex:78
+#: lib/basa_web/live/lot_live.ex:514
+#: lib/basa_web/live/lot_live.ex:527
+#: lib/basa_web/live/my/items_live.ex:813
+#, elixir-autogen, elixir-format
+msgid "Cancel"
+msgstr "Anulează"
+
+#: lib/basa_web/live/bookings_live.ex:246
+#: lib/basa_web/live/my/schedule_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "Cancel booking"
+msgstr "Anulează rezervarea"
+
+#: lib/basa_web/live/bookings_live.ex:244
+#: lib/basa_web/live/my/schedule_live.ex:445
+#, elixir-autogen, elixir-format
+msgid "Cancel this booking?"
+msgstr "Anulezi această rezervare?"
+
+#: lib/basa_web/components/basa_components.ex:198
+#, elixir-autogen, elixir-format
+msgid "Cancelled"
+msgstr "Anulată"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:618
+#, elixir-autogen, elixir-format
+msgid "Capacity (people)"
+msgstr "Capacitate (persoane)"
+
+#: lib/basa_web/live/my/import_source_live.ex:488
+#: lib/basa_web/live/my/items_live.ex:755
+#, elixir-autogen, elixir-format
+msgid "Category"
+msgstr "Categorie"
+
+#: lib/basa/telegram/bot.ex:200
+#, elixir-autogen, elixir-format
+msgid "Check the item"
+msgstr "Verifică obiectul"
+
+#: lib/basa_web/components/basa_components.ex:130
+#: lib/basa_web/live/my/items_live.ex:756
+#, elixir-autogen, elixir-format
+msgid "Choose…"
+msgstr "Alege…"
+
+#: lib/basa_web/live/home_live.ex:311
+#: lib/basa_web/live/my/room_wizard_live.ex:544
+#, elixir-autogen, elixir-format
+msgid "City"
+msgstr "Oraș"
+
+#: lib/basa_web/live/lot_live.ex:164
+#: lib/basa_web/live/lot_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "Closed on this day."
+msgstr "Închis în această zi."
+
+#: lib/basa_web/live/lot_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "Comes to you within %{km} km, or you come to it."
+msgstr "Vine la tine pe o rază de %{km} km sau mergi tu."
+
+#: lib/basa_web/components/basa_components.ex:199
+#, elixir-autogen, elixir-format
+msgid "Completed"
+msgstr "Finalizată"
+
+#: lib/basa_web/live/my/items_live.ex:472
+#: lib/basa_web/live/my/items_live.ex:772
+#, elixir-autogen, elixir-format
+msgid "Condition"
+msgstr "Stare"
+
+#: lib/basa_web/live/bookings_live.ex:185
+#: lib/basa_web/live/my/import_live.ex:118
+#: lib/basa_web/live/my/schedule_live.ex:418
+#, elixir-autogen, elixir-format
+msgid "Confirm"
+msgstr "Confirmă"
+
+#: lib/basa_web/components/basa_components.ex:196
+#: lib/basa_web/live/my/schedule_live.ex:178
+#: lib/basa_web/live/my/schedule_live.ex:205
+#: lib/basa_web/live/my/schedule_live.ex:219
+#: lib/basa_web/live/my/schedule_live.ex:349
+#, elixir-autogen, elixir-format
+msgid "Confirmed"
+msgstr "Confirmată"
+
+#: lib/basa_web/live/profile_live.ex:142
+#, elixir-autogen, elixir-format
+msgid "Contact"
+msgstr "Contact"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:157
+#, elixir-autogen, elixir-format
+msgid "Contents"
+msgstr "Conținut"
+
+#: lib/basa_web/live/appearance_live.ex:46
+#: lib/basa_web/live/profile_live.ex:87
+#: lib/basa_web/live/profile_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "Could not save."
+msgstr "Nu s-a putut salva."
+
+#: lib/basa_web/live/my/dashboard_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "Could not submit the offer."
+msgstr "Oferta nu a putut fi trimisă."
+
+#: lib/basa/telegram/bot.ex:231
+#, elixir-autogen, elixir-format
+msgid "Could not verify the number."
+msgstr "Numărul nu a putut fi verificat."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:379
+#, elixir-autogen, elixir-format
+msgid "Create a basket"
+msgstr "Creează un coș"
+
+#: lib/basa_web/live/my/import_source_live.ex:483
+#: lib/basa_web/live/my/items_live.ex:799
+#: lib/basa_web/live/my/lot_wizard_live.ex:566
+#, elixir-autogen, elixir-format
+msgid "Currency"
+msgstr "Monedă"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:451
+#: lib/basa_web/live/my/schedule_live.ex:196
+#, elixir-autogen, elixir-format
+msgid "Day"
+msgstr "Zi"
+
+#: lib/basa_web/live/bookings_live.ex:195
+#: lib/basa_web/live/my/schedule_live.ex:427
+#, elixir-autogen, elixir-format
+msgid "Decline"
+msgstr "Refuză"
+
+#: lib/basa_web/components/basa_components.ex:197
+#, elixir-autogen, elixir-format
+msgid "Declined"
+msgstr "Refuzată"
+
+#: lib/basa_web/live/my/import_source_live.ex:481
+#: lib/basa_web/live/my/lot_wizard_live.ex:422
+#: lib/basa_web/live/my/room_wizard_live.ex:630
+#, elixir-autogen, elixir-format
+msgid "Description"
+msgstr "Descriere"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:184
+#, elixir-autogen, elixir-format
+msgid "Description (optional)"
+msgstr "Descriere (opțional)"
+
+#: lib/basa_web/live/appearance_live.ex:177
+#: lib/basa_web/live/appearance_live.ex:181
+#: lib/basa_web/live/my/import_source_live.ex:503
+#: lib/basa_web/live/my/items_live.ex:744
+#: lib/basa_web/live/my/room_wizard_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Details"
+msgstr "Detalii"
+
+#: lib/basa_web/live/bookings_live.ex:43
+#: lib/basa_web/live/my/photos_live.ex:35
+#: lib/basa_web/live/my/schedule_live.ex:90
+#, elixir-autogen, elixir-format
+msgid "Done."
+msgstr "Gata."
+
+#: lib/basa_web/components/basa_components.ex:191
+#, elixir-autogen, elixir-format
+msgid "Draft"
+msgstr "Ciornă"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:568
+#, elixir-autogen, elixir-format
+msgid "Drag the pin to the entrance."
+msgstr "Trage acul pe hartă până la intrare."
+
+#: lib/basa_web/live/lot_live.ex:479
+#, elixir-autogen, elixir-format
+msgid "Duration"
+msgstr "Durată"
+
+#: lib/basa_web/live/admin/rules_live.ex:120
+#: lib/basa_web/live/my/dashboard_live.ex:255
+#: lib/basa_web/live/my/items_live.ex:405
+#: lib/basa_web/live/my/items_live.ex:562
+#, elixir-autogen, elixir-format
+msgid "Edit"
+msgstr "Editează"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "Edit basket"
+msgstr "Editează coșul"
+
+#: lib/basa_web/live/lot_live.ex:455
+#, elixir-autogen, elixir-format
+msgid "Edit it"
+msgstr "Editeaz-o"
+
+#: lib/basa_web/live/my/items_live.ex:585
+#, elixir-autogen, elixir-format
+msgid "Edit item"
+msgstr "Editează obiectul"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:346
+#, elixir-autogen, elixir-format
+msgid "Edit offer"
+msgstr "Editează oferta"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "Edit room"
+msgstr "Editează spațiul"
+
+#: lib/basa_web/live/home_live.ex:391
+#: lib/basa_web/live/my/basket_wizard_live.ex:307
+#, elixir-autogen, elixir-format
+msgid "Equipment"
+msgstr "Echipament"
+
+#: lib/basa_web/live/my/items_live.ex:485
+#: lib/basa_web/live/my/items_live.ex:777
+#, elixir-autogen, elixir-format
+msgid "Excellent"
+msgstr "Excelent"
+
+#: lib/basa_web/live/my/items_live.ex:487
+#: lib/basa_web/live/my/items_live.ex:779
+#, elixir-autogen, elixir-format
+msgid "Fair"
+msgstr "Acceptabil"
+
+#: lib/basa/telegram/bot.ex:246
+#: lib/basa_web/components/layouts.ex:27
+#: lib/basa_web/components/layouts.ex:142
+#: lib/basa_web/live/app_home_live.ex:9
+#, elixir-autogen, elixir-format
+msgid "Find"
+msgstr "Caută"
+
+#: lib/basa_web/live/home_live.ex:8
+#, elixir-autogen, elixir-format
+msgid "Find a studio, gear or tools"
+msgstr "Găsește un studio, echipament sau unelte"
+
+#: lib/basa_web/live/bookings_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "Find something to book"
+msgstr "Găsește ceva de rezervat"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:450
+#, elixir-autogen, elixir-format
+msgid "Fixed slot"
+msgstr "Interval fix"
+
+#: lib/basa_web/live/bookings_live.ex:153
+#, elixir-autogen, elixir-format
+msgid "For my offers"
+msgstr "Pentru ofertele mele"
+
+#: lib/basa_web/live/lot_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "Free cancellation up to %{h} h before."
+msgstr "Anulare gratuită cu până la %{h} h înainte."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:615
+#, elixir-autogen, elixir-format
+msgid "Free cancellation, h before"
+msgstr "Anulare gratuită, h înainte"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "Give the basket a name."
+msgstr "Dă un nume coșului."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "Give the room a name."
+msgstr "Dă un nume spațiului."
+
+#: lib/basa_web/live/my/items_live.ex:486
+#: lib/basa_web/live/my/items_live.ex:778
+#, elixir-autogen, elixir-format
+msgid "Good"
+msgstr "Bun"
+
+#: lib/basa_web/live/lot_live.ex:540
+#: lib/basa_web/live/my/basket_wizard_live.ex:261
+#, elixir-autogen, elixir-format
+msgid "Guide"
+msgstr "Ghid"
+
+#: lib/basa/telegram/bot.ex:359
+#, elixir-autogen, elixir-format
+msgid "Here is what I found:"
+msgstr "Iată ce am găsit:"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:449
+#, elixir-autogen, elixir-format
+msgid "Hour"
+msgstr "Oră"
+
+#: lib/basa_web/live/bookings_live.ex:145
+#, elixir-autogen, elixir-format
+msgid "I booked"
+msgstr "Am rezervat"
+
+#: lib/basa_web/live/lot_live.ex:313
+#, elixir-autogen, elixir-format
+msgid "Included"
+msgstr "Inclus"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:584
+#, elixir-autogen, elixir-format
+msgid "Instant"
+msgstr "Imediată"
+
+#: lib/basa_web/live/lot_live.ex:509
+#, elixir-autogen, elixir-format
+msgid "Instant booking: confirmed at once."
+msgstr "Rezervare imediată: confirmată pe loc."
+
+#: lib/basa_web/live/my/items_live.ex:286
+#, elixir-autogen, elixir-format
+msgid "Item removed."
+msgstr "Obiect eliminat."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:193
+#: lib/basa_web/live/my/dashboard_live.ex:129
+#: lib/basa_web/live/my/photos_live.ex:62
+#: lib/basa_web/live/my/photos_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Items"
+msgstr "Obiecte"
+
+#: lib/basa_web/live/lot_live.ex:541
+#: lib/basa_web/live/my/basket_wizard_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Key holder"
+msgstr "Responsabil cu cheile"
+
+#: lib/basa_web/live/admin/data_live.ex:49
+#: lib/basa_web/live/profile_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "Language"
+msgstr "Limbă"
+
+#: lib/basa_web/live/home_live.ex:562
+#, elixir-autogen, elixir-format
+msgid "List your own studio or gear"
+msgstr "Publică-ți propriul studio sau echipament"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:499
+#, elixir-autogen, elixir-format
+msgid "Local time: %{tz}"
+msgstr "Ora locală: %{tz}"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Location"
+msgstr "Locație"
+
+#: lib/basa_web/live/bookings_live.ex:219
+#: lib/basa_web/live/my/schedule_live.ex:436
+#, elixir-autogen, elixir-format
+msgid "Mark as done"
+msgstr "Marchează ca finalizată"
+
+#: lib/basa_web/live/my/items_live.ex:464
+#: lib/basa_web/live/my/items_live.ex:793
+#, elixir-autogen, elixir-format
+msgid "Market value"
+msgstr "Valoare de piață"
+
+#: lib/basa_web/live/lot_live.ex:504
+#, elixir-autogen, elixir-format
+msgid "Message to the lessor (optional)"
+msgstr "Mesaj pentru proprietar (opțional)"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:594
+#, elixir-autogen, elixir-format
+msgid "Minimum units"
+msgstr "Unități minime"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:310
+#, elixir-autogen, elixir-format
+msgid "Mixed"
+msgstr "Mixt"
+
+#: lib/basa_web/live/lot_live.ex:280
+#: lib/basa_web/live/my/room_wizard_live.ex:598
+#, elixir-autogen, elixir-format
+msgid "Mobile setup"
+msgstr "Echipament mobil"
+
+#: lib/basa_web/live/my/import_source_live.ex:486
+#: lib/basa_web/live/my/items_live.ex:753
+#, elixir-autogen, elixir-format
+msgid "Model"
+msgstr "Model"
+
+#: lib/basa_web/live/my/items_live.ex:19
+#: lib/basa_web/live/my/items_live.ex:389
+#: lib/basa_web/live/my/items_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "My items"
+msgstr "Obiectele mele"
+
+#: lib/basa/telegram/bot.ex:249
+#: lib/basa/telegram/bot.ex:300
+#: lib/basa_web/components/layouts.ex:55
+#: lib/basa_web/components/layouts.ex:161
+#: lib/basa_web/live/app_home_live.ex:22
+#: lib/basa_web/live/my/dashboard_live.ex:11
+#: lib/basa_web/live/my/dashboard_live.ex:92
+#, elixir-autogen, elixir-format
+msgid "My offers"
+msgstr "Ofertele mele"
+
+#: lib/basa_web/live/admin/data_live.ex:46
+#: lib/basa_web/live/my/basket_wizard_live.ex:157
+#: lib/basa_web/live/my/basket_wizard_live.ex:168
+#: lib/basa_web/live/my/import_live.ex:153
+#: lib/basa_web/live/my/import_source_live.ex:480
+#: lib/basa_web/live/my/import_source_live.ex:654
+#: lib/basa_web/live/my/room_wizard_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "Name"
+msgstr "Nume"
+
+#: lib/basa_web/live/profile_live.ex:116
+#, elixir-autogen, elixir-format
+msgid "Name shown to others"
+msgstr "Numele afișat altora"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:254
+#, elixir-autogen, elixir-format
+msgid "Name, e.g. sound engineer Ivan"
+msgstr "Nume, de ex. inginerul de sunet Ivan"
+
+#: lib/basa_web/live/my/items_live.ex:484
+#: lib/basa_web/live/my/items_live.ex:776
+#, elixir-autogen, elixir-format
+msgid "New"
+msgstr "Nou"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "New basket"
+msgstr "Coș nou"
+
+#: lib/basa/notifications/text.ex:10
+#, elixir-autogen, elixir-format
+msgid "New booking for “%{lot}” on %{when}."
+msgstr "Rezervare nouă pentru „%{lot}” pe %{when}."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:200
+#, elixir-autogen, elixir-format
+msgid "New item"
+msgstr "Obiect nou"
+
+#: lib/basa/telegram/bot.ex:392
+#, elixir-autogen, elixir-format
+msgid "New item from Telegram"
+msgstr "Obiect nou din Telegram"
+
+#: lib/basa_web/live/my/dashboard_live.ex:197
+#: lib/basa_web/live/my/lot_wizard_live.ex:346
+#, elixir-autogen, elixir-format
+msgid "New offer"
+msgstr "Ofertă nouă"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "New room"
+msgstr "Spațiu nou"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:188
+#: lib/basa_web/live/my/basket_wizard_live.ex:271
+#: lib/basa_web/live/my/lot_wizard_live.ex:650
+#: lib/basa_web/live/my/room_wizard_live.ex:659
+#, elixir-autogen, elixir-format
+msgid "Next"
+msgstr "Înainte"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:377
+#, elixir-autogen, elixir-format
+msgid "No baskets yet"
+msgstr "Încă nu există coșuri"
+
+#: lib/basa_web/live/bookings_live.ex:253
+#, elixir-autogen, elixir-format
+msgid "No bookings yet"
+msgstr "Încă nu există rezervări"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:220
+#, elixir-autogen, elixir-format
+msgid "No items yet"
+msgstr "Încă nu există obiecte"
+
+#: lib/basa_web/live/my/dashboard_live.ex:280
+#: lib/basa_web/live/my/stats_live.ex:53
+#: lib/basa_web/live/my/stats_live.ex:75
+#, elixir-autogen, elixir-format
+msgid "No offers yet"
+msgstr "Încă nu există oferte"
+
+#: lib/basa_web/live/bookings_live.ex:264
+#, elixir-autogen, elixir-format
+msgid "No requests yet"
+msgstr "Încă nu există cereri"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:404
+#, elixir-autogen, elixir-format
+msgid "No rooms yet"
+msgstr "Încă nu există spații"
+
+#: lib/basa_web/live/my/items_live.ex:318
+#, elixir-autogen, elixir-format
+msgid "No suggestion this time. Fill in the details by hand."
+msgstr "De data aceasta nu există sugestii. Completează detaliile manual."
+
+#: lib/basa_web/live/my/dashboard_live.ex:299
+#: lib/basa_web/live/my/dashboard_live.ex:315
+#, elixir-autogen, elixir-format
+msgid "None yet"
+msgstr "Încă niciunul"
+
+#: lib/basa_web/live/my/dashboard_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "Not published yet: see the notes below the offer."
+msgstr "Încă nepublicată: vezi notele de sub ofertă."
+
+#: lib/basa_web/live/profile_live.ex:152
+#, elixir-autogen, elixir-format
+msgid "Not verified."
+msgstr "Neverificat."
+
+#: lib/basa_web/live/my/items_live.ex:810
+#, elixir-autogen, elixir-format
+msgid "Notes for renters"
+msgstr "Note pentru chiriași"
+
+#: lib/basa_web/live/home_live.ex:553
+#, elixir-autogen, elixir-format
+msgid "Nothing found yet"
+msgstr "Încă nu s-a găsit nimic"
+
+#: lib/basa_web/live/my/items_live.ex:646
+#, elixir-autogen, elixir-format
+msgid "Nothing recognized. Fill in the details by hand."
+msgstr "Nu s-a recunoscut nimic. Completează detaliile manual."
+
+#: lib/basa_web/live/admin/review_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Nothing to review"
+msgstr "Nimic de verificat"
+
+#: lib/basa_web/live/admin/data_live.ex:52
+#: lib/basa_web/live/admin/witness_live.ex:338
+#: lib/basa_web/live/my/lot_wizard_live.ex:28
+#: lib/basa_web/live/my/lot_wizard_live.ex:430
+#, elixir-autogen, elixir-format
+msgid "Offer"
+msgstr "Ofertă"
+
+#: lib/basa_web/live/my/dashboard_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Offer archived."
+msgstr "Ofertă arhivată."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:416
+#, elixir-autogen, elixir-format
+msgid "Offer title"
+msgstr "Titlul ofertei"
+
+#: lib/basa_web/live/my/dashboard_live.ex:150
+#: lib/basa_web/live/my/dashboard_live.ex:188
+#, elixir-autogen, elixir-format
+msgid "Offers"
+msgstr "Oferte"
+
+#: lib/basa_web/live/admin/review_live.ex:43
+#, elixir-autogen, elixir-format
+msgid "Offers waiting for review"
+msgstr "Oferte care așteaptă verificarea"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:587
+#, elixir-autogen, elixir-format
+msgid "On request"
+msgstr "La cerere"
+
+#: lib/basa_web/live/profile_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Open @%{bot}"
+msgstr "Deschide @%{bot}"
+
+#: lib/basa/telegram/bot.ex:138
+#: lib/basa/telegram/bot.ex:312
+#, elixir-autogen, elixir-format
+msgid "Open BASA"
+msgstr "Deschide BASA"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:679
+#, elixir-autogen, elixir-format
+msgid "Open area"
+msgstr "Spațiu deschis"
+
+#: lib/basa/telegram/bot.ex:179
+#, elixir-autogen, elixir-format
+msgid "Open bookings"
+msgstr "Deschide rezervările"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:475
+#, elixir-autogen, elixir-format
+msgid "Open on"
+msgstr "Deschis în"
+
+#: lib/basa_web/live/profile_live.ex:154
+#, elixir-autogen, elixir-format
+msgid "Open the bot and tap “Share phone” to verify it through Telegram."
+msgstr "Deschide botul și apasă „Partajează telefonul” pentru a-l verifica prin Telegram."
+
+#: lib/basa_web/controllers/telegram_html/app.html.heex:4
+#, elixir-autogen, elixir-format
+msgid "Open this page from the BASA bot in Telegram."
+msgstr "Deschide această pagină din botul BASA din Telegram."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "People (optional)"
+msgstr "Persoane (opțional)"
+
+#: lib/basa_web/live/my/dashboard_live.ex:132
+#, elixir-autogen, elixir-format
+msgid "Photograph your gear"
+msgstr "Fotografiază-ți echipamentul"
+
+#: lib/basa_web/live/appearance_live.ex:176
+#: lib/basa_web/live/my/dashboard_live.ex:95
+#: lib/basa_web/live/my/import_source_live.ex:484
+#: lib/basa_web/live/my/items_live.ex:591
+#: lib/basa_web/live/my/photos_live.ex:9
+#: lib/basa_web/live/my/photos_live.ex:84
+#: lib/basa_web/live/my/room_wizard_live.ex:637
+#, elixir-autogen, elixir-format
+msgid "Photos"
+msgstr "Fotografii"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:234
+#, elixir-autogen, elixir-format
+msgid "Pick a basket and a room."
+msgstr "Alege un coș și un spațiu."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:209
+#, elixir-autogen, elixir-format
+msgid "Pick a city."
+msgstr "Alege un oraș."
+
+#: lib/basa_web/live/lot_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "Pick a time"
+msgstr "Alege o oră"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:237
+#, elixir-autogen, elixir-format
+msgid "Pick at least one day."
+msgstr "Alege cel puțin o zi."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "Pick at least one item or person."
+msgstr "Alege cel puțin un obiect sau o persoană."
+
+#: lib/basa_web/live/lot_live.ex:275
+#, elixir-autogen, elixir-format
+msgid "Placement"
+msgstr "Amplasare"
+
+#: lib/basa/telegram/bot.ex:237
+#, elixir-autogen, elixir-format
+msgid "Please share your own contact using the button."
+msgstr "Partajează-ți propriul contact folosind butonul."
+
+#: lib/basa_web/live/admin/data_live.ex:56
+#: lib/basa_web/live/my/import_source_live.ex:482
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "Price"
+msgstr "Preț"
+
+#: lib/basa_web/components/layouts.ex:85
+#: lib/basa_web/live/app_home_live.ex:25
+#: lib/basa_web/live/appearance_live.ex:72
+#: lib/basa_web/live/profile_live.ex:11
+#: lib/basa_web/live/profile_live.ex:110
+#, elixir-autogen, elixir-format
+msgid "Profile"
+msgstr "Profil"
+
+#: lib/basa_web/live/my/dashboard_live.ex:266
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#: lib/basa_web/live/my/lot_wizard_live.ex:669
+#, elixir-autogen, elixir-format
+msgid "Publish"
+msgstr "Publică"
+
+#: lib/basa_web/components/basa_components.ex:193
+#, elixir-autogen, elixir-format
+msgid "Published"
+msgstr "Publicată"
+
+#: lib/basa_web/live/admin/review_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Published."
+msgstr "Publicată."
+
+#: lib/basa_web/live/my/dashboard_live.ex:28
+#, elixir-autogen, elixir-format
+msgid "Published. Lessees can book it now."
+msgstr "Publicată. Acum se poate rezerva."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:665
+#, elixir-autogen, elixir-format
+msgid "Publishing…"
+msgstr "Se publică…"
+
+#: lib/basa_web/live/my/items_live.ex:566
+#, elixir-autogen, elixir-format
+msgid "Remove this item?"
+msgstr "Elimini acest obiect?"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:446
+#, elixir-autogen, elixir-format
+msgid "Rented by"
+msgstr "Închiriat de"
+
+#: lib/basa_web/live/lot_live.ex:88
+#, elixir-autogen, elixir-format
+msgid "Request sent. The slot is held while the lessor confirms."
+msgstr "Cerere trimisă. Intervalul este rezervat până confirmă proprietarul."
+
+#: lib/basa_web/live/admin/review_live.ex:10
+#: lib/basa_web/live/admin/settings_live.ex:520
+#: lib/basa_web/live/my/basket_wizard_live.ex:157
+#, elixir-autogen, elixir-format
+msgid "Review"
+msgstr "Verificare"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:387
+#: lib/basa_web/live/my/room_wizard_live.ex:73
+#: lib/basa_web/live/my/schedule_live.ex:190
+#: lib/basa_web/live/my/schedule_live.ex:229
+#, elixir-autogen, elixir-format
+msgid "Room"
+msgstr "Spațiu"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:276
+#, elixir-autogen, elixir-format
+msgid "Room saved."
+msgstr "Spațiu salvat."
+
+#: lib/basa_web/live/my/dashboard_live.ex:143
+#: lib/basa_web/live/my/dashboard_live.ex:303
+#: lib/basa_web/live/my/import_source_live.ex:491
+#: lib/basa_web/live/my/photos_live.ex:63
+#: lib/basa_web/live/my/photos_live.ex:73
+#: lib/basa_web/live/my/schedule_live.ex:193
+#, elixir-autogen, elixir-format
+msgid "Rooms"
+msgstr "Spații"
+
+#: lib/basa_web/live/admin/settings_live.ex:439
+#: lib/basa_web/live/appearance_live.ex:174
+#: lib/basa_web/live/appearance_live.ex:180
+#: lib/basa_web/live/my/import_source_live.ex:678
+#: lib/basa_web/live/my/import_source_live.ex:782
+#: lib/basa_web/live/my/import_source_live.ex:869
+#: lib/basa_web/live/my/import_source_live.ex:978
+#: lib/basa_web/live/my/items_live.ex:819
+#: lib/basa_web/live/profile_live.ex:134
+#: lib/basa_web/live/profile_live.ex:210
+#: lib/basa_web/live/transaction_live.ex:700
+#: lib/basa_web/live/transaction_live.ex:733
+#, elixir-autogen, elixir-format
+msgid "Save"
+msgstr "Salvează"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:298
+#, elixir-autogen, elixir-format
+msgid "Save basket"
+msgstr "Salvează coșul"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:668
+#, elixir-autogen, elixir-format
+msgid "Save changes"
+msgstr "Salvează modificările"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:658
+#, elixir-autogen, elixir-format
+msgid "Save draft"
+msgstr "Salvează ciorna"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:668
+#, elixir-autogen, elixir-format
+msgid "Save room"
+msgstr "Salvează spațiul"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:264
+#, elixir-autogen, elixir-format
+msgid "Saved as draft. See the notes on your dashboard."
+msgstr "Salvată ca ciornă. Vezi notele din panoul tău."
+
+#: lib/basa_web/live/my/items_live.ex:168
+#, elixir-autogen, elixir-format
+msgid "Saved to your inventory."
+msgstr "Salvat în inventarul tău."
+
+#: lib/basa_web/live/admin/rules_live.ex:43
+#: lib/basa_web/live/my/import_source_live.ex:64
+#: lib/basa_web/live/my/import_source_live.ex:157
+#: lib/basa_web/live/my/import_source_live.ex:194
+#: lib/basa_web/live/my/lot_wizard_live.ex:267
+#: lib/basa_web/live/profile_live.ex:83
+#, elixir-autogen, elixir-format
+msgid "Saved."
+msgstr "Salvat."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:297
+#: lib/basa_web/live/my/items_live.ex:818
+#: lib/basa_web/live/my/room_wizard_live.ex:666
+#, elixir-autogen, elixir-format
+msgid "Saving…"
+msgstr "Se salvează…"
+
+#: lib/basa_web/live/my/dashboard_live.ex:153
+#, elixir-autogen, elixir-format
+msgid "Schedule, price, publish"
+msgstr "Program, preț, publicare"
+
+#: lib/basa_web/live/admin/review_live.ex:59
+#, elixir-autogen, elixir-format
+msgid "Send back"
+msgstr "Trimite înapoi"
+
+#: lib/basa/telegram/bot.ex:186
+#, elixir-autogen, elixir-format
+msgid "Send me one or more photos of the item."
+msgstr "Trimite-mi una sau mai multe fotografii ale obiectului."
+
+#: lib/basa_web/live/admin/review_live.ex:26
+#, elixir-autogen, elixir-format
+msgid "Sent back to the lessor."
+msgstr "Trimisă înapoi proprietarului."
+
+#: lib/basa_web/live/my/dashboard_live.ex:31
+#: lib/basa_web/live/my/lot_wizard_live.ex:261
+#, elixir-autogen, elixir-format
+msgid "Sent for review. We'll let you know."
+msgstr "Trimisă la verificare. Te anunțăm."
+
+#: lib/basa_web/components/layouts.ex:114
+#: lib/basa_web/live/sign_in_live.ex:11
+#, elixir-autogen, elixir-format
+msgid "Sign in"
+msgstr "Autentificare"
+
+#: lib/basa_web/live/lot_live.ex:528
+#, elixir-autogen, elixir-format
+msgid "Sign in to book"
+msgstr "Autentifică-te pentru a rezerva"
+
+#: lib/basa_web/components/layouts.ex:104
+#, elixir-autogen, elixir-format
+msgid "Sign out"
+msgstr "Deconectare"
+
+#: lib/basa_web/controllers/telegram_html/app.html.heex:5
+#, elixir-autogen, elixir-format
+msgid "Sign-in failed. Close and reopen the app."
+msgstr "Autentificarea a eșuat. Închide și redeschide aplicația."
+
+#: lib/basa_web/controllers/telegram_controller.ex:36
+#, elixir-autogen, elixir-format
+msgid "Signed in with Telegram."
+msgstr "Te-ai autentificat cu Telegram."
+
+#: lib/basa_web/controllers/telegram_html/app.html.heex:3
+#, elixir-autogen, elixir-format
+msgid "Signing you in…"
+msgstr "Se face autentificarea…"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:463
+#, elixir-autogen, elixir-format
+msgid "Slot length"
+msgstr "Durata intervalului"
+
+#: lib/basa_web/live/lot_live.ex:109
+#, elixir-autogen, elixir-format
+msgid "Someone just booked this time. Please pick another slot."
+msgstr "Cineva tocmai a rezervat această oră. Alege alt interval."
+
+#: lib/basa_web/components/alert.ex:157
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr "Ceva n-a mers bine!"
+
+#: lib/basa/telegram/bot.ex:205
+#, elixir-autogen, elixir-format
+msgid "Sorry, I couldn't save that photo. Please try again."
+msgstr "Îmi pare rău, nu am putut salva fotografia. Încearcă din nou."
+
+#: lib/basa_web/live/lot_live.ex:538
+#: lib/basa_web/live/my/basket_wizard_live.ex:259
+#, elixir-autogen, elixir-format
+msgid "Sound engineer"
+msgstr "Inginer de sunet"
+
+#: lib/basa_web/live/lot_live.ex:542
+#: lib/basa_web/live/my/basket_wizard_live.ex:263
+#, elixir-autogen, elixir-format
+msgid "Specialist"
+msgstr "Specialist"
+
+#: lib/basa_web/live/home_live.ex:394
+#, elixir-autogen, elixir-format
+msgid "Specialists"
+msgstr "Specialiști"
+
+#: lib/basa_web/live/my/dashboard_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "Start with step 1: add a few items with photos."
+msgstr "Începe cu pasul 1: adaugă câteva obiecte cu fotografii."
+
+#: lib/basa_web/live/admin/data_live.ex:51
+#: lib/basa_web/live/lot_live.ex:473
+#, elixir-autogen, elixir-format
+msgid "Starts"
+msgstr "Începe"
+
+#: lib/basa_web/live/my/dashboard_live.ex:371
+#, elixir-autogen, elixir-format
+msgid "Step"
+msgstr "Pas"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "Studio A, Moldavanka"
+msgstr "Studio A, Moldavanka"
+
+#: lib/basa_web/live/home_live.ex:339
+#, elixir-autogen, elixir-format
+msgid "Studio, microphone, drill…"
+msgstr "Studio, microfon, bormașină…"
+
+#: lib/basa_web/live/my/items_live.ex:611
+#, elixir-autogen, elixir-format
+msgid "Suggest from photo"
+msgstr "Sugerează din fotografie"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:545
+#, elixir-autogen, elixir-format
+msgid "Suggested"
+msgstr "Sugerat"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "Suggested from the basket's market value. You can change the price any time, even after publishing."
+msgstr "Sugerat pe baza valorii de piață a coșului. Poți schimba prețul oricând, chiar și după publicare."
+
+#: lib/basa_web/live/my/items_live.ex:351
+#, elixir-autogen, elixir-format
+msgid "Suggested rent: about %{rate} per day (3% of value). You set the final price in the offer."
+msgstr "Chirie sugerată: aproximativ %{rate} pe zi (3% din valoare). Prețul final îl stabilești în ofertă."
+
+#: lib/basa_web/live/my/items_live.ex:616
+#, elixir-autogen, elixir-format
+msgid "Suggestions. Check them before saving:"
+msgstr "Sugestii. Verifică-le înainte de a salva:"
+
+#: lib/basa_web/live/my/items_live.ex:577
+#, elixir-autogen, elixir-format
+msgid "Take a few photos of what you rent out. We'll help fill in the rest."
+msgstr "Fă câteva fotografii cu ce închiriezi. Te ajutăm cu restul."
+
+#: lib/basa_web/live/profile_live.ex:161
+#, elixir-autogen, elixir-format
+msgid "Telegram connected"
+msgstr "Telegram conectat"
+
+#: lib/basa_web/live/profile_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Telegram not connected."
+msgstr "Telegram neconectat."
+
+#: lib/basa_web/controllers/telegram_controller.ex:51
+#, elixir-autogen, elixir-format
+msgid "Telegram sign-in failed."
+msgstr "Autentificarea cu Telegram a eșuat."
+
+#: lib/basa/telegram/bot.ex:227
+#, elixir-autogen, elixir-format
+msgid "Thanks, your phone number is verified."
+msgstr "Mulțumim, numărul tău de telefon este verificat."
+
+#: lib/basa_web/live/admin/photos_live.ex:35
+#: lib/basa_web/live/bookings_live.ex:45
+#: lib/basa_web/live/bookings_live.ex:88
+#: lib/basa_web/live/my/photos_live.ex:36
+#: lib/basa_web/live/my/room_wizard_live.ex:176
+#: lib/basa_web/live/transaction_live.ex:500
+#: lib/basa_web/live/transaction_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "That didn't work. Please try again."
+msgstr "N-a mers. Încearcă din nou."
+
+#: lib/basa_web/components/basa_components.ex:544
+#, elixir-autogen, elixir-format
+msgid "That photo is too large (max 12 MB)."
+msgstr "Fotografia este prea mare (max. 12 MB)."
+
+#: lib/basa/notifications/text.ex:22
+#, elixir-autogen, elixir-format
+msgid "The booking for “%{lot}” on %{when} was cancelled."
+msgstr "Rezervarea pentru „%{lot}” din %{when} a fost anulată."
+
+#: lib/basa_web/live/lot_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "The lessor confirms your request; the slot is held meanwhile."
+msgstr "Proprietarul îți confirmă cererea; între timp intervalul rămâne rezervat."
+
+#: lib/basa_web/live/lot_live.ex:454
+#, elixir-autogen, elixir-format
+msgid "This is your offer."
+msgstr "Aceasta este oferta ta."
+
+#: lib/basa_web/live/lot_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "This offer is not available."
+msgstr "Această ofertă nu este disponibilă."
+
+#: lib/basa_web/live/lot_live.ex:451
+#, elixir-autogen, elixir-format
+msgid "Times are in %{tz}. Taken slots update live."
+msgstr "Orele sunt în %{tz}. Intervalele ocupate se actualizează în timp real."
+
+#: lib/basa_web/live/my/items_live.ex:747
+#, elixir-autogen, elixir-format
+msgid "Title"
+msgstr "Titlu"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:286
+#, elixir-autogen, elixir-format
+msgid "Total market value"
+msgstr "Valoare de piață totală"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:608
+#, elixir-autogen, elixir-format
+msgid "Travels up to %{km} km"
+msgstr "Se deplasează până la %{km} km"
+
+#: lib/basa_web/live/home_live.ex:559
+#, elixir-autogen, elixir-format
+msgid "Try another city or a shorter search."
+msgstr "Încearcă alt oraș sau o căutare mai scurtă."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:517
+#, elixir-autogen, elixir-format
+msgid "Type of place"
+msgstr "Tipul locului"
+
+#: lib/basa_web/components/basa_components.ex:192
+#, elixir-autogen, elixir-format
+msgid "Under review"
+msgstr "În verificare"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:678
+#, elixir-autogen, elixir-format
+msgid "Underground"
+msgstr "Subteran"
+
+#: lib/basa_web/live/lot_live.ex:489
+#, elixir-autogen, elixir-format
+msgid "Until"
+msgstr "Până la"
+
+#: lib/basa_web/components/basa_components.ex:550
+#, elixir-autogen, elixir-format
+msgid "Upload failed."
+msgstr "Încărcarea a eșuat."
+
+#: lib/basa_web/live/my/items_live.ex:634
+#, elixir-autogen, elixir-format
+msgid "Use"
+msgstr "Folosește"
+
+#: lib/basa_web/components/basa_components.ex:549
+#, elixir-autogen, elixir-format
+msgid "Use JPG, PNG or WebP photos."
+msgstr "Folosește fotografii JPG, PNG sau WebP."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:308
+#, elixir-autogen, elixir-format
+msgid "Venue"
+msgstr "Spațiu"
+
+#: lib/basa_web/live/home_live.ex:388
+#, elixir-autogen, elixir-format
+msgid "Venues"
+msgstr "Spații"
+
+#: lib/basa_web/live/my/dashboard_live.ex:254
+#, elixir-autogen, elixir-format
+msgid "View"
+msgstr "Vezi"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:169
+#, elixir-autogen, elixir-format
+msgid "Vocal recording kit"
+msgstr "Kit de înregistrare voce"
+
+#: lib/basa_web/components/basa_components.ex:195
+#, elixir-autogen, elixir-format
+msgid "Waiting for lessor"
+msgstr "Se așteaptă proprietarul"
+
+#: lib/basa_web/components/alert.ex:143
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr "Nu găsim internetul"
+
+#: lib/basa/telegram/bot.ex:135
+#, elixir-autogen, elixir-format
+msgid "Welcome to BASA! Book studios, gear, tools and people's time, or rent out your own.\n\nSend me a photo of something you rent out, and I'll add it to your inventory."
+msgstr "Bine ai venit pe BASA! Rezervă studiouri, echipament, unelte și timpul oamenilor sau închiriază-le pe ale tale.\n\nTrimite-mi o fotografie cu ceva ce închiriezi și o adaug în inventarul tău."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "What & where"
+msgstr "Ce și unde"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:173
+#, elixir-autogen, elixir-format
+msgid "What is it mostly?"
+msgstr "Ce este în principal?"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "When"
+msgstr "Când"
+
+#: lib/basa_web/live/bookings_live.ex:267
+#, elixir-autogen, elixir-format
+msgid "When someone books your offer, it shows up here."
+msgstr "Când cineva îți rezervă oferta, apare aici."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:525
+#, elixir-autogen, elixir-format
+msgid "Where is it?"
+msgstr "Unde se află?"
+
+#: lib/basa_web/live/my/dashboard_live.ex:146
+#, elixir-autogen, elixir-format
+msgid "Where it happens"
+msgstr "Unde are loc"
+
+#: lib/basa_web/live/lot_live.ex:166
+#: lib/basa_web/live/lot_live.ex:443
+#, elixir-autogen, elixir-format
+msgid "Whole day"
+msgstr "Toată ziua"
+
+#: lib/basa_web/live/admin/review_live.ex:55
+#, elixir-autogen, elixir-format
+msgid "Why is it sent back?"
+msgstr "De ce este trimisă înapoi?"
+
+#: lib/basa_web/live/my/items_live.ex:488
+#: lib/basa_web/live/my/items_live.ex:780
+#, elixir-autogen, elixir-format
+msgid "Worn"
+msgstr "Uzat"
+
+#: lib/basa/notifications/text.ex:13
+#, elixir-autogen, elixir-format
+msgid "Your booking for “%{lot}” on %{when} is confirmed."
+msgstr "Rezervarea ta pentru „%{lot}” din %{when} este confirmată."
+
+#: lib/basa/notifications/text.ex:19
+#, elixir-autogen, elixir-format
+msgid "Your booking request for “%{lot}” was declined."
+msgstr "Cererea ta de rezervare pentru „%{lot}” a fost refuzată."
+
+#: lib/basa/telegram/bot.ex:178
+#, elixir-autogen, elixir-format
+msgid "Your bookings:"
+msgstr "Rezervările tale:"
+
+#: lib/basa_web/live/my/items_live.ex:576
+#, elixir-autogen, elixir-format
+msgid "Your inventory is empty"
+msgstr "Inventarul tău este gol"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:258
+#, elixir-autogen, elixir-format
+msgid "Your offer is live."
+msgstr "Oferta ta este publicată."
+
+#: lib/basa_web/components/basa_components.ex:523
+#: lib/basa_web/live/my/room_wizard_live.ex:384
+#, elixir-autogen, elixir-format
+msgid "cancel"
+msgstr "anulează"
+
+#: lib/basa_web/components/alert.ex:94
+#: lib/basa_web/components/badge.ex:162
+#: lib/basa_web/components/modal.ex:111
+#: lib/basa_web/components/toast.ex:190
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr "închide"
+
+#: lib/basa_web/components/basa_components.ex:210
+#, elixir-autogen, elixir-format
+msgid "day"
+msgstr "zi"
+
+#: lib/basa_web/components/basa_components.ex:209
+#, elixir-autogen, elixir-format
+msgid "hour"
+msgstr "oră"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:628
+#, elixir-autogen, elixir-format
+msgid "instant booking"
+msgstr "rezervare imediată"
+
+#: lib/basa_web/components/basa_components.ex:370
+#: lib/basa_web/live/my/dashboard_live.ex:312
+#: lib/basa_web/live/my/lot_wizard_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "mobile"
+msgstr "mobil"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:629
+#, elixir-autogen, elixir-format
+msgid "on request"
+msgstr "la cerere"
+
+#: lib/basa_web/live/lot_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "part of this time is taken"
+msgstr "o parte din acest interval este ocupată"
+
+#: lib/basa_web/components/basa_components.ex:211
+#, elixir-autogen, elixir-format
+msgid "slot"
+msgstr "interval"
+
+#: lib/basa_web/live/profile_live.ex:150
+#, elixir-autogen, elixir-format
+msgid "verified"
+msgstr "verificat"
+
+#: lib/basa/messaging/telegram_worker.ex:18
+#, elixir-autogen, elixir-format
+msgid "%{name} about “%{lot}”:\n\n%{body}\n\nReply to this message to answer."
+msgstr "%{name} despre „%{lot}”:\n\n%{body}\n\nRăspunde la acest mesaj pentru a răspunde."
+
+#: lib/basa_web/components/layouts.ex:72
+#, elixir-autogen, elixir-format
+msgid "Account"
+msgstr "Cont"
+
+#: lib/basa_web/components/blockquote.ex:87
+#, elixir-autogen, elixir-format
+msgid "Author image"
+msgstr "Imaginea autorului"
+
+#: lib/basa_web/components/file_field.ex:188
+#: lib/basa_web/components/file_field.ex:274
+#, elixir-autogen, elixir-format
+msgid "Cancel upload for %{file}"
+msgstr "Anulează încărcarea pentru %{file}"
+
+#: lib/basa_web/components/drawer.ex:108
+#: lib/basa_web/components/drawer.ex:112
+#: lib/basa_web/components/sidebar.ex:130
+#, elixir-autogen, elixir-format
+msgid "Close menu"
+msgstr "Închide meniul"
+
+#: lib/basa_web/components/sidebar.ex:126
+#, elixir-autogen, elixir-format
+msgid "Close sidebar"
+msgstr "Închide bara laterală"
+
+#: lib/basa_web/live/messages_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Conversation not found."
+msgstr "Conversația nu a fost găsită."
+
+#: lib/basa_web/components/clipboard.ex:90
+#, elixir-autogen, elixir-format
+msgid "Copied!"
+msgstr "Copiat!"
+
+#: lib/basa_web/components/clipboard.ex:91
+#, elixir-autogen, elixir-format
+msgid "Copy failed"
+msgstr "Copierea a eșuat"
+
+#: lib/basa_web/components/clipboard.ex:92
+#, elixir-autogen, elixir-format
+msgid "Copy to clipboard"
+msgstr "Copiază în clipboard"
+
+#: lib/basa_web/live/lot_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Couldn't open the conversation."
+msgstr "Conversația nu a putut fi deschisă."
+
+#: lib/basa/telegram/bot.ex:164
+#, elixir-autogen, elixir-format
+msgid "Couldn't send the reply. Please answer in BASA."
+msgstr "Răspunsul nu a putut fi trimis. Răspunde în BASA."
+
+#: lib/basa_web/components/dock.ex:72
+#, elixir-autogen, elixir-format
+msgid "Dock navigation"
+msgstr "Navigare de jos"
+
+#: lib/basa_web/components/drawer.ex:125
+#, elixir-autogen, elixir-format
+msgid "Drawer content"
+msgstr "Conținutul panoului"
+
+#: lib/basa_web/components/alert.ex:134
+#, elixir-autogen, elixir-format
+msgid "Error!"
+msgstr "Eroare!"
+
+#: lib/basa_web/components/pagination.ex:130
+#, elixir-autogen, elixir-format
+msgid "First page"
+msgstr "Prima pagină"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "From"
+msgstr "De la"
+
+#: lib/basa_web/components/pagination.ex:220
+#, elixir-autogen, elixir-format
+msgid "Go to page %{page}"
+msgstr "Mergi la pagina %{page}"
+
+#: lib/basa_web/components/alert.ex:163
+#, elixir-autogen, elixir-format
+msgid "Hang in there while we get back on track"
+msgstr "Mai rezistă puțin, reparăm imediat"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:599
+#, elixir-autogen, elixir-format
+msgid "It can come to the renter"
+msgstr "Poate veni la chiriaș"
+
+#: lib/basa_web/components/pagination.ex:191
+#, elixir-autogen, elixir-format
+msgid "Last page"
+msgstr "Ultima pagină"
+
+#: lib/basa_web/components/skeleton.ex:43
+#: lib/basa_web/components/spinner.ex:57
+#: lib/basa_web/components/spinner.ex:136
+#: lib/basa_web/components/spinner.ex:145
+#: lib/basa_web/components/spinner.ex:154
+#, elixir-autogen, elixir-format
+msgid "Loading..."
+msgstr "Se încarcă..."
+
+#: lib/basa_web/components/navbar.ex:94
+#, elixir-autogen, elixir-format
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/basa_web/live/lot_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "Message the lessor"
+msgstr "Scrie proprietarului"
+
+#: lib/basa/telegram/bot.ex:248
+#: lib/basa_web/components/layouts.ex:43
+#: lib/basa_web/components/layouts.ex:154
+#: lib/basa_web/live/app_home_live.ex:19
+#: lib/basa_web/live/messages_live.ex:10
+#: lib/basa_web/live/messages_live.ex:104
+#: lib/basa_web/live/messages_live.ex:140
+#, elixir-autogen, elixir-format
+msgid "Messages"
+msgstr "Mesaje"
+
+#: lib/basa_web/components/sidebar.ex:107
+#: lib/basa_web/components/sidebar.ex:116
+#, elixir-autogen, elixir-format
+msgid "Minimize sidebar"
+msgstr "Minimizează bara laterală"
+
+#: lib/basa_web/components/pagination.ex:180
+#, elixir-autogen, elixir-format
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: lib/basa_web/live/messages_live.ex:130
+#, elixir-autogen, elixir-format
+msgid "No messages yet"
+msgstr "Încă nu există mesaje"
+
+#: lib/basa_web/components/combobox.ex:291
+#: lib/basa_web/components/combobox.ex:509
+#, elixir-autogen, elixir-format
+msgid "Nothing found!"
+msgstr "Nu s-a găsit nimic!"
+
+#: lib/basa_web/live/messages_live.ex:133
+#, elixir-autogen, elixir-format
+msgid "Open an offer and tap “Message the lessor”."
+msgstr "Deschide o ofertă și apasă „Scrie proprietarului”."
+
+#: lib/basa_web/components/pagination.ex:218
+#, elixir-autogen, elixir-format
+msgid "Page %{page}, current page"
+msgstr "Pagina %{page}, pagina curentă"
+
+#: lib/basa_web/components/pagination.ex:141
+#, elixir-autogen, elixir-format
+msgid "Previous page"
+msgstr "Pagina anterioară"
+
+#: lib/basa_web/components/rating.ex:124
+#: lib/basa_web/components/rating.ex:163
+#: lib/basa_web/components/rating.ex:181
+#, elixir-autogen, elixir-format
+msgid "Rate %{count} star"
+msgstr "Evaluează cu %{count} stea"
+
+#: lib/basa_web/components/rating.ex:114
+#: lib/basa_web/components/rating.ex:157
+#, elixir-autogen, elixir-format
+msgid "Rate %{count} stars"
+msgstr "Evaluează cu %{count} stele"
+
+#: lib/basa_web/live/admin/photos_live.ex:129
+#: lib/basa_web/live/my/import_source_live.ex:755
+#: lib/basa_web/live/my/items_live.ex:570
+#: lib/basa_web/live/my/room_wizard_live.ex:429
+#, elixir-autogen, elixir-format
+msgid "Remove"
+msgstr "Elimină"
+
+#: lib/basa_web/components/basa_components.ex:583
+#: lib/basa_web/live/my/photos_live.ex:114
+#: lib/basa_web/live/my/room_wizard_live.ex:368
+#, elixir-autogen, elixir-format
+msgid "Remove photo"
+msgstr "Elimină fotografia"
+
+#: lib/basa_web/live/messages_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Say hello and ask anything about the offer."
+msgstr "Salută și întreabă orice despre ofertă."
+
+#: lib/basa_web/components/search_field.ex:151
+#: lib/basa_web/components/search_field.ex:226
+#, elixir-autogen, elixir-format
+msgid "Search"
+msgstr "Caută"
+
+#: lib/basa_web/live/appearance_live.ex:188
+#: lib/basa_web/live/appearance_live.ex:196
+#: lib/basa_web/live/messages_live.ex:207
+#: lib/basa_web/live/messages_live.ex:208
+#, elixir-autogen, elixir-format
+msgid "Send"
+msgstr "Trimite"
+
+#: lib/basa/telegram/bot.ex:162
+#, elixir-autogen, elixir-format
+msgid "Sent."
+msgstr "Trimis."
+
+#: lib/basa_web/components/password_field.ex:158
+#: lib/basa_web/components/password_field.ex:238
+#, elixir-autogen, elixir-format
+msgid "Show password"
+msgstr "Arată parola"
+
+#: lib/basa_web/components/chat.ex:109
+#, elixir-autogen, elixir-format
+msgid "Status:"
+msgstr "Stare:"
+
+#: lib/basa_web/components/stepper.ex:169
+#: lib/basa_web/components/stepper.ex:243
+#, elixir-autogen, elixir-format
+msgid "Step %{number}: %{title}"
+msgstr "Pasul %{number}: %{title}"
+
+#: lib/basa_web/components/alert.ex:127
+#, elixir-autogen, elixir-format
+msgid "Success!"
+msgstr "Reușit!"
+
+#: lib/basa_web/components/chat.ex:105
+#, elixir-autogen, elixir-format
+msgid "Time:"
+msgstr "Ora:"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "To"
+msgstr "Până la"
+
+#: lib/basa_web/components/file_field.ex:161
+#: lib/basa_web/components/file_field.ex:261
+#: lib/basa_web/components/file_field.ex:286
+#, elixir-autogen, elixir-format
+msgid "Uploading %{file}"
+msgstr "Se încarcă %{file}"
+
+#: lib/basa_web/components/file_field.ex:176
+#, elixir-autogen, elixir-format
+msgid "Uploading %{file}: %{progress} percent"
+msgstr "Se încarcă %{file}: %{progress} la sută"
+
+#: lib/basa_web/live/messages_live.ex:198
+#: lib/basa_web/live/messages_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "Write a message…"
+msgstr "Scrie un mesaj…"
+
+#: lib/basa_web/components/dock.ex:239
+#, elixir-autogen, elixir-format
+msgid "current page"
+msgstr "pagina curentă"
+
+#: lib/basa_web/live/messages_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "new"
+msgstr "nou"
+
+#: lib/basa_web/dates.ex:8
+#, elixir-autogen, elixir-format
+msgid "Fri"
+msgstr "vin"
+
+#: lib/basa_web/dates.ex:4
+#, elixir-autogen, elixir-format
+msgid "Mon"
+msgstr "lun"
+
+#: lib/basa_web/dates.ex:9
+#, elixir-autogen, elixir-format
+msgid "Sat"
+msgstr "sâm"
+
+#: lib/basa_web/dates.ex:10
+#, elixir-autogen, elixir-format
+msgid "Sun"
+msgstr "dum"
+
+#: lib/basa_web/dates.ex:7
+#, elixir-autogen, elixir-format
+msgid "Thu"
+msgstr "joi"
+
+#: lib/basa_web/dates.ex:5
+#, elixir-autogen, elixir-format
+msgid "Tue"
+msgstr "mar"
+
+#: lib/basa_web/dates.ex:6
+#, elixir-autogen, elixir-format
+msgid "Wed"
+msgstr "mie"
+
+#: lib/basa/payments/changes/open_checkout.ex:52
+#, elixir-autogen, elixir-format
+msgid "BASA commission"
+msgstr "Comision BASA"
+
+#: lib/basa_web/live/bookings_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "BASA is free to use. If this booking went well, you can share a part of it with us. It's voluntary."
+msgstr "BASA este gratuit. Dacă rezervarea a mers bine, poți împărți o parte din ea cu noi. Este voluntar."
+
+#: lib/basa_web/components/basa_components.ex:364
+#, elixir-autogen, elixir-format
+msgid "Featured"
+msgstr "Recomandată"
+
+#: lib/basa/payments/products.ex:22
+#, elixir-autogen, elixir-format
+msgid "Featured for 30 days"
+msgstr "Recomandată timp de 30 de zile"
+
+#: lib/basa/payments/products.ex:21
+#, elixir-autogen, elixir-format
+msgid "Featured for 7 days"
+msgstr "Recomandată timp de 7 zile"
+
+#: lib/basa_web/live/my/dashboard_live.ex:329
+#, elixir-autogen, elixir-format
+msgid "Featured offers are shown first in search and in the bot."
+msgstr "Ofertele recomandate apar primele în căutare și în bot."
+
+#: lib/basa_web/live/my/dashboard_live.ex:223
+#, elixir-autogen, elixir-format
+msgid "Featured until %{date}"
+msgstr "Recomandată până la %{date}"
+
+#: lib/basa_web/live/bookings_live.ex:300
+#, elixir-autogen, elixir-format
+msgid "Not now"
+msgstr "Nu acum"
+
+#: lib/basa_web/live/bookings_live.ex:305
+#: lib/basa_web/live/my/dashboard_live.ex:338
+#, elixir-autogen, elixir-format
+msgid "Opening payment…"
+msgstr "Se deschide plata…"
+
+#: lib/basa_web/controllers/payment_controller.ex:46
+#, elixir-autogen, elixir-format
+msgid "Paid. Your offer is now featured."
+msgstr "Plătit. Oferta ta este acum recomandată."
+
+#: lib/basa_web/live/bookings_live.ex:307
+#, elixir-autogen, elixir-format
+msgid "Pay %{amount} %{currency}"
+msgstr "Plătește %{amount} %{currency}"
+
+#: lib/basa_web/controllers/payment_controller.ex:49
+#, elixir-autogen, elixir-format
+msgid "Payment is being processed. We'll update it shortly."
+msgstr "Plata este în curs de procesare. O actualizăm în curând."
+
+#: lib/basa_web/controllers/payment_controller.ex:15
+#, elixir-autogen, elixir-format
+msgid "Payment not found."
+msgstr "Plata nu a fost găsită."
+
+#: lib/basa_web/live/my/dashboard_live.ex:247
+#, elixir-autogen, elixir-format
+msgid "Promote"
+msgstr "Promovează"
+
+#: lib/basa_web/live/my/dashboard_live.ex:324
+#, elixir-autogen, elixir-format
+msgid "Promote “%{title}”"
+msgstr "Promovează „%{title}”"
+
+#: lib/basa_web/live/bookings_live.ex:294
+#, elixir-autogen, elixir-format
+msgid "Suggested: %{amount} (5% of the booking)"
+msgstr "Sugerat: %{amount} (5% din rezervare)"
+
+#: lib/basa_web/live/bookings_live.ex:206
+#: lib/basa_web/live/bookings_live.ex:275
+#, elixir-autogen, elixir-format
+msgid "Support BASA"
+msgstr "Susține BASA"
+
+#: lib/basa_web/controllers/payment_controller.ex:43
+#, elixir-autogen, elixir-format
+msgid "Thank you for supporting BASA!"
+msgstr "Îți mulțumim că susții BASA!"
+
+#: lib/basa_web/live/bookings_live.ex:209
+#, elixir-autogen, elixir-format
+msgid "Thanks for supporting BASA"
+msgstr "Mulțumim că susții BASA"
+
+#: lib/basa_web/controllers/payment_controller.ex:51
+#, elixir-autogen, elixir-format
+msgid "The payment didn't go through. You can try again."
+msgstr "Plata nu a reușit. Poți încerca din nou."
+
+#: lib/basa_web/live/admin/rules_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "Checks run when an offer is submitted. Block: back to draft with the reason. Flag: an admin reviews it. Observe: recorded only."
+msgstr "Verificările rulează la trimiterea unei oferte. Blochează: înapoi la ciornă cu motivul. Semnalează: o verifică un administrator. Observă: doar se înregistrează."
+
+#: lib/basa_web/live/lot_live.ex:181
+#: lib/basa_web/live/my/items_live.ex:378
+#, elixir-autogen, elixir-format
+msgid "Close"
+msgstr "Închide"
+
+#: lib/basa_web/live/admin/rules_live.ex:88
+#: lib/basa_web/live/admin/settings_live.ex:283
+#, elixir-autogen, elixir-format
+msgid "Edited by %{who}"
+msgstr "Editat de %{who}"
+
+#: lib/basa_web/live/admin/rules_live.ex:112
+#: lib/basa_web/live/admin/settings_live.ex:294
+#: lib/basa_web/live/admin/settings_live.ex:345
+#: lib/basa_web/live/admin/settings_live.ex:574
+#: lib/basa_web/live/appearance_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "Off"
+msgstr "Oprit"
+
+#: lib/basa_web/live/admin/rules_live.ex:112
+#: lib/basa_web/live/admin/settings_live.ex:294
+#: lib/basa_web/live/admin/settings_live.ex:357
+#: lib/basa_web/live/admin/settings_live.ex:586
+#: lib/basa_web/live/appearance_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "On"
+msgstr "Pornit"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:87
+#: lib/basa_web/live/admin/rules_live.ex:13
+#: lib/basa_web/live/admin/rules_live.ex:71
+#: lib/basa_web/live/my/import_source_live.ex:508
+#: lib/basa_web/live/my/import_source_live.ex:548
+#: lib/basa_web/live/profile_live.ex:306
+#, elixir-autogen, elixir-format
+msgid "Rules"
+msgstr "Reguli"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:113
+#, elixir-autogen, elixir-format
+msgid "Save new version"
+msgstr "Salvează versiunea nouă"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Saved as version %{v}."
+msgstr "Salvat ca versiunea %{v}."
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:105
+#: lib/basa_web/live/my/import_source_live.ex:550
+#: lib/basa_web/live/my/import_source_live.ex:774
+#, elixir-autogen, elixir-format
+msgid "Test"
+msgstr "Testează"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:54
+#: lib/basa_web/live/admin/rule_editor_live.ex:136
+#: lib/basa_web/live/my/import_source_live.ex:138
+#, elixir-autogen, elixir-format
+msgid "Test input"
+msgstr "Date de test"
+
+#: lib/basa_web/live/admin/geo_live.ex:41
+#, elixir-autogen, elixir-format
+msgid "%{city} added."
+msgstr "%{city} a fost adăugat."
+
+#: lib/basa_web/live/admin/geo_live.ex:93
+#, elixir-autogen, elixir-format
+msgid "1 search"
+msgid_plural "%{count} searches"
+msgstr[0] "%{count} căutare"
+msgstr[1] "%{count} căutări"
+msgstr[2] "%{count} de căutări"
+
+#: lib/basa_web/live/admin/geo_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "Added by admins"
+msgstr "Adăugate de administratori"
+
+#: lib/basa_web/live/admin/geo_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Added with rooms"
+msgstr "Adăugate cu spații"
+
+#: lib/basa_web/live/admin/geo_live.ex:110
+#: lib/basa_web/live/city_picker.ex:288
+#, elixir-autogen, elixir-format
+msgid "Adding…"
+msgstr "Se adaugă…"
+
+#: lib/basa_web/live/profile_live.ex:300
+#, elixir-autogen, elixir-format
+msgid "Admin"
+msgstr "Administrare"
+
+#: lib/basa_web/live/admin/geo_live.ex:10
+#: lib/basa_web/live/admin/geo_live.ex:59
+#: lib/basa_web/live/profile_live.ex:312
+#, elixir-autogen, elixir-format
+msgid "Cities"
+msgstr "Orașe"
+
+#: lib/basa_web/live/city_picker.ex:223
+#, elixir-autogen, elixir-format
+msgid "Clear"
+msgstr "Șterge"
+
+#: lib/basa_web/live/admin/geo_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Couldn't add this place."
+msgstr "Locul nu a putut fi adăugat."
+
+#: lib/basa_web/live/city_picker.ex:77
+#, elixir-autogen, elixir-format
+msgid "Couldn't add this place. Try again."
+msgstr "Locul nu a putut fi adăugat. Încearcă din nou."
+
+#: lib/basa_web/live/admin/geo_live.ex:115
+#, elixir-autogen, elixir-format
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: lib/basa_web/live/admin/geo_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Last query: %{q}"
+msgstr "Ultima căutare: %{q}"
+
+#: lib/basa_web/live/admin/geo_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Lessees only see cities BASA has. Searches for other places are counted here; add the ones people want."
+msgstr "Chiriașii văd doar orașele pe care le are BASA. Căutările altor locuri sunt numărate aici; adaugă-le pe cele dorite."
+
+#: lib/basa_web/live/city_picker.ex:280
+#, elixir-autogen, elixir-format
+msgid "More places (OpenStreetMap)"
+msgstr "Mai multe locuri (OpenStreetMap)"
+
+#: lib/basa_web/live/admin/geo_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "Most picked"
+msgstr "Cele mai alese"
+
+#: lib/basa_web/live/city_picker.ex:303
+#, elixir-autogen, elixir-format
+msgid "No city found. Check the spelling."
+msgstr "Niciun oraș găsit. Verifică scrierea."
+
+#: lib/basa_web/live/city_picker.ex:302
+#, elixir-autogen, elixir-format
+msgid "No offers in this city yet. We've noted it."
+msgstr "Încă nu există oferte în acest oraș. Am notat."
+
+#: lib/basa_web/live/admin/geo_live.ex:85
+#, elixir-autogen, elixir-format
+msgid "No searches for missing cities yet."
+msgstr "Încă nu există căutări de orașe lipsă."
+
+#: lib/basa/telegram/bot.ex:349
+#, elixir-autogen, elixir-format
+msgid "Nothing found. Try a city (for example Odesa or Berlin) or another word."
+msgstr "Nu s-a găsit nimic. Încearcă un oraș (de exemplu Odesa sau Berlin) sau alt cuvânt."
+
+#: lib/basa_web/live/profile_live.ex:303
+#, elixir-autogen, elixir-format
+msgid "Offer review"
+msgstr "Verificarea ofertelor"
+
+#: lib/basa_web/live/city_picker.ex:258
+#, elixir-autogen, elixir-format
+msgid "Popular"
+msgstr "Populare"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:59
+#: lib/basa_web/live/my/import_source_live.ex:141
+#, elixir-autogen, elixir-format
+msgid "Rule error"
+msgstr "Eroare de regulă"
+
+#: lib/basa_web/live/city_picker.ex:29
+#, elixir-autogen, elixir-format
+msgid "Start typing a city"
+msgstr "Începe să scrii un oraș"
+
+#: lib/basa_web/live/admin/geo_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Starting list"
+msgstr "Lista inițială"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:94
+#: lib/basa_web/live/my/import_source_live.ex:763
+#, elixir-autogen, elixir-format
+msgid "Unsaved changes"
+msgstr "Modificări nesalvate"
+
+#: lib/basa_web/live/admin/geo_live.ex:84
+#, elixir-autogen, elixir-format
+msgid "Wanted places"
+msgstr "Locuri dorite"
+
+#: lib/basa_web/live/admin/geo_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "found on OpenStreetMap"
+msgstr "găsit pe OpenStreetMap"
+
+#: lib/basa_web/live/admin/geo_live.ex:99
+#, elixir-autogen, elixir-format
+msgid "not found on OpenStreetMap"
+msgstr "negăsit pe OpenStreetMap"
+
+#: lib/basa_web/live/lot_live.ex:184
+#: lib/basa_web/live/my/items_live.ex:381
+#, elixir-autogen, elixir-format
+msgid "+%{count}"
+msgstr "+%{count}"
+
+#: lib/basa_web/live/lot_live.ex:169
+#, elixir-autogen, elixir-format
+msgid "Booked"
+msgstr "Ocupat"
+
+#: lib/basa_web/live/lot_live.ex:170
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the free times."
+msgstr "Orele libere nu au putut fi încărcate."
+
+#: lib/basa_web/live/lot_live.ex:168
+#, elixir-autogen, elixir-format
+msgid "Few left"
+msgstr "Au rămas puține"
+
+#: lib/basa_web/live/lot_live.ex:167
+#, elixir-autogen, elixir-format
+msgid "Free"
+msgstr "Liber"
+
+#: lib/basa_web/live/lot_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Fully booked on this day."
+msgstr "Totul este ocupat în această zi."
+
+#: lib/basa_web/live/lot_live.ex:183
+#: lib/basa_web/live/my/items_live.ex:380
+#, elixir-autogen, elixir-format
+msgid "Next photo"
+msgstr "Fotografia următoare"
+
+#: lib/basa_web/live/lot_live.ex:180
+#: lib/basa_web/live/my/items_live.ex:377
+#, elixir-autogen, elixir-format
+msgid "Open photo"
+msgstr "Deschide fotografia"
+
+#: lib/basa_web/live/lot_live.ex:182
+#: lib/basa_web/live/my/items_live.ex:379
+#, elixir-autogen, elixir-format
+msgid "Previous photo"
+msgstr "Fotografia anterioară"
+
+#: lib/basa_web/live/lot_live.ex:171
+#: lib/basa_web/live/my/photos_live.ex:75
+#: lib/basa_web/live/my/schedule_live.ex:176
+#: lib/basa_web/live/my/schedule_live.ex:209
+#: lib/basa_web/live/my/schedule_live.ex:224
+#: lib/basa_web/live/my/stats_live.ex:52
+#, elixir-autogen, elixir-format
+msgid "Try again"
+msgstr "Încearcă din nou"
+
+#: lib/basa_web/live/lot_live.ex:347
+#, elixir-autogen, elixir-format
+msgid "Where"
+msgstr "Unde"
+
+#: lib/basa_web/live/admin/settings_live.ex:277
+#, elixir-autogen, elixir-format
+msgid "Interactive calendars and photo viewers. When off, pages show simpler versions and everything keeps working: search, booking, messages and payments."
+msgstr "Calendare interactive și vizualizator de fotografii. Când sunt oprite, paginile arată versiuni mai simple și totul funcționează în continuare: căutare, rezervări, mesaje și plăți."
+
+#: lib/basa_web/live/admin/settings_live.ex:275
+#, elixir-autogen, elixir-format
+msgid "Rich widgets"
+msgstr "Widgeturi avansate"
+
+#: lib/basa_web/live/admin/settings_live.ex:30
+#: lib/basa_web/live/admin/settings_live.ex:46
+#: lib/basa_web/live/admin/settings_live.ex:90
+#: lib/basa_web/live/admin/settings_live.ex:106
+#, elixir-autogen, elixir-format
+msgid "Saved. Pages opened from now on use this setting."
+msgstr "Salvat. Paginile deschise de acum înainte folosesc această setare."
+
+#: lib/basa_web/live/admin/settings_live.ex:9
+#: lib/basa_web/live/admin/settings_live.ex:269
+#: lib/basa_web/live/profile_live.ex:324
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr "Setări"
+
+#: lib/basa_web/live/home_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "1 offer"
+msgid_plural "%{count} offers"
+msgstr[0] "%{count} ofertă"
+msgstr[1] "%{count} oferte"
+msgstr[2] "%{count} de oferte"
+
+#: lib/basa_web/live/home_live.ex:112
+#, elixir-autogen, elixir-format
+msgid "Cheapest first"
+msgstr "Cele mai ieftine întâi"
+
+#: lib/basa_web/live/home_live.ex:504
+#, elixir-autogen, elixir-format
+msgid "Clear filters"
+msgstr "Șterge filtrele"
+
+#: lib/basa_web/live/home_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "Comes to you"
+msgstr "Vine la tine"
+
+#: lib/basa_web/live/home_live.ex:431
+#, elixir-autogen, elixir-format
+msgid "Free on"
+msgstr "Liber pe"
+
+#: lib/basa_web/live/admin/settings_live.ex:161
+#: lib/basa_web/live/home_live.ex:517
+#, elixir-autogen, elixir-format
+msgid "List"
+msgstr "Listă"
+
+#: lib/basa_web/live/home_live.ex:518
+#, elixir-autogen, elixir-format
+msgid "Map"
+msgstr "Hartă"
+
+#: lib/basa_web/live/home_live.ex:113
+#, elixir-autogen, elixir-format
+msgid "Most expensive first"
+msgstr "Cele mai scumpe întâi"
+
+#: lib/basa_web/live/home_live.ex:114
+#, elixir-autogen, elixir-format
+msgid "Newest"
+msgstr "Cele mai noi"
+
+#: lib/basa_web/live/home_live.ex:541
+#, elixir-autogen, elixir-format
+msgid "Open"
+msgstr "Deschide"
+
+#: lib/basa_web/live/home_live.ex:111
+#, elixir-autogen, elixir-format
+msgid "Recommended"
+msgstr "Recomandate"
+
+#: lib/basa_web/live/home_live.ex:471
+#, elixir-autogen, elixir-format
+msgid "Sort"
+msgstr "Sortare"
+
+#: lib/basa_web/live/home_live.ex:558
+#, elixir-autogen, elixir-format
+msgid "Try fewer filters, another day or a shorter search."
+msgstr "Încearcă mai puține filtre, altă zi sau o căutare mai scurtă."
+
+#: lib/basa_web/live/home_live.ex:445
+#, elixir-autogen, elixir-format
+msgid "Up to"
+msgstr "Până la"
+
+#: lib/basa_web/live/my/schedule_live.ex:244
+#, elixir-autogen, elixir-format
+msgid "By room and gear"
+msgstr "După spațiu și echipament"
+
+#: lib/basa_web/live/my/schedule_live.ex:243
+#, elixir-autogen, elixir-format
+msgid "Calendar"
+msgstr "Calendar"
+
+#: lib/basa_web/live/my/schedule_live.ex:175
+#: lib/basa_web/live/my/schedule_live.ex:208
+#: lib/basa_web/live/my/schedule_live.ex:223
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the schedule."
+msgstr "Programul nu a putut fi încărcat."
+
+#: lib/basa_web/live/my/schedule_live.ex:179
+#: lib/basa_web/live/my/schedule_live.ex:206
+#: lib/basa_web/live/my/schedule_live.ex:220
+#: lib/basa_web/live/my/schedule_live.ex:350
+#, elixir-autogen, elixir-format
+msgid "Done"
+msgstr "Finalizată"
+
+#: lib/basa_web/live/my/schedule_live.ex:191
+#: lib/basa_web/live/my/schedule_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "Item"
+msgstr "Obiect"
+
+#: lib/basa_web/live/my/schedule_live.ex:222
+#: lib/basa_web/live/my/schedule_live.ex:271
+#: lib/basa_web/live/my/schedule_live.ex:308
+#, elixir-autogen, elixir-format
+msgid "No bookings in the coming weeks."
+msgstr "Nicio rezervare în săptămânile următoare."
+
+#: lib/basa_web/live/my/schedule_live.ex:192
+#: lib/basa_web/live/my/schedule_live.ex:231
+#, elixir-autogen, elixir-format
+msgid "Person"
+msgstr "Persoană"
+
+#: lib/basa/telegram/bot.ex:300
+#: lib/basa_web/live/app_home_live.ex:23
+#: lib/basa_web/live/my/dashboard_live.ex:121
+#: lib/basa_web/live/my/schedule_live.ex:20
+#: lib/basa_web/live/my/schedule_live.ex:237
+#, elixir-autogen, elixir-format
+msgid "Schedule"
+msgstr "Program"
+
+#: lib/basa_web/live/my/schedule_live.ex:177
+#: lib/basa_web/live/my/schedule_live.ex:204
+#: lib/basa_web/live/my/schedule_live.ex:218
+#: lib/basa_web/live/my/schedule_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "Waiting for you"
+msgstr "Te așteaptă"
+
+#: lib/basa_web/dates.ex:16
+#, elixir-autogen, elixir-format
+msgid "Friday"
+msgstr "vineri"
+
+#: lib/basa_web/dates.ex:12
+#, elixir-autogen, elixir-format
+msgid "Monday"
+msgstr "luni"
+
+#: lib/basa_web/dates.ex:17
+#, elixir-autogen, elixir-format
+msgid "Saturday"
+msgstr "sâmbătă"
+
+#: lib/basa_web/dates.ex:18
+#, elixir-autogen, elixir-format
+msgid "Sunday"
+msgstr "duminică"
+
+#: lib/basa_web/dates.ex:15
+#, elixir-autogen, elixir-format
+msgid "Thursday"
+msgstr "joi"
+
+#: lib/basa_web/dates.ex:13
+#, elixir-autogen, elixir-format
+msgid "Tuesday"
+msgstr "marți"
+
+#: lib/basa_web/dates.ex:14
+#, elixir-autogen, elixir-format
+msgid "Wednesday"
+msgstr "miercuri"
+
+#: lib/basa_web/live/my/dashboard_live.ex:208
+#, elixir-autogen, elixir-format
+msgid "1 item"
+msgid_plural "%{count} items"
+msgstr[0] "%{count} obiect"
+msgstr[1] "%{count} obiecte"
+msgstr[2] "%{count} de obiecte"
+
+#: lib/basa_web/live/home_live.ex:412
+#, elixir-autogen, elixir-format
+msgid "Filters"
+msgstr "Filtre"
+
+#: lib/basa_web/live/my/schedule_live.ex:221
+#, elixir-autogen, elixir-format
+msgid "Declined or cancelled"
+msgstr "Refuzate sau anulate"
+
+#: lib/basa_web/live/my/schedule_live.ex:245
+#, elixir-autogen, elixir-format
+msgid "Requests"
+msgstr "Cereri"
+
+#: lib/basa_web/live/my/schedule_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "This move isn't possible."
+msgstr "Această mutare nu este posibilă."
+
+#: lib/basa_web/live/my/stats_live.ex:64
+#, elixir-autogen, elixir-format
+msgid "Confirmed and completed bookings, %{from}–%{to}."
+msgstr "Rezervări confirmate și finalizate, %{from}–%{to}."
+
+#: lib/basa_web/live/my/stats_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the stats."
+msgstr "Statisticile nu au putut fi încărcate."
+
+#: lib/basa_web/live/my/stats_live.ex:49
+#: lib/basa_web/live/my/stats_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Earnings"
+msgstr "Venituri"
+
+#: lib/basa_web/live/my/stats_live.ex:47
+#: lib/basa_web/live/my/stats_live.ex:78
+#, elixir-autogen, elixir-format
+msgid "Occupancy"
+msgstr "Grad de ocupare"
+
+#: lib/basa_web/live/my/stats_live.ex:48
+#: lib/basa_web/live/my/stats_live.ex:91
+#, elixir-autogen, elixir-format
+msgid "Per week"
+msgstr "Pe săptămână"
+
+#: lib/basa_web/live/my/dashboard_live.ex:113
+#: lib/basa_web/live/my/stats_live.ex:17
+#: lib/basa_web/live/my/stats_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Stats"
+msgstr "Statistici"
+
+#: lib/basa_web/live/admin/data_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "Amount"
+msgstr "Sumă"
+
+#: lib/basa_web/live/admin/data_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the data."
+msgstr "Datele nu au putut fi încărcate."
+
+#: lib/basa_web/live/admin/data_live.ex:10
+#: lib/basa_web/live/admin/data_live.ex:84
+#: lib/basa_web/live/profile_live.ex:318
+#, elixir-autogen, elixir-format
+msgid "Data"
+msgstr "Date"
+
+#: lib/basa_web/live/admin/data_live.ex:47
+#: lib/basa_web/live/admin/settings_live.ex:201
+#: lib/basa_web/live/profile_live.ex:192
+#, elixir-autogen, elixir-format
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/basa_web/live/admin/data_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Export CSV"
+msgstr "Exportă CSV"
+
+#: lib/basa_web/live/admin/data_live.ex:54
+#: lib/basa_web/live/transaction_live.ex:566
+#, elixir-autogen, elixir-format
+msgid "Lessee"
+msgstr "Chiriaș"
+
+#: lib/basa_web/live/admin/data_live.ex:53
+#: lib/basa_web/live/transaction_live.ex:565
+#, elixir-autogen, elixir-format
+msgid "Lessor"
+msgstr "Proprietar"
+
+#: lib/basa_web/live/admin/data_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Paid"
+msgstr "Plătit"
+
+#: lib/basa_web/live/admin/data_live.ex:73
+#: lib/basa_web/live/admin/settings_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Payments"
+msgstr "Plăți"
+
+#: lib/basa_web/live/admin/data_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "Purpose"
+msgstr "Scop"
+
+#: lib/basa_web/live/admin/data_live.ex:55
+#: lib/basa_web/live/admin/witness_live.ex:339
+#, elixir-autogen, elixir-format
+msgid "Status"
+msgstr "Stare"
+
+#: lib/basa_web/live/admin/data_live.ex:59
+#, elixir-autogen, elixir-format
+msgid "User"
+msgstr "Utilizator"
+
+#: lib/basa_web/live/admin/data_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Users"
+msgstr "Utilizatori"
+
+#: lib/basa_web/live/my/photos_live.ex:86
+#, elixir-autogen, elixir-format
+msgid "All photos of your items and rooms. Add new ones in the item or room form."
+msgstr "Toate fotografiile obiectelor și spațiilor tale. Adaugă altele noi în formularul obiectului sau al spațiului."
+
+#: lib/basa_web/live/my/photos_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the photos."
+msgstr "Fotografiile nu au putut fi încărcate."
+
+#: lib/basa_web/components/basa_components.ex:573
+#: lib/basa_web/components/basa_components.ex:576
+#, elixir-autogen, elixir-format
+msgid "Cover"
+msgstr "Copertă"
+
+#: lib/basa_web/components/basa_components.ex:595
+#, elixir-autogen, elixir-format
+msgid "Move left"
+msgstr "Mută la stânga"
+
+#: lib/basa_web/components/basa_components.ex:606
+#, elixir-autogen, elixir-format
+msgid "Move right"
+msgstr "Mută la dreapta"
+
+#: lib/basa_web/live/admin/photos_live.ex:44
+#: lib/basa_web/live/transaction_live.ex:569
+#: lib/basa_web/live/transaction_live.ex:1055
+#: lib/basa_web/live/transaction_live.ex:1121
+#, elixir-autogen, elixir-format
+msgid "Photo"
+msgstr "Fotografie"
+
+#: lib/basa_web/live/my/photos_live.ex:112
+#, elixir-autogen, elixir-format
+msgid "Remove this photo?"
+msgstr "Elimini această fotografie?"
+
+#: lib/basa_web/live/appearance_live.ex:148
+#, elixir-autogen, elixir-format
+msgid "Card glow"
+msgstr "Strălucirea cardurilor"
+
+#: lib/basa_web/live/appearance_live.ex:149
+#, elixir-autogen, elixir-format
+msgid "Cards light up in colour near the mouse pointer."
+msgstr "Cardurile se luminează colorat lângă cursorul mouse-ului."
+
+#: lib/basa_web/components/layouts.ex:263
+#, elixir-autogen, elixir-format
+msgid "Dark"
+msgstr "Întunecată"
+
+#: lib/basa_web/components/layouts.ex:262
+#, elixir-autogen, elixir-format
+msgid "Light"
+msgstr "Luminoasă"
+
+#: lib/basa_web/live/home_live.ex:320
+#, elixir-autogen, elixir-format
+msgid "Needed nearby"
+msgstr "Ce-ți trebuie, aproape"
+
+#: lib/basa_web/components/layouts.ex:261
+#, elixir-autogen, elixir-format
+msgid "System"
+msgstr "Ca sistemul"
+
+#: lib/basa_web/components/layouts.ex:279
+#, elixir-autogen, elixir-format
+msgid "Theme"
+msgstr "Temă"
+
+#: lib/basa_web/live/transaction_live.ex:785
+#, elixir-autogen, elixir-format
+msgid "Add a file"
+msgstr "Adaugă un fișier"
+
+#: lib/basa_web/live/transaction_live.ex:779
+#: lib/basa_web/live/transaction_live.ex:1127
+#, elixir-autogen, elixir-format
+msgid "Add photos"
+msgstr "Adaugă fotografii"
+
+#: lib/basa_web/live/transaction_live.ex:837
+#, elixir-autogen, elixir-format
+msgid "Allow the microphone in your browser to record."
+msgstr "Permite microfonul în browser pentru a înregistra."
+
+#: lib/basa_web/live/transaction_live.ex:687
+#, elixir-autogen, elixir-format
+msgid "As on your identity document. It goes into the contract."
+msgstr "Ca în actul de identitate. Apare în contract."
+
+#: lib/basa_web/live/transaction_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "At least one photo of the condition"
+msgstr "Cel puțin o fotografie a stării"
+
+#: lib/basa_web/live/transaction_live.ex:914
+#, elixir-autogen, elixir-format
+msgid "Both of you sign the same BASA-HASH: it covers the contract and every evidence file."
+msgstr "Semnați amândoi același BASA-HASH: acoperă contractul și fiecare fișier de probă."
+
+#: lib/basa_web/live/transaction_live.ex:513
+#, elixir-autogen, elixir-format
+msgid "Both parties connected the device they sign on"
+msgstr "Ambele părți și-au conectat dispozitivul de semnare"
+
+#: lib/basa_web/live/transaction_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "Both parties gave their legal names"
+msgstr "Ambele părți și-au dat numele legal"
+
+#: lib/basa_web/live/transaction_live.ex:1170
+#, elixir-autogen, elixir-format
+msgid "Cancel the contract"
+msgstr "Anulează contractul"
+
+#: lib/basa_web/live/transaction_live.ex:1168
+#, elixir-autogen, elixir-format
+msgid "Cancel this contract?"
+msgstr "Anulezi acest contract?"
+
+#: lib/basa_web/live/transaction_live.ex:865
+#, elixir-autogen, elixir-format
+msgid "Connect the device you will sign on. Its key never leaves it; BASA only gets the public part."
+msgstr "Conectează dispozitivul pe care vei semna. Cheia lui nu îl părăsește niciodată; BASA primește doar partea publică."
+
+#: lib/basa_web/live/transaction_live.ex:876
+#, elixir-autogen, elixir-format
+msgid "Connect this device"
+msgstr "Conectează acest dispozitiv"
+
+#: lib/basa_web/live/bookings_live.ex:233
+#: lib/basa_web/live/transaction_live.ex:20
+#: lib/basa_web/live/transaction_live.ex:568
+#, elixir-autogen, elixir-format
+msgid "Contract"
+msgstr "Contract"
+
+#: lib/basa_web/live/admin/witness_live.ex:225
+#: lib/basa_web/live/transaction_live.ex:608
+#, elixir-autogen, elixir-format
+msgid "Contract No. %{number}"
+msgstr "Contractul nr. %{number}"
+
+#: lib/basa_web/live/profile_live.ex:238
+#: lib/basa_web/live/transaction_live.ex:1477
+#, elixir-autogen, elixir-format
+msgid "Copy"
+msgstr "Copiază"
+
+#: lib/basa_web/live/transaction_live.ex:726
+#: lib/basa_web/live/transaction_live.ex:741
+#, elixir-autogen, elixir-format
+msgid "Days for claims"
+msgstr "Zile pentru reclamații"
+
+#: lib/basa_web/live/transaction_live.ex:737
+#: lib/basa_web/live/transaction_live.ex:998
+#, elixir-autogen, elixir-format
+msgid "Deposit"
+msgstr "Garanție"
+
+#: lib/basa_web/live/transaction_live.ex:716
+#, elixir-autogen, elixir-format
+msgid "Deposit (%{currency})"
+msgstr "Garanție (%{currency})"
+
+#: lib/basa_web/live/transaction_live.ex:767
+#, elixir-autogen, elixir-format
+msgid "Evidence"
+msgstr "Probe"
+
+#: lib/basa_web/live/transaction_live.ex:571
+#, elixir-autogen, elixir-format
+msgid "File"
+msgstr "Fișier"
+
+#: lib/basa_web/live/transaction_live.ex:755
+#, elixir-autogen, elixir-format
+msgid "I rent as a private person (consumer)"
+msgstr "Închiriez ca persoană fizică (consumator)"
+
+#: lib/basa_web/live/transaction_live.ex:806
+#, elixir-autogen, elixir-format
+msgid "I, %{name}, confirm contract No. %{number} for “%{offer}”, %{date}."
+msgstr "Eu, %{name}, confirm contractul nr. %{number} pentru „%{offer}”, %{date}."
+
+#: lib/basa_web/live/transaction_live.ex:959
+#, elixir-autogen, elixir-format
+msgid "Independent time: %{time} (timestamp authority)."
+msgstr "Ora independentă: %{time} (autoritate de marcare temporală)."
+
+#: lib/basa_web/live/bookings_live.ex:234
+#, elixir-autogen, elixir-format
+msgid "Make a contract"
+msgstr "Încheie un contract"
+
+#: lib/basa_web/live/transaction_live.ex:1218
+#, elixir-autogen, elixir-format
+msgid "No files yet."
+msgstr "Încă nu există fișiere."
+
+#: lib/basa_web/live/transaction_live.ex:931
+#: lib/basa_web/live/transaction_live.ex:1136
+#, elixir-autogen, elixir-format
+msgid "Open this page on the device you connected to sign."
+msgstr "Deschide această pagină pe dispozitivul conectat pentru a semna."
+
+#: lib/basa_web/live/transaction_live.ex:652
+#, elixir-autogen, elixir-format
+msgid "Parties"
+msgstr "Părți"
+
+#: lib/basa_web/live/transaction_live.ex:769
+#, elixir-autogen, elixir-format
+msgid "Photos of the condition, a voice reading by each of you, and any other files you both agree on."
+msgstr "Fotografii ale stării, o citire vocală a fiecăruia dintre voi și orice alte fișiere asupra cărora sunteți de acord."
+
+#: lib/basa_web/live/transaction_live.ex:904
+#, elixir-autogen, elixir-format
+msgid "Prepare for signing"
+msgstr "Pregătește pentru semnare"
+
+#: lib/basa_web/live/transaction_live.ex:912
+#, elixir-autogen, elixir-format
+msgid "Read and sign"
+msgstr "Citește și semnează"
+
+#: lib/basa_web/live/transaction_live.ex:829
+#, elixir-autogen, elixir-format
+msgid "Record"
+msgstr "Înregistrează"
+
+#: lib/basa_web/components/basa_components.ex:201
+#: lib/basa_web/live/admin/witness_live.ex:340
+#: lib/basa_web/live/transaction_live.ex:941
+#, elixir-autogen, elixir-format
+msgid "Sealed"
+msgstr "Sigilat"
+
+#: lib/basa_web/live/transaction_live.ex:927
+#, elixir-autogen, elixir-format
+msgid "Sign on this device"
+msgstr "Semnează pe acest dispozitiv"
+
+#: lib/basa_web/components/basa_components.ex:200
+#, elixir-autogen, elixir-format
+msgid "Signing"
+msgstr "Semnare"
+
+#: lib/basa_web/live/transaction_live.ex:830
+#, elixir-autogen, elixir-format
+msgid "Stop and add"
+msgstr "Oprește și adaugă"
+
+#: lib/basa_web/live/transaction_live.ex:705
+#, elixir-autogen, elixir-format
+msgid "Terms"
+msgstr "Condiții"
+
+#: lib/basa_web/live/transaction_live.ex:901
+#, elixir-autogen, elixir-format
+msgid "The evidence and terms will be frozen and the contract made. Continue?"
+msgstr "Probele și condițiile vor fi fixate și contractul întocmit. Continui?"
+
+#: lib/basa_web/live/transaction_live.ex:964
+#, elixir-autogen, elixir-format
+msgid "The independent timestamp is being requested…"
+msgstr "Se solicită marca temporală independentă…"
+
+#: lib/basa_web/live/transaction_live.ex:848
+#, elixir-autogen, elixir-format
+msgid "This browser cannot make a signing key. Use a current Chrome, Firefox, Safari or the Telegram app."
+msgstr "Acest browser nu poate crea o cheie de semnare. Folosește un Chrome, Firefox, Safari actual sau aplicația Telegram."
+
+#: lib/basa_web/live/transaction_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "This contract is not available."
+msgstr "Acest contract nu este disponibil."
+
+#: lib/basa_web/live/transaction_live.ex:1158
+#, elixir-autogen, elixir-format
+msgid "This contract was cancelled."
+msgstr "Acest contract a fost anulat."
+
+#: lib/basa_web/live/transaction_live.ex:317
+#, elixir-autogen, elixir-format
+msgid "This device has no signing key. Use the device you connected."
+msgstr "Acest dispozitiv nu are cheie de semnare. Folosește dispozitivul conectat."
+
+#: lib/basa_web/live/transaction_live.ex:855
+#, elixir-autogen, elixir-format
+msgid "This device is connected. You will sign the contract on it."
+msgstr "Acest dispozitiv este conectat. Vei semna contractul pe el."
+
+#: lib/basa_web/live/transaction_live.ex:183
+#: lib/basa_web/live/transaction_live.ex:208
+#, elixir-autogen, elixir-format
+msgid "This file could not be added."
+msgstr "Fișierul nu a putut fi adăugat."
+
+#: lib/basa_web/live/transaction_live.ex:803
+#, elixir-autogen, elixir-format
+msgid "Voice reading: record yourself reading this text aloud."
+msgstr "Citire vocală: înregistrează-te citind acest text cu voce tare."
+
+#: lib/basa_web/live/transaction_live.ex:570
+#, elixir-autogen, elixir-format
+msgid "Voice recording"
+msgstr "Înregistrare vocală"
+
+#: lib/basa_web/live/transaction_live.ex:861
+#, elixir-autogen, elixir-format
+msgid "You connected another device. Connect this one instead if you want to sign here."
+msgstr "Ai conectat alt dispozitiv. Conectează-l pe acesta dacă vrei să semnezi aici."
+
+#: lib/basa_web/live/transaction_live.ex:924
+#, elixir-autogen, elixir-format
+msgid "You signed. Waiting for the other party."
+msgstr "Ai semnat. Se așteaptă cealaltă parte."
+
+#: lib/basa_web/live/transaction_live.ex:685
+#, elixir-autogen, elixir-format
+msgid "Your legal name"
+msgstr "Numele tău legal"
+
+#: lib/basa_web/live/transaction_live.ex:844
+#, elixir-autogen, elixir-format
+msgid "Your signing device"
+msgstr "Dispozitivul tău de semnare"
+
+#: lib/basa_web/live/transaction_live.ex:670
+#, elixir-autogen, elixir-format
+msgid "device connected"
+msgstr "dispozitiv conectat"
+
+#: lib/basa_web/live/transaction_live.ex:663
+#, elixir-autogen, elixir-format
+msgid "legal name not given yet"
+msgstr "numele legal nu a fost dat încă"
+
+#: lib/basa_web/live/transaction_live.ex:676
+#, elixir-autogen, elixir-format
+msgid "signed"
+msgstr "semnat"
+
+#: lib/basa_web/live/appearance_live.ex:88
+#, elixir-autogen, elixir-format
+msgid "Action buttons"
+msgstr "Butoane de acțiune"
+
+#: lib/basa_web/components/layouts.ex:91
+#: lib/basa_web/live/appearance_live.ex:16
+#: lib/basa_web/live/appearance_live.ex:73
+#: lib/basa_web/live/profile_live.ex:136
+#, elixir-autogen, elixir-format
+msgid "Appearance"
+msgstr "Aspect"
+
+#: lib/basa_web/live/appearance_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Back to defaults"
+msgstr "Revino la valorile implicite"
+
+#: lib/basa_web/live/appearance_live.ex:103
+#, elixir-autogen, elixir-format
+msgid "Back, details, tabs: moving around."
+msgstr "Înapoi, detalii, file: pentru navigare."
+
+#: lib/basa_web/live/appearance_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Black"
+msgstr "Negru"
+
+#: lib/basa_web/live/appearance_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "Brand colours"
+msgstr "Culorile mărcii"
+
+#: lib/basa_web/live/admin/settings_live.ex:160
+#: lib/basa_web/live/appearance_live.ex:78
+#: lib/basa_web/live/appearance_live.ex:128
+#, elixir-autogen, elixir-format
+msgid "Buttons"
+msgstr "Butoane"
+
+#: lib/basa_web/live/appearance_live.ex:55
+#, elixir-autogen, elixir-format
+msgid "Cyan"
+msgstr "Cyan"
+
+#: lib/basa_web/live/appearance_live.ex:115
+#, elixir-autogen, elixir-format
+msgid "Disabled buttons"
+msgstr "Butoane dezactivate"
+
+#: lib/basa_web/live/appearance_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Gray"
+msgstr "Gri"
+
+#: lib/basa_web/live/appearance_live.ex:56
+#, elixir-autogen, elixir-format
+msgid "Green"
+msgstr "Verde"
+
+#: lib/basa_web/live/appearance_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "Icons"
+msgstr "Pictograme"
+
+#: lib/basa_web/live/appearance_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "Navigation buttons"
+msgstr "Butoane de navigare"
+
+#: lib/basa_web/live/appearance_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "Neutral"
+msgstr "Neutru"
+
+#: lib/basa_web/live/appearance_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "Orange"
+msgstr "Portocaliu"
+
+#: lib/basa_web/live/appearance_live.ex:171
+#: lib/basa_web/live/my/items_live.ex:391
+#: lib/basa_web/live/my/items_live.ex:555
+#: lib/basa_web/live/my/items_live.ex:556
+#, elixir-autogen, elixir-format
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: lib/basa_web/live/appearance_live.ex:89
+#, elixir-autogen, elixir-format
+msgid "Send, save, book: the main thing on a page."
+msgstr "Trimite, salvează, rezervă: acțiunea principală a paginii."
+
+#: lib/basa_web/live/appearance_live.ex:124
+#, elixir-autogen, elixir-format
+msgid "Size"
+msgstr "Mărime"
+
+#: lib/basa_web/live/appearance_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "Soft colour"
+msgstr "Culoare estompată"
+
+#: lib/basa_web/live/admin/import_live.ex:143
+#: lib/basa_web/live/appearance_live.ex:140
+#, elixir-autogen, elixir-format
+msgid "Text"
+msgstr "Text"
+
+#: lib/basa_web/live/appearance_live.ex:52
+#, elixir-autogen, elixir-format
+msgid "White"
+msgstr "Alb"
+
+#: lib/basa_web/live/appearance_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Yellow"
+msgstr "Galben"
+
+#: lib/basa_web/live/transaction_live.ex:557
+#, elixir-autogen, elixir-format
+msgid "%{kept} kept by the lessor, the rest returned"
+msgstr "%{kept} păstrează proprietarul, restul se returnează"
+
+#: lib/basa_web/live/transaction_live.ex:543
+#, elixir-autogen, elixir-format
+msgid "Accept the return"
+msgstr "Acceptă restituirea"
+
+#: lib/basa_web/live/transaction_live.ex:485
+#, elixir-autogen, elixir-format
+msgid "Add photos of the condition you return it in."
+msgstr "Adaugă fotografii ale stării în care îl returnezi."
+
+#: lib/basa_web/live/transaction_live.ex:996
+#, elixir-autogen, elixir-format
+msgid "After the handover"
+msgstr "După predare"
+
+#: lib/basa_web/live/transaction_live.ex:1070
+#, elixir-autogen, elixir-format
+msgid "Agree and sign"
+msgstr "Acceptă și semnează"
+
+#: lib/basa_web/live/transaction_live.ex:1100
+#, elixir-autogen, elixir-format
+msgid "Amount claimed (%{currency})"
+msgstr "Suma pretinsă (%{currency})"
+
+#: lib/basa_web/live/transaction_live.ex:534
+#, elixir-autogen, elixir-format
+msgid "Claim"
+msgstr "Reclamație"
+
+#: lib/basa_web/components/basa_components.ex:203
+#, elixir-autogen, elixir-format
+msgid "Claim open"
+msgstr "Reclamație deschisă"
+
+#: lib/basa_web/live/transaction_live.ex:1036
+#, elixir-autogen, elixir-format
+msgid "Claimed"
+msgstr "Pretins"
+
+#: lib/basa_web/components/basa_components.ex:205
+#, elixir-autogen, elixir-format
+msgid "Closed"
+msgstr "Închis"
+
+#: lib/basa_web/live/transaction_live.ex:546
+#, elixir-autogen, elixir-format
+msgid "Declare a dispute"
+msgstr "Declară un litigiu"
+
+#: lib/basa_web/live/transaction_live.ex:488
+#, elixir-autogen, elixir-format
+msgid "Describe it in a few words."
+msgstr "Descrie în câteva cuvinte."
+
+#: lib/basa_web/live/transaction_live.ex:536
+#, elixir-autogen, elixir-format
+msgid "Dispute"
+msgstr "Litigiu"
+
+#: lib/basa_web/components/basa_components.ex:206
+#, elixir-autogen, elixir-format
+msgid "Disputed"
+msgstr "În litigiu"
+
+#: lib/basa_web/live/transaction_live.ex:1073
+#, elixir-autogen, elixir-format
+msgid "Do not agree"
+msgstr "Nu sunt de acord"
+
+#: lib/basa_web/live/transaction_live.ex:1092
+#, elixir-autogen, elixir-format
+msgid "In a few words"
+msgstr "În câteva cuvinte"
+
+#: lib/basa_web/live/transaction_live.ex:1042
+#, elixir-autogen, elixir-format
+msgid "Kept from the deposit"
+msgstr "Reținut din garanție"
+
+#: lib/basa_web/live/transaction_live.ex:1108
+#, elixir-autogen, elixir-format
+msgid "Kept from the deposit (%{currency})"
+msgstr "Reținut din garanție (%{currency})"
+
+#: lib/basa_web/live/transaction_live.ex:1114
+#, elixir-autogen, elixir-format
+msgid "Photos of the condition you return it in"
+msgstr "Fotografii ale stării la restituire"
+
+#: lib/basa_web/live/transaction_live.ex:1116
+#, elixir-autogen, elixir-format
+msgid "Photos of what is wrong"
+msgstr "Fotografii cu ce nu este în regulă"
+
+#: lib/basa_web/live/transaction_live.ex:545
+#, elixir-autogen, elixir-format
+msgid "Propose a settlement"
+msgstr "Propune o înțelegere"
+
+#: lib/basa_web/live/transaction_live.ex:544
+#, elixir-autogen, elixir-format
+msgid "Raise a claim"
+msgstr "Formulează o reclamație"
+
+#: lib/basa_web/live/transaction_live.ex:530
+#, elixir-autogen, elixir-format
+msgid "Return"
+msgstr "Restituire"
+
+#: lib/basa_web/live/transaction_live.ex:533
+#, elixir-autogen, elixir-format
+msgid "Return accepted"
+msgstr "Restituire acceptată"
+
+#: lib/basa_web/live/transaction_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Return accepted automatically"
+msgstr "Restituire acceptată automat"
+
+#: lib/basa_web/live/transaction_live.ex:540
+#, elixir-autogen, elixir-format
+msgid "Return it"
+msgstr "Returnează"
+
+#: lib/basa_web/components/basa_components.ex:202
+#, elixir-autogen, elixir-format
+msgid "Returned"
+msgstr "Returnat"
+
+#: lib/basa_web/components/basa_components.ex:204
+#, elixir-autogen, elixir-format
+msgid "Settled"
+msgstr "Soluționat"
+
+#: lib/basa_web/live/transaction_live.ex:535
+#, elixir-autogen, elixir-format
+msgid "Settlement"
+msgstr "Înțelegere"
+
+#: lib/basa_web/live/transaction_live.ex:1133
+#, elixir-autogen, elixir-format
+msgid "Sign and send"
+msgstr "Semnează și trimite"
+
+#: lib/basa_web/live/transaction_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "The amount must be a positive number."
+msgstr "Suma trebuie să fie un număr pozitiv."
+
+#: lib/basa_web/live/transaction_live.ex:497
+#, elixir-autogen, elixir-format
+msgid "The claims window is over."
+msgstr "Termenul pentru reclamații a expirat."
+
+#: lib/basa_web/live/transaction_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "The kept part must be between 0 and the deposit."
+msgstr "Partea reținută trebuie să fie între 0 și garanție."
+
+#: lib/basa_web/live/transaction_live.ex:1002
+#, elixir-autogen, elixir-format
+msgid "The lessor can raise a claim until %{date}; after that the return counts as accepted."
+msgstr "Proprietarul poate formula o reclamație până la %{date}; după aceea restituirea se consideră acceptată."
+
+#: lib/basa_web/live/transaction_live.ex:551
+#, elixir-autogen, elixir-format
+msgid "held"
+msgstr "reținută"
+
+#: lib/basa_web/live/transaction_live.ex:553
+#, elixir-autogen, elixir-format
+msgid "kept by the lessor"
+msgstr "păstrată de proprietar"
+
+#: lib/basa_web/live/transaction_live.ex:1032
+#, elixir-autogen, elixir-format
+msgid "not accepted"
+msgstr "neacceptată"
+
+#: lib/basa_web/live/transaction_live.ex:552
+#, elixir-autogen, elixir-format
+msgid "returned to the lessee"
+msgstr "returnată chiriașului"
+
+#: lib/basa_web/live/transaction_live.ex:1030
+#, elixir-autogen, elixir-format
+msgid "waiting for the other side"
+msgstr "așteaptă cealaltă parte"
+
+#: lib/basa_web/live/admin/witness_live.ex:298
+#, elixir-autogen, elixir-format
+msgid "Access log"
+msgstr "Jurnal de acces"
+
+#: lib/basa_web/live/admin/witness_live.ex:192
+#, elixir-autogen, elixir-format
+msgid "Act %{n}"
+msgstr "Actul %{n}"
+
+#: lib/basa_web/live/admin/witness_live.ex:341
+#, elixir-autogen, elixir-format
+msgid "Acts"
+msgstr "Acte"
+
+#: lib/basa_web/live/admin/witness_live.ex:203
+#, elixir-autogen, elixir-format
+msgid "Check"
+msgstr "Verificare"
+
+#: lib/basa_web/live/admin/witness_live.ex:330
+#, elixir-autogen, elixir-format
+msgid "Check all"
+msgstr "Verifică toate"
+
+#: lib/basa_web/live/admin/witness_live.ex:244
+#, elixir-autogen, elixir-format
+msgid "Check now"
+msgstr "Verifică acum"
+
+#: lib/basa_web/live/admin/witness_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Checked %{count}, failed %{failed}."
+msgstr "Verificate: %{count}, eșuate: %{failed}."
+
+#: lib/basa_web/live/admin/witness_live.ex:318
+#, elixir-autogen, elixir-format
+msgid "Checks keys, files, manifest, signatures, timestamp and the acts after sealing. Evidence itself stays closed to admins."
+msgstr "Verifică cheile, fișierele, manifestul, semnăturile, marca temporală și actele după sigilare. Probele rămân închise pentru administratori."
+
+#: lib/basa_web/live/admin/witness_live.ex:12
+#: lib/basa_web/live/admin/witness_live.ex:223
+#: lib/basa_web/live/admin/witness_live.ex:316
+#: lib/basa_web/live/profile_live.ex:315
+#, elixir-autogen, elixir-format
+msgid "Contracts"
+msgstr "Contracte"
+
+#: lib/basa_web/live/admin/witness_live.ex:255
+#, elixir-autogen, elixir-format
+msgid "Everything checks out."
+msgstr "Totul este în regulă."
+
+#: lib/basa_web/live/admin/witness_live.ex:191
+#: lib/basa_web/live/verify_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "File %{n}"
+msgstr "Fișierul %{n}"
+
+#: lib/basa_web/live/admin/witness_live.ex:195
+#, elixir-autogen, elixir-format
+msgid "File order"
+msgstr "Ordinea fișierelor"
+
+#: lib/basa_web/live/admin/witness_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Keys"
+msgstr "Chei"
+
+#: lib/basa_web/live/admin/witness_live.ex:342
+#, elixir-autogen, elixir-format
+msgid "Last check"
+msgstr "Ultima verificare"
+
+#: lib/basa_web/live/admin/witness_live.ex:196
+#, elixir-autogen, elixir-format
+msgid "Manifest"
+msgstr "Manifest"
+
+#: lib/basa_web/live/admin/witness_live.ex:376
+#, elixir-autogen, elixir-format
+msgid "No contracts yet."
+msgstr "Încă nu există contracte."
+
+#: lib/basa_web/live/admin/witness_live.ex:337
+#, elixir-autogen, elixir-format
+msgid "No."
+msgstr "Nr."
+
+#: lib/basa_web/live/admin/witness_live.ex:311
+#, elixir-autogen, elixir-format
+msgid "Nothing yet."
+msgstr "Încă nimic."
+
+#: lib/basa_web/live/admin/witness_live.ex:204
+#, elixir-autogen, elixir-format
+msgid "Opened"
+msgstr "Deschis"
+
+#: lib/basa_web/live/admin/witness_live.ex:255
+#, elixir-autogen, elixir-format
+msgid "Problems found."
+msgstr "Probleme găsite."
+
+#: lib/basa_web/live/admin/witness_live.ex:205
+#, elixir-autogen, elixir-format
+msgid "Recovery"
+msgstr "Recuperare"
+
+#: lib/basa_web/live/admin/witness_live.ex:193
+#, elixir-autogen, elixir-format
+msgid "Signature: %{role}"
+msgstr "Semnătură: %{role}"
+
+#: lib/basa_web/live/admin/witness_live.ex:198
+#, elixir-autogen, elixir-format
+msgid "Timestamp"
+msgstr "Marcă temporală"
+
+#: lib/basa_web/live/admin/witness_live.ex:369
+#, elixir-autogen, elixir-format
+msgid "failed"
+msgstr "eșuat"
+
+#: lib/basa_web/live/admin/witness_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "mode"
+msgstr "mod"
+
+#: lib/basa_web/live/admin/witness_live.ex:369
+#, elixir-autogen, elixir-format
+msgid "ok"
+msgstr "ok"
+
+#: lib/basa_web/live/admin/witness_live.ex:304
+#, elixir-autogen, elixir-format
+msgid "system"
+msgstr "sistem"
+
+#: lib/basa_web/live/transaction_live.ex:532
+#: lib/basa_web/live/transaction_live.ex:542
+#, elixir-autogen, elixir-format
+msgid "All is fine"
+msgstr "Totul e în regulă"
+
+#: lib/basa_web/live/home_live.ex:377
+#: lib/basa_web/live/lot_live.ex:521
+#, elixir-autogen, elixir-format
+msgid "Buy"
+msgstr "Cumpără"
+
+#: lib/basa_web/live/lot_live.ex:465
+#, elixir-autogen, elixir-format
+msgid "Buy %{title}"
+msgstr "Cumpără %{title}"
+
+#: lib/basa_web/live/transaction_live.ex:564
+#, elixir-autogen, elixir-format
+msgid "Buyer"
+msgstr "Cumpărător"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:432
+#, elixir-autogen, elixir-format
+msgid "Buyers book a one-hour handover within the hours below. When the buyer confirms delivery, the items are marked sold and taken off all your offers."
+msgstr "Cumpărătorii rezervă o predare de o oră în intervalul de mai jos. Când cumpărătorul confirmă primirea, obiectele sunt marcate ca vândute și scoase din toate ofertele tale."
+
+#: lib/basa_web/live/transaction_live.ex:541
+#, elixir-autogen, elixir-format
+msgid "Confirm delivery"
+msgstr "Confirmă primirea"
+
+#: lib/basa_web/live/transaction_live.ex:537
+#, elixir-autogen, elixir-format
+msgid "Delivery accepted automatically"
+msgstr "Livrare acceptată automat"
+
+#: lib/basa_web/live/transaction_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "Delivery confirmed"
+msgstr "Primire confirmată"
+
+#: lib/basa_web/components/basa_components.ex:386
+#: lib/basa_web/live/lot_live.ex:293
+#: lib/basa_web/live/my/lot_wizard_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "For sale"
+msgstr "De vânzare"
+
+#: lib/basa_web/live/transaction_live.ex:754
+#, elixir-autogen, elixir-format
+msgid "I buy as a private person (consumer)"
+msgstr "Cumpăr ca persoană fizică (consumator)"
+
+#: lib/basa_web/live/transaction_live.ex:1115
+#, elixir-autogen, elixir-format
+msgid "Photos of what you received"
+msgstr "Fotografii cu ce ai primit"
+
+#: lib/basa_web/live/lot_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "Pick a handover time"
+msgstr "Alege ora predării"
+
+#: lib/basa_web/live/home_live.ex:376
+#, elixir-autogen, elixir-format
+msgid "Rent"
+msgstr "Închiriere"
+
+#: lib/basa_web/live/home_live.ex:375
+#, elixir-autogen, elixir-format
+msgid "Rent or buy"
+msgstr "Închiriere sau cumpărare"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:438
+#, elixir-autogen, elixir-format
+msgid "Rent out"
+msgstr "Dă în chirie"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:438
+#, elixir-autogen, elixir-format
+msgid "Sell"
+msgstr "Vinde"
+
+#: lib/basa_web/live/transaction_live.ex:563
+#, elixir-autogen, elixir-format
+msgid "Seller"
+msgstr "Vânzător"
+
+#: lib/basa_web/live/my/items_live.ex:459
+#: lib/basa_web/live/my/items_live.ex:533
+#, elixir-autogen, elixir-format
+msgid "Sold"
+msgstr "Vândut"
+
+#: lib/basa_web/live/transaction_live.ex:1008
+#, elixir-autogen, elixir-format
+msgid "The buyer can raise a claim for hidden defects until %{date}; after that the delivery counts as accepted."
+msgstr "Cumpărătorul poate reclama vicii ascunse până la %{date}; după aceea livrarea se consideră acceptată."
+
+#: lib/basa_web/live/transaction_live.ex:760
+#, elixir-autogen, elixir-format
+msgid "The other party acts as a private person (consumer)."
+msgstr "Cealaltă parte acționează ca persoană fizică (consumator)."
+
+#: lib/basa_web/live/transaction_live.ex:761
+#, elixir-autogen, elixir-format
+msgid "The other party has not said they act as a private person."
+msgstr "Cealaltă parte nu a indicat că acționează ca persoană fizică."
+
+#: lib/basa_web/live/lot_live.ex:475
+#, elixir-autogen, elixir-format
+msgid "You meet the seller at this time; the items become yours at the handover."
+msgstr "La această oră te întâlnești cu vânzătorul; obiectele devin ale tale la predare."
+
+#: lib/basa_web/live/verify_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "A party to a BASA contract can give you a file together with its proof. Upload that package here: it shows whether the file is exactly the one sealed in the contract, who signed it and when. The package is checked here and not stored."
+msgstr "O parte a unui contract BASA îți poate da un fișier împreună cu dovada lui. Încarcă pachetul aici: vei vedea dacă fișierul este exact cel sigilat în contract, cine l-a semnat și când. Pachetul este verificat aici și nu este păstrat."
+
+#: lib/basa_web/live/transaction_live.ex:947
+#, elixir-autogen, elixir-format
+msgid "Anyone can check a shared file at"
+msgstr "Oricine poate verifica un fișier partajat la"
+
+#: lib/basa_web/live/verify_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Authentic: every check passed."
+msgstr "Autentic: toate verificările au trecut."
+
+#: lib/basa_web/live/verify_live.ex:10
+#: lib/basa_web/live/verify_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Check a document"
+msgstr "Verifică un document"
+
+#: lib/basa_web/live/verify_live.ex:83
+#, elixir-autogen, elixir-format
+msgid "Choose the package (.json)"
+msgstr "Alege pachetul (.json)"
+
+#: lib/basa_web/live/transaction_live.ex:1238
+#, elixir-autogen, elixir-format
+msgid "Download this file with the proof that it belongs to the contract, to give to someone else"
+msgstr "Descarcă acest fișier cu dovada că aparține contractului, pentru a-l da altcuiva"
+
+#: lib/basa_web/live/verify_live.ex:38
+#, elixir-autogen, elixir-format
+msgid "Independent timestamp"
+msgstr "Marcă temporală independentă"
+
+#: lib/basa_web/live/verify_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "Not proven: see below."
+msgstr "Nedovedit: vezi mai jos."
+
+#: lib/basa_web/live/verify_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Package"
+msgstr "Pachet"
+
+#: lib/basa_web/live/verify_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "Sealed no later than %{time} UTC (timestamp authority)."
+msgstr "Sigilat cel târziu la %{time} UTC (autoritate de marcare temporală)."
+
+#: lib/basa_web/live/transaction_live.ex:1243
+#, elixir-autogen, elixir-format
+msgid "Share with proof"
+msgstr "Partajează cu dovadă"
+
+#: lib/basa_web/live/verify_live.ex:36
+#, elixir-autogen, elixir-format
+msgid "Signature of the acceptor (lessee or buyer)"
+msgstr "Semnătura acceptantului (chiriaș sau cumpărător)"
+
+#: lib/basa_web/live/verify_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "Signature of the offeror (lessor or seller)"
+msgstr "Semnătura ofertantului (proprietar sau vânzător)"
+
+#: lib/basa_web/live/verify_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "The manifest matches its BASA-HASH"
+msgstr "Manifestul corespunde BASA-HASH-ului său"
+
+#: lib/basa_web/live/verify_live.ex:63
+#, elixir-autogen, elixir-format
+msgid "does not match"
+msgstr "nu corespunde"
+
+#: lib/basa_web/live/verify_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "not included"
+msgstr "neinclus"
+
+#: lib/basa_web/live/verify_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "the file is not part of this contract"
+msgstr "fișierul nu face parte din acest contract"
+
+#: lib/basa_web/live/verify_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "the file was changed"
+msgstr "fișierul a fost modificat"
+
+#: lib/basa_web/live/verify_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "the signature does not match"
+msgstr "semnătura nu corespunde"
+
+#: lib/basa_web/live/verify_live.ex:64
+#: lib/basa_web/live/verify_live.ex:65
+#, elixir-autogen, elixir-format
+msgid "this is not a BASA package"
+msgstr "acesta nu este un pachet BASA"
+
+#: lib/basa_web/live/transaction_live.ex:284
+#, elixir-autogen, elixir-format
+msgid "This device cannot open the files. Use the device you connected."
+msgstr "Acest dispozitiv nu poate deschide fișierele. Folosește dispozitivul pe care l-ai conectat."
+
+#: lib/basa_web/live/admin/witness_live.ex:393
+#, elixir-autogen, elixir-format
+msgid "A court order or another lawful request, or no party can act any more. A second admin decides; the parties are told unless the law forbids it; the recovery key holders open the kit offline."
+msgstr "O hotărâre judecătorească sau altă cerere legală, ori nicio parte nu mai poate acționa. Decide un al doilea administrator; părțile sunt informate, dacă legea nu interzice; deținătorii cheii de recuperare deschid kitul offline."
+
+#: lib/basa_web/live/transaction_live.ex:631
+#, elixir-autogen, elixir-format
+msgid "Access by an authority"
+msgstr "Acces al unei autorități"
+
+#: lib/basa_web/live/admin/witness_live.ex:462
+#, elixir-autogen, elixir-format
+msgid "Another admin has to decide on a request you filed."
+msgstr "Despre o cerere înregistrată de tine trebuie să decidă alt administrator."
+
+#: lib/basa_web/live/admin/witness_live.ex:445
+#, elixir-autogen, elixir-format
+msgid "Approve access for this authority?"
+msgstr "Aprobi accesul pentru această autoritate?"
+
+#: lib/basa_web/live/admin/witness_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "Authority request"
+msgstr "Cerere a unei autorități"
+
+#: lib/basa_web/live/admin/witness_live.ex:391
+#, elixir-autogen, elixir-format
+msgid "Authority requests"
+msgstr "Cereri ale autorităților"
+
+#: lib/basa_web/live/admin/witness_live.ex:530
+#, elixir-autogen, elixir-format
+msgid "Basis"
+msgstr "Temei"
+
+#: lib/basa/witness/authority_notify_worker.ex:30
+#, elixir-autogen, elixir-format
+msgid "Contract No. %{number}: %{authority} was given access to its evidence (reference %{reference}). Details are on the contract page."
+msgstr "Contractul nr. %{number}: %{authority} a primit acces la probele sale (referința %{reference}). Detalii pe pagina contractului."
+
+#: lib/basa_web/live/admin/witness_live.ex:208
+#: lib/basa_web/live/admin/witness_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "Court order"
+msgstr "Hotărâre judecătorească"
+
+#: lib/basa_web/live/admin/witness_live.ex:521
+#, elixir-autogen, elixir-format
+msgid "File a request"
+msgstr "Înregistrează o cerere"
+
+#: lib/basa_web/live/admin/witness_live.ex:565
+#, elixir-autogen, elixir-format
+msgid "File the request"
+msgstr "Înregistrează cererea"
+
+#: lib/basa_web/live/admin/witness_live.ex:503
+#, elixir-autogen, elixir-format
+msgid "Handed over to"
+msgstr "Predat către"
+
+#: lib/basa_web/live/admin/witness_live.ex:550
+#, elixir-autogen, elixir-format
+msgid "Notes"
+msgstr "Note"
+
+#: lib/basa_web/live/admin/witness_live.ex:425
+#, elixir-autogen, elixir-format
+msgid "Notice withheld"
+msgstr "Notificare amânată"
+
+#: lib/basa_web/live/admin/witness_live.ex:429
+#, elixir-autogen, elixir-format
+msgid "Opened by %{holders}; handed over to %{to}."
+msgstr "Deschis de %{holders}; predat către %{to}."
+
+#: lib/basa_web/live/admin/witness_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Opened by (key holders)"
+msgstr "Deschis de (deținătorii cheii)"
+
+#: lib/basa_web/live/admin/witness_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Opening recorded."
+msgstr "Deschiderea a fost înregistrată."
+
+#: lib/basa_web/live/admin/witness_live.ex:209
+#: lib/basa_web/live/admin/witness_live.ex:532
+#, elixir-autogen, elixir-format
+msgid "Other lawful request"
+msgstr "Altă cerere legală"
+
+#: lib/basa_web/live/admin/witness_live.ex:423
+#, elixir-autogen, elixir-format
+msgid "Parties told on %{date}."
+msgstr "Părțile informate la %{date}."
+
+#: lib/basa_web/live/admin/witness_live.ex:420
+#, elixir-autogen, elixir-format
+msgid "Reason"
+msgstr "Motiv"
+
+#: lib/basa_web/live/admin/witness_live.ex:546
+#, elixir-autogen, elixir-format
+msgid "Received on"
+msgstr "Primit la"
+
+#: lib/basa_web/live/admin/witness_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "Record the opening"
+msgstr "Înregistrează deschiderea"
+
+#: lib/basa_web/live/admin/witness_live.ex:472
+#, elixir-autogen, elixir-format
+msgid "Recovery kit"
+msgstr "Kit de recuperare"
+
+#: lib/basa_web/live/admin/witness_live.ex:458
+#, elixir-autogen, elixir-format
+msgid "Reject"
+msgstr "Respinge"
+
+#: lib/basa_web/live/admin/witness_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "Report SHA-256"
+msgstr "SHA-256 al raportului"
+
+#: lib/basa_web/live/admin/witness_live.ex:135
+#, elixir-autogen, elixir-format
+msgid "Request approved."
+msgstr "Cerere aprobată."
+
+#: lib/basa_web/live/admin/witness_live.ex:128
+#, elixir-autogen, elixir-format
+msgid "Request filed. A second admin decides on it."
+msgstr "Cerere înregistrată. Decide un al doilea administrator."
+
+#: lib/basa_web/live/admin/witness_live.ex:142
+#, elixir-autogen, elixir-format
+msgid "Request rejected."
+msgstr "Cerere respinsă."
+
+#: lib/basa_web/live/admin/witness_live.ex:482
+#, elixir-autogen, elixir-format
+msgid "Tell the parties"
+msgstr "Informează părțile"
+
+#: lib/basa_web/live/admin/witness_live.ex:480
+#, elixir-autogen, elixir-format
+msgid "Tell the parties now? Only when the law allows it."
+msgstr "Informezi părțile acum? Doar dacă legea permite."
+
+#: lib/basa_web/live/admin/witness_live.ex:554
+#, elixir-autogen, elixir-format
+msgid "The law forbids telling the parties for now"
+msgstr "Legea interzice deocamdată informarea părților"
+
+#: lib/basa_web/live/admin/witness_live.ex:149
+#, elixir-autogen, elixir-format
+msgid "The parties are told."
+msgstr "Părțile au fost informate."
+
+#: lib/basa_web/live/admin/witness_live.ex:210
+#: lib/basa_web/live/admin/witness_live.ex:533
+#, elixir-autogen, elixir-format
+msgid "The parties cannot act"
+msgstr "Părțile nu pot acționa"
+
+#: lib/basa_web/live/admin/witness_live.ex:169
+#, elixir-autogen, elixir-format
+msgid "The report hash is 64 hexadecimal characters."
+msgstr "Hash-ul raportului are 64 de caractere hexazecimale."
+
+#: lib/basa_web/live/admin/witness_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Their reference (case, order No.)"
+msgstr "Referința lor (dosar, nr. hotărâre)"
+
+#: lib/basa_web/live/admin/witness_live.ex:526
+#, elixir-autogen, elixir-format
+msgid "Who asks (court, body)"
+msgstr "Cine cere (instanță, organ)"
+
+#: lib/basa_web/live/admin/witness_live.ex:454
+#, elixir-autogen, elixir-format
+msgid "Why it is rejected"
+msgstr "De ce este respinsă"
+
+#: lib/basa_web/live/admin/witness_live.ex:560
+#, elixir-autogen, elixir-format
+msgid "Why the parties may not be told (legal ground)"
+msgstr "De ce părțile nu pot fi informate (temei legal)"
+
+#: lib/basa_web/live/admin/witness_live.ex:213
+#, elixir-autogen, elixir-format
+msgid "approved"
+msgstr "aprobată"
+
+#: lib/basa_web/live/transaction_live.ex:640
+#, elixir-autogen, elixir-format
+msgid "approved on %{date}"
+msgstr "aprobată la %{date}"
+
+#: lib/basa_web/live/admin/witness_live.ex:417
+#, elixir-autogen, elixir-format
+msgid "decided by"
+msgstr "decisă de"
+
+#: lib/basa_web/live/admin/witness_live.ex:416
+#, elixir-autogen, elixir-format
+msgid "filed by"
+msgstr "înregistrată de"
+
+#: lib/basa_web/live/transaction_live.ex:645
+#, elixir-autogen, elixir-format
+msgid "handed over on %{date}"
+msgstr "predat la %{date}"
+
+#: lib/basa_web/live/admin/witness_live.ex:215
+#, elixir-autogen, elixir-format
+msgid "opened and handed over"
+msgstr "deschisă și predată"
+
+#: lib/basa_web/live/admin/witness_live.ex:412
+#, elixir-autogen, elixir-format
+msgid "received"
+msgstr "primită"
+
+#: lib/basa_web/live/transaction_live.ex:640
+#, elixir-autogen, elixir-format
+msgid "reference"
+msgstr "referința"
+
+#: lib/basa_web/live/admin/witness_live.ex:214
+#, elixir-autogen, elixir-format
+msgid "rejected"
+msgstr "respinsă"
+
+#: lib/basa_web/live/admin/witness_live.ex:212
+#, elixir-autogen, elixir-format
+msgid "waiting for a second admin"
+msgstr "așteaptă un al doilea administrator"
+
+#: lib/basa_web/live/transaction_live.ex:633
+#, elixir-autogen, elixir-format
+msgid "An authority asked for this contract's evidence, under the procedure in the contract. Two BASA admins approved the request; the files are opened only offline, with the recovery key."
+msgstr "O autoritate a cerut probele acestui contract, conform procedurii din contract. Doi administratori BASA au aprobat cererea; fișierele se deschid doar offline, cu cheia de recuperare."
+
+#: lib/basa_web/live/home_live.ex:322
+#, elixir-autogen, elixir-format
+msgid "Recording studios, music gear, tools and outfits: rent by the hour or day, or buy."
+msgstr "Studiouri de înregistrare, echipament muzical, unelte și ținute: închiriază la oră sau la zi, ori cumpără."
+
+#: lib/basa_web/live/verify_live.ex:49
+#, elixir-autogen, elixir-format
+msgid "Both parties confirmed it in person in MEM (their phones swapped fresh codes)"
+msgstr "Ambele părți au confirmat personal în MEM (telefoanele lor au schimbat coduri noi)"
+
+#: lib/basa_web/live/transaction_live.ex:1397
+#, elixir-autogen, elixir-format
+msgid "Confirm in person in MEM"
+msgstr "Confirmă personal în MEM"
+
+#: lib/basa_web/live/admin/witness_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "Confirmed in person in MEM"
+msgstr "Confirmat personal în MEM"
+
+#: lib/basa_web/live/transaction_live.ex:1407
+#, elixir-autogen, elixir-format
+msgid "Confirmed in person in MEM on %{date}: both phones swapped fresh codes."
+msgstr "Confirmat personal în MEM pe %{date}: ambele telefoane au schimbat coduri noi."
+
+#: lib/basa_web/live/transaction_live.ex:1439
+#, elixir-autogen, elixir-format
+msgid "Copy the code instead"
+msgstr "Copiază codul în schimb"
+
+#: lib/basa_web/live/transaction_live.ex:1448
+#, elixir-autogen, elixir-format
+msgid "If MEM could not send it: paste MEM's code here"
+msgstr "Dacă MEM nu l-a putut trimite: lipește aici codul din MEM"
+
+#: lib/basa_web/live/transaction_live.ex:441
+#, elixir-autogen, elixir-format
+msgid "MEM's code was not accepted. Show a new code and confirm again."
+msgstr "Codul din MEM nu a fost acceptat. Afișează un cod nou și confirmă din nou."
+
+#: lib/basa_web/live/transaction_live.ex:1399
+#, elixir-autogen, elixir-format
+msgid "Optional, when you meet: each of you opens “Confirm in person” in MEM, scans your own code from this page, then you scan each other's phones. It records that you both confirmed this contract face to face."
+msgstr "Opțional, când vă întâlniți: fiecare dintre voi deschide „Confirmă personal” în MEM, scanează propriul cod de pe această pagină, apoi scanați unul telefonul celuilalt. Astfel rămâne consemnat că amândoi ați confirmat acest contract față în față."
+
+#: lib/basa_web/live/transaction_live.ex:1432
+#, elixir-autogen, elixir-format
+msgid "Scan this in MEM. MEM shows what you confirm: %{label}…"
+msgstr "Scanează asta în MEM. MEM arată ce confirmi: %{label}…"
+
+#: lib/basa_web/live/transaction_live.ex:1458
+#, elixir-autogen, elixir-format
+msgid "Show my MEM code"
+msgstr "Arată codul meu MEM"
+
+#: lib/basa_web/live/transaction_live.ex:1436
+#, elixir-autogen, elixir-format
+msgid "The code works once, for 15 minutes."
+msgstr "Codul funcționează o singură dată, timp de 15 minute."
+
+#: lib/basa_web/live/transaction_live.ex:423
+#, elixir-autogen, elixir-format
+msgid "This contract cannot be confirmed in person."
+msgstr "Acest contract nu poate fi confirmat personal."
+
+#: lib/basa_web/live/transaction_live.ex:1417
+#, elixir-autogen, elixir-format
+msgid "confirmed"
+msgstr "confirmat"
+
+#: lib/basa_web/live/transaction_live.ex:1352
+#: lib/basa_web/live/transaction_live.ex:1420
+#, elixir-autogen, elixir-format
+msgid "not yet"
+msgstr "încă nu"
+
+#: lib/basa_web/live/transaction_live.ex:1268
+#, elixir-autogen, elixir-format
+msgid "Both parties signed with a qualified signature (%{date})."
+msgstr "Ambele părți au semnat cu o semnătură calificată (%{date})."
+
+#: lib/basa_web/live/dev/qes_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Certificate for"
+msgstr "Certificat pentru"
+
+#: lib/basa_web/live/dev/qes_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Development only"
+msgstr "Doar pentru dezvoltare"
+
+#: lib/basa_web/live/dev/qes_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "Document"
+msgstr "Document"
+
+#: lib/basa_web/live/transaction_live.ex:1304
+#, elixir-autogen, elixir-format
+msgid "Optional: each of you also signs the contract with Дія.Підпис or an EU qualified signature. It has the legal force of a handwritten signature."
+msgstr "Opțional: fiecare dintre voi semnează și contractul cu Дія.Підпис sau cu o semnătură calificată UE. Are valoarea juridică a unei semnături olografe."
+
+#: lib/basa_web/live/transaction_live.ex:1260
+#, elixir-autogen, elixir-format
+msgid "Qualified electronic signature"
+msgstr "Semnătură electronică calificată"
+
+#: lib/basa_web/live/verify_live.ex:46
+#, elixir-autogen, elixir-format
+msgid "Qualified signature"
+msgstr "Semnătură calificată"
+
+#: lib/basa_web/live/verify_live.ex:44
+#, elixir-autogen, elixir-format
+msgid "Qualified signature of the acceptor (lessee or buyer)"
+msgstr "Semnătura calificată a acceptantului (locatar sau cumpărător)"
+
+#: lib/basa_web/live/verify_live.ex:41
+#, elixir-autogen, elixir-format
+msgid "Qualified signature of the offeror (lessor or seller)"
+msgstr "Semnătura calificată a ofertantului (locator sau vânzător)"
+
+#: lib/basa_web/live/admin/witness_live.ex:200
+#, elixir-autogen, elixir-format
+msgid "Qualified signature: %{role}"
+msgstr "Semnătură calificată: %{role}"
+
+#: lib/basa_web/live/dev/qes_live.ex:81
+#, elixir-autogen, elixir-format
+msgid "Sign (test)"
+msgstr "Semnează (test)"
+
+#: lib/basa_web/live/transaction_live.ex:1383
+#, elixir-autogen, elixir-format
+msgid "Sign with the test certification authority"
+msgstr "Semnează la autoritatea de certificare de test"
+
+#: lib/basa_web/live/transaction_live.ex:467
+#, elixir-autogen, elixir-format
+msgid "Signing could not start. Try again later."
+msgstr "Semnarea nu a putut începe. Încearcă mai târziu."
+
+#: lib/basa_web/controllers/qes_controller.ex:53
+#: lib/basa_web/controllers/qes_controller.ex:59
+#, elixir-autogen, elixir-format
+msgid "Signing was cancelled or failed. You can try again."
+msgstr "Semnarea a fost anulată sau a eșuat. Poți încerca din nou."
+
+#: lib/basa_web/live/dev/qes_live.ex:24
+#: lib/basa_web/live/dev/qes_live.ex:64
+#, elixir-autogen, elixir-format
+msgid "Test certification authority"
+msgstr "Autoritate de certificare de test"
+
+#: lib/basa_web/controllers/qes_controller.ex:40
+#, elixir-autogen, elixir-format
+msgid "The signature was not accepted: it is not for this contract or not from a trusted certificate."
+msgstr "Semnătura nu a fost acceptată: nu este pentru acest contract sau nu provine dintr-un certificat de încredere."
+
+#: lib/basa_web/live/dev/qes_live.ex:66
+#, elixir-autogen, elixir-format
+msgid "This page stands in for Дія.Підпис or an eIDAS provider. It makes a test signature: it checks the whole flow, but it is not a qualified signature and has no legal effect."
+msgstr "Această pagină ține locul Дія.Підпис sau al unui furnizor eIDAS. Creează o semnătură de test: verifică tot fluxul, dar nu este o semnătură calificată și nu are efect juridic."
+
+#: lib/basa_web/controllers/qes_controller.ex:24
+#: lib/basa_web/live/dev/qes_live.ex:33
+#, elixir-autogen, elixir-format
+msgid "This signing session is not valid any more."
+msgstr "Această sesiune de semnare nu mai este valabilă."
+
+#: lib/basa_web/controllers/qes_controller.ex:32
+#, elixir-autogen, elixir-format
+msgid "Your qualified signature was added to the contract."
+msgstr "Semnătura ta calificată a fost adăugată la contract."
+
+#: lib/basa_web/live/admin/witness_live.ex:279
+#: lib/basa_web/live/transaction_live.ex:1320
+#: lib/basa_web/live/verify_live.ex:55
+#, elixir-autogen, elixir-format
+msgid "test signature, not qualified"
+msgstr "semnătură de test, necalificată"
+
+#: lib/basa_web/live/verify_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "the certificate is not from a trusted provider"
+msgstr "certificatul nu provine de la un furnizor de încredere"
+
+#: lib/basa_web/live/transaction_live.ex:1349
+#, elixir-autogen, elixir-format
+msgid "the name on the certificate differs from the legal name in the contract"
+msgstr "numele din certificat diferă de numele legal din contract"
+
+#: lib/basa_web/live/transaction_live.ex:1278
+#, elixir-autogen, elixir-format
+msgid "Both parties signed, but with test signatures: the contract reaches this level only with qualified signatures."
+msgstr "Ambele părți au semnat, dar cu semnături de test: contractul atinge acest nivel doar cu semnături calificate."
+
+#: lib/basa_web/live/transaction_live.ex:1384
+#, elixir-autogen, elixir-format
+msgid "Sign with an EU qualified signature (eIDAS)"
+msgstr "Semnează cu o semnătură calificată UE (eIDAS)"
+
+#: lib/basa_web/live/transaction_live.ex:1288
+#, elixir-autogen, elixir-format
+msgid "Both parties signed, but the EU check did not confirm both signatures as qualified: the contract reaches this level only with qualified signatures."
+msgstr "Ambele părți au semnat, dar verificarea UE nu a confirmat ambele semnături drept calificate: contractul atinge acest nivel doar cu semnături calificate."
+
+#: lib/basa_web/live/transaction_live.ex:1298
+#, elixir-autogen, elixir-format
+msgid "Both parties signed; the EU check of the signatures is not finished yet."
+msgstr "Ambele părți au semnat; verificarea semnăturilor de către UE nu s-a încheiat încă."
+
+#: lib/basa_web/live/transaction_live.ex:1343
+#, elixir-autogen, elixir-format
+msgid "EU check not finished yet"
+msgstr "Verificarea UE nu s-a încheiat încă"
+
+#: lib/basa_web/live/transaction_live.ex:1327
+#, elixir-autogen, elixir-format
+msgid "qualified, confirmed by the EU check"
+msgstr "calificată, confirmată de verificarea UE"
+
+#: lib/basa_web/live/admin/witness_live.ex:285
+#, elixir-autogen, elixir-format
+msgid "waiting for the EU DSS check"
+msgstr "așteaptă verificarea EU DSS"
+
+#: lib/basa_web/live/transaction_live.ex:1334
+#, elixir-autogen, elixir-format
+msgid "not a qualified signature (EU check: %{result})"
+msgstr "nu este o semnătură calificată (verificarea UE: %{result})"
+
+#: lib/basa_web/live/admin/witness_live.ex:282
+#, elixir-autogen, elixir-format
+msgid "not qualified (EU DSS)"
+msgstr "necalificată (EU DSS)"
+
+#: lib/basa_web/live/admin/settings_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "AI suggestions"
+msgstr "Sugestii AI"
+
+#: lib/basa_web/live/admin/settings_live.ex:201
+#, elixir-autogen, elixir-format
+msgid "Account confirmation and password reset emails."
+msgstr "E-mailuri de confirmare a contului și de resetare a parolei."
+
+#: lib/basa_web/live/profile_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Add an email and a password, so you can still sign in and reach your contracts when Telegram is unavailable."
+msgstr "Adaugă un e-mail și o parolă, ca să te poți conecta și să-ți deschizi contractele și când Telegram nu este disponibil."
+
+#: lib/basa_web/live/profile_live.ex:94
+#, elixir-autogen, elixir-format
+msgid "Check the email: it may be empty or already used by another account."
+msgstr "Verifică e-mailul: poate fi gol sau folosit deja de alt cont."
+
+#: lib/basa_web/live/admin/settings_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "Confirming a contract in person in MEM (level 3)."
+msgstr "Confirmarea personală a unui contract în MEM (nivelul 3)."
+
+#: lib/basa_web/live/admin/settings_live.ex:220
+#, elixir-autogen, elixir-format
+msgid "Contracts are sealed without it; the timestamps are requested when switched on again."
+msgstr "Contractele se sigilează fără ea; mărcile temporale se cer când este pornită din nou."
+
+#: lib/basa_web/live/admin/settings_live.ex:226
+#, elixir-autogen, elixir-format
+msgid "Finding cities BASA doesn't have yet."
+msgstr "Găsirea orașelor pe care BASA nu le are încă."
+
+#: lib/basa_web/live/admin/settings_live.ex:258
+#, elixir-autogen, elixir-format
+msgid "Items are described by hand."
+msgstr "Obiectele se descriu manual."
+
+#: lib/basa_web/live/admin/settings_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "MEM"
+msgstr "MEM"
+
+#: lib/basa_web/live/admin/settings_live.ex:195
+#, elixir-autogen, elixir-format
+msgid "Messages stay in BASA's inbox; people sign in with the email and password from their profile."
+msgstr "Mesajele rămân în căsuța BASA; oamenii se conectează cu e-mailul și parola din profilul lor."
+
+#: lib/basa_web/live/admin/settings_live.ex:202
+#, elixir-autogen, elixir-format
+msgid "No emails are sent; a forgotten password can't be reset by email."
+msgstr "Nu se trimit e-mailuri; o parolă uitată nu poate fi resetată prin e-mail."
+
+#: lib/basa_web/live/transaction_live.ex:967
+#, elixir-autogen, elixir-format
+msgid "No independent timestamp yet: the timestamp service is switched off. Your signatures hold without it; it is added when the service is back."
+msgstr "Încă nu există o marcă temporală independentă: serviciul de marcare temporală este oprit. Semnăturile voastre sunt valabile și fără ea; va fi adăugată când serviciul revine."
+
+#: lib/basa_web/live/admin/settings_live.ex:207
+#, elixir-autogen, elixir-format
+msgid "Not offered; contracts already confirmed keep their confirmation."
+msgstr "Nu este oferită; contractele deja confirmate își păstrează confirmarea."
+
+#: lib/basa_web/live/admin/settings_live.ex:213
+#, elixir-autogen, elixir-format
+msgid "Not offered; stored signatures still verify, and their EU check runs when switched on again."
+msgstr "Nu este oferită; semnăturile salvate rămân verificabile, iar verificarea UE are loc la repornire."
+
+#: lib/basa_web/live/admin/settings_live.ex:329
+#: lib/basa_web/live/admin/settings_live.ex:562
+#, elixir-autogen, elixir-format
+msgid "Not set up"
+msgstr "Neconfigurat"
+
+#: lib/basa_web/live/admin/settings_live.ex:227
+#, elixir-autogen, elixir-format
+msgid "Only cities BASA already has can be chosen; missed searches are still counted."
+msgstr "Se pot alege doar orașele pe care BASA le are deja; căutările fără rezultat sunt numărate în continuare."
+
+#: lib/basa_web/live/admin/settings_live.ex:226
+#, elixir-autogen, elixir-format
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: lib/basa_web/live/admin/settings_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Outside services"
+msgstr "Servicii externe"
+
+#: lib/basa_web/live/profile_live.ex:198
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr "Parolă"
+
+#: lib/basa_web/live/profile_live.ex:204
+#, elixir-autogen, elixir-format
+msgid "Password again"
+msgstr "Repetă parola"
+
+#: lib/basa_web/live/admin/settings_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Paying BASA's commission and premium services."
+msgstr "Plata comisionului BASA și a serviciilor premium."
+
+#: lib/basa_web/live/admin/settings_live.ex:263
+#, elixir-autogen, elixir-format
+msgid "Payment buttons are hidden; payments already started still finish."
+msgstr "Butoanele de plată sunt ascunse; plățile deja începute se încheie totuși."
+
+#: lib/basa_web/live/admin/settings_live.ex:211
+#, elixir-autogen, elixir-format
+msgid "Qualified signatures"
+msgstr "Semnături calificate"
+
+#: lib/basa_web/live/profile_live.ex:66
+#, elixir-autogen, elixir-format
+msgid "Saved. You can now also sign in with your email and password."
+msgstr "Salvat. Acum te poți conecta și cu e-mailul și parola."
+
+#: lib/basa_web/live/admin/settings_live.ex:540
+#, elixir-autogen, elixir-format
+msgid "Services BASA uses but can't guarantee. Switch one off when it fails or isn't wanted: contracts keep working from booking to closing, on the parties' word in BASA."
+msgstr "Servicii pe care BASA le folosește, dar nu le poate garanta. Oprește unul când nu funcționează sau nu e dorit: contractele merg mai departe de la rezervare la închidere, pe cuvântul părților în BASA."
+
+#: lib/basa_web/live/profile_live.ex:180
+#, elixir-autogen, elixir-format
+msgid "Sign in without Telegram"
+msgstr "Conectare fără Telegram"
+
+#: lib/basa_web/controllers/telegram_controller.ex:43
+#, elixir-autogen, elixir-format
+msgid "Sign-in with Telegram is switched off for now. Sign in with your email and password."
+msgstr "Conectarea cu Telegram este oprită deocamdată. Conectează-te cu e-mailul și parola."
+
+#: lib/basa_web/live/admin/settings_live.ex:212
+#, elixir-autogen, elixir-format
+msgid "Signing with Дія.Підпис or an eIDAS provider, checked by the EU DSS (level 4)."
+msgstr "Semnare cu Дія.Підпис sau un furnizor eIDAS, verificată de EU DSS (nivelul 4)."
+
+#: lib/basa_web/live/admin/settings_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "Suggestions from item photos (Claude)."
+msgstr "Sugestii din fotografiile obiectelor (Claude)."
+
+#: lib/basa_web/live/admin/settings_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Telegram"
+msgstr "Telegram"
+
+#: lib/basa_web/live/admin/settings_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "The bot, messages to Telegram and sign-in with Telegram."
+msgstr "Botul, mesajele către Telegram și conectarea cu Telegram."
+
+#: lib/basa_web/live/admin/settings_live.ex:219
+#, elixir-autogen, elixir-format
+msgid "The independent time of each sealed contract."
+msgstr "Ora independentă a fiecărui contract sigilat."
+
+#: lib/basa_web/live/profile_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "The password needs at least 8 characters."
+msgstr "Parola trebuie să aibă cel puțin 8 caractere."
+
+#: lib/basa_web/live/profile_live.ex:100
+#, elixir-autogen, elixir-format
+msgid "The passwords don't match."
+msgstr "Parolele nu se potrivesc."
+
+#: lib/basa_web/live/admin/settings_live.ex:219
+#, elixir-autogen, elixir-format
+msgid "Timestamp authority"
+msgstr "Autoritate de marcare temporală"
+
+#: lib/basa_web/live/admin/settings_live.ex:556
+#, elixir-autogen, elixir-format
+msgid "When off:"
+msgstr "Când e oprit:"
+
+#: lib/basa_web/live/my/items_live.ex:311
+#, elixir-autogen, elixir-format
+msgid "Couldn't add that picture. Try another one."
+msgstr "Nu am putut adăuga imaginea. Încearcă alta."
+
+#: lib/basa_web/live/admin/settings_live.ex:232
+#, elixir-autogen, elixir-format
+msgid "Finding openly licensed pictures (Openverse) for items without photos."
+msgstr "Găsirea de imagini cu licență deschisă (Openverse) pentru obiectele fără fotografii."
+
+#: lib/basa_web/components/basa_components.ex:350
+#: lib/basa_web/components/basa_components.ex:568
+#, elixir-autogen, elixir-format
+msgid "Illustration"
+msgstr "Ilustrație"
+
+#: lib/basa_web/components/basa_components.ex:290
+#, elixir-autogen, elixir-format
+msgid "Illustrations, not photos of this item:"
+msgstr "Ilustrații, nu fotografii ale acestui obiect:"
+
+#: lib/basa_web/live/my/items_live.ex:675
+#, elixir-autogen, elixir-format
+msgid "Looking for pictures…"
+msgstr "Căutăm imagini…"
+
+#: lib/basa_web/live/my/items_live.ex:657
+#, elixir-autogen, elixir-format
+msgid "No photos yet? Pictures that may fit"
+msgstr "Încă nu ai fotografii? Imagini care s-ar potrivi"
+
+#: lib/basa_web/live/my/items_live.ex:671
+#, elixir-autogen, elixir-format
+msgid "No pictures"
+msgstr "Fără imagini"
+
+#: lib/basa_web/live/my/items_live.ex:725
+#, elixir-autogen, elixir-format
+msgid "No pictures are suggested for this item."
+msgstr "Pentru acest obiect nu se sugerează imagini."
+
+#: lib/basa_web/live/my/items_live.ex:681
+#: lib/basa_web/live/my/items_live.ex:716
+#, elixir-autogen, elixir-format
+msgid "No pictures found. Add your own photos."
+msgstr "Nu am găsit imagini. Adaugă propriile fotografii."
+
+#: lib/basa_web/live/admin/settings_live.ex:233
+#, elixir-autogen, elixir-format
+msgid "Only pictures BASA already keeps are suggested; owners add their own photos."
+msgstr "Se sugerează doar imaginile pe care BASA le păstrează deja; proprietarii își adaugă propriile fotografii."
+
+#: lib/basa_web/live/my/items_live.ex:659
+#, elixir-autogen, elixir-format
+msgid "Openly licensed pictures of similar things. Renters see them marked as illustrations, with the author's credit. Your own photos show your item best."
+msgstr "Imagini cu licență deschisă ale unor lucruri asemănătoare. Chiriașii le văd marcate ca ilustrații, cu numele autorului. Propriile fotografii îți arată cel mai bine obiectul."
+
+#: lib/basa_web/components/basa_components.ex:264
+#: lib/basa_web/components/basa_components.ex:265
+#, elixir-autogen, elixir-format
+msgid "Picture"
+msgstr "Imagine"
+
+#: lib/basa_web/live/admin/settings_live.ex:231
+#, elixir-autogen, elixir-format
+msgid "Pictures for listings"
+msgstr "Imagini pentru anunțuri"
+
+#: lib/basa_web/components/basa_components.ex:279
+#, elixir-autogen, elixir-format
+msgid "Public domain"
+msgstr "Domeniu public"
+
+#: lib/basa_web/live/my/items_live.ex:732
+#, elixir-autogen, elixir-format
+msgid "Suggest pictures"
+msgstr "Sugerează imagini"
+
+#: lib/basa_web/live/my/items_live.ex:678
+#, elixir-autogen, elixir-format
+msgid "Type a title to see pictures that may fit."
+msgstr "Scrie un titlu ca să vezi imagini care s-ar potrivi."
+
+#: lib/basa_web/live/my/items_live.ex:693
+#: lib/basa_web/live/my/items_live.ex:694
+#, elixir-autogen, elixir-format
+msgid "Use this picture"
+msgstr "Folosește această imagine"
+
+#: lib/basa_web/components/basa_components.ex:265
+#: lib/basa_web/components/basa_components.ex:305
+#, elixir-autogen, elixir-format
+msgid "by %{author}"
+msgstr "de %{author}"
+
+#: lib/basa_web/components/basa_components.ex:225
+#, elixir-autogen, elixir-format
+msgid "More information"
+msgstr "Mai multe informații"
+
+#: lib/basa_web/live/transaction_live.ex:944
+#, elixir-autogen, elixir-format
+msgid "Keep the BASA-HASH: it finds this contract and proves it unchanged."
+msgstr "Păstrează BASA-HASH: găsește acest contract și dovedește că nu s-a schimbat."
+
+#: lib/basa_web/live/transaction_live.ex:953
+#, elixir-autogen, elixir-format
+msgid "Signed by both parties on %{date}."
+msgstr "Semnat de ambele părți pe %{date}."
+
+#: lib/basa_web/components/basa_components.ex:483
+#, elixir-autogen, elixir-format
+msgid "%{count} of %{max} photos"
+msgstr "%{count} din %{max} fotografii"
+
+#: lib/basa_web/live/admin/settings_live.ex:165
+#: lib/basa_web/live/home_live.ex:313
+#, elixir-autogen, elixir-format
+msgid "%{km} km"
+msgstr "%{km} km"
+
+#: lib/basa_web/live/admin/settings_live.ex:322
+#, elixir-autogen, elixir-format
+msgid "Also needs the Telegram service on (Outside services below)."
+msgstr "Are nevoie și de serviciul Telegram pornit (Servicii externe, mai jos)."
+
+#: lib/basa_web/live/admin/settings_live.ex:303
+#, elixir-autogen, elixir-format
+msgid "Buttons on the sign-in page besides email and password, which always stay. People who signed up with a switched-off option add a password on their profile."
+msgstr "Butoane pe pagina de autentificare pe lângă e-mail și parolă, care rămân mereu. Cine s-a înscris cu o opțiune oprită adaugă o parolă în profil."
+
+#: lib/basa_web/live/admin/settings_live.ex:426
+#, elixir-autogen, elixir-format
+msgid "Chosen at first"
+msgstr "Ales la început"
+
+#: lib/basa_web/live/admin/settings_live.ex:375
+#, elixir-autogen, elixir-format
+msgid "Control"
+msgstr "Control"
+
+#: lib/basa_web/live/admin/settings_live.ex:393
+#, elixir-autogen, elixir-format
+msgid "Distances, km"
+msgstr "Distanțe, km"
+
+#: lib/basa_web/live/home_live.ex:246
+#: lib/basa_web/live/home_live.ex:259
+#: lib/basa_web/live/home_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "How far"
+msgstr "Cât de departe"
+
+#: lib/basa_web/live/admin/settings_live.ex:368
+#, elixir-autogen, elixir-format
+msgid "How far from their location lessees search. \"Whole city\" and \"whole region\" use the city they are in."
+msgstr "Cât de departe de locul lor caută chiriașii. „Tot orașul” și „toată regiunea” folosesc orașul în care se află."
+
+#: lib/basa_web/live/admin/settings_live.ex:317
+#, elixir-autogen, elixir-format
+msgid "Instagram signs in only professional (business or creator) accounts; Meta closed sign-in for personal ones."
+msgstr "Instagram autentifică doar conturi profesionale (de afaceri sau de creator); Meta a închis autentificarea pentru cele personale."
+
+#: lib/basa_web/live/admin/settings_live.ex:366
+#, elixir-autogen, elixir-format
+msgid "Near me search"
+msgstr "Căutare în apropiere"
+
+#: lib/basa_web/live/my/items_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "No"
+msgstr "Nu"
+
+#: lib/basa/system/validations/near_steps.ex:12
+#, elixir-autogen, elixir-format
+msgid "Offer at least one distance."
+msgstr "Oferă cel puțin o distanță."
+
+#: lib/basa_web/components/basa_components.ex:490
+#: lib/basa_web/components/basa_components.ex:500
+#, elixir-autogen, elixir-format
+msgid "Photo size"
+msgstr "Mărimea fotografiilor"
+
+#: lib/basa/system/validations/near_steps.ex:16
+#, elixir-autogen, elixir-format
+msgid "Pick the first choice from the offered ones."
+msgstr "Alege opțiunea inițială dintre cele oferite."
+
+#: lib/basa_web/live/home_live.ex:312
+#, elixir-autogen, elixir-format
+msgid "Region"
+msgstr "Regiune"
+
+#: lib/basa_web/live/admin/settings_live.ex:332
+#, elixir-autogen, elixir-format
+msgid "Set %{keys} on the server."
+msgstr "Setează %{keys} pe server."
+
+#: lib/basa_web/live/sign_in_live.ex:118
+#, elixir-autogen, elixir-format
+msgid "Sign in with Facebook"
+msgstr "Autentificare cu Facebook"
+
+#: lib/basa_web/live/sign_in_live.ex:117
+#, elixir-autogen, elixir-format
+msgid "Sign in with Google"
+msgstr "Autentificare cu Google"
+
+#: lib/basa_web/live/sign_in_live.ex:119
+#, elixir-autogen, elixir-format
+msgid "Sign in with Instagram"
+msgstr "Autentificare cu Instagram"
+
+#: lib/basa_web/live/sign_in_live.ex:82
+#, elixir-autogen, elixir-format
+msgid "Sign in with Telegram"
+msgstr "Autentificare cu Telegram"
+
+#: lib/basa_web/live/admin/settings_live.ex:301
+#, elixir-autogen, elixir-format
+msgid "Sign-in options"
+msgstr "Opțiuni de autentificare"
+
+#: lib/basa_web/live/admin/settings_live.ex:159
+#, elixir-autogen, elixir-format
+msgid "Slider with steps"
+msgstr "Glisor cu trepte"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:31
+#: lib/basa_web/live/my/import_source_live.ex:113
+#, elixir-autogen, elixir-format
+msgid "The JSON isn't valid: %{error}"
+msgstr "JSON-ul nu este valid: %{error}"
+
+#: lib/basa/accounts/user/changes/from_oauth.ex:16
+#, elixir-autogen, elixir-format
+msgid "The sign-in didn't return what BASA needs."
+msgstr "Autentificarea nu a returnat ce îi trebuie BASA."
+
+#: lib/basa_web/plugs/sign_in_gate.ex:18
+#, elixir-autogen, elixir-format
+msgid "This sign-in option is switched off. Use another one."
+msgstr "Această opțiune de autentificare este oprită. Folosește alta."
+
+#: lib/basa_web/components/basa_components.ex:547
+#, elixir-autogen, elixir-format
+msgid "Up to %{max} photos."
+msgstr "Până la %{max} fotografii."
+
+#: lib/basa_web/photo_uploads.ex:19
+#, elixir-autogen, elixir-format
+msgid "Up to %{max} photos. The extra ones were not added."
+msgstr "Până la %{max} fotografii. Cele în plus nu au fost adăugate."
+
+#: lib/basa_web/live/admin/settings_live.ex:163
+#: lib/basa_web/live/admin/settings_live.ex:408
+#, elixir-autogen, elixir-format
+msgid "Whole city"
+msgstr "Tot orașul"
+
+#: lib/basa_web/live/home_live.ex:299
+#, elixir-autogen, elixir-format
+msgid "Whole city: %{city}"
+msgstr "Tot orașul: %{city}"
+
+#: lib/basa_web/live/admin/settings_live.ex:164
+#: lib/basa_web/live/admin/settings_live.ex:420
+#, elixir-autogen, elixir-format
+msgid "Whole region"
+msgstr "Toată regiunea"
+
+#: lib/basa_web/live/home_live.ex:302
+#, elixir-autogen, elixir-format
+msgid "Whole region around %{city}"
+msgstr "Toată regiunea din jurul orașului %{city}"
+
+#: lib/basa_web/live/my/items_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "Yes"
+msgstr "Da"
+
+#: lib/basa_web/live/sign_in_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "or"
+msgstr "sau"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "Graph"
+msgstr "Graf"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:96
+#, elixir-autogen, elixir-format
+msgid "Test runs the rule on the test input and shows the results on the graph: open a node to see what it received and returned."
+msgstr "Test rulează regula pe datele de test și arată rezultatele pe graf: deschide un nod ca să vezi ce a primit și ce a returnat."
+
+#: lib/basa_web/live/home_live.ex:289
+#, elixir-autogen, elixir-format
+msgid "How far to search: from your location, or from the city's centre. Or the whole city, or its whole region."
+msgstr "Cât de departe să cauți: de la locația ta sau din centrul orașului. Ori în tot orașul, ori în toată regiunea lui."
+
+#: lib/basa_web/live/city_picker.ex:124
+#, elixir-autogen, elixir-format
+msgid "Location is blocked for BASA: allow it in your browser's site settings."
+msgstr "Locația este blocată pentru BASA: permite-o din setările site-ului în browser."
+
+#: lib/basa_web/live/city_picker.ex:126
+#, elixir-autogen, elixir-format
+msgid "Location works only on a secure (https) page."
+msgstr "Locația funcționează doar pe o pagină securizată (https)."
+
+#: lib/basa_web/live/city_picker.ex:233
+#, elixir-autogen, elixir-format
+msgid "Searching around you"
+msgstr "Căutare în jurul tău"
+
+#: lib/basa_web/live/city_picker.ex:132
+#, elixir-autogen, elixir-format
+msgid "The search stays around the chosen city."
+msgstr "Căutarea rămâne în jurul orașului ales."
+
+#: lib/basa_web/live/city_picker.ex:129
+#, elixir-autogen, elixir-format
+msgid "This device couldn't tell its location (location services may be off)."
+msgstr "Acest dispozitiv nu și-a putut afla locația (poate serviciile de localizare sunt oprite)."
+
+#: lib/basa_web/live/city_picker.ex:131
+#, elixir-autogen, elixir-format
+msgid "Type the city instead."
+msgstr "Scrie orașul."
+
+#: lib/basa_web/live/city_picker.ex:233
+#: lib/basa_web/live/city_picker.ex:234
+#, elixir-autogen, elixir-format
+msgid "Use my location"
+msgstr "Folosește locația mea"
+
+#: lib/basa_web/live/home_live.ex:307
+#, elixir-autogen, elixir-format
+msgid "Within %{km} km of %{city}"
+msgstr "La cel mult %{km} km de %{city}"
+
+#: lib/basa_web/live/home_live.ex:304
+#, elixir-autogen, elixir-format
+msgid "Within %{km} km of you"
+msgstr "La cel mult %{km} km de tine"
+
+#: lib/basa_web/live/admin/import_live.ex:13
+#: lib/basa_web/live/admin/import_live.ex:80
+#: lib/basa_web/live/admin/settings_live.ex:237
+#: lib/basa_web/live/my/import_live.ex:8
+#: lib/basa_web/live/my/import_live.ex:78
+#: lib/basa_web/live/my/import_source_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Import from web pages"
+msgstr "Import din pagini web"
+
+#: lib/basa_web/live/admin/settings_live.ex:239
+#, elixir-autogen, elixir-format
+msgid "Owners add their listings by hand."
+msgstr "Proprietarii își adaugă anunțurile manual."
+
+#: lib/basa_web/live/admin/settings_live.ex:238
+#, elixir-autogen, elixir-format
+msgid "Reading listings from web pages: name, price, photos and details."
+msgstr "Citirea anunțurilor din pagini web: nume, preț, fotografii și detalii."
+
+#: lib/basa_web/live/my/import_source_live.ex:512
+#, elixir-autogen, elixir-format
+msgid "1 photo"
+msgid_plural "%{count} photos"
+msgstr[0] "%{count} fotografie"
+msgstr[1] "%{count} fotografii"
+msgstr[2] "%{count} de fotografii"
+
+#: lib/basa_web/live/my/import_live.ex:135
+#, elixir-autogen, elixir-format
+msgid "1 sample page"
+msgid_plural "%{count} sample pages"
+msgstr[0] "%{count} pagină exemplu"
+msgstr[1] "%{count} pagini exemplu"
+msgstr[2] "%{count} de pagini exemplu"
+
+#: lib/basa_web/live/admin/import_live.ex:90
+#, elixir-autogen, elixir-format
+msgid "Access"
+msgstr "Acces"
+
+#: lib/basa_web/live/admin/import_live.ex:31
+#, elixir-autogen, elixir-format
+msgid "Access granted."
+msgstr "Acces acordat."
+
+#: lib/basa_web/live/admin/import_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Access revoked."
+msgstr "Acces retras."
+
+#: lib/basa_web/live/admin/import_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Agreement not confirmed yet"
+msgstr "Acordul nu este încă confirmat"
+
+#: lib/basa_web/live/admin/import_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Agreement version %{v} confirmed"
+msgstr "Acord versiunea %{v} confirmat"
+
+#: lib/basa_web/live/admin/import_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "Agreement version %{v} published."
+msgstr "Acordul versiunea %{v} a fost publicat."
+
+#: lib/basa_web/live/my/import_source_live.ex:674
+#, elixir-autogen, elixir-format
+msgid "Always"
+msgstr "Întotdeauna"
+
+#: lib/basa_web/live/my/import_source_live.ex:490
+#, elixir-autogen, elixir-format
+msgid "Area"
+msgstr "Suprafață"
+
+#: lib/basa_web/live/my/import_source_live.ex:487
+#, elixir-autogen, elixir-format
+msgid "Article number"
+msgstr "Cod articol"
+
+#: lib/basa_web/live/my/import_source_live.ex:667
+#, elixir-autogen, elixir-format
+msgid "Browser"
+msgstr "Browser"
+
+#: lib/basa_web/live/admin/import_live.ex:65
+#, elixir-autogen, elixir-format
+msgid "By using the import tool you confirm that you have the right to use the content you import (texts, prices, photos) and that you take full responsibility for how it is used on BASA. BASA reads the pages you point it to on your behalf; imported listings are drafts until you review and publish them.\n"
+msgstr "Folosind instrumentul de import confirmați că aveți dreptul să folosiți conținutul importat (texte, prețuri, fotografii) și vă asumați întreaga răspundere pentru modul în care este folosit pe BASA. BASA citește în numele dvs. paginile indicate; anunțurile importate rămân ciorne până când le verificați și le publicați.\n"
+
+#: lib/basa_web/live/my/import_source_live.ex:715
+#, elixir-autogen, elixir-format
+msgid "Click the value on the page."
+msgstr "Faceți clic pe valoare în pagină."
+
+#: lib/basa_web/live/my/import_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Create"
+msgstr "Creează"
+
+#: lib/basa_web/live/my/import_source_live.ex:707
+#, elixir-autogen, elixir-format
+msgid "Field to pick"
+msgstr "Câmp de ales"
+
+#: lib/basa_web/live/my/import_source_live.ex:546
+#, elixir-autogen, elixir-format
+msgid "Found"
+msgstr "Găsit"
+
+#: lib/basa_web/live/my/import_source_live.ex:504
+#, elixir-autogen, elixir-format
+msgid "Gallery"
+msgstr "Galerie"
+
+#: lib/basa_web/live/admin/import_live.ex:101
+#, elixir-autogen, elixir-format
+msgid "Grant"
+msgstr "Acordă"
+
+#: lib/basa_web/live/my/import_live.ex:116
+#, elixir-autogen, elixir-format
+msgid "I have read the agreement and accept it"
+msgstr "Am citit acordul și îl accept"
+
+#: lib/basa_web/live/my/dashboard_live.ex:105
+#: lib/basa_web/live/profile_live.ex:321
+#, elixir-autogen, elixir-format
+msgid "Import"
+msgstr "Import"
+
+#: lib/basa_web/live/my/import_live.ex:87
+#: lib/basa_web/live/my/import_source_live.ex:522
+#, elixir-autogen, elixir-format
+msgid "Import from web pages is switched off for now."
+msgstr "Importul din pagini web este oprit deocamdată."
+
+#: lib/basa_web/live/my/import_source_live.ex:676
+#, elixir-autogen, elixir-format
+msgid "Never"
+msgstr "Niciodată"
+
+#: lib/basa_web/live/my/import_live.ex:147
+#, elixir-autogen, elixir-format
+msgid "New source"
+msgstr "Sursă nouă"
+
+#: lib/basa_web/live/admin/import_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "No one has access yet."
+msgstr "Nimeni nu are încă acces."
+
+#: lib/basa_web/live/my/import_source_live.ex:719
+#, elixir-autogen, elixir-format
+msgid "No rule picks exactly this; try the element around the value."
+msgstr "Nicio regulă nu alege exact asta; încercați elementul din jurul valorii."
+
+#: lib/basa_web/live/my/import_live.ex:124
+#, elixir-autogen, elixir-format
+msgid "No sources yet."
+msgstr "Încă nu există surse."
+
+#: lib/basa_web/live/admin/import_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "No user with this email."
+msgstr "Niciun utilizator cu acest e-mail."
+
+#: lib/basa_web/live/admin/import_live.ex:82
+#, elixir-autogen, elixir-format
+msgid "Only users you grant access can import listings from web pages, and only after they confirm the current user agreement. Publishing a new version asks everyone to confirm again."
+msgstr "Doar utilizatorii cărora le acordați acces pot importa anunțuri din pagini web și doar după ce confirmă acordul de utilizare în vigoare. O versiune nouă le cere tuturor să confirme din nou."
+
+#: lib/basa_web/live/my/import_source_live.ex:506
+#, elixir-autogen, elixir-format
+msgid "Page"
+msgstr "Pagină"
+
+#: lib/basa_web/live/my/import_source_live.ex:492
+#, elixir-autogen, elixir-format
+msgid "Page address"
+msgstr "Adresa paginii"
+
+#: lib/basa_web/live/my/import_source_live.ex:505
+#, elixir-autogen, elixir-format
+msgid "Page data"
+msgstr "Datele paginii"
+
+#: lib/basa_web/live/my/import_source_live.ex:696
+#, elixir-autogen, elixir-format
+msgid "Page preview"
+msgstr "Previzualizarea paginii"
+
+#: lib/basa_web/live/my/import_source_live.ex:547
+#, elixir-autogen, elixir-format
+msgid "Pick"
+msgstr "Alege"
+
+#: lib/basa_web/live/my/import_live.ex:80
+#, elixir-autogen, elixir-format
+msgid "Point BASA to pages of a site you list from: it finds the name, price, photos and details, and you pick what it missed. Imported listings stay drafts until you review them."
+msgstr "Indicați-i BASA pagini ale site-ului de pe care publicați: găsește numele, prețul, fotografiile și detaliile, iar ce lipsește alegeți dvs. Anunțurile importate rămân ciorne până le verificați."
+
+#: lib/basa_web/live/admin/import_live.ex:145
+#, elixir-autogen, elixir-format
+msgid "Publish new version"
+msgstr "Publică o versiune nouă"
+
+#: lib/basa_web/live/my/import_source_live.ex:643
+#, elixir-autogen, elixir-format
+msgid "Read a sample page to see what BASA finds on it."
+msgstr "Citiți o pagină exemplu ca să vedeți ce găsește BASA pe ea."
+
+#: lib/basa_web/live/my/import_source_live.ex:594
+#: lib/basa_web/live/my/import_source_live.ex:965
+#, elixir-autogen, elixir-format
+msgid "Read again"
+msgstr "Citește din nou"
+
+#: lib/basa_web/live/my/import_source_live.ex:611
+#, elixir-autogen, elixir-format
+msgid "Read in the browser"
+msgstr "Citit în browser"
+
+#: lib/basa_web/live/my/import_source_live.ex:594
+#, elixir-autogen, elixir-format
+msgid "Read page"
+msgstr "Citește pagina"
+
+#: lib/basa_web/live/my/import_source_live.ex:612
+#, elixir-autogen, elixir-format
+msgid "Read without a browser"
+msgstr "Citit fără browser"
+
+#: lib/basa_web/live/my/import_source_live.ex:811
+#: lib/basa_web/live/my/import_source_live.ex:1008
+#, elixir-autogen, elixir-format
+msgid "Reading the pages…"
+msgstr "Se citesc paginile…"
+
+#: lib/basa_web/live/my/import_source_live.ex:599
+#, elixir-autogen, elixir-format
+msgid "Reading the page…"
+msgstr "Se citește pagina…"
+
+#: lib/basa_web/live/my/import_source_live.ex:592
+#, elixir-autogen, elixir-format
+msgid "Reading…"
+msgstr "Se citește…"
+
+#: lib/basa_web/live/admin/import_live.ex:120
+#: lib/basa_web/live/profile_live.ex:293
+#, elixir-autogen, elixir-format
+msgid "Revoke"
+msgstr "Retrage"
+
+#: lib/basa_web/live/admin/import_live.ex:118
+#, elixir-autogen, elixir-format
+msgid "Revoke access for %{email}?"
+msgstr "Retrageți accesul pentru %{email}?"
+
+#: lib/basa_web/live/admin/import_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Revoked"
+msgstr "Retras"
+
+#: lib/basa_web/live/my/import_source_live.ex:574
+#, elixir-autogen, elixir-format
+msgid "Sample page"
+msgstr "Pagină exemplu"
+
+#: lib/basa_web/live/my/import_live.ex:161
+#: lib/basa_web/live/my/import_source_live.ex:662
+#, elixir-autogen, elixir-format
+msgid "Sample pages, one address per line (up to 5)"
+msgstr "Pagini exemplu, o adresă pe rând (până la 5)"
+
+#: lib/basa_web/live/my/import_source_live.ex:497
+#: lib/basa_web/live/my/import_source_live.ex:822
+#, elixir-autogen, elixir-format
+msgid "Skipped by the rules"
+msgstr "Omisă de reguli"
+
+#: lib/basa_web/live/my/import_source_live.ex:648
+#, elixir-autogen, elixir-format
+msgid "Source"
+msgstr "Sursă"
+
+#: lib/basa_web/live/my/import_source_live.ex:809
+#, elixir-autogen, elixir-format
+msgid "Test on every sample page"
+msgstr "Testează pe toate paginile exemplu"
+
+#: lib/basa_web/live/my/import_source_live.ex:806
+#, elixir-autogen, elixir-format
+msgid "Testing…"
+msgstr "Se testează…"
+
+#: lib/basa_web/live/my/import_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "Thank you. The import tool is open."
+msgstr "Mulțumim. Instrumentul de import este deschis."
+
+#: lib/basa_web/live/my/import_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "The agreement changed. Please read the new version."
+msgstr "Acordul s-a schimbat. Citiți noua versiune."
+
+#: lib/basa_web/live/my/import_live.ex:92
+#, elixir-autogen, elixir-format
+msgid "The import tool opens on request: ask the BASA administrator for access."
+msgstr "Instrumentul de import se deschide la cerere: cereți acces administratorului BASA."
+
+#: lib/basa_web/live/my/import_source_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "The page could not be read."
+msgstr "Pagina nu a putut fi citită."
+
+#: lib/basa_web/live/my/import_source_live.ex:523
+#, elixir-autogen, elixir-format
+msgid "The page took too long to read."
+msgstr "Citirea paginii a durat prea mult."
+
+#: lib/basa_web/live/my/import_source_live.ex:127
+#, elixir-autogen, elixir-format
+msgid "The rules aren't valid: %{error}"
+msgstr "Regulile nu sunt valide: %{error}"
+
+#: lib/basa_web/live/my/import_source_live.ex:765
+#, elixir-autogen, elixir-format
+msgid "The rules get the fields found (fields.price, fields.name…), the page's details (specs['Label']) and its address (url). Outputs named like a field replace it; skip set to true leaves the page out."
+msgstr "Regulile primesc câmpurile găsite (fields.price, fields.name…), detaliile paginii (specs['Etichetă']) și adresa ei (url). O ieșire numită ca un câmp îl înlocuiește; skip setat la true lasă pagina deoparte."
+
+#: lib/basa_web/live/my/import_source_live.ex:607
+#, elixir-autogen, elixir-format
+msgid "The rules skip this page."
+msgstr "Regulile omit această pagină."
+
+#: lib/basa_web/live/my/import_source_live.ex:529
+#, elixir-autogen, elixir-format
+msgid "The rules stopped with an error; the result is shown without them."
+msgstr "Regulile s-au oprit cu o eroare; rezultatul este afișat fără ele."
+
+#: lib/basa_web/live/my/import_source_live.ex:520
+#, elixir-autogen, elixir-format
+msgid "The site answered with a bot check; BASA does not get past those."
+msgstr "Site-ul a răspuns cu o verificare anti-bot; BASA nu le ocolește."
+
+#: lib/basa_web/live/my/import_source_live.ex:526
+#, elixir-autogen, elixir-format
+msgid "The site answered with an error (%{status})."
+msgstr "Site-ul a răspuns cu o eroare (%{status})."
+
+#: lib/basa_web/live/my/import_source_live.ex:27
+#: lib/basa_web/live/my/import_source_live.ex:221
+#, elixir-autogen, elixir-format
+msgid "This source is not available."
+msgstr "Această sursă nu este disponibilă."
+
+#: lib/basa_web/live/my/import_live.ex:41
+#: lib/basa_web/live/my/import_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Tick the box to confirm you read the agreement."
+msgstr "Bifați caseta pentru a confirma că ați citit acordul."
+
+#: lib/basa_web/live/my/import_source_live.ex:736
+#, elixir-autogen, elixir-format
+msgid "Use for %{field}"
+msgstr "Folosește pentru %{field}"
+
+#: lib/basa_web/live/admin/import_live.ex:129
+#: lib/basa_web/live/my/import_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "User agreement"
+msgstr "Acord de utilizare"
+
+#: lib/basa_web/live/admin/import_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "User's email"
+msgstr "E-mailul utilizatorului"
+
+#: lib/basa_web/live/my/import_source_live.ex:671
+#, elixir-autogen, elixir-format
+msgid "When needed"
+msgstr "Când e nevoie"
+
+#: lib/basa_web/live/my/import_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "Your access is ready; the user agreement will be published soon."
+msgstr "Accesul dvs. este pregătit; acordul de utilizare va fi publicat în curând."
+
+#: lib/basa_web/live/my/import_source_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "Your pick"
+msgstr "Alegerea dvs."
+
+#: lib/basa_web/live/my/import_source_live.ex:742
+#, elixir-autogen, elixir-format
+msgid "Your picks"
+msgstr "Alegerile dvs."
+
+#: lib/basa_web/live/my/import_source_live.ex:516
+#, elixir-autogen, elixir-format
+msgid "next to “%{label}”"
+msgstr "lângă „%{label}”"
+
+#: lib/basa_web/live/my/import_source_live.ex:827
+#, elixir-autogen, elixir-format
+msgid "no price"
+msgstr "fără preț"
+
+#: lib/basa_web/live/admin/import_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "not published yet"
+msgstr "încă nepublicat"
+
+#: lib/basa_web/live/admin/import_live.ex:131
+#: lib/basa_web/live/my/import_live.ex:105
+#, elixir-autogen, elixir-format
+msgid "version %{v}"
+msgstr "versiunea %{v}"
+
+#: lib/basa_web/live/my/import_source_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "Added as a draft"
+msgstr "Adăugat ca ciornă"
+
+#: lib/basa_web/live/my/import_source_live.ex:836
+#, elixir-autogen, elixir-format
+msgid "Categories"
+msgstr "Categorii"
+
+#: lib/basa_web/live/my/import_source_live.ex:495
+#, elixir-autogen, elixir-format
+msgid "Draft updated"
+msgstr "Ciornă actualizată"
+
+#: lib/basa_web/live/my/import_source_live.ex:857
+#, elixir-autogen, elixir-format
+msgid "Everything else"
+msgstr "Restul"
+
+#: lib/basa_web/live/my/import_source_live.ex:882
+#, elixir-autogen, elixir-format
+msgid "Import every sample page as a draft"
+msgstr "Importă toate paginile exemplu ca ciorne"
+
+#: lib/basa_web/live/my/import_source_live.ex:639
+#, elixir-autogen, elixir-format
+msgid "Import this page as a draft"
+msgstr "Importă această pagină ca ciornă"
+
+#: lib/basa_web/live/my/import_source_live.ex:1028
+#, elixir-autogen, elixir-format
+msgid "Imported"
+msgstr "Importat"
+
+#: lib/basa_web/live/my/import_source_live.ex:276
+#, elixir-autogen, elixir-format
+msgid "Imported as drafts in your items."
+msgstr "Importat ca ciorne în obiectele dvs."
+
+#: lib/basa_web/live/my/import_source_live.ex:885
+#, elixir-autogen, elixir-format
+msgid "Imported pages become items in your inventory, seen only by you until you make an offer of them. Importing a page again updates its item."
+msgstr "Paginile importate devin obiecte din inventarul dvs., vizibile doar pentru dvs. până când faceți o ofertă cu ele. Importarea din nou a unei pagini îi actualizează obiectul."
+
+#: lib/basa_web/live/my/import_source_live.ex:637
+#: lib/basa_web/live/my/import_source_live.ex:880
+#: lib/basa_web/live/my/import_source_live.ex:891
+#, elixir-autogen, elixir-format
+msgid "Importing…"
+msgstr "Se importă…"
+
+#: lib/basa_web/live/my/import_source_live.ex:860
+#, elixir-autogen, elixir-format
+msgid "No category"
+msgstr "Fără categorie"
+
+#: lib/basa_web/live/my/import_source_live.ex:498
+#, elixir-autogen, elixir-format
+msgid "Not imported"
+msgstr "Neimportat"
+
+#: lib/basa_web/live/my/import_source_live.ex:845
+#, elixir-autogen, elixir-format
+msgid "Not mapped"
+msgstr "Neasociată"
+
+#: lib/basa_web/live/my/import_source_live.ex:1045
+#, elixir-autogen, elixir-format
+msgid "Open item"
+msgstr "Deschide obiectul"
+
+#: lib/basa_web/live/my/import_source_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Unchanged since the last import"
+msgstr "Neschimbat de la ultimul import"
+
+#: lib/basa_web/live/my/items_live.ex:393
+#, elixir-autogen, elixir-format
+msgid "Renters see the item like this on its offer page once you make an offer of it; until then only you see it."
+msgstr "Așa vor vedea chiriașii obiectul pe pagina ofertei după ce faceți o ofertă cu el; până atunci doar dvs. îl vedeți."
+
+#: lib/basa_web/live/my/import_source_live.ex:1012
+#, elixir-autogen, elixir-format
+msgid "%{count} item pages on %{pages} catalogue pages."
+msgstr "%{count} pagini de articole pe %{pages} pagini de catalog."
+
+#: lib/basa_web/live/my/import_source_live.ex:1022
+#, elixir-autogen, elixir-format
+msgid "Add catalogue pages or the sitemap first."
+msgstr "Adăugați mai întâi pagini de catalog sau harta site-ului."
+
+#: lib/basa_web/live/my/import_source_live.ex:940
+#, elixir-autogen, elixir-format
+msgid "Also use the site's sitemap"
+msgstr "Folosește și harta site-ului"
+
+#: lib/basa_web/live/my/import_source_live.ex:900
+#, elixir-autogen, elixir-format
+msgid "BASA reads the catalogue pages, follows their next pages and imports every item page whose address contains the given piece (/catalog/product/details/). For a regular expression, start with re: (re:/p/\\d+$)."
+msgstr "BASA citește paginile de catalog, urmează paginile următoare și importă fiecare pagină de articol a cărei adresă conține fragmentul dat (/catalog/product/details/). Pentru o expresie regulată, începeți cu re: (re:/p/\\d+$)."
+
+#: lib/basa_web/live/my/import_source_live.ex:549
+#: lib/basa_web/live/my/import_source_live.ex:898
+#, elixir-autogen, elixir-format
+msgid "Catalogue"
+msgstr "Catalog"
+
+#: lib/basa_web/live/my/import_source_live.ex:947
+#, elixir-autogen, elixir-format
+msgid "Catalogue pages at most"
+msgstr "Pagini de catalog cel mult"
+
+#: lib/basa_web/live/my/import_source_live.ex:911
+#, elixir-autogen, elixir-format
+msgid "Catalogue pages, one address per line"
+msgstr "Pagini de catalog, o adresă pe rând"
+
+#: lib/basa_web/live/my/import_source_live.ex:988
+#, elixir-autogen, elixir-format
+msgid "Crawl and import now"
+msgstr "Parcurge și importă acum"
+
+#: lib/basa_web/live/my/import_source_live.ex:217
+#, elixir-autogen, elixir-format
+msgid "Crawling started: pages are imported one by one, a few seconds apart."
+msgstr "Parcurgerea a început: paginile se importă pe rând, la câteva secunde distanță."
+
+#: lib/basa_web/live/my/import_source_live.ex:972
+#, elixir-autogen, elixir-format
+msgid "Every night"
+msgstr "În fiecare noapte"
+
+#: lib/basa_web/live/my/import_source_live.ex:975
+#, elixir-autogen, elixir-format
+msgid "Every week"
+msgstr "În fiecare săptămână"
+
+#: lib/basa_web/live/my/import_source_live.ex:985
+#, elixir-autogen, elixir-format
+msgid "Find links"
+msgstr "Găsește linkurile"
+
+#: lib/basa_web/live/my/import_source_live.ex:918
+#, elixir-autogen, elixir-format
+msgid "Item addresses contain"
+msgstr "Adresele articolelor conțin"
+
+#: lib/basa_web/live/my/import_source_live.ex:956
+#, elixir-autogen, elixir-format
+msgid "Items at most"
+msgstr "Articole cel mult"
+
+#: lib/basa_web/live/my/import_source_live.ex:1001
+#, elixir-autogen, elixir-format
+msgid "Last crawl: %{when}, %{count} item pages found."
+msgstr "Ultima parcurgere: %{when}, %{count} pagini de articole găsite."
+
+#: lib/basa_web/live/my/import_source_live.ex:932
+#, elixir-autogen, elixir-format
+msgid "Next page link (CSS, optional)"
+msgstr "Link spre pagina următoare (CSS, opțional)"
+
+#: lib/basa_web/live/my/import_source_live.ex:969
+#, elixir-autogen, elixir-format
+msgid "Only when I ask"
+msgstr "Doar când cer"
+
+#: lib/basa_web/live/my/import_source_live.ex:996
+#, elixir-autogen, elixir-format
+msgid "Refresh"
+msgstr "Reîmprospătează"
+
+#: lib/basa_web/live/my/import_source_live.ex:925
+#, elixir-autogen, elixir-format
+msgid "List pages contain (optional)"
+msgstr "Paginile de listă conțin (opțional)"
+
+#: lib/basa_web/live/profile_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "30 days"
+msgstr "30 de zile"
+
+#: lib/basa_web/live/profile_live.ex:263
+#, elixir-autogen, elixir-format
+msgid "90 days"
+msgstr "90 de zile"
+
+#: lib/basa_web/live/profile_live.ex:264
+#, elixir-autogen, elixir-format
+msgid "A year"
+msgstr "Un an"
+
+#: lib/basa_web/live/profile_live.ex:225
+#, elixir-autogen, elixir-format
+msgid "API documentation"
+msgstr "Documentația API"
+
+#: lib/basa_web/live/profile_live.ex:217
+#, elixir-autogen, elixir-format
+msgid "API keys"
+msgstr "Chei API"
+
+#: lib/basa_web/live/profile_live.ex:236
+#, elixir-autogen, elixir-format
+msgid "Copied"
+msgstr "Copiat"
+
+#: lib/basa_web/live/profile_live.ex:220
+#, elixir-autogen, elixir-format
+msgid "For your own programs and shop systems: a key works like you on the BASA API (categories, your items). Send it as Authorization: Bearer and the key. It is shown once; keep it secret, and revoke it if it leaks."
+msgstr "Pentru propriile programe și sisteme de magazin: o cheie acționează ca dvs. în API-ul BASA (categorii, obiectele dvs.). Trimiteți-o ca Authorization: Bearer și cheia. Este afișată o singură dată; păstrați-o secretă și retrageți-o dacă se scurge."
+
+#: lib/basa_web/live/profile_live.ex:241
+#, elixir-autogen, elixir-format
+msgid "I saved it"
+msgstr "Am salvat-o"
+
+#: lib/basa_web/live/profile_live.ex:251
+#, elixir-autogen, elixir-format
+msgid "Key name"
+msgstr "Numele cheii"
+
+#: lib/basa_web/live/profile_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Key revoked."
+msgstr "Cheie retrasă."
+
+#: lib/basa_web/live/profile_live.ex:266
+#, elixir-autogen, elixir-format
+msgid "Make a key"
+msgstr "Creează o cheie"
+
+#: lib/basa_web/live/profile_live.ex:290
+#, elixir-autogen, elixir-format
+msgid "Revoke the key “%{name}”? Programs using it stop working."
+msgstr "Retrageți cheia „%{name}”? Programele care o folosesc nu vor mai funcționa."
+
+#: lib/basa_web/live/profile_live.ex:252
+#, elixir-autogen, elixir-format
+msgid "Shop sync"
+msgstr "Sincronizare magazin"
+
+#: lib/basa_web/live/profile_live.ex:259
+#, elixir-autogen, elixir-format
+msgid "Valid for"
+msgstr "Valabilă"
+
+#: lib/basa_web/live/profile_live.ex:278
+#, elixir-autogen, elixir-format
+msgid "Valid until %{date}"
+msgstr "Valabilă până la %{date}"
+
+#: lib/basa_web/live/profile_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "Your new key, shown only now:"
+msgstr "Noua dvs. cheie, afișată doar acum:"
+
+#: lib/basa_web/live/profile_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "last used %{date}"
+msgstr "folosită ultima dată la %{date}"
+
+#: lib/basa_web/live/profile_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "not used yet"
+msgstr "încă nefolosită"
+
+#: lib/basa_web/live/my/schedule_live.ex:203
+#, elixir-autogen, elixir-format
+msgid "Colours"
+msgstr "Culori"
+
+#: lib/basa_web/live/my/schedule_live.ex:200
+#, elixir-autogen, elixir-format
+msgid "Earlier"
+msgstr "Mai devreme"
+
+#: lib/basa_web/live/my/schedule_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Gear"
+msgstr "Echipament"
+
+#: lib/basa_web/live/my/schedule_live.ex:201
+#, elixir-autogen, elixir-format
+msgid "Later"
+msgstr "Mai târziu"
+
+#: lib/basa_web/live/my/schedule_live.ex:198
+#, elixir-autogen, elixir-format
+msgid "Month"
+msgstr "Lună"
+
+#: lib/basa_web/live/my/schedule_live.ex:207
+#, elixir-autogen, elixir-format
+msgid "Nothing to show yet: add rooms, gear or people to your offers."
+msgstr "Încă nimic de afișat: adăugați săli, echipament sau persoane la ofertele dvs."
+
+#: lib/basa_web/live/my/schedule_live.ex:202
+#, elixir-autogen, elixir-format
+msgid "Now"
+msgstr "Acum"
+
+#: lib/basa_web/live/my/schedule_live.ex:195
+#, elixir-autogen, elixir-format
+msgid "People"
+msgstr "Persoane"
+
+#: lib/basa_web/live/my/schedule_live.ex:189
+#, elixir-autogen, elixir-format
+msgid "Room, gear or person"
+msgstr "Sală, echipament sau persoană"
+
+#: lib/basa_web/live/my/schedule_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "Today"
+msgstr "Astăzi"
+
+#: lib/basa_web/live/my/schedule_live.ex:197
+#, elixir-autogen, elixir-format
+msgid "Week"
+msgstr "Săptămână"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:462
+#, elixir-autogen, elixir-format
+msgid "%{m} m away"
+msgstr "la %{m} m"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:411
+#, elixir-autogen, elixir-format
+msgid "A street-level photo near the address helps renters find the entrance. It is shown beside the map, never as a photo of the room. Pick one only if it shows your building."
+msgstr "O fotografie a străzii lângă adresă îi ajută pe chiriași să găsească intrarea. Apare lângă hartă, niciodată ca fotografie a spațiului. Alege-o doar dacă arată clădirea ta."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:444
+#, elixir-autogen, elixir-format
+msgid "Find street views near the pin"
+msgstr "Caută imagini ale străzii lângă marcaj"
+
+#: lib/basa_web/live/admin/settings_live.ex:244
+#, elixir-autogen, elixir-format
+msgid "Finding street-level photos near a room (Mapillary) to help renters find it."
+msgstr "Găsirea fotografiilor străzii lângă un spațiu (Mapillary), ca chiriașii să-l găsească ușor."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:449
+#, elixir-autogen, elixir-format
+msgid "Looking…"
+msgstr "Se caută…"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "No street views near the pin yet."
+msgstr "Încă nu există imagini ale străzii lângă marcaj."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:474
+#, elixir-autogen, elixir-format
+msgid "None of these show my building"
+msgstr "Niciuna nu arată clădirea mea"
+
+#: lib/basa_web/live/admin/settings_live.ex:245
+#, elixir-autogen, elixir-format
+msgid "Owners can't pick new views; views already picked keep showing."
+msgstr "Proprietarii nu pot alege imagini noi; cele deja alese se afișează în continuare."
+
+#: lib/basa_web/components/basa_components.ex:304
+#: lib/basa_web/live/admin/photos_live.ex:42
+#: lib/basa_web/live/admin/settings_live.ex:243
+#: lib/basa_web/live/my/room_wizard_live.ex:409
+#, elixir-autogen, elixir-format
+msgid "Street view"
+msgstr "Imaginea străzii"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:292
+#, elixir-autogen, elixir-format
+msgid "Street views can't be looked up right now."
+msgstr "Imaginile străzii nu pot fi căutate acum."
+
+#: lib/basa_web/live/lot_live.ex:385
+#, elixir-autogen, elixir-format
+msgid "The street near the address"
+msgstr "Strada de lângă adresă"
+
+#: lib/basa_web/live/lot_live.ex:390
+#, elixir-autogen, elixir-format
+msgid "The street near the address, not the room."
+msgstr "Strada de lângă adresă, nu spațiul."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:577
+#, elixir-autogen, elixir-format
+msgid "How to find it (optional)"
+msgstr "Cum se ajunge (opțional)"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:579
+#, elixir-autogen, elixir-format
+msgid "Photos of the entrance or the street help renters find the place. They are shown beside the map, not among the room's photos."
+msgstr "Fotografiile intrării sau ale străzii îi ajută pe chiriași să găsească locul. Apar lângă hartă, nu printre fotografiile spațiului."
+
+#: lib/basa_web/live/admin/photos_live.ex:41
+#: lib/basa_web/live/lot_live.ex:372
+#, elixir-autogen, elixir-format
+msgid "The way in"
+msgstr "Intrarea"
+
+#: lib/basa_web/live/lot_live.ex:379
+#, elixir-autogen, elixir-format
+msgid "The way in, photographed by the owner."
+msgstr "Intrarea, fotografiată de proprietar."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:355
+#, elixir-autogen, elixir-format
+msgid "Your photos of the entrance or street"
+msgstr "Fotografiile tale ale intrării sau ale străzii"
+
+#: lib/basa_web/live/admin/settings_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "%{count} photos will be checked again."
+msgstr "%{count} fotografii vor fi verificate din nou."
+
+#: lib/basa_web/live/admin/settings_live.ex:484
+#, elixir-autogen, elixir-format
+msgid "%{mb} MB"
+msgstr "%{mb} MB"
+
+#: lib/basa_web/live/admin/settings_live.ex:189
+#, elixir-autogen, elixir-format
+msgid "1 · Light"
+msgstr "1 · Ușor"
+
+#: lib/basa_web/live/admin/settings_live.ex:190
+#, elixir-autogen, elixir-format
+msgid "2 · Standard"
+msgstr "2 · Standard"
+
+#: lib/basa_web/live/admin/settings_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "Check all photos again"
+msgstr "Verifică din nou toate fotografiile"
+
+#: lib/basa_web/live/admin/settings_live.ex:529
+#, elixir-autogen, elixir-format
+msgid "Check every photo again with the level in use?"
+msgstr "Verifici din nou toate fotografiile cu nivelul actual?"
+
+#: lib/basa_web/live/admin/settings_live.ex:250
+#, elixir-autogen, elixir-format
+msgid "Checking every photo on this server with open image models (nudity, weapons, documents): clear cases are hidden, others go to an admin."
+msgstr "Verificarea fiecărei fotografii pe acest server cu modele deschise (nuditate, arme, documente): cazurile clare sunt ascunse, celelalte merg la un admin."
+
+#: lib/basa_web/live/admin/photos_live.ex:90
+#, elixir-autogen, elixir-format
+msgid "Hidden"
+msgstr "Ascunsă"
+
+#: lib/basa_web/live/my/dashboard_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Hidden photos"
+msgstr "Fotografii ascunse"
+
+#: lib/basa_web/live/admin/settings_live.ex:497
+#, elixir-autogen, elixir-format
+msgid "In use: level %{level}"
+msgstr "În uz: nivelul %{level}"
+
+#: lib/basa_web/live/admin/photos_live.ex:39
+#, elixir-autogen, elixir-format
+msgid "Item photo"
+msgstr "Fotografia articolului"
+
+#: lib/basa_web/live/admin/photos_live.ex:117
+#, elixir-autogen, elixir-format
+msgid "Keep"
+msgstr "Păstrează"
+
+#: lib/basa_web/live/admin/photos_live.ex:43
+#, elixir-autogen, elixir-format
+msgid "Kept picture"
+msgstr "Imagine păstrată"
+
+#: lib/basa_web/live/admin/photos_live.ex:30
+#, elixir-autogen, elixir-format
+msgid "Kept: renters see the photo."
+msgstr "Păstrată: chiriașii văd fotografia."
+
+#: lib/basa_web/live/admin/settings_live.ex:468
+#, elixir-autogen, elixir-format
+msgid "Level"
+msgstr "Nivel"
+
+#: lib/basa_web/live/admin/photos_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Nothing to review."
+msgstr "Nimic de verificat."
+
+#: lib/basa_web/live/admin/photos_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "Nudity %{p}"
+msgstr "Nuditate %{p}"
+
+#: lib/basa_web/live/admin/settings_live.ex:448
+#, elixir-autogen, elixir-format
+msgid "Open image models check every photo on this server; photos never leave it. A higher level downloads larger models once and checks more precisely, a little slower. The models in use keep checking until the new ones are ready."
+msgstr "Modele deschise verifică fiecare fotografie pe acest server; fotografiile nu îl părăsesc. Un nivel mai înalt descarcă o dată modele mai mari și verifică mai precis, puțin mai lent. Modelele în uz continuă până când cele noi sunt gata."
+
+#: lib/basa_web/live/admin/photos_live.ex:9
+#: lib/basa_web/live/admin/photos_live.ex:60
+#: lib/basa_web/live/admin/settings_live.ex:249
+#: lib/basa_web/live/admin/settings_live.ex:446
+#: lib/basa_web/live/profile_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "Photo checks"
+msgstr "Verificarea fotografiilor"
+
+#: lib/basa_web/live/admin/settings_live.ex:253
+#, elixir-autogen, elixir-format
+msgid "Photos are not checked; they wait and are checked when it is switched on again."
+msgstr "Fotografiile nu sunt verificate; așteaptă și vor fi verificate la repornire."
+
+#: lib/basa_web/live/admin/photos_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Photos the checks hid or sent here. Keep one and renters see it again; remove it and they don't. Your decision stays when photos are checked again."
+msgstr "Fotografii pe care verificarea le-a ascuns sau trimis aici. Păstreaz-o și chiriașii o văd din nou; elimin-o și nu o mai văd. Decizia ta rămâne la verificările următoare."
+
+#: lib/basa_web/live/admin/settings_live.ex:492
+#, elixir-autogen, elixir-format
+msgid "Preparing level %{level}: %{percent}%"
+msgstr "Se pregătește nivelul %{level}: %{percent}%"
+
+#: lib/basa_web/live/admin/photos_live.ex:127
+#, elixir-autogen, elixir-format
+msgid "Remove this photo for renters?"
+msgstr "Elimini această fotografie pentru chiriași?"
+
+#: lib/basa_web/live/my/dashboard_live.ex:181
+#, elixir-autogen, elixir-format
+msgid "Removed by an admin."
+msgstr "Eliminată de un admin."
+
+#: lib/basa_web/live/admin/photos_live.ex:31
+#, elixir-autogen, elixir-format
+msgid "Removed: renters don't see the photo."
+msgstr "Eliminată: chiriașii nu văd fotografia."
+
+#: lib/basa_web/live/my/dashboard_live.ex:167
+#, elixir-autogen, elixir-format
+msgid "Renters don't see these photos after a check. Remove or replace them; if a check got it wrong, an admin can bring a photo back."
+msgstr "După o verificare chiriașii nu văd aceste fotografii. Elimină-le sau înlocuiește-le; dacă verificarea a greșit, un admin poate readuce o fotografie."
+
+#: lib/basa_web/live/admin/photos_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Room photo"
+msgstr "Fotografia spațiului"
+
+#: lib/basa_web/live/admin/settings_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Saved. The checker prepares the new level."
+msgstr "Salvat. Verificarea pregătește noul nivel."
+
+#: lib/basa_web/live/admin/settings_live.ex:499
+#, elixir-autogen, elixir-format
+msgid "Starting…"
+msgstr "Pornire…"
+
+#: lib/basa_web/live/admin/settings_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "The checker is not answering right now."
+msgstr "Verificarea nu răspunde acum."
+
+#: lib/basa_web/live/admin/settings_live.ex:459
+#, elixir-autogen, elixir-format
+msgid "The checker is not installed on this server (docker compose build moderate)."
+msgstr "Verificarea nu este instalată pe acest server (docker compose build moderate)."
+
+#: lib/basa_web/live/admin/settings_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "The new level could not be prepared: %{error}"
+msgstr "Noul nivel nu a putut fi pregătit: %{error}"
+
+#: lib/basa_web/live/admin/photos_live.ex:93
+#, elixir-autogen, elixir-format
+msgid "To check"
+msgstr "De verificat"
+
+#: lib/basa_web/live/admin/settings_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "Waiting: %{pending} · To review: %{review}"
+msgstr "În așteptare: %{pending} · De verificat: %{review}"
+
+#: lib/basa_web/live/admin/photos_live.ex:105
+#, elixir-autogen, elixir-format
+msgid "level %{level}"
+msgstr "nivelul %{level}"
+
+#: lib/basa_web/live/help_live.ex:29
+#, elixir-autogen, elixir-format
+msgid "For admins"
+msgstr "Pentru administratori"
+
+#: lib/basa/telegram/bot.ex:251
+#: lib/basa/telegram/bot.ex:312
+#: lib/basa_web/components/basa_components.ex:65
+#: lib/basa_web/components/basa_components.ex:66
+#: lib/basa_web/components/layouts.ex:98
+#: lib/basa_web/components/layouts.ex:111
+#: lib/basa_web/live/app_home_live.ex:26
+#: lib/basa_web/live/help_live.ex:22
+#: lib/basa_web/live/help_live.ex:39
+#: lib/basa_web/live/help_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Help"
+msgstr "Ajutor"
+
+#: lib/basa_web/live/help_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "No such help page."
+msgstr "Această pagină de ajutor nu există."
+
+#: lib/basa_web/live/help_live.ex:27
+#, elixir-autogen, elixir-format
+msgid "Offering your space or gear"
+msgstr "Oferă spațiul sau echipamentul tău"
+
+#: lib/basa_web/live/help_live.ex:26
+#, elixir-autogen, elixir-format
+msgid "Renting"
+msgstr "Închiriere"
+
+#: lib/basa_web/live/help_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "This page is not in your language yet; here it is in English."
+msgstr "Această pagină nu este încă în limba ta; iat-o în engleză."
+
+#: lib/basa_web/live/help_live.ex:28
+#, elixir-autogen, elixir-format
+msgid "Your account"
+msgstr "Contul tău"
+
+#: lib/basa_web/live/app_home_live.ex:38
+#, elixir-autogen, elixir-format
+msgid "Hi, %{name}!"
+msgstr "Bună, %{name}!"
+
+#: lib/basa/telegram/bot.ex:291
+#, elixir-autogen, elixir-format
+msgid "Open messages"
+msgstr "Deschide mesajele"
+
+#: lib/basa/telegram/bot.ex:280
+#, elixir-autogen, elixir-format
+msgid "Open search"
+msgstr "Deschide căutarea"
+
+#: lib/basa/telegram/bot.ex:142
+#, elixir-autogen, elixir-format
+msgid "The menu is below the message field."
+msgstr "Meniul este sub câmpul de mesaj."
+
+#: lib/basa/telegram/bot.ex:144
+#, elixir-autogen, elixir-format
+msgid "The menu is below the message field. Tap “Verify phone” to confirm your number."
+msgstr "Meniul este sub câmpul de mesaj. Atinge „Verifică telefonul” pentru a confirma numărul."
+
+#: lib/basa/telegram/bot.ex:309
+#, elixir-autogen, elixir-format
+msgid "Use the menu below: find a place or gear, see your bookings and messages, manage your offers, or send a photo to add an item. The full app opens with the BASA button."
+msgstr "Folosește meniul de mai jos: găsește un loc sau echipament, vezi rezervările și mesajele, gestionează ofertele sau trimite o fotografie pentru a adăuga un articol. Aplicația completă se deschide cu butonul BASA."
+
+#: lib/basa/telegram/bot.ex:252
+#, elixir-autogen, elixir-format
+msgid "Verify phone"
+msgstr "Verifică telefonul"
+
+#: lib/basa/telegram/bot.ex:279
+#, elixir-autogen, elixir-format
+msgid "Write a city or what you need, for example “Odesa” or “microphone”."
+msgstr "Scrie un oraș sau de ce ai nevoie, de exemplu „Odesa” sau „microfon”."
+
+#: lib/basa/telegram/bot.ex:290
+#, elixir-autogen, elixir-format
+msgid "Your conversations with owners and renters:"
+msgstr "Conversațiile tale cu proprietari și chiriași:"
+
+#: lib/basa/telegram/bot.ex:298
+#, elixir-autogen, elixir-format
+msgid "Your offers and their bookings:"
+msgstr "Ofertele tale și rezervările lor:"

@@ -1,0 +1,301 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "can't be blank"
+msgstr "non può essere vuoto"
+
+#: lib/basa/i18n.ex:39
+#, elixir-autogen
+msgid "has already been taken"
+msgstr "è già in uso"
+
+#: lib/basa/i18n.ex:37
+#, elixir-autogen
+msgid "is invalid"
+msgstr "non è valido"
+
+msgid "must be accepted"
+msgstr "deve essere accettato"
+
+msgid "has invalid format"
+msgstr "ha un formato non valido"
+
+msgid "has an invalid entry"
+msgstr "contiene una voce non valida"
+
+msgid "is reserved"
+msgstr "è riservato"
+
+msgid "does not match confirmation"
+msgstr "non corrisponde alla conferma"
+
+msgid "is still associated with this entry"
+msgstr "è ancora associato a questo elemento"
+
+msgid "are still associated with this entry"
+msgstr "sono ancora associati a questo elemento"
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "deve avere %{count} elemento"
+msgstr[1] "deve avere %{count} elementi"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "deve essere di %{count} carattere"
+msgstr[1] "deve essere di %{count} caratteri"
+
+msgid "should be %{count} byte(s)"
+msgid_plural "should be %{count} byte(s)"
+msgstr[0] "deve essere di %{count} byte"
+msgstr[1] "deve essere di %{count} byte"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "deve avere almeno %{count} elemento"
+msgstr[1] "deve avere almeno %{count} elementi"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "deve essere di almeno %{count} carattere"
+msgstr[1] "deve essere di almeno %{count} caratteri"
+
+msgid "should be at least %{count} byte(s)"
+msgid_plural "should be at least %{count} byte(s)"
+msgstr[0] "deve essere di almeno %{count} byte"
+msgstr[1] "deve essere di almeno %{count} byte"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "deve avere al massimo %{count} elemento"
+msgstr[1] "deve avere al massimo %{count} elementi"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "deve essere di al massimo %{count} carattere"
+msgstr[1] "deve essere di al massimo %{count} caratteri"
+
+msgid "should be at most %{count} byte(s)"
+msgid_plural "should be at most %{count} byte(s)"
+msgstr[0] "deve essere di al massimo %{count} byte"
+msgstr[1] "deve essere di al massimo %{count} byte"
+
+msgid "must be less than %{number}"
+msgstr "deve essere minore di %{number}"
+
+msgid "must be greater than %{number}"
+msgstr "deve essere maggiore di %{number}"
+
+msgid "must be less than or equal to %{number}"
+msgstr "deve essere minore o uguale a %{number}"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "deve essere maggiore o uguale a %{number}"
+
+msgid "must be equal to %{number}"
+msgstr "deve essere uguale a %{number}"
+
+#: lib/basa/i18n.ex:44
+#, elixir-autogen, elixir-format
+msgid "atom must be one of %{atom_list}, got: %{value}"
+msgstr "deve essere uno tra %{atom_list}, ricevuto: %{value}"
+
+#: lib/basa/i18n.ex:54
+#, elixir-autogen, elixir-format
+msgid "can no longer be cancelled (%{hours} h rule)"
+msgstr "non può più essere annullata (regola delle %{hours} h)"
+
+#: lib/basa/i18n.ex:56
+#, elixir-autogen, elixir-format
+msgid "is in the past"
+msgstr "è nel passato"
+
+#: lib/basa/i18n.ex:60
+#, elixir-autogen, elixir-format
+msgid "is longer than the maximum of %{units}"
+msgstr "supera il massimo di %{units}"
+
+#: lib/basa/i18n.ex:53
+#, elixir-autogen, elixir-format
+msgid "is not a known time zone"
+msgstr "non è un fuso orario conosciuto"
+
+#: lib/basa/i18n.ex:50
+#, elixir-autogen, elixir-format
+msgid "is not available"
+msgstr "non è disponibile"
+
+#: lib/basa/i18n.ex:48
+#, elixir-autogen, elixir-format
+msgid "is not available for booking"
+msgstr "non è prenotabile"
+
+#: lib/basa/i18n.ex:46
+#, elixir-autogen, elixir-format
+msgid "is not yours"
+msgstr "non è tuo"
+
+#: lib/basa/i18n.ex:61
+#, elixir-autogen, elixir-format
+msgid "is outside the opening hours"
+msgstr "è fuori dall'orario di apertura"
+
+#: lib/basa/i18n.ex:34
+#, elixir-autogen, elixir-format
+msgid "is required"
+msgstr "è obbligatorio"
+
+#: lib/basa/i18n.ex:51
+#, elixir-autogen, elixir-format
+msgid "is required for slot pricing"
+msgstr "è obbligatorio per il prezzo a fascia"
+
+#: lib/basa/i18n.ex:59
+#, elixir-autogen, elixir-format
+msgid "is shorter than the minimum of %{units}"
+msgstr "è inferiore al minimo di %{units}"
+
+#: lib/basa/i18n.ex:49
+#, elixir-autogen, elixir-format
+msgid "is your own offer"
+msgstr "è la tua offerta"
+
+#: lib/basa/i18n.ex:40
+#, elixir-autogen, elixir-format
+msgid "length must be greater than or equal to %{min}"
+msgstr "la lunghezza deve essere maggiore o uguale a %{min}"
+
+#: lib/basa/i18n.ex:41
+#, elixir-autogen, elixir-format
+msgid "length must be less than or equal to %{max}"
+msgstr "la lunghezza deve essere minore o uguale a %{max}"
+
+#: lib/basa/i18n.ex:55
+#, elixir-autogen, elixir-format
+msgid "must be after the start"
+msgstr "deve essere dopo l'inizio"
+
+#: lib/basa/i18n.ex:57
+#, elixir-autogen, elixir-format
+msgid "must be at least %{hours} h from now"
+msgstr "deve essere tra almeno %{hours} h"
+
+#: lib/basa/i18n.ex:52
+#, elixir-autogen, elixir-format
+msgid "must be at least the minimum"
+msgstr "deve essere almeno il minimo"
+
+#: lib/basa/i18n.ex:42
+#, elixir-autogen, elixir-format
+msgid "must be greater than or equal to %{min}"
+msgstr "deve essere maggiore o uguale a %{min}"
+
+#: lib/basa/i18n.ex:43
+#, elixir-autogen, elixir-format
+msgid "must be less than or equal to %{max}"
+msgstr "deve essere minore o uguale a %{max}"
+
+#: lib/basa/i18n.ex:47
+#, elixir-autogen, elixir-format
+msgid "must be one of your own"
+msgstr "deve essere uno dei tuoi"
+
+#: lib/basa/i18n.ex:38
+#, elixir-autogen, elixir-format
+msgid "must be present"
+msgstr "deve essere presente"
+
+#: lib/basa/i18n.ex:58
+#, elixir-autogen, elixir-format
+msgid "must cover whole %{minutes}-minute slots"
+msgstr "deve coprire fasce intere da %{minutes} minuti"
+
+#: lib/basa/i18n.ex:45
+#, elixir-autogen, elixir-format
+msgid "this slot was just taken"
+msgstr "questa fascia è appena stata occupata"
+
+#: lib/basa/i18n.ex:63
+#, elixir-autogen, elixir-format
+msgid "can't be more than the booking"
+msgstr "non può superare la prenotazione"
+
+#: lib/basa/i18n.ex:62
+#, elixir-autogen, elixir-format
+msgid "card payments are available in UAH, USD and EUR"
+msgstr "i pagamenti con carta sono disponibili in UAH, USD ed EUR"
+
+#: lib/basa/i18n.ex:64
+#, elixir-autogen, elixir-format
+msgid "payments are unavailable right now, please try later"
+msgstr "i pagamenti non sono disponibili al momento, riprova più tardi"
+
+#: lib/basa/i18n.ex:65
+#, elixir-autogen, elixir-format
+msgid "lot_empty"
+msgstr "Aggiungi almeno un oggetto, una persona o uno spazio"
+
+#: lib/basa/i18n.ex:69
+#, elixir-autogen, elixir-format
+msgid "lot_high_value"
+msgstr "Offerta di valore elevato: la rivede un amministratore"
+
+#: lib/basa/i18n.ex:67
+#, elixir-autogen, elixir-format
+msgid "lot_price_zero"
+msgstr "Imposta un prezzo superiore a zero"
+
+#: lib/basa/i18n.ex:68
+#, elixir-autogen, elixir-format
+msgid "lot_room_location"
+msgstr "Lo spazio ha bisogno di una posizione"
+
+#: lib/basa/i18n.ex:66
+#, elixir-autogen, elixir-format
+msgid "lot_title_short"
+msgstr "Il titolo è troppo corto"
+
+#: lib/basa/i18n.ex:36
+#, elixir-autogen, elixir-format
+msgid "is already reserved by a buyer"
+msgstr "è già riservato da un acquirente"
+
+#: lib/basa/i18n.ex:35
+#, elixir-autogen, elixir-format
+msgid "pick one handover time"
+msgstr "scegli un solo orario di consegna"
+
+#: lib/basa/i18n.ex:70
+#, elixir-autogen, elixir-format
+msgid "lot_photos_checked"
+msgstr "Alcune foto sono state nascoste dopo un controllo: rimuovile o sostituiscile"
+
+#: lib/basa/i18n.ex:74
+#, elixir-autogen, elixir-format
+msgid "photo_documents"
+msgstr "La foto potrebbe mostrare un documento o una carta bancaria: un admin la controllerà"
+
+#: lib/basa/i18n.ex:73
+#, elixir-autogen, elixir-format
+msgid "photo_harm"
+msgstr "La foto potrebbe mostrare armi, droghe o ferite: un admin la controllerà"
+
+#: lib/basa/i18n.ex:71
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_clear"
+msgstr "La foto sembra mostrare nudità, quindi è nascosta"
+
+#: lib/basa/i18n.ex:72
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_possible"
+msgstr "La foto potrebbe mostrare nudità: un admin la controllerà"

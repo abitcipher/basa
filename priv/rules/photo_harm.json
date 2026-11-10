@@ -1,0 +1,77 @@
+{
+  "key": "photo_harm",
+  "version": 1,
+  "label": "Weapons, drugs and injuries are checked",
+  "description": "A photo that CLIP finds likely (50% or more) to show weapons, drugs or injuries goes to an admin.",
+  "severity": "flag",
+  "points": [
+    "photo.check"
+  ],
+  "subjects": [
+    "photo"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "Weapons, drugs and injuries are checked",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "photo.clip.weapon < 0.5 and photo.clip.drugs < 0.5 and photo.clip.gore < 0.5"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(photo.clip.weapon < 0.5 and photo.clip.drugs < 0.5 and photo.clip.gore < 0.5) ? null : 'photo_harm'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(photo.clip.weapon < 0.5 and photo.clip.drugs < 0.5 and photo.clip.gore < 0.5) ? null : 'The photo may show weapons, drugs or injuries: an admin will check it'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

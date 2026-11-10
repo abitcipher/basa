@@ -1,0 +1,98 @@
+; BASA witness formats, v1 (spec: "Transactions and the witness").
+; Implemented in native/witness (Rust NIF) and Basa.Witness.
+;
+; Encoding: canonical CBOR (RFC 8949 section 4.2.1, core deterministic):
+; definite lengths, shortest integer forms, map keys in ascending order.
+; The decoder rejects anything that does not re-encode to the same bytes.
+;
+; BASA-HASH = SHA-256(manifest bytes), 32 bytes.
+; Text form: "basa0:" + base32 (RFC 4648 alphabet, lowercase, no padding).
+; The digit is the text form's version: 0 while BASA is in development.
+
+manifest = {
+  0: 1,                        ; format version
+  1: tstr,                     ; transaction id (UUID, lowercase)
+  2: "lease" / "sale",         ; contract type
+  3: tstr,                     ; contract template id and version, e.g. "lease-ua@1"
+  4: "ua" / "eu",              ; jurisdiction
+  5: bool,                     ; the acceptor is a consumer
+  6: [offeror-party, acceptor-party],
+  7: [1* file],                ; Merkle leaf order
+  8: bstr .size 32,            ; Merkle root over the file hashes (below)
+  9: tstr,                     ; when BASA built the manifest, RFC 3339 UTC; the
+                               ; independent time is the seal's timestamp token
+  ? 10: geo,                   ; where the parties met, if they shared it
+}
+
+offeror-party = party<"offeror">
+acceptor-party = party<"acceptor">
+
+party<role> = {
+  0: role,
+  1: tstr,                     ; user id (UUID, lowercase)
+  2: bstr .size 32,            ; Ed25519 public key of the signing device
+}
+
+file = {
+  0: bstr .size 32,            ; SHA-256 of the plain file
+  1: "contract" / "photo" / "voice" / "other",
+  2: uint,                     ; size in bytes
+  3: tstr,                     ; media type, e.g. "application/pdf"
+}
+
+geo = [
+  lat: int,                    ; microdegrees, -90e6 .. 90e6
+  lon: int,                    ; microdegrees, -180e6 .. 180e6
+]
+
+; Merkle tree (RFC 9162 section 2.1): leaves are the files' SHA-256 hashes in
+; manifest order; leaf hash = SHA-256(0x00 || file hash), node hash =
+; SHA-256(0x01 || left || right). Inclusion proofs as in RFC 9162 2.1.3, so a
+; party can show one file without the others.
+
+; Party signature: Ed25519 (RFC 8032, verified strictly) over
+;   "BASA/v1/seal" || BASA-HASH
+; made on the party's device; the private key never leaves it.
+
+; File encryption: XChaCha20-Poly1305, a fresh 32-byte data key per
+; transaction. Stored file = nonce (24 bytes) || ciphertext || tag;
+; associated data = the file's SHA-256 (binds it to its manifest entry).
+
+; Data key split: Shamir 2-of-3 over GF(256); a share = x (1 byte) || y (32
+; bytes). x = 1 offeror, 2 acceptor, 3 BASA.
+
+; Recovery: the data key is also sealed to the BASA recovery public key with
+; HPKE (RFC 9180) base mode, DHKEM(X25519, HKDF-SHA256), HKDF-SHA256,
+; ChaCha20-Poly1305; info = "BASA/v1/recovery", aad = transaction id (UTF-8).
+; Sealed key = encapsulated key (32 bytes) || ciphertext. The recovery
+; private key is kept offline; the server holds only the public key.
+
+; Acts after sealing: what happened to the contract, signed on the author's
+; device. Canonical CBOR like the manifest. Each act names the transaction's
+; BASA-HASH and the act before it (the BASA-HASH itself for the first), so
+; the acts form a chain. ACT-HASH = SHA-256(act bytes).
+
+act = {
+  0: 1,                        ; format version
+  1: bstr .size 32,            ; the transaction's BASA-HASH
+  2: bstr .size 32,            ; the previous ACT-HASH, or the BASA-HASH
+  3: act-kind,
+  4: "offeror" / "acceptor" / "basa",   ; who made it ("basa": automatic)
+  5: tstr,                     ; RFC 3339 UTC
+  6: [* file],                 ; the act's own evidence (e.g. return photos)
+  7: { * tstr => tstr },       ; terms: note, amount, deposit_kept, …
+                               ; keys 1..23 bytes, canonical order
+}
+
+act-kind = "return"            ; lease: acceptor hands back, with photos
+         / "delivery"          ; sale: acceptor confirms receipt, with photos
+         / "acceptance"        ; lease: offeror accepts the return;
+                               ; sale: acceptor says all is fine: closed
+         / "claim"             ; within the window: lease by the offeror,
+                               ; sale by the acceptor (hidden defects)
+         / "settlement"        ; agreed terms; needs both signatures
+         / "dispute"           ; no agreement: the evidence stands
+         / "auto_acceptance"   ; the claims window passed (BASA, unsigned)
+
+; Act signature: Ed25519 over "BASA/v1/act" || ACT-HASH, by the author's
+; registered device (a settlement also by the other party's device).

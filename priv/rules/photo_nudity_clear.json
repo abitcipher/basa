@@ -1,0 +1,77 @@
+{
+  "key": "photo_nudity_clear",
+  "version": 1,
+  "label": "Clear nudity is hidden",
+  "description": "A photo the nudity models are at least 90% sure about is hidden at once; the owner is told and an admin can bring it back.",
+  "severity": "block",
+  "points": [
+    "photo.check"
+  ],
+  "subjects": [
+    "photo"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "Clear nudity is hidden",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "photo.nsfw < 0.9"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(photo.nsfw < 0.9) ? null : 'photo_nudity_clear'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(photo.nsfw < 0.9) ? null : 'The photo looks like nudity, so it is hidden'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

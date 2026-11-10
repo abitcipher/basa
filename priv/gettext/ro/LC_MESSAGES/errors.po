@@ -1,0 +1,310 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0||(n%100>0 && n%100<20)) ? 1 : 2);\n"
+
+msgid "can't be blank"
+msgstr "nu poate fi gol"
+
+#: lib/basa/i18n.ex:39
+#, elixir-autogen
+msgid "has already been taken"
+msgstr "este deja folosit"
+
+#: lib/basa/i18n.ex:37
+#, elixir-autogen
+msgid "is invalid"
+msgstr "nu este valid"
+
+msgid "must be accepted"
+msgstr "trebuie acceptat"
+
+msgid "has invalid format"
+msgstr "are un format nevalid"
+
+msgid "has an invalid entry"
+msgstr "conține o intrare nevalidă"
+
+msgid "is reserved"
+msgstr "este rezervat"
+
+msgid "does not match confirmation"
+msgstr "nu corespunde confirmării"
+
+msgid "is still associated with this entry"
+msgstr "este încă asociat cu această înregistrare"
+
+msgid "are still associated with this entry"
+msgstr "sunt încă asociate cu această înregistrare"
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "trebuie să aibă %{count} element"
+msgstr[1] "trebuie să aibă %{count} elemente"
+msgstr[2] "trebuie să aibă %{count} de elemente"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "trebuie să aibă %{count} caracter"
+msgstr[1] "trebuie să aibă %{count} caractere"
+msgstr[2] "trebuie să aibă %{count} de caractere"
+
+msgid "should be %{count} byte(s)"
+msgid_plural "should be %{count} byte(s)"
+msgstr[0] "trebuie să aibă %{count} octet"
+msgstr[1] "trebuie să aibă %{count} octeți"
+msgstr[2] "trebuie să aibă %{count} de octeți"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "trebuie să aibă cel puțin %{count} element"
+msgstr[1] "trebuie să aibă cel puțin %{count} elemente"
+msgstr[2] "trebuie să aibă cel puțin %{count} de elemente"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "trebuie să aibă cel puțin %{count} caracter"
+msgstr[1] "trebuie să aibă cel puțin %{count} caractere"
+msgstr[2] "trebuie să aibă cel puțin %{count} de caractere"
+
+msgid "should be at least %{count} byte(s)"
+msgid_plural "should be at least %{count} byte(s)"
+msgstr[0] "trebuie să aibă cel puțin %{count} octet"
+msgstr[1] "trebuie să aibă cel puțin %{count} octeți"
+msgstr[2] "trebuie să aibă cel puțin %{count} de octeți"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "poate avea cel mult %{count} element"
+msgstr[1] "poate avea cel mult %{count} elemente"
+msgstr[2] "poate avea cel mult %{count} de elemente"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "poate avea cel mult %{count} caracter"
+msgstr[1] "poate avea cel mult %{count} caractere"
+msgstr[2] "poate avea cel mult %{count} de caractere"
+
+msgid "should be at most %{count} byte(s)"
+msgid_plural "should be at most %{count} byte(s)"
+msgstr[0] "poate avea cel mult %{count} octet"
+msgstr[1] "poate avea cel mult %{count} octeți"
+msgstr[2] "poate avea cel mult %{count} de octeți"
+
+msgid "must be less than %{number}"
+msgstr "trebuie să fie mai mic decât %{number}"
+
+msgid "must be greater than %{number}"
+msgstr "trebuie să fie mai mare decât %{number}"
+
+msgid "must be less than or equal to %{number}"
+msgstr "trebuie să fie mai mic sau egal cu %{number}"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "trebuie să fie mai mare sau egal cu %{number}"
+
+msgid "must be equal to %{number}"
+msgstr "trebuie să fie egal cu %{number}"
+
+#: lib/basa/i18n.ex:44
+#, elixir-autogen, elixir-format
+msgid "atom must be one of %{atom_list}, got: %{value}"
+msgstr "trebuie să fie unul dintre %{atom_list}, primit: %{value}"
+
+#: lib/basa/i18n.ex:54
+#, elixir-autogen, elixir-format
+msgid "can no longer be cancelled (%{hours} h rule)"
+msgstr "nu mai poate fi anulată (regula de %{hours} h)"
+
+#: lib/basa/i18n.ex:56
+#, elixir-autogen, elixir-format
+msgid "is in the past"
+msgstr "este în trecut"
+
+#: lib/basa/i18n.ex:60
+#, elixir-autogen, elixir-format
+msgid "is longer than the maximum of %{units}"
+msgstr "depășește maximul de %{units}"
+
+#: lib/basa/i18n.ex:53
+#, elixir-autogen, elixir-format
+msgid "is not a known time zone"
+msgstr "nu este un fus orar cunoscut"
+
+#: lib/basa/i18n.ex:50
+#, elixir-autogen, elixir-format
+msgid "is not available"
+msgstr "nu este disponibil"
+
+#: lib/basa/i18n.ex:48
+#, elixir-autogen, elixir-format
+msgid "is not available for booking"
+msgstr "nu este disponibil pentru rezervare"
+
+#: lib/basa/i18n.ex:46
+#, elixir-autogen, elixir-format
+msgid "is not yours"
+msgstr "nu este al tău"
+
+#: lib/basa/i18n.ex:61
+#, elixir-autogen, elixir-format
+msgid "is outside the opening hours"
+msgstr "este în afara programului"
+
+#: lib/basa/i18n.ex:34
+#, elixir-autogen, elixir-format
+msgid "is required"
+msgstr "este obligatoriu"
+
+#: lib/basa/i18n.ex:51
+#, elixir-autogen, elixir-format
+msgid "is required for slot pricing"
+msgstr "este obligatoriu pentru prețul pe interval"
+
+#: lib/basa/i18n.ex:59
+#, elixir-autogen, elixir-format
+msgid "is shorter than the minimum of %{units}"
+msgstr "este sub minimul de %{units}"
+
+#: lib/basa/i18n.ex:49
+#, elixir-autogen, elixir-format
+msgid "is your own offer"
+msgstr "este propria ta ofertă"
+
+#: lib/basa/i18n.ex:40
+#, elixir-autogen, elixir-format
+msgid "length must be greater than or equal to %{min}"
+msgstr "lungimea trebuie să fie cel puțin %{min}"
+
+#: lib/basa/i18n.ex:41
+#, elixir-autogen, elixir-format
+msgid "length must be less than or equal to %{max}"
+msgstr "lungimea trebuie să fie cel mult %{max}"
+
+#: lib/basa/i18n.ex:55
+#, elixir-autogen, elixir-format
+msgid "must be after the start"
+msgstr "trebuie să fie după început"
+
+#: lib/basa/i18n.ex:57
+#, elixir-autogen, elixir-format
+msgid "must be at least %{hours} h from now"
+msgstr "trebuie să fie peste cel puțin %{hours} h"
+
+#: lib/basa/i18n.ex:52
+#, elixir-autogen, elixir-format
+msgid "must be at least the minimum"
+msgstr "trebuie să fie cel puțin minimul"
+
+#: lib/basa/i18n.ex:42
+#, elixir-autogen, elixir-format
+msgid "must be greater than or equal to %{min}"
+msgstr "trebuie să fie mai mare sau egal cu %{min}"
+
+#: lib/basa/i18n.ex:43
+#, elixir-autogen, elixir-format
+msgid "must be less than or equal to %{max}"
+msgstr "trebuie să fie mai mic sau egal cu %{max}"
+
+#: lib/basa/i18n.ex:47
+#, elixir-autogen, elixir-format
+msgid "must be one of your own"
+msgstr "trebuie să fie unul dintre ale tale"
+
+#: lib/basa/i18n.ex:38
+#, elixir-autogen, elixir-format
+msgid "must be present"
+msgstr "trebuie să fie prezent"
+
+#: lib/basa/i18n.ex:58
+#, elixir-autogen, elixir-format
+msgid "must cover whole %{minutes}-minute slots"
+msgstr "trebuie să acopere intervale întregi de %{minutes} minute"
+
+#: lib/basa/i18n.ex:45
+#, elixir-autogen, elixir-format
+msgid "this slot was just taken"
+msgstr "acest interval tocmai a fost ocupat"
+
+#: lib/basa/i18n.ex:63
+#, elixir-autogen, elixir-format
+msgid "can't be more than the booking"
+msgstr "nu poate depăși rezervarea"
+
+#: lib/basa/i18n.ex:62
+#, elixir-autogen, elixir-format
+msgid "card payments are available in UAH, USD and EUR"
+msgstr "plățile cu cardul sunt disponibile în UAH, USD și EUR"
+
+#: lib/basa/i18n.ex:64
+#, elixir-autogen, elixir-format
+msgid "payments are unavailable right now, please try later"
+msgstr "plățile nu sunt disponibile acum, încearcă mai târziu"
+
+#: lib/basa/i18n.ex:65
+#, elixir-autogen, elixir-format
+msgid "lot_empty"
+msgstr "Adaugă cel puțin un obiect, o persoană sau un spațiu"
+
+#: lib/basa/i18n.ex:69
+#, elixir-autogen, elixir-format
+msgid "lot_high_value"
+msgstr "Ofertă de valoare mare: o verifică un administrator"
+
+#: lib/basa/i18n.ex:67
+#, elixir-autogen, elixir-format
+msgid "lot_price_zero"
+msgstr "Stabilește un preț mai mare decât zero"
+
+#: lib/basa/i18n.ex:68
+#, elixir-autogen, elixir-format
+msgid "lot_room_location"
+msgstr "Spațiul are nevoie de o locație"
+
+#: lib/basa/i18n.ex:66
+#, elixir-autogen, elixir-format
+msgid "lot_title_short"
+msgstr "Titlul este prea scurt"
+
+#: lib/basa/i18n.ex:36
+#, elixir-autogen, elixir-format
+msgid "is already reserved by a buyer"
+msgstr "este deja rezervat de un cumpărător"
+
+#: lib/basa/i18n.ex:35
+#, elixir-autogen, elixir-format
+msgid "pick one handover time"
+msgstr "alege o singură oră de predare"
+
+#: lib/basa/i18n.ex:70
+#, elixir-autogen, elixir-format
+msgid "lot_photos_checked"
+msgstr "Unele fotografii au fost ascunse după o verificare: elimină-le sau înlocuiește-le"
+
+#: lib/basa/i18n.ex:74
+#, elixir-autogen, elixir-format
+msgid "photo_documents"
+msgstr "Fotografia ar putea arăta un document sau un card bancar: un admin o va verifica"
+
+#: lib/basa/i18n.ex:73
+#, elixir-autogen, elixir-format
+msgid "photo_harm"
+msgstr "Fotografia ar putea arăta arme, droguri sau răni: un admin o va verifica"
+
+#: lib/basa/i18n.ex:71
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_clear"
+msgstr "Fotografia pare să arate nuditate, așa că este ascunsă"
+
+#: lib/basa/i18n.ex:72
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_possible"
+msgstr "Fotografia ar putea arăta nuditate: un admin o va verifica"

@@ -1,0 +1,37 @@
+[package]
+name = "witness"
+version = "0.1.0"
+edition = "2021"
+description = "BASA witness: hashes, Merkle tree, manifest CBOR, signatures, encryption, key split and recovery (NIF)"
+publish = false
+
+[lib]
+name = "witness"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+rustler = "0.38"
+sha2 = "0.11"
+ed25519-dalek = "3.0"
+chacha20poly1305 = "0.11"
+hpke = { version = "0.15", default-features = false, features = ["alloc", "getrandom", "x25519", "chacha", "aes", "hkdfsha2"] }
+blahaj = "0.7"
+ciborium = "0.2"
+getrandom = "0.4"
+zeroize = "1.9"
+qrcode = { version = "0.14.1", default-features = false, features = ["svg"] }
+# Qualified signatures (CMS / CAdES) and the dev test CA; RustCrypto 0.2 line
+cms = { version = "0.2.3", features = ["builder"] }
+x509-cert = { version = "0.2.5", features = ["builder"] }
+der = { version = "0.7", features = ["alloc", "derive", "oid"] }
+spki = "0.7"
+p256 = { version = "0.13", features = ["ecdsa", "pkcs8"] }
+ecdsa = { version = "0.16", features = ["der", "signing", "verifying"] }
+sha2_10 = { package = "sha2", version = "0.10", features = ["oid"] }
+hkdf = "0.12"
+rsa = { version = "0.9", features = ["sha2"] }
+
+[profile.release]
+strip = "symbols"
+lto = "thin"

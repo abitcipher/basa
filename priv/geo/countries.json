@@ -1,0 +1,4538 @@
+[
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "names": {
+      "de": "Andorra",
+      "en": "Andorra",
+      "es": "Andorra",
+      "fr": "Andorre",
+      "it": "Andorra",
+      "pl": "Andora",
+      "ro": "Andorra",
+      "tr": "Andorra",
+      "uk": "Андорра"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3041565"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "names": {
+      "de": "United Arab Emirates",
+      "en": "United Arab Emirates",
+      "es": "United Arab Emirates",
+      "fr": "United Arab Emirates",
+      "it": "United Arab Emirates",
+      "pl": "United Arab Emirates",
+      "ro": "United Arab Emirates",
+      "tr": "United Arab Emirates",
+      "uk": "United Arab Emirates"
+    },
+    "currency": "AED",
+    "continent": "AS",
+    "geonameid": "290557"
+  },
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "names": {
+      "de": "Afghanistan",
+      "en": "Afghanistan",
+      "es": "Afghanistan",
+      "fr": "Afghanistan",
+      "it": "Afghanistan",
+      "pl": "Afghanistan",
+      "ro": "Afghanistan",
+      "tr": "Afghanistan",
+      "uk": "Afghanistan"
+    },
+    "currency": "AFN",
+    "continent": "AS",
+    "geonameid": "1149361"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "names": {
+      "de": "Antigua and Barbuda",
+      "en": "Antigua and Barbuda",
+      "es": "Antigua and Barbuda",
+      "fr": "Antigua and Barbuda",
+      "it": "Antigua and Barbuda",
+      "pl": "Antigua and Barbuda",
+      "ro": "Antigua and Barbuda",
+      "tr": "Antigua and Barbuda",
+      "uk": "Antigua and Barbuda"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3576396"
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "names": {
+      "de": "Anguilla",
+      "en": "Anguilla",
+      "es": "Anguilla",
+      "fr": "Anguilla",
+      "it": "Anguilla",
+      "pl": "Anguilla",
+      "ro": "Anguilla",
+      "tr": "Anguilla",
+      "uk": "Anguilla"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3573511"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "names": {
+      "de": "Albanien",
+      "en": "Albania",
+      "es": "Albania",
+      "fr": "Albanie",
+      "it": "Albania",
+      "pl": "Albania",
+      "ro": "Albania",
+      "tr": "Arnavutluk",
+      "uk": "Албанія"
+    },
+    "currency": "ALL",
+    "continent": "EU",
+    "geonameid": "783754"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "names": {
+      "de": "Armenia",
+      "en": "Armenia",
+      "es": "Armenia",
+      "fr": "Armenia",
+      "it": "Armenia",
+      "pl": "Armenia",
+      "ro": "Armenia",
+      "tr": "Armenia",
+      "uk": "Armenia"
+    },
+    "currency": "AMD",
+    "continent": "AS",
+    "geonameid": "174982"
+  },
+  {
+    "code": "AN",
+    "name": "Netherlands Antilles",
+    "names": {
+      "de": "Netherlands Antilles",
+      "en": "Netherlands Antilles",
+      "es": "Netherlands Antilles",
+      "fr": "Netherlands Antilles",
+      "it": "Netherlands Antilles",
+      "pl": "Netherlands Antilles",
+      "ro": "Netherlands Antilles",
+      "tr": "Netherlands Antilles",
+      "uk": "Netherlands Antilles"
+    },
+    "currency": "ANG",
+    "continent": "NA",
+    "geonameid": "8505032"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "names": {
+      "de": "Angola",
+      "en": "Angola",
+      "es": "Angola",
+      "fr": "Angola",
+      "it": "Angola",
+      "pl": "Angola",
+      "ro": "Angola",
+      "tr": "Angola",
+      "uk": "Angola"
+    },
+    "currency": "AOA",
+    "continent": "AF",
+    "geonameid": "3351879"
+  },
+  {
+    "code": "AQ",
+    "name": "Antarctica",
+    "names": {
+      "de": "Antarctica",
+      "en": "Antarctica",
+      "es": "Antarctica",
+      "fr": "Antarctica",
+      "it": "Antarctica",
+      "pl": "Antarctica",
+      "ro": "Antarctica",
+      "tr": "Antarctica",
+      "uk": "Antarctica"
+    },
+    "currency": "",
+    "continent": "AN",
+    "geonameid": "6697173"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "names": {
+      "de": "Argentina",
+      "en": "Argentina",
+      "es": "Argentina",
+      "fr": "Argentina",
+      "it": "Argentina",
+      "pl": "Argentina",
+      "ro": "Argentina",
+      "tr": "Argentina",
+      "uk": "Argentina"
+    },
+    "currency": "ARS",
+    "continent": "SA",
+    "geonameid": "3865483"
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "names": {
+      "de": "American Samoa",
+      "en": "American Samoa",
+      "es": "American Samoa",
+      "fr": "American Samoa",
+      "it": "American Samoa",
+      "pl": "American Samoa",
+      "ro": "American Samoa",
+      "tr": "American Samoa",
+      "uk": "American Samoa"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "5880801"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "names": {
+      "de": "Österreich",
+      "en": "Austria",
+      "es": "Austria",
+      "fr": "Autriche",
+      "it": "Austria",
+      "pl": "Austria",
+      "ro": "Austria",
+      "tr": "Avusturya",
+      "uk": "Австрія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2782113"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "names": {
+      "de": "Australia",
+      "en": "Australia",
+      "es": "Australia",
+      "fr": "Australia",
+      "it": "Australia",
+      "pl": "Australia",
+      "ro": "Australia",
+      "tr": "Australia",
+      "uk": "Australia"
+    },
+    "currency": "AUD",
+    "continent": "OC",
+    "geonameid": "2077456"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "names": {
+      "de": "Aruba",
+      "en": "Aruba",
+      "es": "Aruba",
+      "fr": "Aruba",
+      "it": "Aruba",
+      "pl": "Aruba",
+      "ro": "Aruba",
+      "tr": "Aruba",
+      "uk": "Aruba"
+    },
+    "currency": "AWG",
+    "continent": "NA",
+    "geonameid": "3577279"
+  },
+  {
+    "code": "AX",
+    "name": "Aland Islands",
+    "names": {
+      "de": "Åland",
+      "en": "Åland",
+      "es": "Islas Aland",
+      "fr": "Åland",
+      "it": "Isole Åland",
+      "pl": "Wyspy Alandzkie",
+      "ro": "Insulele Aland",
+      "tr": "Åland",
+      "uk": "Аландські острови"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "661882"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "names": {
+      "de": "Azerbaijan",
+      "en": "Azerbaijan",
+      "es": "Azerbaijan",
+      "fr": "Azerbaijan",
+      "it": "Azerbaijan",
+      "pl": "Azerbaijan",
+      "ro": "Azerbaijan",
+      "tr": "Azerbaijan",
+      "uk": "Azerbaijan"
+    },
+    "currency": "AZN",
+    "continent": "AS",
+    "geonameid": "587116"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "names": {
+      "de": "Bosnien und Herzegowina",
+      "en": "Bosnia and Herzegovina",
+      "es": "Bosnia-Herzegovina",
+      "fr": "Bosnie-et-Herzégovine",
+      "it": "Bosnia ed Erzegovina",
+      "pl": "Bośnia i Hercegowina",
+      "ro": "Bosnia și Herțegovina",
+      "tr": "Bosna-Hersek",
+      "uk": "Боснія і Герцеговина"
+    },
+    "currency": "BAM",
+    "continent": "EU",
+    "geonameid": "3277605"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "names": {
+      "de": "Barbados",
+      "en": "Barbados",
+      "es": "Barbados",
+      "fr": "Barbados",
+      "it": "Barbados",
+      "pl": "Barbados",
+      "ro": "Barbados",
+      "tr": "Barbados",
+      "uk": "Barbados"
+    },
+    "currency": "BBD",
+    "continent": "NA",
+    "geonameid": "3374084"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "names": {
+      "de": "Bangladesh",
+      "en": "Bangladesh",
+      "es": "Bangladesh",
+      "fr": "Bangladesh",
+      "it": "Bangladesh",
+      "pl": "Bangladesh",
+      "ro": "Bangladesh",
+      "tr": "Bangladesh",
+      "uk": "Bangladesh"
+    },
+    "currency": "BDT",
+    "continent": "AS",
+    "geonameid": "1210997"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "names": {
+      "de": "Belgien",
+      "en": "Belgium",
+      "es": "Bélgica",
+      "fr": "Belgique",
+      "it": "Belgio",
+      "pl": "Belgia",
+      "ro": "Belgia",
+      "tr": "Belçika",
+      "uk": "Бельгія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2802361"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "names": {
+      "de": "Burkina Faso",
+      "en": "Burkina Faso",
+      "es": "Burkina Faso",
+      "fr": "Burkina Faso",
+      "it": "Burkina Faso",
+      "pl": "Burkina Faso",
+      "ro": "Burkina Faso",
+      "tr": "Burkina Faso",
+      "uk": "Burkina Faso"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2361809"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "names": {
+      "de": "Bulgarien",
+      "en": "Bulgaria",
+      "es": "Bulgaria",
+      "fr": "Bulgarie",
+      "it": "Bulgaria",
+      "pl": "Bułgaria",
+      "ro": "Bulgaria",
+      "tr": "Bulgaristan",
+      "uk": "Болгарія"
+    },
+    "currency": "BGN",
+    "continent": "EU",
+    "geonameid": "732800"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "names": {
+      "de": "Bahrain",
+      "en": "Bahrain",
+      "es": "Bahrain",
+      "fr": "Bahrain",
+      "it": "Bahrain",
+      "pl": "Bahrain",
+      "ro": "Bahrain",
+      "tr": "Bahrain",
+      "uk": "Bahrain"
+    },
+    "currency": "BHD",
+    "continent": "AS",
+    "geonameid": "290291"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "names": {
+      "de": "Burundi",
+      "en": "Burundi",
+      "es": "Burundi",
+      "fr": "Burundi",
+      "it": "Burundi",
+      "pl": "Burundi",
+      "ro": "Burundi",
+      "tr": "Burundi",
+      "uk": "Burundi"
+    },
+    "currency": "BIF",
+    "continent": "AF",
+    "geonameid": "433561"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "names": {
+      "de": "Benin",
+      "en": "Benin",
+      "es": "Benin",
+      "fr": "Benin",
+      "it": "Benin",
+      "pl": "Benin",
+      "ro": "Benin",
+      "tr": "Benin",
+      "uk": "Benin"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2395170"
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthelemy",
+    "names": {
+      "de": "Saint Barthelemy",
+      "en": "Saint Barthelemy",
+      "es": "Saint Barthelemy",
+      "fr": "Saint Barthelemy",
+      "it": "Saint Barthelemy",
+      "pl": "Saint Barthelemy",
+      "ro": "Saint Barthelemy",
+      "tr": "Saint Barthelemy",
+      "uk": "Saint Barthelemy"
+    },
+    "currency": "EUR",
+    "continent": "NA",
+    "geonameid": "3578476"
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "names": {
+      "de": "Bermuda",
+      "en": "Bermuda",
+      "es": "Bermuda",
+      "fr": "Bermuda",
+      "it": "Bermuda",
+      "pl": "Bermuda",
+      "ro": "Bermuda",
+      "tr": "Bermuda",
+      "uk": "Bermuda"
+    },
+    "currency": "BMD",
+    "continent": "NA",
+    "geonameid": "3573345"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "names": {
+      "de": "Brunei",
+      "en": "Brunei",
+      "es": "Brunei",
+      "fr": "Brunei",
+      "it": "Brunei",
+      "pl": "Brunei",
+      "ro": "Brunei",
+      "tr": "Brunei",
+      "uk": "Brunei"
+    },
+    "currency": "BND",
+    "continent": "AS",
+    "geonameid": "1820814"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "names": {
+      "de": "Bolivia",
+      "en": "Bolivia",
+      "es": "Bolivia",
+      "fr": "Bolivia",
+      "it": "Bolivia",
+      "pl": "Bolivia",
+      "ro": "Bolivia",
+      "tr": "Bolivia",
+      "uk": "Bolivia"
+    },
+    "currency": "BOB",
+    "continent": "SA",
+    "geonameid": "3923057"
+  },
+  {
+    "code": "BQ",
+    "name": "Bonaire, Saint Eustatius and Saba ",
+    "names": {
+      "de": "Bonaire, Saint Eustatius and Saba ",
+      "en": "Bonaire, Saint Eustatius and Saba ",
+      "es": "Bonaire, Saint Eustatius and Saba ",
+      "fr": "Bonaire, Saint Eustatius and Saba ",
+      "it": "Bonaire, Saint Eustatius and Saba ",
+      "pl": "Bonaire, Saint Eustatius and Saba ",
+      "ro": "Bonaire, Saint Eustatius and Saba ",
+      "tr": "Bonaire, Saint Eustatius and Saba ",
+      "uk": "Bonaire, Saint Eustatius and Saba "
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "7626844"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "names": {
+      "de": "Brazil",
+      "en": "Brazil",
+      "es": "Brazil",
+      "fr": "Brazil",
+      "it": "Brazil",
+      "pl": "Brazil",
+      "ro": "Brazil",
+      "tr": "Brazil",
+      "uk": "Brazil"
+    },
+    "currency": "BRL",
+    "continent": "SA",
+    "geonameid": "3469034"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "names": {
+      "de": "Bahamas",
+      "en": "Bahamas",
+      "es": "Bahamas",
+      "fr": "Bahamas",
+      "it": "Bahamas",
+      "pl": "Bahamas",
+      "ro": "Bahamas",
+      "tr": "Bahamas",
+      "uk": "Bahamas"
+    },
+    "currency": "BSD",
+    "continent": "NA",
+    "geonameid": "3572887"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "names": {
+      "de": "Bhutan",
+      "en": "Bhutan",
+      "es": "Bhutan",
+      "fr": "Bhutan",
+      "it": "Bhutan",
+      "pl": "Bhutan",
+      "ro": "Bhutan",
+      "tr": "Bhutan",
+      "uk": "Bhutan"
+    },
+    "currency": "BTN",
+    "continent": "AS",
+    "geonameid": "1252634"
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "names": {
+      "de": "Bouvet Island",
+      "en": "Bouvet Island",
+      "es": "Bouvet Island",
+      "fr": "Bouvet Island",
+      "it": "Bouvet Island",
+      "pl": "Bouvet Island",
+      "ro": "Bouvet Island",
+      "tr": "Bouvet Island",
+      "uk": "Bouvet Island"
+    },
+    "currency": "NOK",
+    "continent": "AN",
+    "geonameid": "3371123"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "names": {
+      "de": "Botswana",
+      "en": "Botswana",
+      "es": "Botswana",
+      "fr": "Botswana",
+      "it": "Botswana",
+      "pl": "Botswana",
+      "ro": "Botswana",
+      "tr": "Botswana",
+      "uk": "Botswana"
+    },
+    "currency": "BWP",
+    "continent": "AF",
+    "geonameid": "933860"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "names": {
+      "de": "Belarus",
+      "en": "Belarus",
+      "es": "Belarus",
+      "fr": "Belarus",
+      "it": "Belarus",
+      "pl": "Belarus",
+      "ro": "Belarus",
+      "tr": "Belarus",
+      "uk": "Belarus"
+    },
+    "currency": "BYN",
+    "continent": "EU",
+    "geonameid": "630336"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "names": {
+      "de": "Belize",
+      "en": "Belize",
+      "es": "Belize",
+      "fr": "Belize",
+      "it": "Belize",
+      "pl": "Belize",
+      "ro": "Belize",
+      "tr": "Belize",
+      "uk": "Belize"
+    },
+    "currency": "BZD",
+    "continent": "NA",
+    "geonameid": "3582678"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "names": {
+      "de": "Canada",
+      "en": "Canada",
+      "es": "Canada",
+      "fr": "Canada",
+      "it": "Canada",
+      "pl": "Canada",
+      "ro": "Canada",
+      "tr": "Canada",
+      "uk": "Canada"
+    },
+    "currency": "CAD",
+    "continent": "NA",
+    "geonameid": "6251999"
+  },
+  {
+    "code": "CC",
+    "name": "Cocos Islands",
+    "names": {
+      "de": "Cocos Islands",
+      "en": "Cocos Islands",
+      "es": "Cocos Islands",
+      "fr": "Cocos Islands",
+      "it": "Cocos Islands",
+      "pl": "Cocos Islands",
+      "ro": "Cocos Islands",
+      "tr": "Cocos Islands",
+      "uk": "Cocos Islands"
+    },
+    "currency": "AUD",
+    "continent": "AS",
+    "geonameid": "1547376"
+  },
+  {
+    "code": "CD",
+    "name": "Democratic Republic of the Congo",
+    "names": {
+      "de": "Democratic Republic of the Congo",
+      "en": "Democratic Republic of the Congo",
+      "es": "Democratic Republic of the Congo",
+      "fr": "Democratic Republic of the Congo",
+      "it": "Democratic Republic of the Congo",
+      "pl": "Democratic Republic of the Congo",
+      "ro": "Democratic Republic of the Congo",
+      "tr": "Democratic Republic of the Congo",
+      "uk": "Democratic Republic of the Congo"
+    },
+    "currency": "CDF",
+    "continent": "AF",
+    "geonameid": "203312"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "names": {
+      "de": "Central African Republic",
+      "en": "Central African Republic",
+      "es": "Central African Republic",
+      "fr": "Central African Republic",
+      "it": "Central African Republic",
+      "pl": "Central African Republic",
+      "ro": "Central African Republic",
+      "tr": "Central African Republic",
+      "uk": "Central African Republic"
+    },
+    "currency": "XAF",
+    "continent": "AF",
+    "geonameid": "239880"
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "names": {
+      "de": "Republic of the Congo",
+      "en": "Republic of the Congo",
+      "es": "Republic of the Congo",
+      "fr": "Republic of the Congo",
+      "it": "Republic of the Congo",
+      "pl": "Republic of the Congo",
+      "ro": "Republic of the Congo",
+      "tr": "Republic of the Congo",
+      "uk": "Republic of the Congo"
+    },
+    "currency": "XAF",
+    "continent": "AF",
+    "geonameid": "2260494"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "names": {
+      "de": "Schweiz",
+      "en": "Switzerland",
+      "es": "Suiza",
+      "fr": "Suisse",
+      "it": "Svizzera",
+      "pl": "Szwajcaria",
+      "ro": "Elveția",
+      "tr": "İsviçre",
+      "uk": "Швейцарія"
+    },
+    "currency": "CHF",
+    "continent": "EU",
+    "geonameid": "2658434"
+  },
+  {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "names": {
+      "de": "Ivory Coast",
+      "en": "Ivory Coast",
+      "es": "Ivory Coast",
+      "fr": "Ivory Coast",
+      "it": "Ivory Coast",
+      "pl": "Ivory Coast",
+      "ro": "Ivory Coast",
+      "tr": "Ivory Coast",
+      "uk": "Ivory Coast"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2287781"
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "names": {
+      "de": "Cook Islands",
+      "en": "Cook Islands",
+      "es": "Cook Islands",
+      "fr": "Cook Islands",
+      "it": "Cook Islands",
+      "pl": "Cook Islands",
+      "ro": "Cook Islands",
+      "tr": "Cook Islands",
+      "uk": "Cook Islands"
+    },
+    "currency": "NZD",
+    "continent": "OC",
+    "geonameid": "1899402"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "names": {
+      "de": "Chile",
+      "en": "Chile",
+      "es": "Chile",
+      "fr": "Chile",
+      "it": "Chile",
+      "pl": "Chile",
+      "ro": "Chile",
+      "tr": "Chile",
+      "uk": "Chile"
+    },
+    "currency": "CLP",
+    "continent": "SA",
+    "geonameid": "3895114"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "names": {
+      "de": "Cameroon",
+      "en": "Cameroon",
+      "es": "Cameroon",
+      "fr": "Cameroon",
+      "it": "Cameroon",
+      "pl": "Cameroon",
+      "ro": "Cameroon",
+      "tr": "Cameroon",
+      "uk": "Cameroon"
+    },
+    "currency": "XAF",
+    "continent": "AF",
+    "geonameid": "2233387"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "names": {
+      "de": "China",
+      "en": "China",
+      "es": "China",
+      "fr": "China",
+      "it": "China",
+      "pl": "China",
+      "ro": "China",
+      "tr": "China",
+      "uk": "China"
+    },
+    "currency": "CNY",
+    "continent": "AS",
+    "geonameid": "1814991"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "names": {
+      "de": "Colombia",
+      "en": "Colombia",
+      "es": "Colombia",
+      "fr": "Colombia",
+      "it": "Colombia",
+      "pl": "Colombia",
+      "ro": "Colombia",
+      "tr": "Colombia",
+      "uk": "Colombia"
+    },
+    "currency": "COP",
+    "continent": "SA",
+    "geonameid": "3686110"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "names": {
+      "de": "Costa Rica",
+      "en": "Costa Rica",
+      "es": "Costa Rica",
+      "fr": "Costa Rica",
+      "it": "Costa Rica",
+      "pl": "Costa Rica",
+      "ro": "Costa Rica",
+      "tr": "Costa Rica",
+      "uk": "Costa Rica"
+    },
+    "currency": "CRC",
+    "continent": "NA",
+    "geonameid": "3624060"
+  },
+  {
+    "code": "CS",
+    "name": "Serbia and Montenegro",
+    "names": {
+      "de": "Serbien-Montenegro",
+      "en": "Serbia and Montenegro",
+      "es": "Serbia y Montenegro",
+      "fr": "Serbie-et-Monténégro",
+      "it": "Serbia e Montenegro",
+      "pl": "Serbia and Montenegro",
+      "ro": "Serbia and Montenegro",
+      "tr": "Serbia and Montenegro",
+      "uk": "Serbia and Montenegro"
+    },
+    "currency": "RSD",
+    "continent": "EU",
+    "geonameid": "8505033"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "names": {
+      "de": "Cuba",
+      "en": "Cuba",
+      "es": "Cuba",
+      "fr": "Cuba",
+      "it": "Cuba",
+      "pl": "Cuba",
+      "ro": "Cuba",
+      "tr": "Cuba",
+      "uk": "Cuba"
+    },
+    "currency": "CUP",
+    "continent": "NA",
+    "geonameid": "3562981"
+  },
+  {
+    "code": "CV",
+    "name": "Cabo Verde",
+    "names": {
+      "de": "Cabo Verde",
+      "en": "Cabo Verde",
+      "es": "Cabo Verde",
+      "fr": "Cabo Verde",
+      "it": "Cabo Verde",
+      "pl": "Cabo Verde",
+      "ro": "Cabo Verde",
+      "tr": "Cabo Verde",
+      "uk": "Cabo Verde"
+    },
+    "currency": "CVE",
+    "continent": "AF",
+    "geonameid": "3374766"
+  },
+  {
+    "code": "CW",
+    "name": "Curacao",
+    "names": {
+      "de": "Curacao",
+      "en": "Curacao",
+      "es": "Curacao",
+      "fr": "Curacao",
+      "it": "Curacao",
+      "pl": "Curacao",
+      "ro": "Curacao",
+      "tr": "Curacao",
+      "uk": "Curacao"
+    },
+    "currency": "XCG",
+    "continent": "NA",
+    "geonameid": "7626836"
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "names": {
+      "de": "Christmas Island",
+      "en": "Christmas Island",
+      "es": "Christmas Island",
+      "fr": "Christmas Island",
+      "it": "Christmas Island",
+      "pl": "Christmas Island",
+      "ro": "Christmas Island",
+      "tr": "Christmas Island",
+      "uk": "Christmas Island"
+    },
+    "currency": "AUD",
+    "continent": "OC",
+    "geonameid": "2078138"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "names": {
+      "de": "Zypern",
+      "en": "Cyprus",
+      "es": "Chipre",
+      "fr": "Chypre",
+      "it": "Cipro",
+      "pl": "Cypr",
+      "ro": "Cipru",
+      "tr": "Kıbrıs",
+      "uk": "Кіпр"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "146669"
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "names": {
+      "de": "Tschechien",
+      "en": "Czechia",
+      "es": "Chequia",
+      "fr": "Tchéquie",
+      "it": "Cechia",
+      "pl": "Czechy",
+      "ro": "Cehia",
+      "tr": "Çekya",
+      "uk": "Чехiя"
+    },
+    "currency": "CZK",
+    "continent": "EU",
+    "geonameid": "3077311"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "names": {
+      "de": "Deutschland",
+      "en": "Germany",
+      "es": "Alemania",
+      "fr": "Allemagne",
+      "it": "Germania",
+      "pl": "Niemcy",
+      "ro": "Germania",
+      "tr": "Almanya",
+      "uk": "Німеччина"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2921044"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "names": {
+      "de": "Djibouti",
+      "en": "Djibouti",
+      "es": "Djibouti",
+      "fr": "Djibouti",
+      "it": "Djibouti",
+      "pl": "Djibouti",
+      "ro": "Djibouti",
+      "tr": "Djibouti",
+      "uk": "Djibouti"
+    },
+    "currency": "DJF",
+    "continent": "AF",
+    "geonameid": "223816"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "names": {
+      "de": "Dänemark",
+      "en": "Denmark",
+      "es": "Dinamarca",
+      "fr": "Danemark",
+      "it": "Danimarca",
+      "pl": "Dania",
+      "ro": "Danemarca",
+      "tr": "Danimarka",
+      "uk": "Данія"
+    },
+    "currency": "DKK",
+    "continent": "EU",
+    "geonameid": "2623032"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "names": {
+      "de": "Dominica",
+      "en": "Dominica",
+      "es": "Dominica",
+      "fr": "Dominica",
+      "it": "Dominica",
+      "pl": "Dominica",
+      "ro": "Dominica",
+      "tr": "Dominica",
+      "uk": "Dominica"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3575830"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "names": {
+      "de": "Dominican Republic",
+      "en": "Dominican Republic",
+      "es": "Dominican Republic",
+      "fr": "Dominican Republic",
+      "it": "Dominican Republic",
+      "pl": "Dominican Republic",
+      "ro": "Dominican Republic",
+      "tr": "Dominican Republic",
+      "uk": "Dominican Republic"
+    },
+    "currency": "DOP",
+    "continent": "NA",
+    "geonameid": "3508796"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "names": {
+      "de": "Algeria",
+      "en": "Algeria",
+      "es": "Algeria",
+      "fr": "Algeria",
+      "it": "Algeria",
+      "pl": "Algeria",
+      "ro": "Algeria",
+      "tr": "Algeria",
+      "uk": "Algeria"
+    },
+    "currency": "DZD",
+    "continent": "AF",
+    "geonameid": "2589581"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "names": {
+      "de": "Ecuador",
+      "en": "Ecuador",
+      "es": "Ecuador",
+      "fr": "Ecuador",
+      "it": "Ecuador",
+      "pl": "Ecuador",
+      "ro": "Ecuador",
+      "tr": "Ecuador",
+      "uk": "Ecuador"
+    },
+    "currency": "USD",
+    "continent": "SA",
+    "geonameid": "3658394"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "names": {
+      "de": "Estland",
+      "en": "Estonia",
+      "es": "Estonia",
+      "fr": "Estonie",
+      "it": "Estonia",
+      "pl": "Estonia",
+      "ro": "Estonia",
+      "tr": "Estonya",
+      "uk": "Естонія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "453733"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "names": {
+      "de": "Egypt",
+      "en": "Egypt",
+      "es": "Egypt",
+      "fr": "Egypt",
+      "it": "Egypt",
+      "pl": "Egypt",
+      "ro": "Egypt",
+      "tr": "Egypt",
+      "uk": "Egypt"
+    },
+    "currency": "EGP",
+    "continent": "AF",
+    "geonameid": "357994"
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "names": {
+      "de": "Western Sahara",
+      "en": "Western Sahara",
+      "es": "Western Sahara",
+      "fr": "Western Sahara",
+      "it": "Western Sahara",
+      "pl": "Western Sahara",
+      "ro": "Western Sahara",
+      "tr": "Western Sahara",
+      "uk": "Western Sahara"
+    },
+    "currency": "MAD",
+    "continent": "AF",
+    "geonameid": "2461445"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "names": {
+      "de": "Eritrea",
+      "en": "Eritrea",
+      "es": "Eritrea",
+      "fr": "Eritrea",
+      "it": "Eritrea",
+      "pl": "Eritrea",
+      "ro": "Eritrea",
+      "tr": "Eritrea",
+      "uk": "Eritrea"
+    },
+    "currency": "ERN",
+    "continent": "AF",
+    "geonameid": "338010"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "names": {
+      "de": "Spanien",
+      "en": "Spain",
+      "es": "España",
+      "fr": "Espagne",
+      "it": "Spagna",
+      "pl": "Hiszpania",
+      "ro": "Spania",
+      "tr": "İspanya",
+      "uk": "Іспанія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2510769"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "names": {
+      "de": "Ethiopia",
+      "en": "Ethiopia",
+      "es": "Ethiopia",
+      "fr": "Ethiopia",
+      "it": "Ethiopia",
+      "pl": "Ethiopia",
+      "ro": "Ethiopia",
+      "tr": "Ethiopia",
+      "uk": "Ethiopia"
+    },
+    "currency": "ETB",
+    "continent": "AF",
+    "geonameid": "337996"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "names": {
+      "de": "Finnland",
+      "en": "Finland",
+      "es": "Finlandia",
+      "fr": "Finlande",
+      "it": "Finlandia",
+      "pl": "Finlandia",
+      "ro": "Finlanda",
+      "tr": "Finlandiya",
+      "uk": "Фінляндія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "660013"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "names": {
+      "de": "Fiji",
+      "en": "Fiji",
+      "es": "Fiji",
+      "fr": "Fiji",
+      "it": "Fiji",
+      "pl": "Fiji",
+      "ro": "Fiji",
+      "tr": "Fiji",
+      "uk": "Fiji"
+    },
+    "currency": "FJD",
+    "continent": "OC",
+    "geonameid": "2205218"
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands",
+    "names": {
+      "de": "Falkland Islands",
+      "en": "Falkland Islands",
+      "es": "Falkland Islands",
+      "fr": "Falkland Islands",
+      "it": "Falkland Islands",
+      "pl": "Falkland Islands",
+      "ro": "Falkland Islands",
+      "tr": "Falkland Islands",
+      "uk": "Falkland Islands"
+    },
+    "currency": "FKP",
+    "continent": "SA",
+    "geonameid": "3474414"
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "names": {
+      "de": "Micronesia",
+      "en": "Micronesia",
+      "es": "Micronesia",
+      "fr": "Micronesia",
+      "it": "Micronesia",
+      "pl": "Micronesia",
+      "ro": "Micronesia",
+      "tr": "Micronesia",
+      "uk": "Micronesia"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "2081918"
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "names": {
+      "de": "Färöer",
+      "en": "Faroe Islands",
+      "es": "Islas Feroe",
+      "fr": "Îles Féroé",
+      "it": "Isole Faroe",
+      "pl": "Wyspy Owcze",
+      "ro": "Insulele Feroe",
+      "tr": "Faroe Adaları",
+      "uk": "Фарерські Острови"
+    },
+    "currency": "DKK",
+    "continent": "EU",
+    "geonameid": "2622320"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "names": {
+      "de": "Frankreich",
+      "en": "France",
+      "es": "Francia",
+      "fr": "France",
+      "it": "Francia",
+      "pl": "Francja",
+      "ro": "Franța",
+      "tr": "Fransa",
+      "uk": "Франція"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3017382"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "names": {
+      "de": "Gabon",
+      "en": "Gabon",
+      "es": "Gabon",
+      "fr": "Gabon",
+      "it": "Gabon",
+      "pl": "Gabon",
+      "ro": "Gabon",
+      "tr": "Gabon",
+      "uk": "Gabon"
+    },
+    "currency": "XAF",
+    "continent": "AF",
+    "geonameid": "2400553"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "names": {
+      "de": "Vereinigtes Königreich",
+      "en": "United Kingdom",
+      "es": "Reino Unido",
+      "fr": "Royaume-Uni",
+      "it": "Regno Unito",
+      "pl": "Wielka Brytania",
+      "ro": "Regatul Unit",
+      "tr": "Birleşik Krallık",
+      "uk": "Велика Британія"
+    },
+    "currency": "GBP",
+    "continent": "EU",
+    "geonameid": "2635167"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "names": {
+      "de": "Grenada",
+      "en": "Grenada",
+      "es": "Grenada",
+      "fr": "Grenada",
+      "it": "Grenada",
+      "pl": "Grenada",
+      "ro": "Grenada",
+      "tr": "Grenada",
+      "uk": "Grenada"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3580239"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "names": {
+      "de": "Georgia",
+      "en": "Georgia",
+      "es": "Georgia",
+      "fr": "Georgia",
+      "it": "Georgia",
+      "pl": "Georgia",
+      "ro": "Georgia",
+      "tr": "Georgia",
+      "uk": "Georgia"
+    },
+    "currency": "GEL",
+    "continent": "AS",
+    "geonameid": "614540"
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "names": {
+      "de": "French Guiana",
+      "en": "French Guiana",
+      "es": "French Guiana",
+      "fr": "French Guiana",
+      "it": "French Guiana",
+      "pl": "French Guiana",
+      "ro": "French Guiana",
+      "tr": "French Guiana",
+      "uk": "French Guiana"
+    },
+    "currency": "EUR",
+    "continent": "SA",
+    "geonameid": "3381670"
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "names": {
+      "de": "Guernsey",
+      "en": "Guernsey",
+      "es": "Guernesey",
+      "fr": "Guernesey",
+      "it": "Guernsey",
+      "pl": "Guernsey",
+      "ro": "Guernsey",
+      "tr": "Guernsey",
+      "uk": "Гернсі"
+    },
+    "currency": "GBP",
+    "continent": "EU",
+    "geonameid": "3042362"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "names": {
+      "de": "Ghana",
+      "en": "Ghana",
+      "es": "Ghana",
+      "fr": "Ghana",
+      "it": "Ghana",
+      "pl": "Ghana",
+      "ro": "Ghana",
+      "tr": "Ghana",
+      "uk": "Ghana"
+    },
+    "currency": "GHS",
+    "continent": "AF",
+    "geonameid": "2300660"
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "names": {
+      "de": "Gibraltar",
+      "en": "Gibraltar",
+      "es": "Gibraltar",
+      "fr": "Gibraltar",
+      "it": "Gibilterra",
+      "pl": "Gibraltar",
+      "ro": "Gibraltar",
+      "tr": "Cebelitarık",
+      "uk": "Гібралтар"
+    },
+    "currency": "GIP",
+    "continent": "EU",
+    "geonameid": "2411586"
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "names": {
+      "de": "Greenland",
+      "en": "Greenland",
+      "es": "Greenland",
+      "fr": "Greenland",
+      "it": "Greenland",
+      "pl": "Greenland",
+      "ro": "Greenland",
+      "tr": "Greenland",
+      "uk": "Greenland"
+    },
+    "currency": "DKK",
+    "continent": "NA",
+    "geonameid": "3425505"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "names": {
+      "de": "Gambia",
+      "en": "Gambia",
+      "es": "Gambia",
+      "fr": "Gambia",
+      "it": "Gambia",
+      "pl": "Gambia",
+      "ro": "Gambia",
+      "tr": "Gambia",
+      "uk": "Gambia"
+    },
+    "currency": "GMD",
+    "continent": "AF",
+    "geonameid": "2413451"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "names": {
+      "de": "Guinea",
+      "en": "Guinea",
+      "es": "Guinea",
+      "fr": "Guinea",
+      "it": "Guinea",
+      "pl": "Guinea",
+      "ro": "Guinea",
+      "tr": "Guinea",
+      "uk": "Guinea"
+    },
+    "currency": "GNF",
+    "continent": "AF",
+    "geonameid": "2420477"
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "names": {
+      "de": "Guadeloupe",
+      "en": "Guadeloupe",
+      "es": "Guadeloupe",
+      "fr": "Guadeloupe",
+      "it": "Guadeloupe",
+      "pl": "Guadeloupe",
+      "ro": "Guadeloupe",
+      "tr": "Guadeloupe",
+      "uk": "Guadeloupe"
+    },
+    "currency": "EUR",
+    "continent": "NA",
+    "geonameid": "3579143"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "names": {
+      "de": "Equatorial Guinea",
+      "en": "Equatorial Guinea",
+      "es": "Equatorial Guinea",
+      "fr": "Equatorial Guinea",
+      "it": "Equatorial Guinea",
+      "pl": "Equatorial Guinea",
+      "ro": "Equatorial Guinea",
+      "tr": "Equatorial Guinea",
+      "uk": "Equatorial Guinea"
+    },
+    "currency": "XAF",
+    "continent": "AF",
+    "geonameid": "2309096"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "names": {
+      "de": "Griechenland",
+      "en": "Greece",
+      "es": "Grecia",
+      "fr": "Grèce",
+      "it": "Grecia",
+      "pl": "Grecja",
+      "ro": "Grecia",
+      "tr": "Yunanistan",
+      "uk": "Греція"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "390903"
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia and the South Sandwich Islands",
+    "names": {
+      "de": "South Georgia and the South Sandwich Islands",
+      "en": "South Georgia and the South Sandwich Islands",
+      "es": "South Georgia and the South Sandwich Islands",
+      "fr": "South Georgia and the South Sandwich Islands",
+      "it": "South Georgia and the South Sandwich Islands",
+      "pl": "South Georgia and the South Sandwich Islands",
+      "ro": "South Georgia and the South Sandwich Islands",
+      "tr": "South Georgia and the South Sandwich Islands",
+      "uk": "South Georgia and the South Sandwich Islands"
+    },
+    "currency": "GBP",
+    "continent": "AN",
+    "geonameid": "3474415"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "names": {
+      "de": "Guatemala",
+      "en": "Guatemala",
+      "es": "Guatemala",
+      "fr": "Guatemala",
+      "it": "Guatemala",
+      "pl": "Guatemala",
+      "ro": "Guatemala",
+      "tr": "Guatemala",
+      "uk": "Guatemala"
+    },
+    "currency": "GTQ",
+    "continent": "NA",
+    "geonameid": "3595528"
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "names": {
+      "de": "Guam",
+      "en": "Guam",
+      "es": "Guam",
+      "fr": "Guam",
+      "it": "Guam",
+      "pl": "Guam",
+      "ro": "Guam",
+      "tr": "Guam",
+      "uk": "Guam"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "4043988"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "names": {
+      "de": "Guinea-Bissau",
+      "en": "Guinea-Bissau",
+      "es": "Guinea-Bissau",
+      "fr": "Guinea-Bissau",
+      "it": "Guinea-Bissau",
+      "pl": "Guinea-Bissau",
+      "ro": "Guinea-Bissau",
+      "tr": "Guinea-Bissau",
+      "uk": "Guinea-Bissau"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2372248"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "names": {
+      "de": "Guyana",
+      "en": "Guyana",
+      "es": "Guyana",
+      "fr": "Guyana",
+      "it": "Guyana",
+      "pl": "Guyana",
+      "ro": "Guyana",
+      "tr": "Guyana",
+      "uk": "Guyana"
+    },
+    "currency": "GYD",
+    "continent": "SA",
+    "geonameid": "3378535"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "names": {
+      "de": "Hong Kong",
+      "en": "Hong Kong",
+      "es": "Hong Kong",
+      "fr": "Hong Kong",
+      "it": "Hong Kong",
+      "pl": "Hong Kong",
+      "ro": "Hong Kong",
+      "tr": "Hong Kong",
+      "uk": "Hong Kong"
+    },
+    "currency": "HKD",
+    "continent": "AS",
+    "geonameid": "1819730"
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "names": {
+      "de": "Heard Island and McDonald Islands",
+      "en": "Heard Island and McDonald Islands",
+      "es": "Heard Island and McDonald Islands",
+      "fr": "Heard Island and McDonald Islands",
+      "it": "Heard Island and McDonald Islands",
+      "pl": "Heard Island and McDonald Islands",
+      "ro": "Heard Island and McDonald Islands",
+      "tr": "Heard Island and McDonald Islands",
+      "uk": "Heard Island and McDonald Islands"
+    },
+    "currency": "AUD",
+    "continent": "AN",
+    "geonameid": "1547314"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "names": {
+      "de": "Honduras",
+      "en": "Honduras",
+      "es": "Honduras",
+      "fr": "Honduras",
+      "it": "Honduras",
+      "pl": "Honduras",
+      "ro": "Honduras",
+      "tr": "Honduras",
+      "uk": "Honduras"
+    },
+    "currency": "HNL",
+    "continent": "NA",
+    "geonameid": "3608932"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "names": {
+      "de": "Kroatien",
+      "en": "Croatia",
+      "es": "Croacia",
+      "fr": "Croatie",
+      "it": "Croazia",
+      "pl": "Chorwacja",
+      "ro": "Croația",
+      "tr": "Hırvatistan",
+      "uk": "Хорватія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3202326"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "names": {
+      "de": "Haiti",
+      "en": "Haiti",
+      "es": "Haiti",
+      "fr": "Haiti",
+      "it": "Haiti",
+      "pl": "Haiti",
+      "ro": "Haiti",
+      "tr": "Haiti",
+      "uk": "Haiti"
+    },
+    "currency": "HTG",
+    "continent": "NA",
+    "geonameid": "3723988"
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "names": {
+      "de": "Ungarn",
+      "en": "Hungary",
+      "es": "Hungría",
+      "fr": "Hongrie",
+      "it": "Ungheria",
+      "pl": "Węgry",
+      "ro": "Ungaria",
+      "tr": "Macaristan",
+      "uk": "Угорщина"
+    },
+    "currency": "HUF",
+    "continent": "EU",
+    "geonameid": "719819"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "names": {
+      "de": "Indonesia",
+      "en": "Indonesia",
+      "es": "Indonesia",
+      "fr": "Indonesia",
+      "it": "Indonesia",
+      "pl": "Indonesia",
+      "ro": "Indonesia",
+      "tr": "Indonesia",
+      "uk": "Indonesia"
+    },
+    "currency": "IDR",
+    "continent": "AS",
+    "geonameid": "1643084"
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "names": {
+      "de": "Irland",
+      "en": "Ireland",
+      "es": "Irlanda",
+      "fr": "Irlande",
+      "it": "Irlanda",
+      "pl": "Irlandia",
+      "ro": "Irlanda",
+      "tr": "İrlanda",
+      "uk": "Ірландія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2963597"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "names": {
+      "de": "Israel",
+      "en": "Israel",
+      "es": "Israel",
+      "fr": "Israel",
+      "it": "Israel",
+      "pl": "Israel",
+      "ro": "Israel",
+      "tr": "Israel",
+      "uk": "Israel"
+    },
+    "currency": "ILS",
+    "continent": "AS",
+    "geonameid": "294640"
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "names": {
+      "de": "Insel Man",
+      "en": "Isle of Man",
+      "es": "Isla de Man",
+      "fr": "Île de Man",
+      "it": "Isola di Man",
+      "pl": "Wyspa Man",
+      "ro": "Insula Man",
+      "tr": "Man Adası",
+      "uk": "Острів Мен"
+    },
+    "currency": "GBP",
+    "continent": "EU",
+    "geonameid": "3042225"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "names": {
+      "de": "India",
+      "en": "India",
+      "es": "India",
+      "fr": "India",
+      "it": "India",
+      "pl": "India",
+      "ro": "India",
+      "tr": "India",
+      "uk": "India"
+    },
+    "currency": "INR",
+    "continent": "AS",
+    "geonameid": "1269750"
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "names": {
+      "de": "British Indian Ocean Territory",
+      "en": "British Indian Ocean Territory",
+      "es": "British Indian Ocean Territory",
+      "fr": "British Indian Ocean Territory",
+      "it": "British Indian Ocean Territory",
+      "pl": "British Indian Ocean Territory",
+      "ro": "British Indian Ocean Territory",
+      "tr": "British Indian Ocean Territory",
+      "uk": "British Indian Ocean Territory"
+    },
+    "currency": "USD",
+    "continent": "AS",
+    "geonameid": "1282588"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "names": {
+      "de": "Iraq",
+      "en": "Iraq",
+      "es": "Iraq",
+      "fr": "Iraq",
+      "it": "Iraq",
+      "pl": "Iraq",
+      "ro": "Iraq",
+      "tr": "Iraq",
+      "uk": "Iraq"
+    },
+    "currency": "IQD",
+    "continent": "AS",
+    "geonameid": "99237"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "names": {
+      "de": "Iran",
+      "en": "Iran",
+      "es": "Iran",
+      "fr": "Iran",
+      "it": "Iran",
+      "pl": "Iran",
+      "ro": "Iran",
+      "tr": "Iran",
+      "uk": "Iran"
+    },
+    "currency": "IRR",
+    "continent": "AS",
+    "geonameid": "130758"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "names": {
+      "de": "Island",
+      "en": "Iceland",
+      "es": "Islandia",
+      "fr": "Islande",
+      "it": "Islanda",
+      "pl": "Islandia",
+      "ro": "Islanda",
+      "tr": "İzlanda",
+      "uk": "Ісландія"
+    },
+    "currency": "ISK",
+    "continent": "EU",
+    "geonameid": "2629691"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "names": {
+      "de": "Italien",
+      "en": "Italy",
+      "es": "Italia",
+      "fr": "Italie",
+      "it": "Italia",
+      "pl": "Włochy",
+      "ro": "Italia",
+      "tr": "İtalya",
+      "uk": "Італія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3175395"
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "names": {
+      "de": "Jersey",
+      "en": "Jersey",
+      "es": "Jersey",
+      "fr": "Jersey",
+      "it": "Jersey",
+      "pl": "Jersey",
+      "ro": "Jersey",
+      "tr": "Jersey",
+      "uk": "Джерсі"
+    },
+    "currency": "GBP",
+    "continent": "EU",
+    "geonameid": "3042142"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "names": {
+      "de": "Jamaica",
+      "en": "Jamaica",
+      "es": "Jamaica",
+      "fr": "Jamaica",
+      "it": "Jamaica",
+      "pl": "Jamaica",
+      "ro": "Jamaica",
+      "tr": "Jamaica",
+      "uk": "Jamaica"
+    },
+    "currency": "JMD",
+    "continent": "NA",
+    "geonameid": "3489940"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "names": {
+      "de": "Jordan",
+      "en": "Jordan",
+      "es": "Jordan",
+      "fr": "Jordan",
+      "it": "Jordan",
+      "pl": "Jordan",
+      "ro": "Jordan",
+      "tr": "Jordan",
+      "uk": "Jordan"
+    },
+    "currency": "JOD",
+    "continent": "AS",
+    "geonameid": "248816"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "names": {
+      "de": "Japan",
+      "en": "Japan",
+      "es": "Japan",
+      "fr": "Japan",
+      "it": "Japan",
+      "pl": "Japan",
+      "ro": "Japan",
+      "tr": "Japan",
+      "uk": "Japan"
+    },
+    "currency": "JPY",
+    "continent": "AS",
+    "geonameid": "1861060"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "names": {
+      "de": "Kenya",
+      "en": "Kenya",
+      "es": "Kenya",
+      "fr": "Kenya",
+      "it": "Kenya",
+      "pl": "Kenya",
+      "ro": "Kenya",
+      "tr": "Kenya",
+      "uk": "Kenya"
+    },
+    "currency": "KES",
+    "continent": "AF",
+    "geonameid": "192950"
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "names": {
+      "de": "Kyrgyzstan",
+      "en": "Kyrgyzstan",
+      "es": "Kyrgyzstan",
+      "fr": "Kyrgyzstan",
+      "it": "Kyrgyzstan",
+      "pl": "Kyrgyzstan",
+      "ro": "Kyrgyzstan",
+      "tr": "Kyrgyzstan",
+      "uk": "Kyrgyzstan"
+    },
+    "currency": "KGS",
+    "continent": "AS",
+    "geonameid": "1527747"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "names": {
+      "de": "Cambodia",
+      "en": "Cambodia",
+      "es": "Cambodia",
+      "fr": "Cambodia",
+      "it": "Cambodia",
+      "pl": "Cambodia",
+      "ro": "Cambodia",
+      "tr": "Cambodia",
+      "uk": "Cambodia"
+    },
+    "currency": "KHR",
+    "continent": "AS",
+    "geonameid": "1831722"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "names": {
+      "de": "Kiribati",
+      "en": "Kiribati",
+      "es": "Kiribati",
+      "fr": "Kiribati",
+      "it": "Kiribati",
+      "pl": "Kiribati",
+      "ro": "Kiribati",
+      "tr": "Kiribati",
+      "uk": "Kiribati"
+    },
+    "currency": "AUD",
+    "continent": "OC",
+    "geonameid": "4030945"
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "names": {
+      "de": "Comoros",
+      "en": "Comoros",
+      "es": "Comoros",
+      "fr": "Comoros",
+      "it": "Comoros",
+      "pl": "Comoros",
+      "ro": "Comoros",
+      "tr": "Comoros",
+      "uk": "Comoros"
+    },
+    "currency": "KMF",
+    "continent": "AF",
+    "geonameid": "921929"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "names": {
+      "de": "Saint Kitts and Nevis",
+      "en": "Saint Kitts and Nevis",
+      "es": "Saint Kitts and Nevis",
+      "fr": "Saint Kitts and Nevis",
+      "it": "Saint Kitts and Nevis",
+      "pl": "Saint Kitts and Nevis",
+      "ro": "Saint Kitts and Nevis",
+      "tr": "Saint Kitts and Nevis",
+      "uk": "Saint Kitts and Nevis"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3575174"
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "names": {
+      "de": "North Korea",
+      "en": "North Korea",
+      "es": "North Korea",
+      "fr": "North Korea",
+      "it": "North Korea",
+      "pl": "North Korea",
+      "ro": "North Korea",
+      "tr": "North Korea",
+      "uk": "North Korea"
+    },
+    "currency": "KPW",
+    "continent": "AS",
+    "geonameid": "1873107"
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "names": {
+      "de": "South Korea",
+      "en": "South Korea",
+      "es": "South Korea",
+      "fr": "South Korea",
+      "it": "South Korea",
+      "pl": "South Korea",
+      "ro": "South Korea",
+      "tr": "South Korea",
+      "uk": "South Korea"
+    },
+    "currency": "KRW",
+    "continent": "AS",
+    "geonameid": "1835841"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "names": {
+      "de": "Kuwait",
+      "en": "Kuwait",
+      "es": "Kuwait",
+      "fr": "Kuwait",
+      "it": "Kuwait",
+      "pl": "Kuwait",
+      "ro": "Kuwait",
+      "tr": "Kuwait",
+      "uk": "Kuwait"
+    },
+    "currency": "KWD",
+    "continent": "AS",
+    "geonameid": "285570"
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "names": {
+      "de": "Cayman Islands",
+      "en": "Cayman Islands",
+      "es": "Cayman Islands",
+      "fr": "Cayman Islands",
+      "it": "Cayman Islands",
+      "pl": "Cayman Islands",
+      "ro": "Cayman Islands",
+      "tr": "Cayman Islands",
+      "uk": "Cayman Islands"
+    },
+    "currency": "KYD",
+    "continent": "NA",
+    "geonameid": "3580718"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "names": {
+      "de": "Kazakhstan",
+      "en": "Kazakhstan",
+      "es": "Kazakhstan",
+      "fr": "Kazakhstan",
+      "it": "Kazakhstan",
+      "pl": "Kazakhstan",
+      "ro": "Kazakhstan",
+      "tr": "Kazakhstan",
+      "uk": "Kazakhstan"
+    },
+    "currency": "KZT",
+    "continent": "AS",
+    "geonameid": "1522867"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "names": {
+      "de": "Laos",
+      "en": "Laos",
+      "es": "Laos",
+      "fr": "Laos",
+      "it": "Laos",
+      "pl": "Laos",
+      "ro": "Laos",
+      "tr": "Laos",
+      "uk": "Laos"
+    },
+    "currency": "LAK",
+    "continent": "AS",
+    "geonameid": "1655842"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "names": {
+      "de": "Lebanon",
+      "en": "Lebanon",
+      "es": "Lebanon",
+      "fr": "Lebanon",
+      "it": "Lebanon",
+      "pl": "Lebanon",
+      "ro": "Lebanon",
+      "tr": "Lebanon",
+      "uk": "Lebanon"
+    },
+    "currency": "LBP",
+    "continent": "AS",
+    "geonameid": "272103"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "names": {
+      "de": "Saint Lucia",
+      "en": "Saint Lucia",
+      "es": "Saint Lucia",
+      "fr": "Saint Lucia",
+      "it": "Saint Lucia",
+      "pl": "Saint Lucia",
+      "ro": "Saint Lucia",
+      "tr": "Saint Lucia",
+      "uk": "Saint Lucia"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3576468"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "names": {
+      "de": "Liechtenstein",
+      "en": "Liechtenstein",
+      "es": "Liechtenstein",
+      "fr": "Liechtenstein",
+      "it": "Liechtenstein",
+      "pl": "Liechtenstein",
+      "ro": "Liechtenstein",
+      "tr": "Lihtenştayn",
+      "uk": "Ліхтенштейн"
+    },
+    "currency": "CHF",
+    "continent": "EU",
+    "geonameid": "3042058"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "names": {
+      "de": "Sri Lanka",
+      "en": "Sri Lanka",
+      "es": "Sri Lanka",
+      "fr": "Sri Lanka",
+      "it": "Sri Lanka",
+      "pl": "Sri Lanka",
+      "ro": "Sri Lanka",
+      "tr": "Sri Lanka",
+      "uk": "Sri Lanka"
+    },
+    "currency": "LKR",
+    "continent": "AS",
+    "geonameid": "1227603"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "names": {
+      "de": "Liberia",
+      "en": "Liberia",
+      "es": "Liberia",
+      "fr": "Liberia",
+      "it": "Liberia",
+      "pl": "Liberia",
+      "ro": "Liberia",
+      "tr": "Liberia",
+      "uk": "Liberia"
+    },
+    "currency": "LRD",
+    "continent": "AF",
+    "geonameid": "2275384"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "names": {
+      "de": "Lesotho",
+      "en": "Lesotho",
+      "es": "Lesotho",
+      "fr": "Lesotho",
+      "it": "Lesotho",
+      "pl": "Lesotho",
+      "ro": "Lesotho",
+      "tr": "Lesotho",
+      "uk": "Lesotho"
+    },
+    "currency": "LSL",
+    "continent": "AF",
+    "geonameid": "932692"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "names": {
+      "de": "Litauen",
+      "en": "Lithuania",
+      "es": "Lituania",
+      "fr": "Lituanie",
+      "it": "Lituania",
+      "pl": "Litwa",
+      "ro": "Lituania",
+      "tr": "Litvanya",
+      "uk": "Литва"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "597427"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "names": {
+      "de": "Luxemburg",
+      "en": "Luxembourg",
+      "es": "Luxemburgo",
+      "fr": "Luxembourg",
+      "it": "Lussemburgo",
+      "pl": "Luksemburg",
+      "ro": "Luxemburg",
+      "tr": "Lüksemburg",
+      "uk": "Люксембург"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2960313"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "names": {
+      "de": "Lettland",
+      "en": "Latvia",
+      "es": "Letonia",
+      "fr": "Lettonie",
+      "it": "Lettonia",
+      "pl": "Łotwa",
+      "ro": "Letonia",
+      "tr": "Letonya",
+      "uk": "Латвія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "458258"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "names": {
+      "de": "Libya",
+      "en": "Libya",
+      "es": "Libya",
+      "fr": "Libya",
+      "it": "Libya",
+      "pl": "Libya",
+      "ro": "Libya",
+      "tr": "Libya",
+      "uk": "Libya"
+    },
+    "currency": "LYD",
+    "continent": "AF",
+    "geonameid": "2215636"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "names": {
+      "de": "Morocco",
+      "en": "Morocco",
+      "es": "Morocco",
+      "fr": "Morocco",
+      "it": "Morocco",
+      "pl": "Morocco",
+      "ro": "Morocco",
+      "tr": "Morocco",
+      "uk": "Morocco"
+    },
+    "currency": "MAD",
+    "continent": "AF",
+    "geonameid": "2542007"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "names": {
+      "de": "Monaco",
+      "en": "Monaco",
+      "es": "Mónaco",
+      "fr": "Monaco",
+      "it": "Monaco",
+      "pl": "Monako",
+      "ro": "Monaco",
+      "tr": "Monako",
+      "uk": "Монако"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2993457"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "names": {
+      "de": "Moldau",
+      "en": "Moldova",
+      "es": "Moldavia",
+      "fr": "Moldavie",
+      "it": "Moldavia",
+      "pl": "Mołdawia",
+      "ro": "Republica Moldova",
+      "tr": "Moldova",
+      "uk": "Молдова"
+    },
+    "currency": "MDL",
+    "continent": "EU",
+    "geonameid": "617790"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "names": {
+      "de": "Montenegro",
+      "en": "Montenegro",
+      "es": "Montenegro",
+      "fr": "Monténégro",
+      "it": "Montenegro",
+      "pl": "Czarnogóra",
+      "ro": "Muntenegru",
+      "tr": "Karadağ",
+      "uk": "Чорногорія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3194884"
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "names": {
+      "de": "Saint Martin",
+      "en": "Saint Martin",
+      "es": "Saint Martin",
+      "fr": "Saint Martin",
+      "it": "Saint Martin",
+      "pl": "Saint Martin",
+      "ro": "Saint Martin",
+      "tr": "Saint Martin",
+      "uk": "Saint Martin"
+    },
+    "currency": "EUR",
+    "continent": "NA",
+    "geonameid": "3578421"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "names": {
+      "de": "Madagascar",
+      "en": "Madagascar",
+      "es": "Madagascar",
+      "fr": "Madagascar",
+      "it": "Madagascar",
+      "pl": "Madagascar",
+      "ro": "Madagascar",
+      "tr": "Madagascar",
+      "uk": "Madagascar"
+    },
+    "currency": "MGA",
+    "continent": "AF",
+    "geonameid": "1062947"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "names": {
+      "de": "Marshall Islands",
+      "en": "Marshall Islands",
+      "es": "Marshall Islands",
+      "fr": "Marshall Islands",
+      "it": "Marshall Islands",
+      "pl": "Marshall Islands",
+      "ro": "Marshall Islands",
+      "tr": "Marshall Islands",
+      "uk": "Marshall Islands"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "2080185"
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "names": {
+      "de": "Nordmazedonien",
+      "en": "North Macedonia",
+      "es": "Macedonia del Norte",
+      "fr": "Macédoine du Nord",
+      "it": "Macedonia del Nord",
+      "pl": "Macedonia Północna",
+      "ro": "Macedonia de Nord",
+      "tr": "Kuzey Makedonya",
+      "uk": "Північна Македонія"
+    },
+    "currency": "MKD",
+    "continent": "EU",
+    "geonameid": "718075"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "names": {
+      "de": "Mali",
+      "en": "Mali",
+      "es": "Mali",
+      "fr": "Mali",
+      "it": "Mali",
+      "pl": "Mali",
+      "ro": "Mali",
+      "tr": "Mali",
+      "uk": "Mali"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2453866"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "names": {
+      "de": "Myanmar",
+      "en": "Myanmar",
+      "es": "Myanmar",
+      "fr": "Myanmar",
+      "it": "Myanmar",
+      "pl": "Myanmar",
+      "ro": "Myanmar",
+      "tr": "Myanmar",
+      "uk": "Myanmar"
+    },
+    "currency": "MMK",
+    "continent": "AS",
+    "geonameid": "1327865"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "names": {
+      "de": "Mongolia",
+      "en": "Mongolia",
+      "es": "Mongolia",
+      "fr": "Mongolia",
+      "it": "Mongolia",
+      "pl": "Mongolia",
+      "ro": "Mongolia",
+      "tr": "Mongolia",
+      "uk": "Mongolia"
+    },
+    "currency": "MNT",
+    "continent": "AS",
+    "geonameid": "2029969"
+  },
+  {
+    "code": "MO",
+    "name": "Macao",
+    "names": {
+      "de": "Macao",
+      "en": "Macao",
+      "es": "Macao",
+      "fr": "Macao",
+      "it": "Macao",
+      "pl": "Macao",
+      "ro": "Macao",
+      "tr": "Macao",
+      "uk": "Macao"
+    },
+    "currency": "MOP",
+    "continent": "AS",
+    "geonameid": "1821275"
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "names": {
+      "de": "Northern Mariana Islands",
+      "en": "Northern Mariana Islands",
+      "es": "Northern Mariana Islands",
+      "fr": "Northern Mariana Islands",
+      "it": "Northern Mariana Islands",
+      "pl": "Northern Mariana Islands",
+      "ro": "Northern Mariana Islands",
+      "tr": "Northern Mariana Islands",
+      "uk": "Northern Mariana Islands"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "4041468"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "names": {
+      "de": "Martinique",
+      "en": "Martinique",
+      "es": "Martinique",
+      "fr": "Martinique",
+      "it": "Martinique",
+      "pl": "Martinique",
+      "ro": "Martinique",
+      "tr": "Martinique",
+      "uk": "Martinique"
+    },
+    "currency": "EUR",
+    "continent": "NA",
+    "geonameid": "3570311"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "names": {
+      "de": "Mauritania",
+      "en": "Mauritania",
+      "es": "Mauritania",
+      "fr": "Mauritania",
+      "it": "Mauritania",
+      "pl": "Mauritania",
+      "ro": "Mauritania",
+      "tr": "Mauritania",
+      "uk": "Mauritania"
+    },
+    "currency": "MRU",
+    "continent": "AF",
+    "geonameid": "2378080"
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "names": {
+      "de": "Montserrat",
+      "en": "Montserrat",
+      "es": "Montserrat",
+      "fr": "Montserrat",
+      "it": "Montserrat",
+      "pl": "Montserrat",
+      "ro": "Montserrat",
+      "tr": "Montserrat",
+      "uk": "Montserrat"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3578097"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "names": {
+      "de": "Malta",
+      "en": "Malta",
+      "es": "Malta",
+      "fr": "Malte",
+      "it": "Malta",
+      "pl": "Malta",
+      "ro": "Malta",
+      "tr": "Malta",
+      "uk": "Мальта"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2562770"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "names": {
+      "de": "Mauritius",
+      "en": "Mauritius",
+      "es": "Mauritius",
+      "fr": "Mauritius",
+      "it": "Mauritius",
+      "pl": "Mauritius",
+      "ro": "Mauritius",
+      "tr": "Mauritius",
+      "uk": "Mauritius"
+    },
+    "currency": "MUR",
+    "continent": "AF",
+    "geonameid": "934292"
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "names": {
+      "de": "Maldives",
+      "en": "Maldives",
+      "es": "Maldives",
+      "fr": "Maldives",
+      "it": "Maldives",
+      "pl": "Maldives",
+      "ro": "Maldives",
+      "tr": "Maldives",
+      "uk": "Maldives"
+    },
+    "currency": "MVR",
+    "continent": "AS",
+    "geonameid": "1282028"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "names": {
+      "de": "Malawi",
+      "en": "Malawi",
+      "es": "Malawi",
+      "fr": "Malawi",
+      "it": "Malawi",
+      "pl": "Malawi",
+      "ro": "Malawi",
+      "tr": "Malawi",
+      "uk": "Malawi"
+    },
+    "currency": "MWK",
+    "continent": "AF",
+    "geonameid": "927384"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "names": {
+      "de": "Mexico",
+      "en": "Mexico",
+      "es": "Mexico",
+      "fr": "Mexico",
+      "it": "Mexico",
+      "pl": "Mexico",
+      "ro": "Mexico",
+      "tr": "Mexico",
+      "uk": "Mexico"
+    },
+    "currency": "MXN",
+    "continent": "NA",
+    "geonameid": "3996063"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "names": {
+      "de": "Malaysia",
+      "en": "Malaysia",
+      "es": "Malaysia",
+      "fr": "Malaysia",
+      "it": "Malaysia",
+      "pl": "Malaysia",
+      "ro": "Malaysia",
+      "tr": "Malaysia",
+      "uk": "Malaysia"
+    },
+    "currency": "MYR",
+    "continent": "AS",
+    "geonameid": "1733045"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "names": {
+      "de": "Mozambique",
+      "en": "Mozambique",
+      "es": "Mozambique",
+      "fr": "Mozambique",
+      "it": "Mozambique",
+      "pl": "Mozambique",
+      "ro": "Mozambique",
+      "tr": "Mozambique",
+      "uk": "Mozambique"
+    },
+    "currency": "MZN",
+    "continent": "AF",
+    "geonameid": "1036973"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "names": {
+      "de": "Namibia",
+      "en": "Namibia",
+      "es": "Namibia",
+      "fr": "Namibia",
+      "it": "Namibia",
+      "pl": "Namibia",
+      "ro": "Namibia",
+      "tr": "Namibia",
+      "uk": "Namibia"
+    },
+    "currency": "NAD",
+    "continent": "AF",
+    "geonameid": "3355338"
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "names": {
+      "de": "New Caledonia",
+      "en": "New Caledonia",
+      "es": "New Caledonia",
+      "fr": "New Caledonia",
+      "it": "New Caledonia",
+      "pl": "New Caledonia",
+      "ro": "New Caledonia",
+      "tr": "New Caledonia",
+      "uk": "New Caledonia"
+    },
+    "currency": "XPF",
+    "continent": "OC",
+    "geonameid": "2139685"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "names": {
+      "de": "Niger",
+      "en": "Niger",
+      "es": "Niger",
+      "fr": "Niger",
+      "it": "Niger",
+      "pl": "Niger",
+      "ro": "Niger",
+      "tr": "Niger",
+      "uk": "Niger"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2440476"
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "names": {
+      "de": "Norfolk Island",
+      "en": "Norfolk Island",
+      "es": "Norfolk Island",
+      "fr": "Norfolk Island",
+      "it": "Norfolk Island",
+      "pl": "Norfolk Island",
+      "ro": "Norfolk Island",
+      "tr": "Norfolk Island",
+      "uk": "Norfolk Island"
+    },
+    "currency": "AUD",
+    "continent": "OC",
+    "geonameid": "2155115"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "names": {
+      "de": "Nigeria",
+      "en": "Nigeria",
+      "es": "Nigeria",
+      "fr": "Nigeria",
+      "it": "Nigeria",
+      "pl": "Nigeria",
+      "ro": "Nigeria",
+      "tr": "Nigeria",
+      "uk": "Nigeria"
+    },
+    "currency": "NGN",
+    "continent": "AF",
+    "geonameid": "2328926"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "names": {
+      "de": "Nicaragua",
+      "en": "Nicaragua",
+      "es": "Nicaragua",
+      "fr": "Nicaragua",
+      "it": "Nicaragua",
+      "pl": "Nicaragua",
+      "ro": "Nicaragua",
+      "tr": "Nicaragua",
+      "uk": "Nicaragua"
+    },
+    "currency": "NIO",
+    "continent": "NA",
+    "geonameid": "3617476"
+  },
+  {
+    "code": "NL",
+    "name": "The Netherlands",
+    "names": {
+      "de": "Niederlande",
+      "en": "The Netherlands",
+      "es": "Holanda",
+      "fr": "Pays-Bas",
+      "it": "Olanda",
+      "pl": "Holandia",
+      "ro": "Țările de Jos",
+      "tr": "Hollanda",
+      "uk": "Нідерланди"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2750405"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "names": {
+      "de": "Norwegen",
+      "en": "Norway",
+      "es": "Noruega",
+      "fr": "Norvège",
+      "it": "Norvegia",
+      "pl": "Norwegia",
+      "ro": "Norvegia",
+      "tr": "Norveç",
+      "uk": "Норвегія"
+    },
+    "currency": "NOK",
+    "continent": "EU",
+    "geonameid": "3144096"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "names": {
+      "de": "Nepal",
+      "en": "Nepal",
+      "es": "Nepal",
+      "fr": "Nepal",
+      "it": "Nepal",
+      "pl": "Nepal",
+      "ro": "Nepal",
+      "tr": "Nepal",
+      "uk": "Nepal"
+    },
+    "currency": "NPR",
+    "continent": "AS",
+    "geonameid": "1282988"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "names": {
+      "de": "Nauru",
+      "en": "Nauru",
+      "es": "Nauru",
+      "fr": "Nauru",
+      "it": "Nauru",
+      "pl": "Nauru",
+      "ro": "Nauru",
+      "tr": "Nauru",
+      "uk": "Nauru"
+    },
+    "currency": "AUD",
+    "continent": "OC",
+    "geonameid": "2110425"
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "names": {
+      "de": "Niue",
+      "en": "Niue",
+      "es": "Niue",
+      "fr": "Niue",
+      "it": "Niue",
+      "pl": "Niue",
+      "ro": "Niue",
+      "tr": "Niue",
+      "uk": "Niue"
+    },
+    "currency": "NZD",
+    "continent": "OC",
+    "geonameid": "4036232"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "names": {
+      "de": "New Zealand",
+      "en": "New Zealand",
+      "es": "New Zealand",
+      "fr": "New Zealand",
+      "it": "New Zealand",
+      "pl": "New Zealand",
+      "ro": "New Zealand",
+      "tr": "New Zealand",
+      "uk": "New Zealand"
+    },
+    "currency": "NZD",
+    "continent": "OC",
+    "geonameid": "2186224"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "names": {
+      "de": "Oman",
+      "en": "Oman",
+      "es": "Oman",
+      "fr": "Oman",
+      "it": "Oman",
+      "pl": "Oman",
+      "ro": "Oman",
+      "tr": "Oman",
+      "uk": "Oman"
+    },
+    "currency": "OMR",
+    "continent": "AS",
+    "geonameid": "286963"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "names": {
+      "de": "Panama",
+      "en": "Panama",
+      "es": "Panama",
+      "fr": "Panama",
+      "it": "Panama",
+      "pl": "Panama",
+      "ro": "Panama",
+      "tr": "Panama",
+      "uk": "Panama"
+    },
+    "currency": "PAB",
+    "continent": "NA",
+    "geonameid": "3703430"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "names": {
+      "de": "Peru",
+      "en": "Peru",
+      "es": "Peru",
+      "fr": "Peru",
+      "it": "Peru",
+      "pl": "Peru",
+      "ro": "Peru",
+      "tr": "Peru",
+      "uk": "Peru"
+    },
+    "currency": "PEN",
+    "continent": "SA",
+    "geonameid": "3932488"
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "names": {
+      "de": "French Polynesia",
+      "en": "French Polynesia",
+      "es": "French Polynesia",
+      "fr": "French Polynesia",
+      "it": "French Polynesia",
+      "pl": "French Polynesia",
+      "ro": "French Polynesia",
+      "tr": "French Polynesia",
+      "uk": "French Polynesia"
+    },
+    "currency": "XPF",
+    "continent": "OC",
+    "geonameid": "4030656"
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "names": {
+      "de": "Papua New Guinea",
+      "en": "Papua New Guinea",
+      "es": "Papua New Guinea",
+      "fr": "Papua New Guinea",
+      "it": "Papua New Guinea",
+      "pl": "Papua New Guinea",
+      "ro": "Papua New Guinea",
+      "tr": "Papua New Guinea",
+      "uk": "Papua New Guinea"
+    },
+    "currency": "PGK",
+    "continent": "OC",
+    "geonameid": "2088628"
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "names": {
+      "de": "Philippines",
+      "en": "Philippines",
+      "es": "Philippines",
+      "fr": "Philippines",
+      "it": "Philippines",
+      "pl": "Philippines",
+      "ro": "Philippines",
+      "tr": "Philippines",
+      "uk": "Philippines"
+    },
+    "currency": "PHP",
+    "continent": "AS",
+    "geonameid": "1694008"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "names": {
+      "de": "Pakistan",
+      "en": "Pakistan",
+      "es": "Pakistan",
+      "fr": "Pakistan",
+      "it": "Pakistan",
+      "pl": "Pakistan",
+      "ro": "Pakistan",
+      "tr": "Pakistan",
+      "uk": "Pakistan"
+    },
+    "currency": "PKR",
+    "continent": "AS",
+    "geonameid": "1168579"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "names": {
+      "de": "Polen",
+      "en": "Poland",
+      "es": "Polonia",
+      "fr": "Pologne",
+      "it": "Polonia",
+      "pl": "Polska",
+      "ro": "Polonia",
+      "tr": "Polonya",
+      "uk": "Польща"
+    },
+    "currency": "PLN",
+    "continent": "EU",
+    "geonameid": "798544"
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "names": {
+      "de": "Saint Pierre and Miquelon",
+      "en": "Saint Pierre and Miquelon",
+      "es": "Saint Pierre and Miquelon",
+      "fr": "Saint Pierre and Miquelon",
+      "it": "Saint Pierre and Miquelon",
+      "pl": "Saint Pierre and Miquelon",
+      "ro": "Saint Pierre and Miquelon",
+      "tr": "Saint Pierre and Miquelon",
+      "uk": "Saint Pierre and Miquelon"
+    },
+    "currency": "EUR",
+    "continent": "NA",
+    "geonameid": "3424932"
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn",
+    "names": {
+      "de": "Pitcairn",
+      "en": "Pitcairn",
+      "es": "Pitcairn",
+      "fr": "Pitcairn",
+      "it": "Pitcairn",
+      "pl": "Pitcairn",
+      "ro": "Pitcairn",
+      "tr": "Pitcairn",
+      "uk": "Pitcairn"
+    },
+    "currency": "NZD",
+    "continent": "OC",
+    "geonameid": "4030699"
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "names": {
+      "de": "Puerto Rico",
+      "en": "Puerto Rico",
+      "es": "Puerto Rico",
+      "fr": "Puerto Rico",
+      "it": "Puerto Rico",
+      "pl": "Puerto Rico",
+      "ro": "Puerto Rico",
+      "tr": "Puerto Rico",
+      "uk": "Puerto Rico"
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "4566966"
+  },
+  {
+    "code": "PS",
+    "name": "Palestinian Territory",
+    "names": {
+      "de": "Palestinian Territory",
+      "en": "Palestinian Territory",
+      "es": "Palestinian Territory",
+      "fr": "Palestinian Territory",
+      "it": "Palestinian Territory",
+      "pl": "Palestinian Territory",
+      "ro": "Palestinian Territory",
+      "tr": "Palestinian Territory",
+      "uk": "Palestinian Territory"
+    },
+    "currency": "ILS",
+    "continent": "AS",
+    "geonameid": "6254930"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "names": {
+      "de": "Portugal",
+      "en": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "it": "Portogallo",
+      "pl": "Portugalia",
+      "ro": "Portugalia",
+      "tr": "Portekiz",
+      "uk": "Португалія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "2264397"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "names": {
+      "de": "Palau",
+      "en": "Palau",
+      "es": "Palau",
+      "fr": "Palau",
+      "it": "Palau",
+      "pl": "Palau",
+      "ro": "Palau",
+      "tr": "Palau",
+      "uk": "Palau"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "1559582"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "names": {
+      "de": "Paraguay",
+      "en": "Paraguay",
+      "es": "Paraguay",
+      "fr": "Paraguay",
+      "it": "Paraguay",
+      "pl": "Paraguay",
+      "ro": "Paraguay",
+      "tr": "Paraguay",
+      "uk": "Paraguay"
+    },
+    "currency": "PYG",
+    "continent": "SA",
+    "geonameid": "3437598"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "names": {
+      "de": "Qatar",
+      "en": "Qatar",
+      "es": "Qatar",
+      "fr": "Qatar",
+      "it": "Qatar",
+      "pl": "Qatar",
+      "ro": "Qatar",
+      "tr": "Qatar",
+      "uk": "Qatar"
+    },
+    "currency": "QAR",
+    "continent": "AS",
+    "geonameid": "289688"
+  },
+  {
+    "code": "RE",
+    "name": "Reunion",
+    "names": {
+      "de": "Reunion",
+      "en": "Reunion",
+      "es": "Reunion",
+      "fr": "Reunion",
+      "it": "Reunion",
+      "pl": "Reunion",
+      "ro": "Reunion",
+      "tr": "Reunion",
+      "uk": "Reunion"
+    },
+    "currency": "EUR",
+    "continent": "AF",
+    "geonameid": "935317"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "names": {
+      "de": "Rumänien",
+      "en": "Romania",
+      "es": "Rumanía",
+      "fr": "Roumanie",
+      "it": "Romania",
+      "pl": "Rumunia",
+      "ro": "România",
+      "tr": "Romanya",
+      "uk": "Румунія"
+    },
+    "currency": "RON",
+    "continent": "EU",
+    "geonameid": "798549"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "names": {
+      "de": "Serbien",
+      "en": "Serbia",
+      "es": "Serbia",
+      "fr": "Serbie",
+      "it": "Serbia",
+      "pl": "Serbia",
+      "ro": "Serbia",
+      "tr": "Sırbistan",
+      "uk": "Сербія"
+    },
+    "currency": "RSD",
+    "continent": "EU",
+    "geonameid": "6290252"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "names": {
+      "de": "Russia",
+      "en": "Russia",
+      "es": "Russia",
+      "fr": "Russia",
+      "it": "Russia",
+      "pl": "Russia",
+      "ro": "Russia",
+      "tr": "Russia",
+      "uk": "Russia"
+    },
+    "currency": "RUB",
+    "continent": "EU",
+    "geonameid": "2017370"
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "names": {
+      "de": "Rwanda",
+      "en": "Rwanda",
+      "es": "Rwanda",
+      "fr": "Rwanda",
+      "it": "Rwanda",
+      "pl": "Rwanda",
+      "ro": "Rwanda",
+      "tr": "Rwanda",
+      "uk": "Rwanda"
+    },
+    "currency": "RWF",
+    "continent": "AF",
+    "geonameid": "49518"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "names": {
+      "de": "Saudi Arabia",
+      "en": "Saudi Arabia",
+      "es": "Saudi Arabia",
+      "fr": "Saudi Arabia",
+      "it": "Saudi Arabia",
+      "pl": "Saudi Arabia",
+      "ro": "Saudi Arabia",
+      "tr": "Saudi Arabia",
+      "uk": "Saudi Arabia"
+    },
+    "currency": "SAR",
+    "continent": "AS",
+    "geonameid": "102358"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "names": {
+      "de": "Solomon Islands",
+      "en": "Solomon Islands",
+      "es": "Solomon Islands",
+      "fr": "Solomon Islands",
+      "it": "Solomon Islands",
+      "pl": "Solomon Islands",
+      "ro": "Solomon Islands",
+      "tr": "Solomon Islands",
+      "uk": "Solomon Islands"
+    },
+    "currency": "SBD",
+    "continent": "OC",
+    "geonameid": "2103350"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "names": {
+      "de": "Seychelles",
+      "en": "Seychelles",
+      "es": "Seychelles",
+      "fr": "Seychelles",
+      "it": "Seychelles",
+      "pl": "Seychelles",
+      "ro": "Seychelles",
+      "tr": "Seychelles",
+      "uk": "Seychelles"
+    },
+    "currency": "SCR",
+    "continent": "AF",
+    "geonameid": "241170"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "names": {
+      "de": "Sudan",
+      "en": "Sudan",
+      "es": "Sudan",
+      "fr": "Sudan",
+      "it": "Sudan",
+      "pl": "Sudan",
+      "ro": "Sudan",
+      "tr": "Sudan",
+      "uk": "Sudan"
+    },
+    "currency": "SDG",
+    "continent": "AF",
+    "geonameid": "366755"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "names": {
+      "de": "Schweden",
+      "en": "Sweden",
+      "es": "Suecia",
+      "fr": "Suède",
+      "it": "Svezia",
+      "pl": "Szwecja",
+      "ro": "Suedia",
+      "tr": "İsveç",
+      "uk": "Швеція"
+    },
+    "currency": "SEK",
+    "continent": "EU",
+    "geonameid": "2661886"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "names": {
+      "de": "Singapore",
+      "en": "Singapore",
+      "es": "Singapore",
+      "fr": "Singapore",
+      "it": "Singapore",
+      "pl": "Singapore",
+      "ro": "Singapore",
+      "tr": "Singapore",
+      "uk": "Singapore"
+    },
+    "currency": "SGD",
+    "continent": "AS",
+    "geonameid": "1880251"
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena",
+    "names": {
+      "de": "Saint Helena",
+      "en": "Saint Helena",
+      "es": "Saint Helena",
+      "fr": "Saint Helena",
+      "it": "Saint Helena",
+      "pl": "Saint Helena",
+      "ro": "Saint Helena",
+      "tr": "Saint Helena",
+      "uk": "Saint Helena"
+    },
+    "currency": "SHP",
+    "continent": "AF",
+    "geonameid": "3370751"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "names": {
+      "de": "Slowenien",
+      "en": "Slovenia",
+      "es": "Eslovenia",
+      "fr": "Slovénie",
+      "it": "Slovenia",
+      "pl": "Słowenia",
+      "ro": "Slovenia",
+      "tr": "Slovenya",
+      "uk": "Словенія"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3190538"
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "names": {
+      "de": "Spitzbergen und Jan Mayen",
+      "en": "Svalbard and Jan Mayen",
+      "es": "Svalbard y Jan Mayen",
+      "fr": "Svalbard et Jan Mayen",
+      "it": "Svalbard e Jan Mayen",
+      "pl": "Svalbard i Jan Mayen",
+      "ro": "Svalbard și Jan Mayen",
+      "tr": "Svalbard ve Jan Mayen",
+      "uk": "Шпіцберген та Ян-Маєн"
+    },
+    "currency": "NOK",
+    "continent": "EU",
+    "geonameid": "607072"
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "names": {
+      "de": "Slowakei",
+      "en": "Slovakia",
+      "es": "Eslovaquia",
+      "fr": "Slovaquie",
+      "it": "Slovacchia",
+      "pl": "Słowacja",
+      "ro": "Slovacia",
+      "tr": "Slovakya",
+      "uk": "Словаччина"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3057568"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "names": {
+      "de": "Sierra Leone",
+      "en": "Sierra Leone",
+      "es": "Sierra Leone",
+      "fr": "Sierra Leone",
+      "it": "Sierra Leone",
+      "pl": "Sierra Leone",
+      "ro": "Sierra Leone",
+      "tr": "Sierra Leone",
+      "uk": "Sierra Leone"
+    },
+    "currency": "SLE",
+    "continent": "AF",
+    "geonameid": "2403846"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "names": {
+      "de": "San Marino",
+      "en": "San Marino",
+      "es": "San Marino",
+      "fr": "Saint-Marin",
+      "it": "San Marino",
+      "pl": "San Marino",
+      "ro": "San Marino",
+      "tr": "San Marino",
+      "uk": "Сан-Марино"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3168068"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "names": {
+      "de": "Senegal",
+      "en": "Senegal",
+      "es": "Senegal",
+      "fr": "Senegal",
+      "it": "Senegal",
+      "pl": "Senegal",
+      "ro": "Senegal",
+      "tr": "Senegal",
+      "uk": "Senegal"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2245662"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "names": {
+      "de": "Somalia",
+      "en": "Somalia",
+      "es": "Somalia",
+      "fr": "Somalia",
+      "it": "Somalia",
+      "pl": "Somalia",
+      "ro": "Somalia",
+      "tr": "Somalia",
+      "uk": "Somalia"
+    },
+    "currency": "SOS",
+    "continent": "AF",
+    "geonameid": "51537"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "names": {
+      "de": "Suriname",
+      "en": "Suriname",
+      "es": "Suriname",
+      "fr": "Suriname",
+      "it": "Suriname",
+      "pl": "Suriname",
+      "ro": "Suriname",
+      "tr": "Suriname",
+      "uk": "Suriname"
+    },
+    "currency": "SRD",
+    "continent": "SA",
+    "geonameid": "3382998"
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "names": {
+      "de": "South Sudan",
+      "en": "South Sudan",
+      "es": "South Sudan",
+      "fr": "South Sudan",
+      "it": "South Sudan",
+      "pl": "South Sudan",
+      "ro": "South Sudan",
+      "tr": "South Sudan",
+      "uk": "South Sudan"
+    },
+    "currency": "SSP",
+    "continent": "AF",
+    "geonameid": "7909807"
+  },
+  {
+    "code": "ST",
+    "name": "Sao Tome and Principe",
+    "names": {
+      "de": "Sao Tome and Principe",
+      "en": "Sao Tome and Principe",
+      "es": "Sao Tome and Principe",
+      "fr": "Sao Tome and Principe",
+      "it": "Sao Tome and Principe",
+      "pl": "Sao Tome and Principe",
+      "ro": "Sao Tome and Principe",
+      "tr": "Sao Tome and Principe",
+      "uk": "Sao Tome and Principe"
+    },
+    "currency": "STN",
+    "continent": "AF",
+    "geonameid": "2410758"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "names": {
+      "de": "El Salvador",
+      "en": "El Salvador",
+      "es": "El Salvador",
+      "fr": "El Salvador",
+      "it": "El Salvador",
+      "pl": "El Salvador",
+      "ro": "El Salvador",
+      "tr": "El Salvador",
+      "uk": "El Salvador"
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "3585968"
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "names": {
+      "de": "Sint Maarten",
+      "en": "Sint Maarten",
+      "es": "Sint Maarten",
+      "fr": "Sint Maarten",
+      "it": "Sint Maarten",
+      "pl": "Sint Maarten",
+      "ro": "Sint Maarten",
+      "tr": "Sint Maarten",
+      "uk": "Sint Maarten"
+    },
+    "currency": "XCG",
+    "continent": "NA",
+    "geonameid": "7609695"
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "names": {
+      "de": "Syria",
+      "en": "Syria",
+      "es": "Syria",
+      "fr": "Syria",
+      "it": "Syria",
+      "pl": "Syria",
+      "ro": "Syria",
+      "tr": "Syria",
+      "uk": "Syria"
+    },
+    "currency": "SYP",
+    "continent": "AS",
+    "geonameid": "163843"
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "names": {
+      "de": "Eswatini",
+      "en": "Eswatini",
+      "es": "Eswatini",
+      "fr": "Eswatini",
+      "it": "Eswatini",
+      "pl": "Eswatini",
+      "ro": "Eswatini",
+      "tr": "Eswatini",
+      "uk": "Eswatini"
+    },
+    "currency": "SZL",
+    "continent": "AF",
+    "geonameid": "934841"
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "names": {
+      "de": "Turks and Caicos Islands",
+      "en": "Turks and Caicos Islands",
+      "es": "Turks and Caicos Islands",
+      "fr": "Turks and Caicos Islands",
+      "it": "Turks and Caicos Islands",
+      "pl": "Turks and Caicos Islands",
+      "ro": "Turks and Caicos Islands",
+      "tr": "Turks and Caicos Islands",
+      "uk": "Turks and Caicos Islands"
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "3576916"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "names": {
+      "de": "Chad",
+      "en": "Chad",
+      "es": "Chad",
+      "fr": "Chad",
+      "it": "Chad",
+      "pl": "Chad",
+      "ro": "Chad",
+      "tr": "Chad",
+      "uk": "Chad"
+    },
+    "currency": "XAF",
+    "continent": "AF",
+    "geonameid": "2434508"
+  },
+  {
+    "code": "TF",
+    "name": "French Southern Territories",
+    "names": {
+      "de": "French Southern Territories",
+      "en": "French Southern Territories",
+      "es": "French Southern Territories",
+      "fr": "French Southern Territories",
+      "it": "French Southern Territories",
+      "pl": "French Southern Territories",
+      "ro": "French Southern Territories",
+      "tr": "French Southern Territories",
+      "uk": "French Southern Territories"
+    },
+    "currency": "EUR",
+    "continent": "AN",
+    "geonameid": "1546748"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "names": {
+      "de": "Togo",
+      "en": "Togo",
+      "es": "Togo",
+      "fr": "Togo",
+      "it": "Togo",
+      "pl": "Togo",
+      "ro": "Togo",
+      "tr": "Togo",
+      "uk": "Togo"
+    },
+    "currency": "XOF",
+    "continent": "AF",
+    "geonameid": "2363686"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "names": {
+      "de": "Thailand",
+      "en": "Thailand",
+      "es": "Thailand",
+      "fr": "Thailand",
+      "it": "Thailand",
+      "pl": "Thailand",
+      "ro": "Thailand",
+      "tr": "Thailand",
+      "uk": "Thailand"
+    },
+    "currency": "THB",
+    "continent": "AS",
+    "geonameid": "1605651"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "names": {
+      "de": "Tajikistan",
+      "en": "Tajikistan",
+      "es": "Tajikistan",
+      "fr": "Tajikistan",
+      "it": "Tajikistan",
+      "pl": "Tajikistan",
+      "ro": "Tajikistan",
+      "tr": "Tajikistan",
+      "uk": "Tajikistan"
+    },
+    "currency": "TJS",
+    "continent": "AS",
+    "geonameid": "1220409"
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "names": {
+      "de": "Tokelau",
+      "en": "Tokelau",
+      "es": "Tokelau",
+      "fr": "Tokelau",
+      "it": "Tokelau",
+      "pl": "Tokelau",
+      "ro": "Tokelau",
+      "tr": "Tokelau",
+      "uk": "Tokelau"
+    },
+    "currency": "NZD",
+    "continent": "OC",
+    "geonameid": "4031074"
+  },
+  {
+    "code": "TL",
+    "name": "Timor Leste",
+    "names": {
+      "de": "Timor Leste",
+      "en": "Timor Leste",
+      "es": "Timor Leste",
+      "fr": "Timor Leste",
+      "it": "Timor Leste",
+      "pl": "Timor Leste",
+      "ro": "Timor Leste",
+      "tr": "Timor Leste",
+      "uk": "Timor Leste"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "1966436"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "names": {
+      "de": "Turkmenistan",
+      "en": "Turkmenistan",
+      "es": "Turkmenistan",
+      "fr": "Turkmenistan",
+      "it": "Turkmenistan",
+      "pl": "Turkmenistan",
+      "ro": "Turkmenistan",
+      "tr": "Turkmenistan",
+      "uk": "Turkmenistan"
+    },
+    "currency": "TMT",
+    "continent": "AS",
+    "geonameid": "1218197"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "names": {
+      "de": "Tunisia",
+      "en": "Tunisia",
+      "es": "Tunisia",
+      "fr": "Tunisia",
+      "it": "Tunisia",
+      "pl": "Tunisia",
+      "ro": "Tunisia",
+      "tr": "Tunisia",
+      "uk": "Tunisia"
+    },
+    "currency": "TND",
+    "continent": "AF",
+    "geonameid": "2464461"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "names": {
+      "de": "Tonga",
+      "en": "Tonga",
+      "es": "Tonga",
+      "fr": "Tonga",
+      "it": "Tonga",
+      "pl": "Tonga",
+      "ro": "Tonga",
+      "tr": "Tonga",
+      "uk": "Tonga"
+    },
+    "currency": "TOP",
+    "continent": "OC",
+    "geonameid": "4032283"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "names": {
+      "de": "Türkei",
+      "en": "Türkiye",
+      "es": "Turquía",
+      "fr": "Turquie",
+      "it": "Turchia",
+      "pl": "Turcja",
+      "ro": "Turcia",
+      "tr": "Türkiye",
+      "uk": "Туреччина"
+    },
+    "currency": "TRY",
+    "continent": "AS",
+    "geonameid": "298795"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "names": {
+      "de": "Trinidad and Tobago",
+      "en": "Trinidad and Tobago",
+      "es": "Trinidad and Tobago",
+      "fr": "Trinidad and Tobago",
+      "it": "Trinidad and Tobago",
+      "pl": "Trinidad and Tobago",
+      "ro": "Trinidad and Tobago",
+      "tr": "Trinidad and Tobago",
+      "uk": "Trinidad and Tobago"
+    },
+    "currency": "TTD",
+    "continent": "NA",
+    "geonameid": "3573591"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "names": {
+      "de": "Tuvalu",
+      "en": "Tuvalu",
+      "es": "Tuvalu",
+      "fr": "Tuvalu",
+      "it": "Tuvalu",
+      "pl": "Tuvalu",
+      "ro": "Tuvalu",
+      "tr": "Tuvalu",
+      "uk": "Tuvalu"
+    },
+    "currency": "AUD",
+    "continent": "OC",
+    "geonameid": "2110297"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "names": {
+      "de": "Taiwan",
+      "en": "Taiwan",
+      "es": "Taiwan",
+      "fr": "Taiwan",
+      "it": "Taiwan",
+      "pl": "Taiwan",
+      "ro": "Taiwan",
+      "tr": "Taiwan",
+      "uk": "Taiwan"
+    },
+    "currency": "TWD",
+    "continent": "AS",
+    "geonameid": "1668284"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "names": {
+      "de": "Tanzania",
+      "en": "Tanzania",
+      "es": "Tanzania",
+      "fr": "Tanzania",
+      "it": "Tanzania",
+      "pl": "Tanzania",
+      "ro": "Tanzania",
+      "tr": "Tanzania",
+      "uk": "Tanzania"
+    },
+    "currency": "TZS",
+    "continent": "AF",
+    "geonameid": "149590"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "names": {
+      "de": "Ukraine",
+      "en": "Ukraine",
+      "es": "Ucrania",
+      "fr": "Ukraine",
+      "it": "Ucraina",
+      "pl": "Ukraina",
+      "ro": "Ucraina",
+      "tr": "Ukrayna",
+      "uk": "Україна"
+    },
+    "currency": "UAH",
+    "continent": "EU",
+    "geonameid": "690791"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "names": {
+      "de": "Uganda",
+      "en": "Uganda",
+      "es": "Uganda",
+      "fr": "Uganda",
+      "it": "Uganda",
+      "pl": "Uganda",
+      "ro": "Uganda",
+      "tr": "Uganda",
+      "uk": "Uganda"
+    },
+    "currency": "UGX",
+    "continent": "AF",
+    "geonameid": "226074"
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "names": {
+      "de": "United States Minor Outlying Islands",
+      "en": "United States Minor Outlying Islands",
+      "es": "United States Minor Outlying Islands",
+      "fr": "United States Minor Outlying Islands",
+      "it": "United States Minor Outlying Islands",
+      "pl": "United States Minor Outlying Islands",
+      "ro": "United States Minor Outlying Islands",
+      "tr": "United States Minor Outlying Islands",
+      "uk": "United States Minor Outlying Islands"
+    },
+    "currency": "USD",
+    "continent": "OC",
+    "geonameid": "5854968"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "names": {
+      "de": "United States",
+      "en": "United States",
+      "es": "United States",
+      "fr": "United States",
+      "it": "United States",
+      "pl": "United States",
+      "ro": "United States",
+      "tr": "United States",
+      "uk": "United States"
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "6252001"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "names": {
+      "de": "Uruguay",
+      "en": "Uruguay",
+      "es": "Uruguay",
+      "fr": "Uruguay",
+      "it": "Uruguay",
+      "pl": "Uruguay",
+      "ro": "Uruguay",
+      "tr": "Uruguay",
+      "uk": "Uruguay"
+    },
+    "currency": "UYU",
+    "continent": "SA",
+    "geonameid": "3439705"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "names": {
+      "de": "Uzbekistan",
+      "en": "Uzbekistan",
+      "es": "Uzbekistan",
+      "fr": "Uzbekistan",
+      "it": "Uzbekistan",
+      "pl": "Uzbekistan",
+      "ro": "Uzbekistan",
+      "tr": "Uzbekistan",
+      "uk": "Uzbekistan"
+    },
+    "currency": "UZS",
+    "continent": "AS",
+    "geonameid": "1512440"
+  },
+  {
+    "code": "VA",
+    "name": "Vatican",
+    "names": {
+      "de": "Vatikanstadt",
+      "en": "Vatican City",
+      "es": "Ciudad del Vaticano",
+      "fr": "Vatican",
+      "it": "Vaticano",
+      "pl": "Watykan",
+      "ro": "Orașul Vatican",
+      "tr": "Vatikan",
+      "uk": "Ватикан"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "3164670"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "names": {
+      "de": "Saint Vincent and the Grenadines",
+      "en": "Saint Vincent and the Grenadines",
+      "es": "Saint Vincent and the Grenadines",
+      "fr": "Saint Vincent and the Grenadines",
+      "it": "Saint Vincent and the Grenadines",
+      "pl": "Saint Vincent and the Grenadines",
+      "ro": "Saint Vincent and the Grenadines",
+      "tr": "Saint Vincent and the Grenadines",
+      "uk": "Saint Vincent and the Grenadines"
+    },
+    "currency": "XCD",
+    "continent": "NA",
+    "geonameid": "3577815"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "names": {
+      "de": "Venezuela",
+      "en": "Venezuela",
+      "es": "Venezuela",
+      "fr": "Venezuela",
+      "it": "Venezuela",
+      "pl": "Venezuela",
+      "ro": "Venezuela",
+      "tr": "Venezuela",
+      "uk": "Venezuela"
+    },
+    "currency": "VES",
+    "continent": "SA",
+    "geonameid": "3625428"
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "names": {
+      "de": "British Virgin Islands",
+      "en": "British Virgin Islands",
+      "es": "British Virgin Islands",
+      "fr": "British Virgin Islands",
+      "it": "British Virgin Islands",
+      "pl": "British Virgin Islands",
+      "ro": "British Virgin Islands",
+      "tr": "British Virgin Islands",
+      "uk": "British Virgin Islands"
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "3577718"
+  },
+  {
+    "code": "VI",
+    "name": "U.S. Virgin Islands",
+    "names": {
+      "de": "U.S. Virgin Islands",
+      "en": "U.S. Virgin Islands",
+      "es": "U.S. Virgin Islands",
+      "fr": "U.S. Virgin Islands",
+      "it": "U.S. Virgin Islands",
+      "pl": "U.S. Virgin Islands",
+      "ro": "U.S. Virgin Islands",
+      "tr": "U.S. Virgin Islands",
+      "uk": "U.S. Virgin Islands"
+    },
+    "currency": "USD",
+    "continent": "NA",
+    "geonameid": "4796775"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "names": {
+      "de": "Vietnam",
+      "en": "Vietnam",
+      "es": "Vietnam",
+      "fr": "Vietnam",
+      "it": "Vietnam",
+      "pl": "Vietnam",
+      "ro": "Vietnam",
+      "tr": "Vietnam",
+      "uk": "Vietnam"
+    },
+    "currency": "VND",
+    "continent": "AS",
+    "geonameid": "1562822"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "names": {
+      "de": "Vanuatu",
+      "en": "Vanuatu",
+      "es": "Vanuatu",
+      "fr": "Vanuatu",
+      "it": "Vanuatu",
+      "pl": "Vanuatu",
+      "ro": "Vanuatu",
+      "tr": "Vanuatu",
+      "uk": "Vanuatu"
+    },
+    "currency": "VUV",
+    "continent": "OC",
+    "geonameid": "2134431"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "names": {
+      "de": "Wallis and Futuna",
+      "en": "Wallis and Futuna",
+      "es": "Wallis and Futuna",
+      "fr": "Wallis and Futuna",
+      "it": "Wallis and Futuna",
+      "pl": "Wallis and Futuna",
+      "ro": "Wallis and Futuna",
+      "tr": "Wallis and Futuna",
+      "uk": "Wallis and Futuna"
+    },
+    "currency": "XPF",
+    "continent": "OC",
+    "geonameid": "4034749"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "names": {
+      "de": "Samoa",
+      "en": "Samoa",
+      "es": "Samoa",
+      "fr": "Samoa",
+      "it": "Samoa",
+      "pl": "Samoa",
+      "ro": "Samoa",
+      "tr": "Samoa",
+      "uk": "Samoa"
+    },
+    "currency": "WST",
+    "continent": "OC",
+    "geonameid": "4034894"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "names": {
+      "de": "Kosovo",
+      "en": "Kosovo",
+      "es": "Kosovo",
+      "fr": "Kosovo",
+      "it": "Kosovo",
+      "pl": "Kosowo",
+      "ro": "Kosovo",
+      "tr": "Kosova",
+      "uk": "Косово"
+    },
+    "currency": "EUR",
+    "continent": "EU",
+    "geonameid": "831053"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "names": {
+      "de": "Yemen",
+      "en": "Yemen",
+      "es": "Yemen",
+      "fr": "Yemen",
+      "it": "Yemen",
+      "pl": "Yemen",
+      "ro": "Yemen",
+      "tr": "Yemen",
+      "uk": "Yemen"
+    },
+    "currency": "YER",
+    "continent": "AS",
+    "geonameid": "69543"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "names": {
+      "de": "Mayotte",
+      "en": "Mayotte",
+      "es": "Mayotte",
+      "fr": "Mayotte",
+      "it": "Mayotte",
+      "pl": "Mayotte",
+      "ro": "Mayotte",
+      "tr": "Mayotte",
+      "uk": "Mayotte"
+    },
+    "currency": "EUR",
+    "continent": "AF",
+    "geonameid": "1024031"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "names": {
+      "de": "South Africa",
+      "en": "South Africa",
+      "es": "South Africa",
+      "fr": "South Africa",
+      "it": "South Africa",
+      "pl": "South Africa",
+      "ro": "South Africa",
+      "tr": "South Africa",
+      "uk": "South Africa"
+    },
+    "currency": "ZAR",
+    "continent": "AF",
+    "geonameid": "953987"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "names": {
+      "de": "Zambia",
+      "en": "Zambia",
+      "es": "Zambia",
+      "fr": "Zambia",
+      "it": "Zambia",
+      "pl": "Zambia",
+      "ro": "Zambia",
+      "tr": "Zambia",
+      "uk": "Zambia"
+    },
+    "currency": "ZMW",
+    "continent": "AF",
+    "geonameid": "895949"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "names": {
+      "de": "Zimbabwe",
+      "en": "Zimbabwe",
+      "es": "Zimbabwe",
+      "fr": "Zimbabwe",
+      "it": "Zimbabwe",
+      "pl": "Zimbabwe",
+      "ro": "Zimbabwe",
+      "tr": "Zimbabwe",
+      "uk": "Zimbabwe"
+    },
+    "currency": "ZWG",
+    "continent": "AF",
+    "geonameid": "878675"
+  }
+]

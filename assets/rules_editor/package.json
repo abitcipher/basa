@@ -1,0 +1,25 @@
+{
+  "name": "rules-editor",
+  "private": true,
+  "description": "BASA rule editor (GoRules JDM Editor) for /admin/rules/:key, built separately with Vite into priv/static/assets/rules_editor.",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@gorules/jdm-editor": "1.52.0",
+    "@monaco-editor/react": "^4.7.0",
+    "antd": "^5",
+    "jsoneditor": "10.4.3",
+    "monaco-editor": "~0.52.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6",
+    "vite": "^8"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

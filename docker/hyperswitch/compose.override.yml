@@ -1,0 +1,39 @@
+# Local Hyperswitch for BASA development (sandbox, test connector only).
+# Used with Hyperswitch's own docker-compose.yml, see ./up.sh.
+services:
+  # Internal only: BASA already uses 5432 (Postgres) on the host
+  pg:
+    ports: !reset []
+  redis-standalone:
+    ports: !reset []
+  superposition:
+    ports: !reset []
+
+  hyperswitch-server:
+    # Pinned to the checked-out release: the upstream "standalone" tag moves
+    # and a newer router rejects the older config (pull_policy: always)
+    image: docker.juspay.io/juspaydotin/hyperswitch-router:2026.09.30.0-hotfix2-standalone
+    pull_policy: missing
+    # Lets the router deliver webhooks to BASA running on the host
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      # Payment pages load the local SDK (built against this router), not the
+      # public one at beta.hyperswitch.io
+      - ROUTER__PAYMENT_LINK__SDK_URL=http://localhost:9050/HyperLoader.js
+
+  # Upstream fixes for the `latest` tag (2026.09.30):
+  # the seed script needs bash, not busybox sh
+  superposition-init:
+    command: sh -c "apk add --no-cache curl jq yq bash && bash /seed_superposition.sh"
+
+  # Run the migrations only; Diesel's schema.rs regeneration patch (a
+  # developer step) no longer applies and fails the container
+  migration_runner:
+    command: >
+      bash -c "
+      apt-get update && apt-get install -y curl xz-utils &&
+      curl --proto '=https' --tlsv1.2 -LsSf https://github.com/diesel-rs/diesel/releases/download/v2.3.5/diesel_cli-installer.sh | bash &&
+      export PATH=\"$${PATH}:$${HOME}/.cargo/bin\" &&
+      echo '' > /tmp/diesel.toml &&
+      diesel migration run --database-url \"$${DATABASE_URL}\" --migration-dir migrations --config-file /tmp/diesel.toml"

@@ -1,0 +1,99 @@
+{
+  "about": "BASA witness test vectors (spec/witness.cddl). Test keys only: never use them for real data.",
+  "basa_hash": "d86d6b71f32823cd9c6619a49a71aa9818cc73587f2b419d4a5ded735ad6ccf5",
+  "basa_hash_text": "basa0:3bwww4ptfar43hdgdgsju4nktammy42yp4vudhkklxwxgwwwzt2q",
+  "data_key": {
+    "contract_sealed": "8d0b2c30ea3335336b9e293e2a702b94f6341ac9127e1e867b07e36f78f1d5425b3b73bceb936236097ec9a41a680277d78a43b66869a7d0af0d",
+    "key": "73c3be3517ce96211a92472a087fa1326317ce8e442ffd47157d8181394bac1e",
+    "recovery_private_key": "808e319ce96fd515330397894c0b0b7741030ca9f3300d2f5e8291bfa4820e72",
+    "recovery_public_key": "b9110813a852e311e05f26a4ffcc6b1a0b804cb5ca28280387d98f8e8510dd68",
+    "recovery_sealed": "541f08da22ddf91f9342037ec04c3ce048dc8ad12fbe24e386cc23fe93557f740dbf9ef79f1542a5789c5a1c74f539ce48f4cb1c5e9c9de99a52edb63f648c56cc2e6af1ea2386afbf839be194039017",
+    "shares": {
+      "acceptor": "02149f0e2f414a566a7a6a419833c346641390fd1da857aa9e7e97ce7dd101913b",
+      "basa": "03a9b156226a0836c14a1642c1a09dbb4f2b5d6adade6b0f7cc5e26703a52401a7",
+      "offeror": "01ceede6383c8cf68a2aee44739b215c195bda5949321358a5ae0828ff4d6e3c82"
+    }
+  },
+  "device_seal": {
+    "aad": "0b6f5f6e-3c1a-4d8e-9b7a-2f4c6d8e0a12",
+    "about": "the acceptor share sealed to a device X25519 key (HPKE base, DHKEM-X25519, HKDF-SHA256, AES-128-GCM, info BASA/v1/share, aad = transaction id)",
+    "plain": "02149f0e2f414a566a7a6a419833c346641390fd1da857aa9e7e97ce7dd101913b",
+    "private_key": "109862d88cbaf20098690c993594d2b76d2cbf9080a406ce34acbd8c3056da51",
+    "public_key": "c6c892ff13e9512479ec13a5af0a04ec3f716f6944caa8e35528251d23980c58",
+    "sealed": "be0099c3c2c1b3d5cf684c7775c0365c93212383290d0854013270fb04030d63fa53e8d3751ff886aa688fcb83dcd84a8f91df701776993f8521cbdcad4f9faa3318a2ffd747e2cf2aa80fd9023d9b6a69"
+  },
+  "manifest": {
+    "consumer": true,
+    "contract_type": "lease",
+    "created_at": "2026-11-01T12:00:00Z",
+    "files": [
+      {
+        "content": "BASA test contract",
+        "kind": "contract",
+        "media_type": "application/pdf",
+        "sha256": "c1a8bdd9584d972885bd6b9cc2d67ea69cf0ac6bda250d26ee41368dc12ba96c",
+        "size": 18
+      },
+      {
+        "content": "photo of the microphone",
+        "kind": "photo",
+        "media_type": "image/jpeg",
+        "sha256": "54fd34709d4970faba7ee83a8f44d4e9d02dd39cecc9f9754d51751a849f9e27",
+        "size": 23
+      },
+      {
+        "content": "voice reading of the transaction",
+        "kind": "voice",
+        "media_type": "audio/ogg",
+        "sha256": "e71918945c78ad1ae371531d34a163dccbb2d40e1fab717fcd3f8835a8a6f727",
+        "size": 32
+      }
+    ],
+    "geo": [
+      46482500,
+      30723300
+    ],
+    "jurisdiction": "ua",
+    "parties": [
+      {
+        "public_key": "a00184134aef1713ab07ad315d149393870cfc748636492373d6a377a81f81be",
+        "role": "offeror",
+        "user_id": "5f0c2a8e-1d34-4b6a-8c9e-0a1b2c3d4e5f"
+      },
+      {
+        "public_key": "a07aff8c53781c82ea2c4ed305b4d3e47c6a4134a54793592ce83d866d218dc9",
+        "role": "acceptor",
+        "user_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d"
+      }
+    ],
+    "template": "lease-ua@1",
+    "transaction_id": "0b6f5f6e-3c1a-4d8e-9b7a-2f4c6d8e0a12"
+  },
+  "manifest_cbor": "ab000101782430623666356636652d336331612d346438652d396237612d32663463366438653061313202656c65617365036a6c656173652d756140310462756105f50682a300676f666665726f7201782435663063326138652d316433342d346236612d386339652d306131623263336434653566025820a00184134aef1713ab07ad315d149393870cfc748636492373d6a377a81f81bea300686163636570746f7201782439613862376336642d356534662d346133622d386332642d316530663961386237633664025820a07aff8c53781c82ea2c4ed305b4d3e47c6a4134a54793592ce83d866d218dc90783a4005820c1a8bdd9584d972885bd6b9cc2d67ea69cf0ac6bda250d26ee41368dc12ba96c0168636f6e74726163740212036f6170706c69636174696f6e2f706466a400582054fd34709d4970faba7ee83a8f44d4e9d02dd39cecc9f9754d51751a849f9e27016570686f746f0217036a696d6167652f6a706567a4005820e71918945c78ad1ae371531d34a163dccbb2d40e1fab717fcd3f8835a8a6f7270165766f6963650218200369617564696f2f6f6767085820bf78b2b972a5b19e67917433024cdcc7796f119168d3eaeaaa28aed97c5ceeb50974323032362d31312d30315431323a30303a30305a0a821a02c544441a01d4cce4",
+  "merkle_proofs": [
+    [
+      "419934d79f655fc83249bc9fd73fc5e779e58010dd1c1bd29b9ac566362edcd8",
+      "5ffb15f452e223e93cee5b22ae0b8e50c38620b34508afd29ae5e5eaa313a505"
+    ],
+    [
+      "c661bfede9fbfe8ef17edb9906e56318a70e45b118671b2303b81445d50d33d8",
+      "5ffb15f452e223e93cee5b22ae0b8e50c38620b34508afd29ae5e5eaa313a505"
+    ],
+    [
+      "47e6e63c91f98640e8798871705322535a04cb8d056983d2b73a71fecf209f03"
+    ]
+  ],
+  "merkle_root": "bf78b2b972a5b19e67917433024cdcc7796f119168d3eaeaaa28aed97c5ceeb5",
+  "signatures": [
+    {
+      "private_key": "d95777938468177c19148b183ba3e34c8df0c91816c1f693d03df25237fb329f",
+      "role": "offeror",
+      "signature": "75a7ae5702b990686664ab07af6a4c9e57e1a8477ff67c88887fd09c79e5fe21dad2b1ea4ed3fed060ca219b91de7daa230ffac05a59c2415f8275cca070a60f"
+    },
+    {
+      "private_key": "27c856a1f9bbbef9948b3fe848d8990f097a3f71b0df2882bf0bc5e6739bf537",
+      "role": "acceptor",
+      "signature": "7b21fa7e3dc383c8f12e8cee5e8dd4d3434877d4118eb0438ba5d2a6c6e3a7deaab90bb03f6d1a1fb3edcab028c03580710c007014e0011ae6bd4c67084a4106"
+    }
+  ]
+}

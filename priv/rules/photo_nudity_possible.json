@@ -1,0 +1,77 @@
+{
+  "key": "photo_nudity_possible",
+  "version": 1,
+  "label": "Possible nudity is checked",
+  "description": "A photo the nudity models give 60% or more goes to an admin.",
+  "severity": "flag",
+  "points": [
+    "photo.check"
+  ],
+  "subjects": [
+    "photo"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "Possible nudity is checked",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "photo.nsfw < 0.6"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(photo.nsfw < 0.6) ? null : 'photo_nudity_possible'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(photo.nsfw < 0.6) ? null : 'The photo may show nudity: an admin will check it'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

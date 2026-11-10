@@ -1,0 +1,77 @@
+{
+  "key": "lot_title_length",
+  "version": 1,
+  "label": "A real title",
+  "description": "The title has at least 5 characters.",
+  "severity": "block",
+  "points": [
+    "lot.submit"
+  ],
+  "subjects": [
+    "lot"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "A real title",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "lot.titleLength >= 5"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(lot.titleLength >= 5) ? null : 'lot_title_short'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(lot.titleLength >= 5) ? null : 'The title is too short'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

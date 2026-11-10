@@ -1,0 +1,310 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100 != 11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10||n%100>=20) ? 1 : 2);\n"
+
+msgid "can't be blank"
+msgstr "не може бути порожнім"
+
+#: lib/basa/i18n.ex:39
+#, elixir-autogen
+msgid "has already been taken"
+msgstr "вже зайнято"
+
+#: lib/basa/i18n.ex:37
+#, elixir-autogen
+msgid "is invalid"
+msgstr "недійсне значення"
+
+msgid "must be accepted"
+msgstr "потрібно прийняти"
+
+msgid "has invalid format"
+msgstr "має неправильний формат"
+
+msgid "has an invalid entry"
+msgstr "містить недійсний запис"
+
+msgid "is reserved"
+msgstr "зарезервовано"
+
+msgid "does not match confirmation"
+msgstr "не збігається з підтвердженням"
+
+msgid "is still associated with this entry"
+msgstr "досі пов'язане з цим записом"
+
+msgid "are still associated with this entry"
+msgstr "досі пов'язані з цим записом"
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "має містити %{count} елемент"
+msgstr[1] "має містити %{count} елементи"
+msgstr[2] "має містити %{count} елементів"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "має бути %{count} символ"
+msgstr[1] "має бути %{count} символи"
+msgstr[2] "має бути %{count} символів"
+
+msgid "should be %{count} byte(s)"
+msgid_plural "should be %{count} byte(s)"
+msgstr[0] "має бути %{count} байт"
+msgstr[1] "має бути %{count} байти"
+msgstr[2] "має бути %{count} байтів"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "має містити щонайменше %{count} елемент"
+msgstr[1] "має містити щонайменше %{count} елементи"
+msgstr[2] "має містити щонайменше %{count} елементів"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "має бути щонайменше %{count} символ"
+msgstr[1] "має бути щонайменше %{count} символи"
+msgstr[2] "має бути щонайменше %{count} символів"
+
+msgid "should be at least %{count} byte(s)"
+msgid_plural "should be at least %{count} byte(s)"
+msgstr[0] "має бути щонайменше %{count} байт"
+msgstr[1] "має бути щонайменше %{count} байти"
+msgstr[2] "має бути щонайменше %{count} байтів"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "має містити щонайбільше %{count} елемент"
+msgstr[1] "має містити щонайбільше %{count} елементи"
+msgstr[2] "має містити щонайбільше %{count} елементів"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "має бути щонайбільше %{count} символ"
+msgstr[1] "має бути щонайбільше %{count} символи"
+msgstr[2] "має бути щонайбільше %{count} символів"
+
+msgid "should be at most %{count} byte(s)"
+msgid_plural "should be at most %{count} byte(s)"
+msgstr[0] "має бути щонайбільше %{count} байт"
+msgstr[1] "має бути щонайбільше %{count} байти"
+msgstr[2] "має бути щонайбільше %{count} байтів"
+
+msgid "must be less than %{number}"
+msgstr "має бути менше за %{number}"
+
+msgid "must be greater than %{number}"
+msgstr "має бути більше за %{number}"
+
+msgid "must be less than or equal to %{number}"
+msgstr "має бути не більше %{number}"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "має бути не менше %{number}"
+
+msgid "must be equal to %{number}"
+msgstr "має дорівнювати %{number}"
+
+#: lib/basa/i18n.ex:44
+#, elixir-autogen, elixir-format
+msgid "atom must be one of %{atom_list}, got: %{value}"
+msgstr "має бути одним із: %{atom_list}, отримано: %{value}"
+
+#: lib/basa/i18n.ex:54
+#, elixir-autogen, elixir-format
+msgid "can no longer be cancelled (%{hours} h rule)"
+msgstr "вже не можна скасувати (правило %{hours} год)"
+
+#: lib/basa/i18n.ex:56
+#, elixir-autogen, elixir-format
+msgid "is in the past"
+msgstr "у минулому"
+
+#: lib/basa/i18n.ex:60
+#, elixir-autogen, elixir-format
+msgid "is longer than the maximum of %{units}"
+msgstr "довше за максимум %{units}"
+
+#: lib/basa/i18n.ex:53
+#, elixir-autogen, elixir-format
+msgid "is not a known time zone"
+msgstr "невідомий часовий пояс"
+
+#: lib/basa/i18n.ex:50
+#, elixir-autogen, elixir-format
+msgid "is not available"
+msgstr "недоступне"
+
+#: lib/basa/i18n.ex:48
+#, elixir-autogen, elixir-format
+msgid "is not available for booking"
+msgstr "недоступне для бронювання"
+
+#: lib/basa/i18n.ex:46
+#, elixir-autogen, elixir-format
+msgid "is not yours"
+msgstr "не ваше"
+
+#: lib/basa/i18n.ex:61
+#, elixir-autogen, elixir-format
+msgid "is outside the opening hours"
+msgstr "поза годинами роботи"
+
+#: lib/basa/i18n.ex:34
+#, elixir-autogen, elixir-format
+msgid "is required"
+msgstr "обов'язкове поле"
+
+#: lib/basa/i18n.ex:51
+#, elixir-autogen, elixir-format
+msgid "is required for slot pricing"
+msgstr "обов'язкове для ціни за слот"
+
+#: lib/basa/i18n.ex:59
+#, elixir-autogen, elixir-format
+msgid "is shorter than the minimum of %{units}"
+msgstr "коротше за мінімум %{units}"
+
+#: lib/basa/i18n.ex:49
+#, elixir-autogen, elixir-format
+msgid "is your own offer"
+msgstr "це ваша власна пропозиція"
+
+#: lib/basa/i18n.ex:40
+#, elixir-autogen, elixir-format
+msgid "length must be greater than or equal to %{min}"
+msgstr "довжина має бути не менше %{min}"
+
+#: lib/basa/i18n.ex:41
+#, elixir-autogen, elixir-format
+msgid "length must be less than or equal to %{max}"
+msgstr "довжина має бути не більше %{max}"
+
+#: lib/basa/i18n.ex:55
+#, elixir-autogen, elixir-format
+msgid "must be after the start"
+msgstr "має бути після початку"
+
+#: lib/basa/i18n.ex:57
+#, elixir-autogen, elixir-format
+msgid "must be at least %{hours} h from now"
+msgstr "має бути щонайменше через %{hours} год від зараз"
+
+#: lib/basa/i18n.ex:52
+#, elixir-autogen, elixir-format
+msgid "must be at least the minimum"
+msgstr "має бути не менше мінімуму"
+
+#: lib/basa/i18n.ex:42
+#, elixir-autogen, elixir-format
+msgid "must be greater than or equal to %{min}"
+msgstr "має бути не менше %{min}"
+
+#: lib/basa/i18n.ex:43
+#, elixir-autogen, elixir-format
+msgid "must be less than or equal to %{max}"
+msgstr "має бути не більше %{max}"
+
+#: lib/basa/i18n.ex:47
+#, elixir-autogen, elixir-format
+msgid "must be one of your own"
+msgstr "має бути вашим власним"
+
+#: lib/basa/i18n.ex:38
+#, elixir-autogen, elixir-format
+msgid "must be present"
+msgstr "має бути заповнене"
+
+#: lib/basa/i18n.ex:58
+#, elixir-autogen, elixir-format
+msgid "must cover whole %{minutes}-minute slots"
+msgstr "має охоплювати цілі слоти по %{minutes} хв"
+
+#: lib/basa/i18n.ex:45
+#, elixir-autogen, elixir-format
+msgid "this slot was just taken"
+msgstr "цей час щойно забронювали"
+
+#: lib/basa/i18n.ex:63
+#, elixir-autogen, elixir-format
+msgid "can't be more than the booking"
+msgstr "не може перевищувати суму бронювання"
+
+#: lib/basa/i18n.ex:62
+#, elixir-autogen, elixir-format
+msgid "card payments are available in UAH, USD and EUR"
+msgstr "оплата карткою доступна в UAH, USD та EUR"
+
+#: lib/basa/i18n.ex:64
+#, elixir-autogen, elixir-format
+msgid "payments are unavailable right now, please try later"
+msgstr "оплата зараз недоступна, спробуйте пізніше"
+
+#: lib/basa/i18n.ex:65
+#, elixir-autogen, elixir-format
+msgid "lot_empty"
+msgstr "Додайте хоча б одну річ, людину або приміщення"
+
+#: lib/basa/i18n.ex:69
+#, elixir-autogen, elixir-format
+msgid "lot_high_value"
+msgstr "Пропозиція високої вартості: її перевірить адміністратор"
+
+#: lib/basa/i18n.ex:67
+#, elixir-autogen, elixir-format
+msgid "lot_price_zero"
+msgstr "Вкажіть ціну більшу за нуль"
+
+#: lib/basa/i18n.ex:68
+#, elixir-autogen, elixir-format
+msgid "lot_room_location"
+msgstr "Приміщенню потрібне розташування на мапі"
+
+#: lib/basa/i18n.ex:66
+#, elixir-autogen, elixir-format
+msgid "lot_title_short"
+msgstr "Назва закоротка"
+
+#: lib/basa/i18n.ex:36
+#, elixir-autogen, elixir-format
+msgid "is already reserved by a buyer"
+msgstr "вже зарезервовано покупцем"
+
+#: lib/basa/i18n.ex:35
+#, elixir-autogen, elixir-format
+msgid "pick one handover time"
+msgstr "оберіть один час передачі"
+
+#: lib/basa/i18n.ex:70
+#, elixir-autogen, elixir-format
+msgid "lot_photos_checked"
+msgstr "Деякі фото приховано після перевірки: видаліть або замініть їх"
+
+#: lib/basa/i18n.ex:74
+#, elixir-autogen, elixir-format
+msgid "photo_documents"
+msgstr "Фото може містити документ чи банківську картку: його перевірить адміністратор"
+
+#: lib/basa/i18n.ex:73
+#, elixir-autogen, elixir-format
+msgid "photo_harm"
+msgstr "Фото може містити зброю, наркотики чи травми: його перевірить адміністратор"
+
+#: lib/basa/i18n.ex:71
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_clear"
+msgstr "Фото схоже на оголеність, тому його приховано"
+
+#: lib/basa/i18n.ex:72
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_possible"
+msgstr "Фото може містити оголеність: його перевірить адміністратор"

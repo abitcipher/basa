@@ -1,0 +1,5698 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:471
+#, elixir-autogen, elixir-format
+msgid "%{h} h"
+msgstr "%{h} h"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "A person's time"
+msgstr "Il tempo di una persona"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:677
+#, elixir-autogen, elixir-format
+msgid "Above ground"
+msgstr "Fuori terra"
+
+#: lib/basa_web/components/table.ex:117
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr "Azioni"
+
+#: lib/basa_web/components/basa_components.ex:528
+#: lib/basa_web/live/admin/geo_live.ex:112
+#: lib/basa_web/live/my/basket_wizard_live.ex:265
+#: lib/basa_web/live/my/room_wizard_live.ex:392
+#: lib/basa_web/live/transaction_live.ex:1451
+#, elixir-autogen, elixir-format
+msgid "Add"
+msgstr "Aggiungi"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:84
+#, elixir-autogen, elixir-format
+msgid "Add a name for the person."
+msgstr "Aggiungi un nome per la persona."
+
+#: lib/basa_web/live/my/items_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "Add a photo first."
+msgstr "Prima aggiungi una foto."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:406
+#, elixir-autogen, elixir-format
+msgid "Add a room"
+msgstr "Aggiungi uno spazio"
+
+#: lib/basa_web/live/my/items_live.ex:643
+#, elixir-autogen, elixir-format
+msgid "Add all %{n} as separate items"
+msgstr "Aggiungi tutti i %{n} come oggetti separati"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:222
+#, elixir-autogen, elixir-format
+msgid "Add an item"
+msgstr "Aggiungi un oggetto"
+
+#: lib/basa/telegram/bot.ex:250
+#: lib/basa_web/live/app_home_live.ex:24
+#: lib/basa_web/live/my/items_live.ex:520
+#: lib/basa_web/live/my/items_live.ex:585
+#, elixir-autogen, elixir-format
+msgid "Add item"
+msgstr "Aggiungi oggetto"
+
+#: lib/basa_web/live/my/items_live.ex:278
+#, elixir-autogen, elixir-format
+msgid "Added %{n} items. Open each one to check the details."
+msgstr "Aggiunti %{n} oggetti. Aprili uno per uno per controllare i dettagli."
+
+#: lib/basa/telegram/bot.ex:196
+#, elixir-autogen, elixir-format
+msgid "Added to your inventory. I'm looking at the photo; check the details when you're ready."
+msgstr "Aggiunto al tuo inventario. Sto guardando la foto; controlla i dettagli quando vuoi."
+
+#: lib/basa_web/live/my/import_source_live.ex:489
+#: lib/basa_web/live/my/room_wizard_live.ex:549
+#, elixir-autogen, elixir-format
+msgid "Address"
+msgstr "Indirizzo"
+
+#: lib/basa_web/live/admin/data_live.ex:12
+#: lib/basa_web/live/admin/geo_live.ex:12
+#: lib/basa_web/live/admin/import_live.ex:17
+#: lib/basa_web/live/admin/photos_live.ex:11
+#: lib/basa_web/live/admin/review_live.ex:12
+#: lib/basa_web/live/admin/rule_editor_live.ex:21
+#: lib/basa_web/live/admin/rules_live.ex:16
+#: lib/basa_web/live/admin/settings_live.ex:16
+#: lib/basa_web/live/admin/witness_live.ex:14
+#, elixir-autogen, elixir-format
+msgid "Admins only."
+msgstr "Solo per gli amministratori."
+
+#: lib/basa_web/live/home_live.ex:355
+#, elixir-autogen, elixir-format
+msgid "Any city"
+msgstr "Qualsiasi città"
+
+#: lib/basa_web/live/home_live.ex:386
+#, elixir-autogen, elixir-format
+msgid "Anything"
+msgstr "Qualsiasi cosa"
+
+#: lib/basa_web/live/admin/review_live.ex:67
+#: lib/basa_web/live/admin/witness_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "Approve"
+msgstr "Approva"
+
+#: lib/basa_web/live/my/dashboard_live.ex:276
+#, elixir-autogen, elixir-format
+msgid "Archive"
+msgstr "Archivia"
+
+#: lib/basa_web/live/my/dashboard_live.ex:272
+#, elixir-autogen, elixir-format
+msgid "Archive this offer? Existing bookings stay."
+msgstr "Archiviare questa offerta? Le prenotazioni esistenti restano."
+
+#: lib/basa_web/components/basa_components.ex:194
+#, elixir-autogen, elixir-format
+msgid "Archived"
+msgstr "Archiviata"
+
+#: lib/basa_web/live/lot_live.ex:539
+#: lib/basa_web/live/my/basket_wizard_live.ex:260
+#, elixir-autogen, elixir-format
+msgid "Assistant"
+msgstr "Assistente"
+
+#: lib/basa_web/components/alert.ex:149
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr "Tentativo di riconnessione"
+
+#: lib/basa_web/live/lot_live.ex:543
+#, elixir-autogen, elixir-format
+msgid "Attendant"
+msgstr "Accompagnatore"
+
+#: lib/basa_web/live/appearance_live.ex:184
+#: lib/basa_web/live/lot_live.ex:233
+#: lib/basa_web/live/my/basket_wizard_live.ex:270
+#: lib/basa_web/live/my/basket_wizard_live.ex:292
+#: lib/basa_web/live/my/lot_wizard_live.ex:640
+#: lib/basa_web/live/my/room_wizard_live.ex:649
+#, elixir-autogen, elixir-format
+msgid "Back"
+msgstr "Indietro"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Basics"
+msgstr "Informazioni di base"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:40
+#: lib/basa_web/live/my/lot_wizard_live.ex:360
+#, elixir-autogen, elixir-format
+msgid "Basket"
+msgstr "Cesto"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:131
+#, elixir-autogen, elixir-format
+msgid "Basket saved. Next: place it in a room and publish an offer."
+msgstr "Cesto salvato. Ora collocalo in uno spazio e pubblica un'offerta."
+
+#: lib/basa_web/live/my/dashboard_live.ex:136
+#: lib/basa_web/live/my/dashboard_live.ex:287
+#, elixir-autogen, elixir-format
+msgid "Baskets"
+msgstr "Cesti"
+
+#: lib/basa_web/live/appearance_live.ex:175
+#: lib/basa_web/live/lot_live.ex:521
+#, elixir-autogen, elixir-format
+msgid "Book"
+msgstr "Prenota"
+
+#: lib/basa_web/live/lot_live.ex:466
+#, elixir-autogen, elixir-format
+msgid "Book %{title}"
+msgstr "Prenota «%{title}»"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:608
+#, elixir-autogen, elixir-format
+msgid "Book at least, h ahead"
+msgstr "Prenota con almeno, h di anticipo"
+
+#: lib/basa_web/live/lot_live.ex:87
+#, elixir-autogen, elixir-format
+msgid "Booked! See you there."
+msgstr "Prenotato! A presto."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:580
+#, elixir-autogen, elixir-format
+msgid "Booking"
+msgstr "Prenotazione"
+
+#: lib/basa/notifications/text.ex:28
+#, elixir-autogen, elixir-format
+msgid "Booking update for “%{lot}”."
+msgstr "Aggiornamento sulla prenotazione di «%{lot}»."
+
+#: lib/basa/telegram/bot.ex:247
+#: lib/basa_web/components/layouts.ex:35
+#: lib/basa_web/components/layouts.ex:148
+#: lib/basa_web/live/admin/data_live.ex:50
+#: lib/basa_web/live/admin/data_live.ex:72
+#: lib/basa_web/live/app_home_live.ex:13
+#: lib/basa_web/live/bookings_live.ex:17
+#: lib/basa_web/live/bookings_live.ex:136
+#: lib/basa_web/live/my/stats_live.ex:50
+#: lib/basa_web/live/my/stats_live.ex:96
+#: lib/basa_web/live/transaction_live.ex:603
+#, elixir-autogen, elixir-format
+msgid "Bookings"
+msgstr "Prenotazioni"
+
+#: lib/basa_web/live/my/import_source_live.ex:485
+#: lib/basa_web/live/my/items_live.ex:752
+#, elixir-autogen, elixir-format
+msgid "Brand"
+msgstr "Marca"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:601
+#, elixir-autogen, elixir-format
+msgid "Break between bookings, min"
+msgstr "Pausa tra prenotazioni, min"
+
+#: lib/basa_web/live/my/dashboard_live.ex:139
+#, elixir-autogen, elixir-format
+msgid "Bundle what you rent together"
+msgstr "Raggruppa ciò che noleggi insieme"
+
+#: lib/basa_web/live/home_live.ex:397
+#, elixir-autogen, elixir-format
+msgid "Bundles"
+msgstr "Pacchetti"
+
+#: lib/basa_web/live/dev/qes_live.ex:78
+#: lib/basa_web/live/lot_live.ex:514
+#: lib/basa_web/live/lot_live.ex:527
+#: lib/basa_web/live/my/items_live.ex:813
+#, elixir-autogen, elixir-format
+msgid "Cancel"
+msgstr "Annulla"
+
+#: lib/basa_web/live/bookings_live.ex:246
+#: lib/basa_web/live/my/schedule_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "Cancel booking"
+msgstr "Annulla prenotazione"
+
+#: lib/basa_web/live/bookings_live.ex:244
+#: lib/basa_web/live/my/schedule_live.ex:445
+#, elixir-autogen, elixir-format
+msgid "Cancel this booking?"
+msgstr "Annullare questa prenotazione?"
+
+#: lib/basa_web/components/basa_components.ex:198
+#, elixir-autogen, elixir-format
+msgid "Cancelled"
+msgstr "Annullata"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:618
+#, elixir-autogen, elixir-format
+msgid "Capacity (people)"
+msgstr "Capienza (persone)"
+
+#: lib/basa_web/live/my/import_source_live.ex:488
+#: lib/basa_web/live/my/items_live.ex:755
+#, elixir-autogen, elixir-format
+msgid "Category"
+msgstr "Categoria"
+
+#: lib/basa/telegram/bot.ex:200
+#, elixir-autogen, elixir-format
+msgid "Check the item"
+msgstr "Controlla l'oggetto"
+
+#: lib/basa_web/components/basa_components.ex:130
+#: lib/basa_web/live/my/items_live.ex:756
+#, elixir-autogen, elixir-format
+msgid "Choose…"
+msgstr "Scegli…"
+
+#: lib/basa_web/live/home_live.ex:311
+#: lib/basa_web/live/my/room_wizard_live.ex:544
+#, elixir-autogen, elixir-format
+msgid "City"
+msgstr "Città"
+
+#: lib/basa_web/live/lot_live.ex:164
+#: lib/basa_web/live/lot_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "Closed on this day."
+msgstr "Chiuso in questo giorno."
+
+#: lib/basa_web/live/lot_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "Comes to you within %{km} km, or you come to it."
+msgstr "Viene da te entro %{km} km, oppure vai tu."
+
+#: lib/basa_web/components/basa_components.ex:199
+#, elixir-autogen, elixir-format
+msgid "Completed"
+msgstr "Completata"
+
+#: lib/basa_web/live/my/items_live.ex:472
+#: lib/basa_web/live/my/items_live.ex:772
+#, elixir-autogen, elixir-format
+msgid "Condition"
+msgstr "Condizioni"
+
+#: lib/basa_web/live/bookings_live.ex:185
+#: lib/basa_web/live/my/import_live.ex:118
+#: lib/basa_web/live/my/schedule_live.ex:418
+#, elixir-autogen, elixir-format
+msgid "Confirm"
+msgstr "Conferma"
+
+#: lib/basa_web/components/basa_components.ex:196
+#: lib/basa_web/live/my/schedule_live.ex:178
+#: lib/basa_web/live/my/schedule_live.ex:205
+#: lib/basa_web/live/my/schedule_live.ex:219
+#: lib/basa_web/live/my/schedule_live.ex:349
+#, elixir-autogen, elixir-format
+msgid "Confirmed"
+msgstr "Confermata"
+
+#: lib/basa_web/live/profile_live.ex:142
+#, elixir-autogen, elixir-format
+msgid "Contact"
+msgstr "Contatto"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:157
+#, elixir-autogen, elixir-format
+msgid "Contents"
+msgstr "Contenuto"
+
+#: lib/basa_web/live/appearance_live.ex:46
+#: lib/basa_web/live/profile_live.ex:87
+#: lib/basa_web/live/profile_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "Could not save."
+msgstr "Impossibile salvare."
+
+#: lib/basa_web/live/my/dashboard_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "Could not submit the offer."
+msgstr "Impossibile inviare l'offerta."
+
+#: lib/basa/telegram/bot.ex:231
+#, elixir-autogen, elixir-format
+msgid "Could not verify the number."
+msgstr "Impossibile verificare il numero."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:379
+#, elixir-autogen, elixir-format
+msgid "Create a basket"
+msgstr "Crea un cesto"
+
+#: lib/basa_web/live/my/import_source_live.ex:483
+#: lib/basa_web/live/my/items_live.ex:799
+#: lib/basa_web/live/my/lot_wizard_live.ex:566
+#, elixir-autogen, elixir-format
+msgid "Currency"
+msgstr "Valuta"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:451
+#: lib/basa_web/live/my/schedule_live.ex:196
+#, elixir-autogen, elixir-format
+msgid "Day"
+msgstr "Giorno"
+
+#: lib/basa_web/live/bookings_live.ex:195
+#: lib/basa_web/live/my/schedule_live.ex:427
+#, elixir-autogen, elixir-format
+msgid "Decline"
+msgstr "Rifiuta"
+
+#: lib/basa_web/components/basa_components.ex:197
+#, elixir-autogen, elixir-format
+msgid "Declined"
+msgstr "Rifiutata"
+
+#: lib/basa_web/live/my/import_source_live.ex:481
+#: lib/basa_web/live/my/lot_wizard_live.ex:422
+#: lib/basa_web/live/my/room_wizard_live.ex:630
+#, elixir-autogen, elixir-format
+msgid "Description"
+msgstr "Descrizione"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:184
+#, elixir-autogen, elixir-format
+msgid "Description (optional)"
+msgstr "Descrizione (facoltativa)"
+
+#: lib/basa_web/live/appearance_live.ex:177
+#: lib/basa_web/live/appearance_live.ex:181
+#: lib/basa_web/live/my/import_source_live.ex:503
+#: lib/basa_web/live/my/items_live.ex:744
+#: lib/basa_web/live/my/room_wizard_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Details"
+msgstr "Dettagli"
+
+#: lib/basa_web/live/bookings_live.ex:43
+#: lib/basa_web/live/my/photos_live.ex:35
+#: lib/basa_web/live/my/schedule_live.ex:90
+#, elixir-autogen, elixir-format
+msgid "Done."
+msgstr "Fatto."
+
+#: lib/basa_web/components/basa_components.ex:191
+#, elixir-autogen, elixir-format
+msgid "Draft"
+msgstr "Bozza"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:568
+#, elixir-autogen, elixir-format
+msgid "Drag the pin to the entrance."
+msgstr "Trascina il segnaposto fino all'ingresso."
+
+#: lib/basa_web/live/lot_live.ex:479
+#, elixir-autogen, elixir-format
+msgid "Duration"
+msgstr "Durata"
+
+#: lib/basa_web/live/admin/rules_live.ex:120
+#: lib/basa_web/live/my/dashboard_live.ex:255
+#: lib/basa_web/live/my/items_live.ex:405
+#: lib/basa_web/live/my/items_live.ex:562
+#, elixir-autogen, elixir-format
+msgid "Edit"
+msgstr "Modifica"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "Edit basket"
+msgstr "Modifica cesto"
+
+#: lib/basa_web/live/lot_live.ex:455
+#, elixir-autogen, elixir-format
+msgid "Edit it"
+msgstr "Modificala"
+
+#: lib/basa_web/live/my/items_live.ex:585
+#, elixir-autogen, elixir-format
+msgid "Edit item"
+msgstr "Modifica oggetto"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:346
+#, elixir-autogen, elixir-format
+msgid "Edit offer"
+msgstr "Modifica offerta"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "Edit room"
+msgstr "Modifica spazio"
+
+#: lib/basa_web/live/home_live.ex:391
+#: lib/basa_web/live/my/basket_wizard_live.ex:307
+#, elixir-autogen, elixir-format
+msgid "Equipment"
+msgstr "Attrezzatura"
+
+#: lib/basa_web/live/my/items_live.ex:485
+#: lib/basa_web/live/my/items_live.ex:777
+#, elixir-autogen, elixir-format
+msgid "Excellent"
+msgstr "Ottimo"
+
+#: lib/basa_web/live/my/items_live.ex:487
+#: lib/basa_web/live/my/items_live.ex:779
+#, elixir-autogen, elixir-format
+msgid "Fair"
+msgstr "Discreto"
+
+#: lib/basa/telegram/bot.ex:246
+#: lib/basa_web/components/layouts.ex:27
+#: lib/basa_web/components/layouts.ex:142
+#: lib/basa_web/live/app_home_live.ex:9
+#, elixir-autogen, elixir-format
+msgid "Find"
+msgstr "Cerca"
+
+#: lib/basa_web/live/home_live.ex:8
+#, elixir-autogen, elixir-format
+msgid "Find a studio, gear or tools"
+msgstr "Trova uno studio, attrezzatura o utensili"
+
+#: lib/basa_web/live/bookings_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "Find something to book"
+msgstr "Trova qualcosa da prenotare"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:450
+#, elixir-autogen, elixir-format
+msgid "Fixed slot"
+msgstr "Fascia fissa"
+
+#: lib/basa_web/live/bookings_live.ex:153
+#, elixir-autogen, elixir-format
+msgid "For my offers"
+msgstr "Per le mie offerte"
+
+#: lib/basa_web/live/lot_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "Free cancellation up to %{h} h before."
+msgstr "Cancellazione gratuita fino a %{h} h prima."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:615
+#, elixir-autogen, elixir-format
+msgid "Free cancellation, h before"
+msgstr "Cancellazione gratuita, h prima"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "Give the basket a name."
+msgstr "Dai un nome al cesto."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "Give the room a name."
+msgstr "Dai un nome allo spazio."
+
+#: lib/basa_web/live/my/items_live.ex:486
+#: lib/basa_web/live/my/items_live.ex:778
+#, elixir-autogen, elixir-format
+msgid "Good"
+msgstr "Buono"
+
+#: lib/basa_web/live/lot_live.ex:540
+#: lib/basa_web/live/my/basket_wizard_live.ex:261
+#, elixir-autogen, elixir-format
+msgid "Guide"
+msgstr "Guida"
+
+#: lib/basa/telegram/bot.ex:359
+#, elixir-autogen, elixir-format
+msgid "Here is what I found:"
+msgstr "Ecco cosa ho trovato:"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:449
+#, elixir-autogen, elixir-format
+msgid "Hour"
+msgstr "Ora"
+
+#: lib/basa_web/live/bookings_live.ex:145
+#, elixir-autogen, elixir-format
+msgid "I booked"
+msgstr "Ho prenotato"
+
+#: lib/basa_web/live/lot_live.ex:313
+#, elixir-autogen, elixir-format
+msgid "Included"
+msgstr "Incluso"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:584
+#, elixir-autogen, elixir-format
+msgid "Instant"
+msgstr "Immediata"
+
+#: lib/basa_web/live/lot_live.ex:509
+#, elixir-autogen, elixir-format
+msgid "Instant booking: confirmed at once."
+msgstr "Prenotazione immediata: confermata subito."
+
+#: lib/basa_web/live/my/items_live.ex:286
+#, elixir-autogen, elixir-format
+msgid "Item removed."
+msgstr "Oggetto rimosso."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:193
+#: lib/basa_web/live/my/dashboard_live.ex:129
+#: lib/basa_web/live/my/photos_live.ex:62
+#: lib/basa_web/live/my/photos_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Items"
+msgstr "Oggetti"
+
+#: lib/basa_web/live/lot_live.ex:541
+#: lib/basa_web/live/my/basket_wizard_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Key holder"
+msgstr "Custode delle chiavi"
+
+#: lib/basa_web/live/admin/data_live.ex:49
+#: lib/basa_web/live/profile_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "Language"
+msgstr "Lingua"
+
+#: lib/basa_web/live/home_live.ex:562
+#, elixir-autogen, elixir-format
+msgid "List your own studio or gear"
+msgstr "Pubblica il tuo studio o la tua attrezzatura"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:499
+#, elixir-autogen, elixir-format
+msgid "Local time: %{tz}"
+msgstr "Ora locale: %{tz}"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Location"
+msgstr "Posizione"
+
+#: lib/basa_web/live/bookings_live.ex:219
+#: lib/basa_web/live/my/schedule_live.ex:436
+#, elixir-autogen, elixir-format
+msgid "Mark as done"
+msgstr "Segna come completata"
+
+#: lib/basa_web/live/my/items_live.ex:464
+#: lib/basa_web/live/my/items_live.ex:793
+#, elixir-autogen, elixir-format
+msgid "Market value"
+msgstr "Valore di mercato"
+
+#: lib/basa_web/live/lot_live.ex:504
+#, elixir-autogen, elixir-format
+msgid "Message to the lessor (optional)"
+msgstr "Messaggio per il locatore (facoltativo)"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:594
+#, elixir-autogen, elixir-format
+msgid "Minimum units"
+msgstr "Unità minime"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:310
+#, elixir-autogen, elixir-format
+msgid "Mixed"
+msgstr "Misto"
+
+#: lib/basa_web/live/lot_live.ex:280
+#: lib/basa_web/live/my/room_wizard_live.ex:598
+#, elixir-autogen, elixir-format
+msgid "Mobile setup"
+msgstr "Allestimento mobile"
+
+#: lib/basa_web/live/my/import_source_live.ex:486
+#: lib/basa_web/live/my/items_live.ex:753
+#, elixir-autogen, elixir-format
+msgid "Model"
+msgstr "Modello"
+
+#: lib/basa_web/live/my/items_live.ex:19
+#: lib/basa_web/live/my/items_live.ex:389
+#: lib/basa_web/live/my/items_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "My items"
+msgstr "I miei oggetti"
+
+#: lib/basa/telegram/bot.ex:249
+#: lib/basa/telegram/bot.ex:300
+#: lib/basa_web/components/layouts.ex:55
+#: lib/basa_web/components/layouts.ex:161
+#: lib/basa_web/live/app_home_live.ex:22
+#: lib/basa_web/live/my/dashboard_live.ex:11
+#: lib/basa_web/live/my/dashboard_live.ex:92
+#, elixir-autogen, elixir-format
+msgid "My offers"
+msgstr "Le mie offerte"
+
+#: lib/basa_web/live/admin/data_live.ex:46
+#: lib/basa_web/live/my/basket_wizard_live.ex:157
+#: lib/basa_web/live/my/basket_wizard_live.ex:168
+#: lib/basa_web/live/my/import_live.ex:153
+#: lib/basa_web/live/my/import_source_live.ex:480
+#: lib/basa_web/live/my/import_source_live.ex:654
+#: lib/basa_web/live/my/room_wizard_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "Name"
+msgstr "Nome"
+
+#: lib/basa_web/live/profile_live.ex:116
+#, elixir-autogen, elixir-format
+msgid "Name shown to others"
+msgstr "Nome visibile agli altri"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:254
+#, elixir-autogen, elixir-format
+msgid "Name, e.g. sound engineer Ivan"
+msgstr "Nome, es. tecnico del suono Ivan"
+
+#: lib/basa_web/live/my/items_live.ex:484
+#: lib/basa_web/live/my/items_live.ex:776
+#, elixir-autogen, elixir-format
+msgid "New"
+msgstr "Nuovo"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "New basket"
+msgstr "Nuovo cesto"
+
+#: lib/basa/notifications/text.ex:10
+#, elixir-autogen, elixir-format
+msgid "New booking for “%{lot}” on %{when}."
+msgstr "Nuova prenotazione di «%{lot}» il %{when}."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:200
+#, elixir-autogen, elixir-format
+msgid "New item"
+msgstr "Nuovo oggetto"
+
+#: lib/basa/telegram/bot.ex:392
+#, elixir-autogen, elixir-format
+msgid "New item from Telegram"
+msgstr "Nuovo oggetto da Telegram"
+
+#: lib/basa_web/live/my/dashboard_live.ex:197
+#: lib/basa_web/live/my/lot_wizard_live.ex:346
+#, elixir-autogen, elixir-format
+msgid "New offer"
+msgstr "Nuova offerta"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "New room"
+msgstr "Nuovo spazio"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:188
+#: lib/basa_web/live/my/basket_wizard_live.ex:271
+#: lib/basa_web/live/my/lot_wizard_live.ex:650
+#: lib/basa_web/live/my/room_wizard_live.ex:659
+#, elixir-autogen, elixir-format
+msgid "Next"
+msgstr "Avanti"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:377
+#, elixir-autogen, elixir-format
+msgid "No baskets yet"
+msgstr "Ancora nessun cesto"
+
+#: lib/basa_web/live/bookings_live.ex:253
+#, elixir-autogen, elixir-format
+msgid "No bookings yet"
+msgstr "Ancora nessuna prenotazione"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:220
+#, elixir-autogen, elixir-format
+msgid "No items yet"
+msgstr "Ancora nessun oggetto"
+
+#: lib/basa_web/live/my/dashboard_live.ex:280
+#: lib/basa_web/live/my/stats_live.ex:53
+#: lib/basa_web/live/my/stats_live.ex:75
+#, elixir-autogen, elixir-format
+msgid "No offers yet"
+msgstr "Ancora nessuna offerta"
+
+#: lib/basa_web/live/bookings_live.ex:264
+#, elixir-autogen, elixir-format
+msgid "No requests yet"
+msgstr "Ancora nessuna richiesta"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:404
+#, elixir-autogen, elixir-format
+msgid "No rooms yet"
+msgstr "Ancora nessuno spazio"
+
+#: lib/basa_web/live/my/items_live.ex:318
+#, elixir-autogen, elixir-format
+msgid "No suggestion this time. Fill in the details by hand."
+msgstr "Nessun suggerimento questa volta. Compila i dettagli a mano."
+
+#: lib/basa_web/live/my/dashboard_live.ex:299
+#: lib/basa_web/live/my/dashboard_live.ex:315
+#, elixir-autogen, elixir-format
+msgid "None yet"
+msgstr "Ancora nessuno"
+
+#: lib/basa_web/live/my/dashboard_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "Not published yet: see the notes below the offer."
+msgstr "Non ancora pubblicata: guarda le note sotto l'offerta."
+
+#: lib/basa_web/live/profile_live.ex:152
+#, elixir-autogen, elixir-format
+msgid "Not verified."
+msgstr "Non verificato."
+
+#: lib/basa_web/live/my/items_live.ex:810
+#, elixir-autogen, elixir-format
+msgid "Notes for renters"
+msgstr "Note per chi noleggia"
+
+#: lib/basa_web/live/home_live.ex:553
+#, elixir-autogen, elixir-format
+msgid "Nothing found yet"
+msgstr "Ancora nessun risultato"
+
+#: lib/basa_web/live/my/items_live.ex:646
+#, elixir-autogen, elixir-format
+msgid "Nothing recognized. Fill in the details by hand."
+msgstr "Nulla di riconosciuto. Compila i dettagli a mano."
+
+#: lib/basa_web/live/admin/review_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Nothing to review"
+msgstr "Niente da rivedere"
+
+#: lib/basa_web/live/admin/data_live.ex:52
+#: lib/basa_web/live/admin/witness_live.ex:338
+#: lib/basa_web/live/my/lot_wizard_live.ex:28
+#: lib/basa_web/live/my/lot_wizard_live.ex:430
+#, elixir-autogen, elixir-format
+msgid "Offer"
+msgstr "Offerta"
+
+#: lib/basa_web/live/my/dashboard_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Offer archived."
+msgstr "Offerta archiviata."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:416
+#, elixir-autogen, elixir-format
+msgid "Offer title"
+msgstr "Titolo dell'offerta"
+
+#: lib/basa_web/live/my/dashboard_live.ex:150
+#: lib/basa_web/live/my/dashboard_live.ex:188
+#, elixir-autogen, elixir-format
+msgid "Offers"
+msgstr "Offerte"
+
+#: lib/basa_web/live/admin/review_live.ex:43
+#, elixir-autogen, elixir-format
+msgid "Offers waiting for review"
+msgstr "Offerte in attesa di revisione"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:587
+#, elixir-autogen, elixir-format
+msgid "On request"
+msgstr "Su richiesta"
+
+#: lib/basa_web/live/profile_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Open @%{bot}"
+msgstr "Apri @%{bot}"
+
+#: lib/basa/telegram/bot.ex:138
+#: lib/basa/telegram/bot.ex:312
+#, elixir-autogen, elixir-format
+msgid "Open BASA"
+msgstr "Apri BASA"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:679
+#, elixir-autogen, elixir-format
+msgid "Open area"
+msgstr "Spazio aperto"
+
+#: lib/basa/telegram/bot.ex:179
+#, elixir-autogen, elixir-format
+msgid "Open bookings"
+msgstr "Apri prenotazioni"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:475
+#, elixir-autogen, elixir-format
+msgid "Open on"
+msgstr "Aperto il"
+
+#: lib/basa_web/live/profile_live.ex:154
+#, elixir-autogen, elixir-format
+msgid "Open the bot and tap “Share phone” to verify it through Telegram."
+msgstr "Apri il bot e tocca «Condividi telefono» per verificarlo con Telegram."
+
+#: lib/basa_web/controllers/telegram_html/app.html.heex:4
+#, elixir-autogen, elixir-format
+msgid "Open this page from the BASA bot in Telegram."
+msgstr "Apri questa pagina dal bot di BASA su Telegram."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "People (optional)"
+msgstr "Persone (facoltativo)"
+
+#: lib/basa_web/live/my/dashboard_live.ex:132
+#, elixir-autogen, elixir-format
+msgid "Photograph your gear"
+msgstr "Fotografa la tua attrezzatura"
+
+#: lib/basa_web/live/appearance_live.ex:176
+#: lib/basa_web/live/my/dashboard_live.ex:95
+#: lib/basa_web/live/my/import_source_live.ex:484
+#: lib/basa_web/live/my/items_live.ex:591
+#: lib/basa_web/live/my/photos_live.ex:9
+#: lib/basa_web/live/my/photos_live.ex:84
+#: lib/basa_web/live/my/room_wizard_live.ex:637
+#, elixir-autogen, elixir-format
+msgid "Photos"
+msgstr "Foto"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:234
+#, elixir-autogen, elixir-format
+msgid "Pick a basket and a room."
+msgstr "Scegli un cesto e uno spazio."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:209
+#, elixir-autogen, elixir-format
+msgid "Pick a city."
+msgstr "Scegli una città."
+
+#: lib/basa_web/live/lot_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "Pick a time"
+msgstr "Scegli un orario"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:237
+#, elixir-autogen, elixir-format
+msgid "Pick at least one day."
+msgstr "Scegli almeno un giorno."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "Pick at least one item or person."
+msgstr "Scegli almeno un oggetto o una persona."
+
+#: lib/basa_web/live/lot_live.ex:275
+#, elixir-autogen, elixir-format
+msgid "Placement"
+msgstr "Collocazione"
+
+#: lib/basa/telegram/bot.ex:237
+#, elixir-autogen, elixir-format
+msgid "Please share your own contact using the button."
+msgstr "Condividi il tuo contatto con il pulsante."
+
+#: lib/basa_web/live/admin/data_live.ex:56
+#: lib/basa_web/live/my/import_source_live.ex:482
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "Price"
+msgstr "Prezzo"
+
+#: lib/basa_web/components/layouts.ex:85
+#: lib/basa_web/live/app_home_live.ex:25
+#: lib/basa_web/live/appearance_live.ex:72
+#: lib/basa_web/live/profile_live.ex:11
+#: lib/basa_web/live/profile_live.ex:110
+#, elixir-autogen, elixir-format
+msgid "Profile"
+msgstr "Profilo"
+
+#: lib/basa_web/live/my/dashboard_live.ex:266
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#: lib/basa_web/live/my/lot_wizard_live.ex:669
+#, elixir-autogen, elixir-format
+msgid "Publish"
+msgstr "Pubblica"
+
+#: lib/basa_web/components/basa_components.ex:193
+#, elixir-autogen, elixir-format
+msgid "Published"
+msgstr "Pubblicata"
+
+#: lib/basa_web/live/admin/review_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Published."
+msgstr "Pubblicata."
+
+#: lib/basa_web/live/my/dashboard_live.ex:28
+#, elixir-autogen, elixir-format
+msgid "Published. Lessees can book it now."
+msgstr "Pubblicata. Ora si può prenotare."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:665
+#, elixir-autogen, elixir-format
+msgid "Publishing…"
+msgstr "Pubblicazione…"
+
+#: lib/basa_web/live/my/items_live.ex:566
+#, elixir-autogen, elixir-format
+msgid "Remove this item?"
+msgstr "Rimuovere questo oggetto?"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:446
+#, elixir-autogen, elixir-format
+msgid "Rented by"
+msgstr "Noleggiato da"
+
+#: lib/basa_web/live/lot_live.ex:88
+#, elixir-autogen, elixir-format
+msgid "Request sent. The slot is held while the lessor confirms."
+msgstr "Richiesta inviata. La fascia è bloccata finché il locatore conferma."
+
+#: lib/basa_web/live/admin/review_live.ex:10
+#: lib/basa_web/live/admin/settings_live.ex:520
+#: lib/basa_web/live/my/basket_wizard_live.ex:157
+#, elixir-autogen, elixir-format
+msgid "Review"
+msgstr "Revisione"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:387
+#: lib/basa_web/live/my/room_wizard_live.ex:73
+#: lib/basa_web/live/my/schedule_live.ex:190
+#: lib/basa_web/live/my/schedule_live.ex:229
+#, elixir-autogen, elixir-format
+msgid "Room"
+msgstr "Spazio"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:276
+#, elixir-autogen, elixir-format
+msgid "Room saved."
+msgstr "Spazio salvato."
+
+#: lib/basa_web/live/my/dashboard_live.ex:143
+#: lib/basa_web/live/my/dashboard_live.ex:303
+#: lib/basa_web/live/my/import_source_live.ex:491
+#: lib/basa_web/live/my/photos_live.ex:63
+#: lib/basa_web/live/my/photos_live.ex:73
+#: lib/basa_web/live/my/schedule_live.ex:193
+#, elixir-autogen, elixir-format
+msgid "Rooms"
+msgstr "Spazi"
+
+#: lib/basa_web/live/admin/settings_live.ex:439
+#: lib/basa_web/live/appearance_live.ex:174
+#: lib/basa_web/live/appearance_live.ex:180
+#: lib/basa_web/live/my/import_source_live.ex:678
+#: lib/basa_web/live/my/import_source_live.ex:782
+#: lib/basa_web/live/my/import_source_live.ex:869
+#: lib/basa_web/live/my/import_source_live.ex:978
+#: lib/basa_web/live/my/items_live.ex:819
+#: lib/basa_web/live/profile_live.ex:134
+#: lib/basa_web/live/profile_live.ex:210
+#: lib/basa_web/live/transaction_live.ex:700
+#: lib/basa_web/live/transaction_live.ex:733
+#, elixir-autogen, elixir-format
+msgid "Save"
+msgstr "Salva"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:298
+#, elixir-autogen, elixir-format
+msgid "Save basket"
+msgstr "Salva cesto"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:668
+#, elixir-autogen, elixir-format
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:658
+#, elixir-autogen, elixir-format
+msgid "Save draft"
+msgstr "Salva bozza"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:668
+#, elixir-autogen, elixir-format
+msgid "Save room"
+msgstr "Salva spazio"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:264
+#, elixir-autogen, elixir-format
+msgid "Saved as draft. See the notes on your dashboard."
+msgstr "Salvata come bozza. Guarda le note nella tua bacheca."
+
+#: lib/basa_web/live/my/items_live.ex:168
+#, elixir-autogen, elixir-format
+msgid "Saved to your inventory."
+msgstr "Salvato nel tuo inventario."
+
+#: lib/basa_web/live/admin/rules_live.ex:43
+#: lib/basa_web/live/my/import_source_live.ex:64
+#: lib/basa_web/live/my/import_source_live.ex:157
+#: lib/basa_web/live/my/import_source_live.ex:194
+#: lib/basa_web/live/my/lot_wizard_live.ex:267
+#: lib/basa_web/live/profile_live.ex:83
+#, elixir-autogen, elixir-format
+msgid "Saved."
+msgstr "Salvato."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:297
+#: lib/basa_web/live/my/items_live.ex:818
+#: lib/basa_web/live/my/room_wizard_live.ex:666
+#, elixir-autogen, elixir-format
+msgid "Saving…"
+msgstr "Salvataggio…"
+
+#: lib/basa_web/live/my/dashboard_live.ex:153
+#, elixir-autogen, elixir-format
+msgid "Schedule, price, publish"
+msgstr "Orari, prezzo, pubblicazione"
+
+#: lib/basa_web/live/admin/review_live.ex:59
+#, elixir-autogen, elixir-format
+msgid "Send back"
+msgstr "Rimanda indietro"
+
+#: lib/basa/telegram/bot.ex:186
+#, elixir-autogen, elixir-format
+msgid "Send me one or more photos of the item."
+msgstr "Inviami una o più foto dell'oggetto."
+
+#: lib/basa_web/live/admin/review_live.ex:26
+#, elixir-autogen, elixir-format
+msgid "Sent back to the lessor."
+msgstr "Rimandata al locatore."
+
+#: lib/basa_web/live/my/dashboard_live.ex:31
+#: lib/basa_web/live/my/lot_wizard_live.ex:261
+#, elixir-autogen, elixir-format
+msgid "Sent for review. We'll let you know."
+msgstr "Inviata per la revisione. Ti faremo sapere."
+
+#: lib/basa_web/components/layouts.ex:114
+#: lib/basa_web/live/sign_in_live.ex:11
+#, elixir-autogen, elixir-format
+msgid "Sign in"
+msgstr "Accedi"
+
+#: lib/basa_web/live/lot_live.ex:528
+#, elixir-autogen, elixir-format
+msgid "Sign in to book"
+msgstr "Accedi per prenotare"
+
+#: lib/basa_web/components/layouts.ex:104
+#, elixir-autogen, elixir-format
+msgid "Sign out"
+msgstr "Esci"
+
+#: lib/basa_web/controllers/telegram_html/app.html.heex:5
+#, elixir-autogen, elixir-format
+msgid "Sign-in failed. Close and reopen the app."
+msgstr "Accesso non riuscito. Chiudi e riapri l'app."
+
+#: lib/basa_web/controllers/telegram_controller.ex:36
+#, elixir-autogen, elixir-format
+msgid "Signed in with Telegram."
+msgstr "Accesso effettuato con Telegram."
+
+#: lib/basa_web/controllers/telegram_html/app.html.heex:3
+#, elixir-autogen, elixir-format
+msgid "Signing you in…"
+msgstr "Accesso in corso…"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:463
+#, elixir-autogen, elixir-format
+msgid "Slot length"
+msgstr "Durata della fascia"
+
+#: lib/basa_web/live/lot_live.ex:109
+#, elixir-autogen, elixir-format
+msgid "Someone just booked this time. Please pick another slot."
+msgstr "Qualcuno ha appena prenotato questo orario. Scegli un'altra fascia."
+
+#: lib/basa_web/components/alert.ex:157
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr "Qualcosa è andato storto!"
+
+#: lib/basa/telegram/bot.ex:205
+#, elixir-autogen, elixir-format
+msgid "Sorry, I couldn't save that photo. Please try again."
+msgstr "Scusa, non sono riuscito a salvare quella foto. Riprova."
+
+#: lib/basa_web/live/lot_live.ex:538
+#: lib/basa_web/live/my/basket_wizard_live.ex:259
+#, elixir-autogen, elixir-format
+msgid "Sound engineer"
+msgstr "Tecnico del suono"
+
+#: lib/basa_web/live/lot_live.ex:542
+#: lib/basa_web/live/my/basket_wizard_live.ex:263
+#, elixir-autogen, elixir-format
+msgid "Specialist"
+msgstr "Specialista"
+
+#: lib/basa_web/live/home_live.ex:394
+#, elixir-autogen, elixir-format
+msgid "Specialists"
+msgstr "Specialisti"
+
+#: lib/basa_web/live/my/dashboard_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "Start with step 1: add a few items with photos."
+msgstr "Inizia dal passo 1: aggiungi qualche oggetto con foto."
+
+#: lib/basa_web/live/admin/data_live.ex:51
+#: lib/basa_web/live/lot_live.ex:473
+#, elixir-autogen, elixir-format
+msgid "Starts"
+msgstr "Inizio"
+
+#: lib/basa_web/live/my/dashboard_live.ex:371
+#, elixir-autogen, elixir-format
+msgid "Step"
+msgstr "Passo"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "Studio A, Moldavanka"
+msgstr "Studio A, Moldavanka"
+
+#: lib/basa_web/live/home_live.ex:339
+#, elixir-autogen, elixir-format
+msgid "Studio, microphone, drill…"
+msgstr "Studio, microfono, trapano…"
+
+#: lib/basa_web/live/my/items_live.ex:611
+#, elixir-autogen, elixir-format
+msgid "Suggest from photo"
+msgstr "Suggerisci dalla foto"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:545
+#, elixir-autogen, elixir-format
+msgid "Suggested"
+msgstr "Suggerito"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "Suggested from the basket's market value. You can change the price any time, even after publishing."
+msgstr "Suggerito in base al valore di mercato del cesto. Puoi cambiare il prezzo quando vuoi, anche dopo la pubblicazione."
+
+#: lib/basa_web/live/my/items_live.ex:351
+#, elixir-autogen, elixir-format
+msgid "Suggested rent: about %{rate} per day (3% of value). You set the final price in the offer."
+msgstr "Noleggio suggerito: circa %{rate} al giorno (3% del valore). Il prezzo finale lo decidi tu nell'offerta."
+
+#: lib/basa_web/live/my/items_live.ex:616
+#, elixir-autogen, elixir-format
+msgid "Suggestions. Check them before saving:"
+msgstr "Suggerimenti. Controllali prima di salvare:"
+
+#: lib/basa_web/live/my/items_live.ex:577
+#, elixir-autogen, elixir-format
+msgid "Take a few photos of what you rent out. We'll help fill in the rest."
+msgstr "Scatta qualche foto di ciò che noleggi. Ti aiutiamo con il resto."
+
+#: lib/basa_web/live/profile_live.ex:161
+#, elixir-autogen, elixir-format
+msgid "Telegram connected"
+msgstr "Telegram collegato"
+
+#: lib/basa_web/live/profile_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Telegram not connected."
+msgstr "Telegram non collegato."
+
+#: lib/basa_web/controllers/telegram_controller.ex:51
+#, elixir-autogen, elixir-format
+msgid "Telegram sign-in failed."
+msgstr "Accesso con Telegram non riuscito."
+
+#: lib/basa/telegram/bot.ex:227
+#, elixir-autogen, elixir-format
+msgid "Thanks, your phone number is verified."
+msgstr "Grazie, il tuo numero di telefono è verificato."
+
+#: lib/basa_web/live/admin/photos_live.ex:35
+#: lib/basa_web/live/bookings_live.ex:45
+#: lib/basa_web/live/bookings_live.ex:88
+#: lib/basa_web/live/my/photos_live.ex:36
+#: lib/basa_web/live/my/room_wizard_live.ex:176
+#: lib/basa_web/live/transaction_live.ex:500
+#: lib/basa_web/live/transaction_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "That didn't work. Please try again."
+msgstr "Non ha funzionato. Riprova."
+
+#: lib/basa_web/components/basa_components.ex:544
+#, elixir-autogen, elixir-format
+msgid "That photo is too large (max 12 MB)."
+msgstr "La foto è troppo grande (max 12 MB)."
+
+#: lib/basa/notifications/text.ex:22
+#, elixir-autogen, elixir-format
+msgid "The booking for “%{lot}” on %{when} was cancelled."
+msgstr "La prenotazione di «%{lot}» del %{when} è stata annullata."
+
+#: lib/basa_web/live/lot_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "The lessor confirms your request; the slot is held meanwhile."
+msgstr "Il locatore conferma la tua richiesta; nel frattempo la fascia resta bloccata."
+
+#: lib/basa_web/live/lot_live.ex:454
+#, elixir-autogen, elixir-format
+msgid "This is your offer."
+msgstr "Questa è la tua offerta."
+
+#: lib/basa_web/live/lot_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "This offer is not available."
+msgstr "Questa offerta non è disponibile."
+
+#: lib/basa_web/live/lot_live.ex:451
+#, elixir-autogen, elixir-format
+msgid "Times are in %{tz}. Taken slots update live."
+msgstr "Gli orari sono in %{tz}. Le fasce occupate si aggiornano in tempo reale."
+
+#: lib/basa_web/live/my/items_live.ex:747
+#, elixir-autogen, elixir-format
+msgid "Title"
+msgstr "Titolo"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:286
+#, elixir-autogen, elixir-format
+msgid "Total market value"
+msgstr "Valore di mercato totale"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:608
+#, elixir-autogen, elixir-format
+msgid "Travels up to %{km} km"
+msgstr "Si sposta fino a %{km} km"
+
+#: lib/basa_web/live/home_live.ex:559
+#, elixir-autogen, elixir-format
+msgid "Try another city or a shorter search."
+msgstr "Prova un'altra città o una ricerca più breve."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:517
+#, elixir-autogen, elixir-format
+msgid "Type of place"
+msgstr "Tipo di luogo"
+
+#: lib/basa_web/components/basa_components.ex:192
+#, elixir-autogen, elixir-format
+msgid "Under review"
+msgstr "In revisione"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:678
+#, elixir-autogen, elixir-format
+msgid "Underground"
+msgstr "Interrato"
+
+#: lib/basa_web/live/lot_live.ex:489
+#, elixir-autogen, elixir-format
+msgid "Until"
+msgstr "Fino a"
+
+#: lib/basa_web/components/basa_components.ex:550
+#, elixir-autogen, elixir-format
+msgid "Upload failed."
+msgstr "Caricamento non riuscito."
+
+#: lib/basa_web/live/my/items_live.ex:634
+#, elixir-autogen, elixir-format
+msgid "Use"
+msgstr "Usa"
+
+#: lib/basa_web/components/basa_components.ex:549
+#, elixir-autogen, elixir-format
+msgid "Use JPG, PNG or WebP photos."
+msgstr "Usa foto JPG, PNG o WebP."
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:308
+#, elixir-autogen, elixir-format
+msgid "Venue"
+msgstr "Spazio"
+
+#: lib/basa_web/live/home_live.ex:388
+#, elixir-autogen, elixir-format
+msgid "Venues"
+msgstr "Spazi"
+
+#: lib/basa_web/live/my/dashboard_live.ex:254
+#, elixir-autogen, elixir-format
+msgid "View"
+msgstr "Vedi"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:169
+#, elixir-autogen, elixir-format
+msgid "Vocal recording kit"
+msgstr "Kit di registrazione voce"
+
+#: lib/basa_web/components/basa_components.ex:195
+#, elixir-autogen, elixir-format
+msgid "Waiting for lessor"
+msgstr "In attesa del locatore"
+
+#: lib/basa_web/components/alert.ex:143
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr "Non troviamo internet"
+
+#: lib/basa/telegram/bot.ex:135
+#, elixir-autogen, elixir-format
+msgid "Welcome to BASA! Book studios, gear, tools and people's time, or rent out your own.\n\nSend me a photo of something you rent out, and I'll add it to your inventory."
+msgstr "Benvenuto su BASA! Prenota studi, attrezzatura, utensili e il tempo delle persone, oppure noleggia le tue cose.\n\nInviami una foto di qualcosa che noleggi e lo aggiungerò al tuo inventario."
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "What & where"
+msgstr "Cosa e dove"
+
+#: lib/basa_web/live/my/basket_wizard_live.ex:173
+#, elixir-autogen, elixir-format
+msgid "What is it mostly?"
+msgstr "Che cos'è principalmente?"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "When"
+msgstr "Quando"
+
+#: lib/basa_web/live/bookings_live.ex:267
+#, elixir-autogen, elixir-format
+msgid "When someone books your offer, it shows up here."
+msgstr "Quando qualcuno prenota la tua offerta, compare qui."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:525
+#, elixir-autogen, elixir-format
+msgid "Where is it?"
+msgstr "Dove si trova?"
+
+#: lib/basa_web/live/my/dashboard_live.ex:146
+#, elixir-autogen, elixir-format
+msgid "Where it happens"
+msgstr "Dove si svolge"
+
+#: lib/basa_web/live/lot_live.ex:166
+#: lib/basa_web/live/lot_live.ex:443
+#, elixir-autogen, elixir-format
+msgid "Whole day"
+msgstr "Tutto il giorno"
+
+#: lib/basa_web/live/admin/review_live.ex:55
+#, elixir-autogen, elixir-format
+msgid "Why is it sent back?"
+msgstr "Perché viene rimandata?"
+
+#: lib/basa_web/live/my/items_live.ex:488
+#: lib/basa_web/live/my/items_live.ex:780
+#, elixir-autogen, elixir-format
+msgid "Worn"
+msgstr "Usurato"
+
+#: lib/basa/notifications/text.ex:13
+#, elixir-autogen, elixir-format
+msgid "Your booking for “%{lot}” on %{when} is confirmed."
+msgstr "La tua prenotazione di «%{lot}» del %{when} è confermata."
+
+#: lib/basa/notifications/text.ex:19
+#, elixir-autogen, elixir-format
+msgid "Your booking request for “%{lot}” was declined."
+msgstr "La tua richiesta di prenotazione di «%{lot}» è stata rifiutata."
+
+#: lib/basa/telegram/bot.ex:178
+#, elixir-autogen, elixir-format
+msgid "Your bookings:"
+msgstr "Le tue prenotazioni:"
+
+#: lib/basa_web/live/my/items_live.ex:576
+#, elixir-autogen, elixir-format
+msgid "Your inventory is empty"
+msgstr "Il tuo inventario è vuoto"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:258
+#, elixir-autogen, elixir-format
+msgid "Your offer is live."
+msgstr "La tua offerta è online."
+
+#: lib/basa_web/components/basa_components.ex:523
+#: lib/basa_web/live/my/room_wizard_live.ex:384
+#, elixir-autogen, elixir-format
+msgid "cancel"
+msgstr "annulla"
+
+#: lib/basa_web/components/alert.ex:94
+#: lib/basa_web/components/badge.ex:162
+#: lib/basa_web/components/modal.ex:111
+#: lib/basa_web/components/toast.ex:190
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr "chiudi"
+
+#: lib/basa_web/components/basa_components.ex:210
+#, elixir-autogen, elixir-format
+msgid "day"
+msgstr "giorno"
+
+#: lib/basa_web/components/basa_components.ex:209
+#, elixir-autogen, elixir-format
+msgid "hour"
+msgstr "ora"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:628
+#, elixir-autogen, elixir-format
+msgid "instant booking"
+msgstr "prenotazione immediata"
+
+#: lib/basa_web/components/basa_components.ex:370
+#: lib/basa_web/live/my/dashboard_live.ex:312
+#: lib/basa_web/live/my/lot_wizard_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "mobile"
+msgstr "mobile"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:629
+#, elixir-autogen, elixir-format
+msgid "on request"
+msgstr "su richiesta"
+
+#: lib/basa_web/live/lot_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "part of this time is taken"
+msgstr "parte di questo orario è occupata"
+
+#: lib/basa_web/components/basa_components.ex:211
+#, elixir-autogen, elixir-format
+msgid "slot"
+msgstr "fascia"
+
+#: lib/basa_web/live/profile_live.ex:150
+#, elixir-autogen, elixir-format
+msgid "verified"
+msgstr "verificato"
+
+#: lib/basa/messaging/telegram_worker.ex:18
+#, elixir-autogen, elixir-format
+msgid "%{name} about “%{lot}”:\n\n%{body}\n\nReply to this message to answer."
+msgstr "%{name} su «%{lot}»:\n\n%{body}\n\nRispondi a questo messaggio per replicare."
+
+#: lib/basa_web/components/layouts.ex:72
+#, elixir-autogen, elixir-format
+msgid "Account"
+msgstr "Account"
+
+#: lib/basa_web/components/blockquote.ex:87
+#, elixir-autogen, elixir-format
+msgid "Author image"
+msgstr "Immagine dell'autore"
+
+#: lib/basa_web/components/file_field.ex:188
+#: lib/basa_web/components/file_field.ex:274
+#, elixir-autogen, elixir-format
+msgid "Cancel upload for %{file}"
+msgstr "Annulla il caricamento di %{file}"
+
+#: lib/basa_web/components/drawer.ex:108
+#: lib/basa_web/components/drawer.ex:112
+#: lib/basa_web/components/sidebar.ex:130
+#, elixir-autogen, elixir-format
+msgid "Close menu"
+msgstr "Chiudi menu"
+
+#: lib/basa_web/components/sidebar.ex:126
+#, elixir-autogen, elixir-format
+msgid "Close sidebar"
+msgstr "Chiudi barra laterale"
+
+#: lib/basa_web/live/messages_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Conversation not found."
+msgstr "Conversazione non trovata."
+
+#: lib/basa_web/components/clipboard.ex:90
+#, elixir-autogen, elixir-format
+msgid "Copied!"
+msgstr "Copiato!"
+
+#: lib/basa_web/components/clipboard.ex:91
+#, elixir-autogen, elixir-format
+msgid "Copy failed"
+msgstr "Copia non riuscita"
+
+#: lib/basa_web/components/clipboard.ex:92
+#, elixir-autogen, elixir-format
+msgid "Copy to clipboard"
+msgstr "Copia negli appunti"
+
+#: lib/basa_web/live/lot_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Couldn't open the conversation."
+msgstr "Impossibile aprire la conversazione."
+
+#: lib/basa/telegram/bot.ex:164
+#, elixir-autogen, elixir-format
+msgid "Couldn't send the reply. Please answer in BASA."
+msgstr "Impossibile inviare la risposta. Rispondi su BASA."
+
+#: lib/basa_web/components/dock.ex:72
+#, elixir-autogen, elixir-format
+msgid "Dock navigation"
+msgstr "Navigazione inferiore"
+
+#: lib/basa_web/components/drawer.ex:125
+#, elixir-autogen, elixir-format
+msgid "Drawer content"
+msgstr "Contenuto del pannello"
+
+#: lib/basa_web/components/alert.ex:134
+#, elixir-autogen, elixir-format
+msgid "Error!"
+msgstr "Errore!"
+
+#: lib/basa_web/components/pagination.ex:130
+#, elixir-autogen, elixir-format
+msgid "First page"
+msgstr "Prima pagina"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "From"
+msgstr "Da"
+
+#: lib/basa_web/components/pagination.ex:220
+#, elixir-autogen, elixir-format
+msgid "Go to page %{page}"
+msgstr "Vai alla pagina %{page}"
+
+#: lib/basa_web/components/alert.ex:163
+#, elixir-autogen, elixir-format
+msgid "Hang in there while we get back on track"
+msgstr "Resisti, stiamo rimettendo tutto a posto"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:599
+#, elixir-autogen, elixir-format
+msgid "It can come to the renter"
+msgstr "Può andare da chi noleggia"
+
+#: lib/basa_web/components/pagination.ex:191
+#, elixir-autogen, elixir-format
+msgid "Last page"
+msgstr "Ultima pagina"
+
+#: lib/basa_web/components/skeleton.ex:43
+#: lib/basa_web/components/spinner.ex:57
+#: lib/basa_web/components/spinner.ex:136
+#: lib/basa_web/components/spinner.ex:145
+#: lib/basa_web/components/spinner.ex:154
+#, elixir-autogen, elixir-format
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: lib/basa_web/components/navbar.ex:94
+#, elixir-autogen, elixir-format
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/basa_web/live/lot_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "Message the lessor"
+msgstr "Scrivi al locatore"
+
+#: lib/basa/telegram/bot.ex:248
+#: lib/basa_web/components/layouts.ex:43
+#: lib/basa_web/components/layouts.ex:154
+#: lib/basa_web/live/app_home_live.ex:19
+#: lib/basa_web/live/messages_live.ex:10
+#: lib/basa_web/live/messages_live.ex:104
+#: lib/basa_web/live/messages_live.ex:140
+#, elixir-autogen, elixir-format
+msgid "Messages"
+msgstr "Messaggi"
+
+#: lib/basa_web/components/sidebar.ex:107
+#: lib/basa_web/components/sidebar.ex:116
+#, elixir-autogen, elixir-format
+msgid "Minimize sidebar"
+msgstr "Riduci barra laterale"
+
+#: lib/basa_web/components/pagination.ex:180
+#, elixir-autogen, elixir-format
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: lib/basa_web/live/messages_live.ex:130
+#, elixir-autogen, elixir-format
+msgid "No messages yet"
+msgstr "Ancora nessun messaggio"
+
+#: lib/basa_web/components/combobox.ex:291
+#: lib/basa_web/components/combobox.ex:509
+#, elixir-autogen, elixir-format
+msgid "Nothing found!"
+msgstr "Nessun risultato!"
+
+#: lib/basa_web/live/messages_live.ex:133
+#, elixir-autogen, elixir-format
+msgid "Open an offer and tap “Message the lessor”."
+msgstr "Apri un'offerta e tocca «Scrivi al locatore»."
+
+#: lib/basa_web/components/pagination.ex:218
+#, elixir-autogen, elixir-format
+msgid "Page %{page}, current page"
+msgstr "Pagina %{page}, pagina corrente"
+
+#: lib/basa_web/components/pagination.ex:141
+#, elixir-autogen, elixir-format
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: lib/basa_web/components/rating.ex:124
+#: lib/basa_web/components/rating.ex:163
+#: lib/basa_web/components/rating.ex:181
+#, elixir-autogen, elixir-format
+msgid "Rate %{count} star"
+msgstr "Valuta %{count} stella"
+
+#: lib/basa_web/components/rating.ex:114
+#: lib/basa_web/components/rating.ex:157
+#, elixir-autogen, elixir-format
+msgid "Rate %{count} stars"
+msgstr "Valuta %{count} stelle"
+
+#: lib/basa_web/live/admin/photos_live.ex:129
+#: lib/basa_web/live/my/import_source_live.ex:755
+#: lib/basa_web/live/my/items_live.ex:570
+#: lib/basa_web/live/my/room_wizard_live.ex:429
+#, elixir-autogen, elixir-format
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: lib/basa_web/components/basa_components.ex:583
+#: lib/basa_web/live/my/photos_live.ex:114
+#: lib/basa_web/live/my/room_wizard_live.ex:368
+#, elixir-autogen, elixir-format
+msgid "Remove photo"
+msgstr "Rimuovi foto"
+
+#: lib/basa_web/live/messages_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Say hello and ask anything about the offer."
+msgstr "Saluta e chiedi qualsiasi cosa sull'offerta."
+
+#: lib/basa_web/components/search_field.ex:151
+#: lib/basa_web/components/search_field.ex:226
+#, elixir-autogen, elixir-format
+msgid "Search"
+msgstr "Cerca"
+
+#: lib/basa_web/live/appearance_live.ex:188
+#: lib/basa_web/live/appearance_live.ex:196
+#: lib/basa_web/live/messages_live.ex:207
+#: lib/basa_web/live/messages_live.ex:208
+#, elixir-autogen, elixir-format
+msgid "Send"
+msgstr "Invia"
+
+#: lib/basa/telegram/bot.ex:162
+#, elixir-autogen, elixir-format
+msgid "Sent."
+msgstr "Inviato."
+
+#: lib/basa_web/components/password_field.ex:158
+#: lib/basa_web/components/password_field.ex:238
+#, elixir-autogen, elixir-format
+msgid "Show password"
+msgstr "Mostra password"
+
+#: lib/basa_web/components/chat.ex:109
+#, elixir-autogen, elixir-format
+msgid "Status:"
+msgstr "Stato:"
+
+#: lib/basa_web/components/stepper.ex:169
+#: lib/basa_web/components/stepper.ex:243
+#, elixir-autogen, elixir-format
+msgid "Step %{number}: %{title}"
+msgstr "Passo %{number}: %{title}"
+
+#: lib/basa_web/components/alert.ex:127
+#, elixir-autogen, elixir-format
+msgid "Success!"
+msgstr "Fatto!"
+
+#: lib/basa_web/components/chat.ex:105
+#, elixir-autogen, elixir-format
+msgid "Time:"
+msgstr "Ora:"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "To"
+msgstr "A"
+
+#: lib/basa_web/components/file_field.ex:161
+#: lib/basa_web/components/file_field.ex:261
+#: lib/basa_web/components/file_field.ex:286
+#, elixir-autogen, elixir-format
+msgid "Uploading %{file}"
+msgstr "Caricamento di %{file}"
+
+#: lib/basa_web/components/file_field.ex:176
+#, elixir-autogen, elixir-format
+msgid "Uploading %{file}: %{progress} percent"
+msgstr "Caricamento di %{file}: %{progress} percento"
+
+#: lib/basa_web/live/messages_live.ex:198
+#: lib/basa_web/live/messages_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "Write a message…"
+msgstr "Scrivi un messaggio…"
+
+#: lib/basa_web/components/dock.ex:239
+#, elixir-autogen, elixir-format
+msgid "current page"
+msgstr "pagina corrente"
+
+#: lib/basa_web/live/messages_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "new"
+msgstr "nuovo"
+
+#: lib/basa_web/dates.ex:8
+#, elixir-autogen, elixir-format
+msgid "Fri"
+msgstr "ven"
+
+#: lib/basa_web/dates.ex:4
+#, elixir-autogen, elixir-format
+msgid "Mon"
+msgstr "lun"
+
+#: lib/basa_web/dates.ex:9
+#, elixir-autogen, elixir-format
+msgid "Sat"
+msgstr "sab"
+
+#: lib/basa_web/dates.ex:10
+#, elixir-autogen, elixir-format
+msgid "Sun"
+msgstr "dom"
+
+#: lib/basa_web/dates.ex:7
+#, elixir-autogen, elixir-format
+msgid "Thu"
+msgstr "gio"
+
+#: lib/basa_web/dates.ex:5
+#, elixir-autogen, elixir-format
+msgid "Tue"
+msgstr "mar"
+
+#: lib/basa_web/dates.ex:6
+#, elixir-autogen, elixir-format
+msgid "Wed"
+msgstr "mer"
+
+#: lib/basa/payments/changes/open_checkout.ex:52
+#, elixir-autogen, elixir-format
+msgid "BASA commission"
+msgstr "Commissione BASA"
+
+#: lib/basa_web/live/bookings_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "BASA is free to use. If this booking went well, you can share a part of it with us. It's voluntary."
+msgstr "BASA è gratuito. Se questa prenotazione è andata bene, puoi condividerne una parte con noi. È facoltativo."
+
+#: lib/basa_web/components/basa_components.ex:364
+#, elixir-autogen, elixir-format
+msgid "Featured"
+msgstr "In evidenza"
+
+#: lib/basa/payments/products.ex:22
+#, elixir-autogen, elixir-format
+msgid "Featured for 30 days"
+msgstr "In evidenza per 30 giorni"
+
+#: lib/basa/payments/products.ex:21
+#, elixir-autogen, elixir-format
+msgid "Featured for 7 days"
+msgstr "In evidenza per 7 giorni"
+
+#: lib/basa_web/live/my/dashboard_live.ex:329
+#, elixir-autogen, elixir-format
+msgid "Featured offers are shown first in search and in the bot."
+msgstr "Le offerte in evidenza appaiono per prime nella ricerca e nel bot."
+
+#: lib/basa_web/live/my/dashboard_live.ex:223
+#, elixir-autogen, elixir-format
+msgid "Featured until %{date}"
+msgstr "In evidenza fino al %{date}"
+
+#: lib/basa_web/live/bookings_live.ex:300
+#, elixir-autogen, elixir-format
+msgid "Not now"
+msgstr "Non ora"
+
+#: lib/basa_web/live/bookings_live.ex:305
+#: lib/basa_web/live/my/dashboard_live.ex:338
+#, elixir-autogen, elixir-format
+msgid "Opening payment…"
+msgstr "Apertura del pagamento…"
+
+#: lib/basa_web/controllers/payment_controller.ex:46
+#, elixir-autogen, elixir-format
+msgid "Paid. Your offer is now featured."
+msgstr "Pagato. La tua offerta è ora in evidenza."
+
+#: lib/basa_web/live/bookings_live.ex:307
+#, elixir-autogen, elixir-format
+msgid "Pay %{amount} %{currency}"
+msgstr "Paga %{amount} %{currency}"
+
+#: lib/basa_web/controllers/payment_controller.ex:49
+#, elixir-autogen, elixir-format
+msgid "Payment is being processed. We'll update it shortly."
+msgstr "Il pagamento è in elaborazione. Lo aggiorneremo a breve."
+
+#: lib/basa_web/controllers/payment_controller.ex:15
+#, elixir-autogen, elixir-format
+msgid "Payment not found."
+msgstr "Pagamento non trovato."
+
+#: lib/basa_web/live/my/dashboard_live.ex:247
+#, elixir-autogen, elixir-format
+msgid "Promote"
+msgstr "Promuovi"
+
+#: lib/basa_web/live/my/dashboard_live.ex:324
+#, elixir-autogen, elixir-format
+msgid "Promote “%{title}”"
+msgstr "Promuovi «%{title}»"
+
+#: lib/basa_web/live/bookings_live.ex:294
+#, elixir-autogen, elixir-format
+msgid "Suggested: %{amount} (5% of the booking)"
+msgstr "Suggerito: %{amount} (5% della prenotazione)"
+
+#: lib/basa_web/live/bookings_live.ex:206
+#: lib/basa_web/live/bookings_live.ex:275
+#, elixir-autogen, elixir-format
+msgid "Support BASA"
+msgstr "Sostieni BASA"
+
+#: lib/basa_web/controllers/payment_controller.ex:43
+#, elixir-autogen, elixir-format
+msgid "Thank you for supporting BASA!"
+msgstr "Grazie per il tuo sostegno a BASA!"
+
+#: lib/basa_web/live/bookings_live.ex:209
+#, elixir-autogen, elixir-format
+msgid "Thanks for supporting BASA"
+msgstr "Grazie per sostenere BASA"
+
+#: lib/basa_web/controllers/payment_controller.ex:51
+#, elixir-autogen, elixir-format
+msgid "The payment didn't go through. You can try again."
+msgstr "Il pagamento non è andato a buon fine. Puoi riprovare."
+
+#: lib/basa_web/live/admin/rules_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "Checks run when an offer is submitted. Block: back to draft with the reason. Flag: an admin reviews it. Observe: recorded only."
+msgstr "I controlli partono quando un'offerta viene inviata. Blocca: torna in bozza con il motivo. Segnala: la rivede un amministratore. Osserva: solo registrato."
+
+#: lib/basa_web/live/lot_live.ex:181
+#: lib/basa_web/live/my/items_live.ex:378
+#, elixir-autogen, elixir-format
+msgid "Close"
+msgstr "Chiudi"
+
+#: lib/basa_web/live/admin/rules_live.ex:88
+#: lib/basa_web/live/admin/settings_live.ex:283
+#, elixir-autogen, elixir-format
+msgid "Edited by %{who}"
+msgstr "Modificato da %{who}"
+
+#: lib/basa_web/live/admin/rules_live.ex:112
+#: lib/basa_web/live/admin/settings_live.ex:294
+#: lib/basa_web/live/admin/settings_live.ex:345
+#: lib/basa_web/live/admin/settings_live.ex:574
+#: lib/basa_web/live/appearance_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "Off"
+msgstr "Disattivo"
+
+#: lib/basa_web/live/admin/rules_live.ex:112
+#: lib/basa_web/live/admin/settings_live.ex:294
+#: lib/basa_web/live/admin/settings_live.ex:357
+#: lib/basa_web/live/admin/settings_live.ex:586
+#: lib/basa_web/live/appearance_live.ex:155
+#, elixir-autogen, elixir-format
+msgid "On"
+msgstr "Attivo"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:87
+#: lib/basa_web/live/admin/rules_live.ex:13
+#: lib/basa_web/live/admin/rules_live.ex:71
+#: lib/basa_web/live/my/import_source_live.ex:508
+#: lib/basa_web/live/my/import_source_live.ex:548
+#: lib/basa_web/live/profile_live.ex:306
+#, elixir-autogen, elixir-format
+msgid "Rules"
+msgstr "Regole"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:113
+#, elixir-autogen, elixir-format
+msgid "Save new version"
+msgstr "Salva nuova versione"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Saved as version %{v}."
+msgstr "Salvato come versione %{v}."
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:105
+#: lib/basa_web/live/my/import_source_live.ex:550
+#: lib/basa_web/live/my/import_source_live.ex:774
+#, elixir-autogen, elixir-format
+msgid "Test"
+msgstr "Prova"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:54
+#: lib/basa_web/live/admin/rule_editor_live.ex:136
+#: lib/basa_web/live/my/import_source_live.ex:138
+#, elixir-autogen, elixir-format
+msgid "Test input"
+msgstr "Dati di prova"
+
+#: lib/basa_web/live/admin/geo_live.ex:41
+#, elixir-autogen, elixir-format
+msgid "%{city} added."
+msgstr "%{city} aggiunta."
+
+#: lib/basa_web/live/admin/geo_live.ex:93
+#, elixir-autogen, elixir-format
+msgid "1 search"
+msgid_plural "%{count} searches"
+msgstr[0] "1 ricerca"
+msgstr[1] "%{count} ricerche"
+
+#: lib/basa_web/live/admin/geo_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "Added by admins"
+msgstr "Aggiunte dagli amministratori"
+
+#: lib/basa_web/live/admin/geo_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Added with rooms"
+msgstr "Aggiunte con gli spazi"
+
+#: lib/basa_web/live/admin/geo_live.ex:110
+#: lib/basa_web/live/city_picker.ex:288
+#, elixir-autogen, elixir-format
+msgid "Adding…"
+msgstr "Aggiunta…"
+
+#: lib/basa_web/live/profile_live.ex:300
+#, elixir-autogen, elixir-format
+msgid "Admin"
+msgstr "Amministrazione"
+
+#: lib/basa_web/live/admin/geo_live.ex:10
+#: lib/basa_web/live/admin/geo_live.ex:59
+#: lib/basa_web/live/profile_live.ex:312
+#, elixir-autogen, elixir-format
+msgid "Cities"
+msgstr "Città"
+
+#: lib/basa_web/live/city_picker.ex:223
+#, elixir-autogen, elixir-format
+msgid "Clear"
+msgstr "Cancella"
+
+#: lib/basa_web/live/admin/geo_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Couldn't add this place."
+msgstr "Impossibile aggiungere questo luogo."
+
+#: lib/basa_web/live/city_picker.ex:77
+#, elixir-autogen, elixir-format
+msgid "Couldn't add this place. Try again."
+msgstr "Impossibile aggiungere questo luogo. Riprova."
+
+#: lib/basa_web/live/admin/geo_live.ex:115
+#, elixir-autogen, elixir-format
+msgid "Ignore"
+msgstr "Ignora"
+
+#: lib/basa_web/live/admin/geo_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Last query: %{q}"
+msgstr "Ultima ricerca: %{q}"
+
+#: lib/basa_web/live/admin/geo_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Lessees only see cities BASA has. Searches for other places are counted here; add the ones people want."
+msgstr "Chi noleggia vede solo le città presenti in BASA. Le ricerche di altri luoghi vengono contate qui; aggiungi quelle richieste."
+
+#: lib/basa_web/live/city_picker.ex:280
+#, elixir-autogen, elixir-format
+msgid "More places (OpenStreetMap)"
+msgstr "Altri luoghi (OpenStreetMap)"
+
+#: lib/basa_web/live/admin/geo_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "Most picked"
+msgstr "Le più scelte"
+
+#: lib/basa_web/live/city_picker.ex:303
+#, elixir-autogen, elixir-format
+msgid "No city found. Check the spelling."
+msgstr "Nessuna città trovata. Controlla l'ortografia."
+
+#: lib/basa_web/live/city_picker.ex:302
+#, elixir-autogen, elixir-format
+msgid "No offers in this city yet. We've noted it."
+msgstr "Ancora nessuna offerta in questa città. Ne abbiamo preso nota."
+
+#: lib/basa_web/live/admin/geo_live.ex:85
+#, elixir-autogen, elixir-format
+msgid "No searches for missing cities yet."
+msgstr "Ancora nessuna ricerca di città mancanti."
+
+#: lib/basa/telegram/bot.ex:349
+#, elixir-autogen, elixir-format
+msgid "Nothing found. Try a city (for example Odesa or Berlin) or another word."
+msgstr "Nessun risultato. Prova una città (ad esempio Odessa o Berlino) o un'altra parola."
+
+#: lib/basa_web/live/profile_live.ex:303
+#, elixir-autogen, elixir-format
+msgid "Offer review"
+msgstr "Revisione offerte"
+
+#: lib/basa_web/live/city_picker.ex:258
+#, elixir-autogen, elixir-format
+msgid "Popular"
+msgstr "Popolari"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:59
+#: lib/basa_web/live/my/import_source_live.ex:141
+#, elixir-autogen, elixir-format
+msgid "Rule error"
+msgstr "Errore della regola"
+
+#: lib/basa_web/live/city_picker.ex:29
+#, elixir-autogen, elixir-format
+msgid "Start typing a city"
+msgstr "Inizia a scrivere una città"
+
+#: lib/basa_web/live/admin/geo_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Starting list"
+msgstr "Elenco iniziale"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:94
+#: lib/basa_web/live/my/import_source_live.ex:763
+#, elixir-autogen, elixir-format
+msgid "Unsaved changes"
+msgstr "Modifiche non salvate"
+
+#: lib/basa_web/live/admin/geo_live.ex:84
+#, elixir-autogen, elixir-format
+msgid "Wanted places"
+msgstr "Luoghi richiesti"
+
+#: lib/basa_web/live/admin/geo_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "found on OpenStreetMap"
+msgstr "trovato su OpenStreetMap"
+
+#: lib/basa_web/live/admin/geo_live.ex:99
+#, elixir-autogen, elixir-format
+msgid "not found on OpenStreetMap"
+msgstr "non trovato su OpenStreetMap"
+
+#: lib/basa_web/live/lot_live.ex:184
+#: lib/basa_web/live/my/items_live.ex:381
+#, elixir-autogen, elixir-format
+msgid "+%{count}"
+msgstr "+%{count}"
+
+#: lib/basa_web/live/lot_live.ex:169
+#, elixir-autogen, elixir-format
+msgid "Booked"
+msgstr "Occupato"
+
+#: lib/basa_web/live/lot_live.ex:170
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the free times."
+msgstr "Impossibile caricare gli orari liberi."
+
+#: lib/basa_web/live/lot_live.ex:168
+#, elixir-autogen, elixir-format
+msgid "Few left"
+msgstr "Pochi rimasti"
+
+#: lib/basa_web/live/lot_live.ex:167
+#, elixir-autogen, elixir-format
+msgid "Free"
+msgstr "Libero"
+
+#: lib/basa_web/live/lot_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Fully booked on this day."
+msgstr "Tutto prenotato in questo giorno."
+
+#: lib/basa_web/live/lot_live.ex:183
+#: lib/basa_web/live/my/items_live.ex:380
+#, elixir-autogen, elixir-format
+msgid "Next photo"
+msgstr "Foto successiva"
+
+#: lib/basa_web/live/lot_live.ex:180
+#: lib/basa_web/live/my/items_live.ex:377
+#, elixir-autogen, elixir-format
+msgid "Open photo"
+msgstr "Apri foto"
+
+#: lib/basa_web/live/lot_live.ex:182
+#: lib/basa_web/live/my/items_live.ex:379
+#, elixir-autogen, elixir-format
+msgid "Previous photo"
+msgstr "Foto precedente"
+
+#: lib/basa_web/live/lot_live.ex:171
+#: lib/basa_web/live/my/photos_live.ex:75
+#: lib/basa_web/live/my/schedule_live.ex:176
+#: lib/basa_web/live/my/schedule_live.ex:209
+#: lib/basa_web/live/my/schedule_live.ex:224
+#: lib/basa_web/live/my/stats_live.ex:52
+#, elixir-autogen, elixir-format
+msgid "Try again"
+msgstr "Riprova"
+
+#: lib/basa_web/live/lot_live.ex:347
+#, elixir-autogen, elixir-format
+msgid "Where"
+msgstr "Dove"
+
+#: lib/basa_web/live/admin/settings_live.ex:277
+#, elixir-autogen, elixir-format
+msgid "Interactive calendars and photo viewers. When off, pages show simpler versions and everything keeps working: search, booking, messages and payments."
+msgstr "Calendari interattivi e visualizzatore di foto. Se disattivati, le pagine mostrano versioni più semplici e tutto continua a funzionare: ricerca, prenotazioni, messaggi e pagamenti."
+
+#: lib/basa_web/live/admin/settings_live.ex:275
+#, elixir-autogen, elixir-format
+msgid "Rich widgets"
+msgstr "Widget avanzati"
+
+#: lib/basa_web/live/admin/settings_live.ex:30
+#: lib/basa_web/live/admin/settings_live.ex:46
+#: lib/basa_web/live/admin/settings_live.ex:90
+#: lib/basa_web/live/admin/settings_live.ex:106
+#, elixir-autogen, elixir-format
+msgid "Saved. Pages opened from now on use this setting."
+msgstr "Salvato. Le pagine aperte da ora in poi useranno questa impostazione."
+
+#: lib/basa_web/live/admin/settings_live.ex:9
+#: lib/basa_web/live/admin/settings_live.ex:269
+#: lib/basa_web/live/profile_live.ex:324
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: lib/basa_web/live/home_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "1 offer"
+msgid_plural "%{count} offers"
+msgstr[0] "1 offerta"
+msgstr[1] "%{count} offerte"
+
+#: lib/basa_web/live/home_live.ex:112
+#, elixir-autogen, elixir-format
+msgid "Cheapest first"
+msgstr "Prima le più economiche"
+
+#: lib/basa_web/live/home_live.ex:504
+#, elixir-autogen, elixir-format
+msgid "Clear filters"
+msgstr "Rimuovi filtri"
+
+#: lib/basa_web/live/home_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "Comes to you"
+msgstr "Viene da te"
+
+#: lib/basa_web/live/home_live.ex:431
+#, elixir-autogen, elixir-format
+msgid "Free on"
+msgstr "Libero il"
+
+#: lib/basa_web/live/admin/settings_live.ex:161
+#: lib/basa_web/live/home_live.ex:517
+#, elixir-autogen, elixir-format
+msgid "List"
+msgstr "Elenco"
+
+#: lib/basa_web/live/home_live.ex:518
+#, elixir-autogen, elixir-format
+msgid "Map"
+msgstr "Mappa"
+
+#: lib/basa_web/live/home_live.ex:113
+#, elixir-autogen, elixir-format
+msgid "Most expensive first"
+msgstr "Prima le più care"
+
+#: lib/basa_web/live/home_live.ex:114
+#, elixir-autogen, elixir-format
+msgid "Newest"
+msgstr "Più recenti"
+
+#: lib/basa_web/live/home_live.ex:541
+#, elixir-autogen, elixir-format
+msgid "Open"
+msgstr "Apri"
+
+#: lib/basa_web/live/home_live.ex:111
+#, elixir-autogen, elixir-format
+msgid "Recommended"
+msgstr "Consigliate"
+
+#: lib/basa_web/live/home_live.ex:471
+#, elixir-autogen, elixir-format
+msgid "Sort"
+msgstr "Ordina"
+
+#: lib/basa_web/live/home_live.ex:558
+#, elixir-autogen, elixir-format
+msgid "Try fewer filters, another day or a shorter search."
+msgstr "Prova meno filtri, un altro giorno o una ricerca più breve."
+
+#: lib/basa_web/live/home_live.ex:445
+#, elixir-autogen, elixir-format
+msgid "Up to"
+msgstr "Fino a"
+
+#: lib/basa_web/live/my/schedule_live.ex:244
+#, elixir-autogen, elixir-format
+msgid "By room and gear"
+msgstr "Per spazio e attrezzatura"
+
+#: lib/basa_web/live/my/schedule_live.ex:243
+#, elixir-autogen, elixir-format
+msgid "Calendar"
+msgstr "Calendario"
+
+#: lib/basa_web/live/my/schedule_live.ex:175
+#: lib/basa_web/live/my/schedule_live.ex:208
+#: lib/basa_web/live/my/schedule_live.ex:223
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the schedule."
+msgstr "Impossibile caricare il programma."
+
+#: lib/basa_web/live/my/schedule_live.ex:179
+#: lib/basa_web/live/my/schedule_live.ex:206
+#: lib/basa_web/live/my/schedule_live.ex:220
+#: lib/basa_web/live/my/schedule_live.ex:350
+#, elixir-autogen, elixir-format
+msgid "Done"
+msgstr "Completata"
+
+#: lib/basa_web/live/my/schedule_live.ex:191
+#: lib/basa_web/live/my/schedule_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "Item"
+msgstr "Oggetto"
+
+#: lib/basa_web/live/my/schedule_live.ex:222
+#: lib/basa_web/live/my/schedule_live.ex:271
+#: lib/basa_web/live/my/schedule_live.ex:308
+#, elixir-autogen, elixir-format
+msgid "No bookings in the coming weeks."
+msgstr "Nessuna prenotazione nelle prossime settimane."
+
+#: lib/basa_web/live/my/schedule_live.ex:192
+#: lib/basa_web/live/my/schedule_live.ex:231
+#, elixir-autogen, elixir-format
+msgid "Person"
+msgstr "Persona"
+
+#: lib/basa/telegram/bot.ex:300
+#: lib/basa_web/live/app_home_live.ex:23
+#: lib/basa_web/live/my/dashboard_live.ex:121
+#: lib/basa_web/live/my/schedule_live.ex:20
+#: lib/basa_web/live/my/schedule_live.ex:237
+#, elixir-autogen, elixir-format
+msgid "Schedule"
+msgstr "Programma"
+
+#: lib/basa_web/live/my/schedule_live.ex:177
+#: lib/basa_web/live/my/schedule_live.ex:204
+#: lib/basa_web/live/my/schedule_live.ex:218
+#: lib/basa_web/live/my/schedule_live.ex:348
+#, elixir-autogen, elixir-format
+msgid "Waiting for you"
+msgstr "In attesa di te"
+
+#: lib/basa_web/dates.ex:16
+#, elixir-autogen, elixir-format
+msgid "Friday"
+msgstr "venerdì"
+
+#: lib/basa_web/dates.ex:12
+#, elixir-autogen, elixir-format
+msgid "Monday"
+msgstr "lunedì"
+
+#: lib/basa_web/dates.ex:17
+#, elixir-autogen, elixir-format
+msgid "Saturday"
+msgstr "sabato"
+
+#: lib/basa_web/dates.ex:18
+#, elixir-autogen, elixir-format
+msgid "Sunday"
+msgstr "domenica"
+
+#: lib/basa_web/dates.ex:15
+#, elixir-autogen, elixir-format
+msgid "Thursday"
+msgstr "giovedì"
+
+#: lib/basa_web/dates.ex:13
+#, elixir-autogen, elixir-format
+msgid "Tuesday"
+msgstr "martedì"
+
+#: lib/basa_web/dates.ex:14
+#, elixir-autogen, elixir-format
+msgid "Wednesday"
+msgstr "mercoledì"
+
+#: lib/basa_web/live/my/dashboard_live.ex:208
+#, elixir-autogen, elixir-format
+msgid "1 item"
+msgid_plural "%{count} items"
+msgstr[0] "1 oggetto"
+msgstr[1] "%{count} oggetti"
+
+#: lib/basa_web/live/home_live.ex:412
+#, elixir-autogen, elixir-format
+msgid "Filters"
+msgstr "Filtri"
+
+#: lib/basa_web/live/my/schedule_live.ex:221
+#, elixir-autogen, elixir-format
+msgid "Declined or cancelled"
+msgstr "Rifiutate o annullate"
+
+#: lib/basa_web/live/my/schedule_live.ex:245
+#, elixir-autogen, elixir-format
+msgid "Requests"
+msgstr "Richieste"
+
+#: lib/basa_web/live/my/schedule_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "This move isn't possible."
+msgstr "Questo spostamento non è possibile."
+
+#: lib/basa_web/live/my/stats_live.ex:64
+#, elixir-autogen, elixir-format
+msgid "Confirmed and completed bookings, %{from}–%{to}."
+msgstr "Prenotazioni confermate e completate, %{from}–%{to}."
+
+#: lib/basa_web/live/my/stats_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the stats."
+msgstr "Impossibile caricare le statistiche."
+
+#: lib/basa_web/live/my/stats_live.ex:49
+#: lib/basa_web/live/my/stats_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Earnings"
+msgstr "Guadagni"
+
+#: lib/basa_web/live/my/stats_live.ex:47
+#: lib/basa_web/live/my/stats_live.ex:78
+#, elixir-autogen, elixir-format
+msgid "Occupancy"
+msgstr "Occupazione"
+
+#: lib/basa_web/live/my/stats_live.ex:48
+#: lib/basa_web/live/my/stats_live.ex:91
+#, elixir-autogen, elixir-format
+msgid "Per week"
+msgstr "Per settimana"
+
+#: lib/basa_web/live/my/dashboard_live.ex:113
+#: lib/basa_web/live/my/stats_live.ex:17
+#: lib/basa_web/live/my/stats_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Stats"
+msgstr "Statistiche"
+
+#: lib/basa_web/live/admin/data_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "Amount"
+msgstr "Importo"
+
+#: lib/basa_web/live/admin/data_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the data."
+msgstr "Impossibile caricare i dati."
+
+#: lib/basa_web/live/admin/data_live.ex:10
+#: lib/basa_web/live/admin/data_live.ex:84
+#: lib/basa_web/live/profile_live.ex:318
+#, elixir-autogen, elixir-format
+msgid "Data"
+msgstr "Dati"
+
+#: lib/basa_web/live/admin/data_live.ex:47
+#: lib/basa_web/live/admin/settings_live.ex:201
+#: lib/basa_web/live/profile_live.ex:192
+#, elixir-autogen, elixir-format
+msgid "Email"
+msgstr "Email"
+
+#: lib/basa_web/live/admin/data_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Export CSV"
+msgstr "Esporta CSV"
+
+#: lib/basa_web/live/admin/data_live.ex:54
+#: lib/basa_web/live/transaction_live.ex:566
+#, elixir-autogen, elixir-format
+msgid "Lessee"
+msgstr "Conduttore"
+
+#: lib/basa_web/live/admin/data_live.ex:53
+#: lib/basa_web/live/transaction_live.ex:565
+#, elixir-autogen, elixir-format
+msgid "Lessor"
+msgstr "Locatore"
+
+#: lib/basa_web/live/admin/data_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Paid"
+msgstr "Pagato"
+
+#: lib/basa_web/live/admin/data_live.ex:73
+#: lib/basa_web/live/admin/settings_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Payments"
+msgstr "Pagamenti"
+
+#: lib/basa_web/live/admin/data_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "Purpose"
+msgstr "Causale"
+
+#: lib/basa_web/live/admin/data_live.ex:55
+#: lib/basa_web/live/admin/witness_live.ex:339
+#, elixir-autogen, elixir-format
+msgid "Status"
+msgstr "Stato"
+
+#: lib/basa_web/live/admin/data_live.ex:59
+#, elixir-autogen, elixir-format
+msgid "User"
+msgstr "Utente"
+
+#: lib/basa_web/live/admin/data_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Users"
+msgstr "Utenti"
+
+#: lib/basa_web/live/my/photos_live.ex:86
+#, elixir-autogen, elixir-format
+msgid "All photos of your items and rooms. Add new ones in the item or room form."
+msgstr "Tutte le foto dei tuoi oggetti e spazi. Aggiungine di nuove nel modulo dell'oggetto o dello spazio."
+
+#: lib/basa_web/live/my/photos_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Couldn't load the photos."
+msgstr "Impossibile caricare le foto."
+
+#: lib/basa_web/components/basa_components.ex:573
+#: lib/basa_web/components/basa_components.ex:576
+#, elixir-autogen, elixir-format
+msgid "Cover"
+msgstr "Copertina"
+
+#: lib/basa_web/components/basa_components.ex:595
+#, elixir-autogen, elixir-format
+msgid "Move left"
+msgstr "Sposta a sinistra"
+
+#: lib/basa_web/components/basa_components.ex:606
+#, elixir-autogen, elixir-format
+msgid "Move right"
+msgstr "Sposta a destra"
+
+#: lib/basa_web/live/admin/photos_live.ex:44
+#: lib/basa_web/live/transaction_live.ex:569
+#: lib/basa_web/live/transaction_live.ex:1055
+#: lib/basa_web/live/transaction_live.ex:1121
+#, elixir-autogen, elixir-format
+msgid "Photo"
+msgstr "Foto"
+
+#: lib/basa_web/live/my/photos_live.ex:112
+#, elixir-autogen, elixir-format
+msgid "Remove this photo?"
+msgstr "Rimuovere questa foto?"
+
+#: lib/basa_web/live/appearance_live.ex:148
+#, elixir-autogen, elixir-format
+msgid "Card glow"
+msgstr "Bagliore delle schede"
+
+#: lib/basa_web/live/appearance_live.ex:149
+#, elixir-autogen, elixir-format
+msgid "Cards light up in colour near the mouse pointer."
+msgstr "Le schede si illuminano a colori vicino al puntatore del mouse."
+
+#: lib/basa_web/components/layouts.ex:263
+#, elixir-autogen, elixir-format
+msgid "Dark"
+msgstr "Scuro"
+
+#: lib/basa_web/components/layouts.ex:262
+#, elixir-autogen, elixir-format
+msgid "Light"
+msgstr "Chiaro"
+
+#: lib/basa_web/live/home_live.ex:320
+#, elixir-autogen, elixir-format
+msgid "Needed nearby"
+msgstr "Ciò che serve, vicino"
+
+#: lib/basa_web/components/layouts.ex:261
+#, elixir-autogen, elixir-format
+msgid "System"
+msgstr "Come il sistema"
+
+#: lib/basa_web/components/layouts.ex:279
+#, elixir-autogen, elixir-format
+msgid "Theme"
+msgstr "Tema"
+
+#: lib/basa_web/live/transaction_live.ex:785
+#, elixir-autogen, elixir-format
+msgid "Add a file"
+msgstr "Aggiungi un file"
+
+#: lib/basa_web/live/transaction_live.ex:779
+#: lib/basa_web/live/transaction_live.ex:1127
+#, elixir-autogen, elixir-format
+msgid "Add photos"
+msgstr "Aggiungi foto"
+
+#: lib/basa_web/live/transaction_live.ex:837
+#, elixir-autogen, elixir-format
+msgid "Allow the microphone in your browser to record."
+msgstr "Consenti il microfono nel browser per registrare."
+
+#: lib/basa_web/live/transaction_live.ex:687
+#, elixir-autogen, elixir-format
+msgid "As on your identity document. It goes into the contract."
+msgstr "Come sul documento d'identità. Compare nel contratto."
+
+#: lib/basa_web/live/transaction_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "At least one photo of the condition"
+msgstr "Almeno una foto dello stato"
+
+#: lib/basa_web/live/transaction_live.ex:914
+#, elixir-autogen, elixir-format
+msgid "Both of you sign the same BASA-HASH: it covers the contract and every evidence file."
+msgstr "Firmate entrambi lo stesso BASA-HASH: copre il contratto e ogni file di prova."
+
+#: lib/basa_web/live/transaction_live.ex:513
+#, elixir-autogen, elixir-format
+msgid "Both parties connected the device they sign on"
+msgstr "Entrambe le parti hanno collegato il dispositivo di firma"
+
+#: lib/basa_web/live/transaction_live.ex:511
+#, elixir-autogen, elixir-format
+msgid "Both parties gave their legal names"
+msgstr "Entrambe le parti hanno indicato il nome legale"
+
+#: lib/basa_web/live/transaction_live.ex:1170
+#, elixir-autogen, elixir-format
+msgid "Cancel the contract"
+msgstr "Annulla il contratto"
+
+#: lib/basa_web/live/transaction_live.ex:1168
+#, elixir-autogen, elixir-format
+msgid "Cancel this contract?"
+msgstr "Annullare questo contratto?"
+
+#: lib/basa_web/live/transaction_live.ex:865
+#, elixir-autogen, elixir-format
+msgid "Connect the device you will sign on. Its key never leaves it; BASA only gets the public part."
+msgstr "Collega il dispositivo su cui firmerai. La sua chiave non lo lascia mai; BASA riceve solo la parte pubblica."
+
+#: lib/basa_web/live/transaction_live.ex:876
+#, elixir-autogen, elixir-format
+msgid "Connect this device"
+msgstr "Collega questo dispositivo"
+
+#: lib/basa_web/live/bookings_live.ex:233
+#: lib/basa_web/live/transaction_live.ex:20
+#: lib/basa_web/live/transaction_live.ex:568
+#, elixir-autogen, elixir-format
+msgid "Contract"
+msgstr "Contratto"
+
+#: lib/basa_web/live/admin/witness_live.ex:225
+#: lib/basa_web/live/transaction_live.ex:608
+#, elixir-autogen, elixir-format
+msgid "Contract No. %{number}"
+msgstr "Contratto n. %{number}"
+
+#: lib/basa_web/live/profile_live.ex:238
+#: lib/basa_web/live/transaction_live.ex:1477
+#, elixir-autogen, elixir-format
+msgid "Copy"
+msgstr "Copia"
+
+#: lib/basa_web/live/transaction_live.ex:726
+#: lib/basa_web/live/transaction_live.ex:741
+#, elixir-autogen, elixir-format
+msgid "Days for claims"
+msgstr "Giorni per i reclami"
+
+#: lib/basa_web/live/transaction_live.ex:737
+#: lib/basa_web/live/transaction_live.ex:998
+#, elixir-autogen, elixir-format
+msgid "Deposit"
+msgstr "Deposito cauzionale"
+
+#: lib/basa_web/live/transaction_live.ex:716
+#, elixir-autogen, elixir-format
+msgid "Deposit (%{currency})"
+msgstr "Deposito cauzionale (%{currency})"
+
+#: lib/basa_web/live/transaction_live.ex:767
+#, elixir-autogen, elixir-format
+msgid "Evidence"
+msgstr "Prove"
+
+#: lib/basa_web/live/transaction_live.ex:571
+#, elixir-autogen, elixir-format
+msgid "File"
+msgstr "File"
+
+#: lib/basa_web/live/transaction_live.ex:755
+#, elixir-autogen, elixir-format
+msgid "I rent as a private person (consumer)"
+msgstr "Noleggio come privato (consumatore)"
+
+#: lib/basa_web/live/transaction_live.ex:806
+#, elixir-autogen, elixir-format
+msgid "I, %{name}, confirm contract No. %{number} for “%{offer}”, %{date}."
+msgstr "Io, %{name}, confermo il contratto n. %{number} per «%{offer}», %{date}."
+
+#: lib/basa_web/live/transaction_live.ex:959
+#, elixir-autogen, elixir-format
+msgid "Independent time: %{time} (timestamp authority)."
+msgstr "Ora indipendente: %{time} (autorità di marcatura temporale)."
+
+#: lib/basa_web/live/bookings_live.ex:234
+#, elixir-autogen, elixir-format
+msgid "Make a contract"
+msgstr "Fai un contratto"
+
+#: lib/basa_web/live/transaction_live.ex:1218
+#, elixir-autogen, elixir-format
+msgid "No files yet."
+msgstr "Ancora nessun file."
+
+#: lib/basa_web/live/transaction_live.ex:931
+#: lib/basa_web/live/transaction_live.ex:1136
+#, elixir-autogen, elixir-format
+msgid "Open this page on the device you connected to sign."
+msgstr "Apri questa pagina sul dispositivo collegato per firmare."
+
+#: lib/basa_web/live/transaction_live.ex:652
+#, elixir-autogen, elixir-format
+msgid "Parties"
+msgstr "Parti"
+
+#: lib/basa_web/live/transaction_live.ex:769
+#, elixir-autogen, elixir-format
+msgid "Photos of the condition, a voice reading by each of you, and any other files you both agree on."
+msgstr "Foto dello stato, una lettura vocale di ciascuno di voi e qualsiasi altro file su cui siete d'accordo."
+
+#: lib/basa_web/live/transaction_live.ex:904
+#, elixir-autogen, elixir-format
+msgid "Prepare for signing"
+msgstr "Prepara per la firma"
+
+#: lib/basa_web/live/transaction_live.ex:912
+#, elixir-autogen, elixir-format
+msgid "Read and sign"
+msgstr "Leggi e firma"
+
+#: lib/basa_web/live/transaction_live.ex:829
+#, elixir-autogen, elixir-format
+msgid "Record"
+msgstr "Registra"
+
+#: lib/basa_web/components/basa_components.ex:201
+#: lib/basa_web/live/admin/witness_live.ex:340
+#: lib/basa_web/live/transaction_live.ex:941
+#, elixir-autogen, elixir-format
+msgid "Sealed"
+msgstr "Sigillato"
+
+#: lib/basa_web/live/transaction_live.ex:927
+#, elixir-autogen, elixir-format
+msgid "Sign on this device"
+msgstr "Firma su questo dispositivo"
+
+#: lib/basa_web/components/basa_components.ex:200
+#, elixir-autogen, elixir-format
+msgid "Signing"
+msgstr "Firma"
+
+#: lib/basa_web/live/transaction_live.ex:830
+#, elixir-autogen, elixir-format
+msgid "Stop and add"
+msgstr "Ferma e aggiungi"
+
+#: lib/basa_web/live/transaction_live.ex:705
+#, elixir-autogen, elixir-format
+msgid "Terms"
+msgstr "Condizioni"
+
+#: lib/basa_web/live/transaction_live.ex:901
+#, elixir-autogen, elixir-format
+msgid "The evidence and terms will be frozen and the contract made. Continue?"
+msgstr "Prove e condizioni saranno bloccate e il contratto redatto. Continuare?"
+
+#: lib/basa_web/live/transaction_live.ex:964
+#, elixir-autogen, elixir-format
+msgid "The independent timestamp is being requested…"
+msgstr "È in corso la richiesta della marca temporale indipendente…"
+
+#: lib/basa_web/live/transaction_live.ex:848
+#, elixir-autogen, elixir-format
+msgid "This browser cannot make a signing key. Use a current Chrome, Firefox, Safari or the Telegram app."
+msgstr "Questo browser non può creare una chiave di firma. Usa un Chrome, Firefox, Safari aggiornato o l'app Telegram."
+
+#: lib/basa_web/live/transaction_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "This contract is not available."
+msgstr "Questo contratto non è disponibile."
+
+#: lib/basa_web/live/transaction_live.ex:1158
+#, elixir-autogen, elixir-format
+msgid "This contract was cancelled."
+msgstr "Questo contratto è stato annullato."
+
+#: lib/basa_web/live/transaction_live.ex:317
+#, elixir-autogen, elixir-format
+msgid "This device has no signing key. Use the device you connected."
+msgstr "Questo dispositivo non ha una chiave di firma. Usa il dispositivo collegato."
+
+#: lib/basa_web/live/transaction_live.ex:855
+#, elixir-autogen, elixir-format
+msgid "This device is connected. You will sign the contract on it."
+msgstr "Questo dispositivo è collegato. Firmerai il contratto su di esso."
+
+#: lib/basa_web/live/transaction_live.ex:183
+#: lib/basa_web/live/transaction_live.ex:208
+#, elixir-autogen, elixir-format
+msgid "This file could not be added."
+msgstr "Impossibile aggiungere questo file."
+
+#: lib/basa_web/live/transaction_live.ex:803
+#, elixir-autogen, elixir-format
+msgid "Voice reading: record yourself reading this text aloud."
+msgstr "Lettura vocale: registrati mentre leggi ad alta voce questo testo."
+
+#: lib/basa_web/live/transaction_live.ex:570
+#, elixir-autogen, elixir-format
+msgid "Voice recording"
+msgstr "Registrazione vocale"
+
+#: lib/basa_web/live/transaction_live.ex:861
+#, elixir-autogen, elixir-format
+msgid "You connected another device. Connect this one instead if you want to sign here."
+msgstr "Hai collegato un altro dispositivo. Collega questo se vuoi firmare qui."
+
+#: lib/basa_web/live/transaction_live.ex:924
+#, elixir-autogen, elixir-format
+msgid "You signed. Waiting for the other party."
+msgstr "Hai firmato. In attesa dell'altra parte."
+
+#: lib/basa_web/live/transaction_live.ex:685
+#, elixir-autogen, elixir-format
+msgid "Your legal name"
+msgstr "Il tuo nome legale"
+
+#: lib/basa_web/live/transaction_live.ex:844
+#, elixir-autogen, elixir-format
+msgid "Your signing device"
+msgstr "Il tuo dispositivo di firma"
+
+#: lib/basa_web/live/transaction_live.ex:670
+#, elixir-autogen, elixir-format
+msgid "device connected"
+msgstr "dispositivo collegato"
+
+#: lib/basa_web/live/transaction_live.ex:663
+#, elixir-autogen, elixir-format
+msgid "legal name not given yet"
+msgstr "nome legale non ancora indicato"
+
+#: lib/basa_web/live/transaction_live.ex:676
+#, elixir-autogen, elixir-format
+msgid "signed"
+msgstr "firmato"
+
+#: lib/basa_web/live/appearance_live.ex:88
+#, elixir-autogen, elixir-format
+msgid "Action buttons"
+msgstr "Pulsanti di azione"
+
+#: lib/basa_web/components/layouts.ex:91
+#: lib/basa_web/live/appearance_live.ex:16
+#: lib/basa_web/live/appearance_live.ex:73
+#: lib/basa_web/live/profile_live.ex:136
+#, elixir-autogen, elixir-format
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: lib/basa_web/live/appearance_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Back to defaults"
+msgstr "Ripristina i predefiniti"
+
+#: lib/basa_web/live/appearance_live.ex:103
+#, elixir-autogen, elixir-format
+msgid "Back, details, tabs: moving around."
+msgstr "Indietro, dettagli, schede: per spostarsi."
+
+#: lib/basa_web/live/appearance_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Black"
+msgstr "Nero"
+
+#: lib/basa_web/live/appearance_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "Brand colours"
+msgstr "Colori del marchio"
+
+#: lib/basa_web/live/admin/settings_live.ex:160
+#: lib/basa_web/live/appearance_live.ex:78
+#: lib/basa_web/live/appearance_live.ex:128
+#, elixir-autogen, elixir-format
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#: lib/basa_web/live/appearance_live.ex:55
+#, elixir-autogen, elixir-format
+msgid "Cyan"
+msgstr "Ciano"
+
+#: lib/basa_web/live/appearance_live.ex:115
+#, elixir-autogen, elixir-format
+msgid "Disabled buttons"
+msgstr "Pulsanti disattivati"
+
+#: lib/basa_web/live/appearance_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Gray"
+msgstr "Grigio"
+
+#: lib/basa_web/live/appearance_live.ex:56
+#, elixir-autogen, elixir-format
+msgid "Green"
+msgstr "Verde"
+
+#: lib/basa_web/live/appearance_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "Icons"
+msgstr "Icone"
+
+#: lib/basa_web/live/appearance_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "Navigation buttons"
+msgstr "Pulsanti di navigazione"
+
+#: lib/basa_web/live/appearance_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "Neutral"
+msgstr "Neutro"
+
+#: lib/basa_web/live/appearance_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "Orange"
+msgstr "Arancione"
+
+#: lib/basa_web/live/appearance_live.ex:171
+#: lib/basa_web/live/my/items_live.ex:391
+#: lib/basa_web/live/my/items_live.ex:555
+#: lib/basa_web/live/my/items_live.ex:556
+#, elixir-autogen, elixir-format
+msgid "Preview"
+msgstr "Anteprima"
+
+#: lib/basa_web/live/appearance_live.ex:89
+#, elixir-autogen, elixir-format
+msgid "Send, save, book: the main thing on a page."
+msgstr "Invia, salva, prenota: l'azione principale di una pagina."
+
+#: lib/basa_web/live/appearance_live.ex:124
+#, elixir-autogen, elixir-format
+msgid "Size"
+msgstr "Dimensione"
+
+#: lib/basa_web/live/appearance_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "Soft colour"
+msgstr "Colore tenue"
+
+#: lib/basa_web/live/admin/import_live.ex:143
+#: lib/basa_web/live/appearance_live.ex:140
+#, elixir-autogen, elixir-format
+msgid "Text"
+msgstr "Testo"
+
+#: lib/basa_web/live/appearance_live.ex:52
+#, elixir-autogen, elixir-format
+msgid "White"
+msgstr "Bianco"
+
+#: lib/basa_web/live/appearance_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Yellow"
+msgstr "Giallo"
+
+#: lib/basa_web/live/transaction_live.ex:557
+#, elixir-autogen, elixir-format
+msgid "%{kept} kept by the lessor, the rest returned"
+msgstr "%{kept} trattenuti dal locatore, il resto restituito"
+
+#: lib/basa_web/live/transaction_live.ex:543
+#, elixir-autogen, elixir-format
+msgid "Accept the return"
+msgstr "Accetta la restituzione"
+
+#: lib/basa_web/live/transaction_live.ex:485
+#, elixir-autogen, elixir-format
+msgid "Add photos of the condition you return it in."
+msgstr "Aggiungi foto dello stato in cui lo restituisci."
+
+#: lib/basa_web/live/transaction_live.ex:996
+#, elixir-autogen, elixir-format
+msgid "After the handover"
+msgstr "Dopo la consegna"
+
+#: lib/basa_web/live/transaction_live.ex:1070
+#, elixir-autogen, elixir-format
+msgid "Agree and sign"
+msgstr "Accetta e firma"
+
+#: lib/basa_web/live/transaction_live.ex:1100
+#, elixir-autogen, elixir-format
+msgid "Amount claimed (%{currency})"
+msgstr "Importo richiesto (%{currency})"
+
+#: lib/basa_web/live/transaction_live.ex:534
+#, elixir-autogen, elixir-format
+msgid "Claim"
+msgstr "Reclamo"
+
+#: lib/basa_web/components/basa_components.ex:203
+#, elixir-autogen, elixir-format
+msgid "Claim open"
+msgstr "Reclamo aperto"
+
+#: lib/basa_web/live/transaction_live.ex:1036
+#, elixir-autogen, elixir-format
+msgid "Claimed"
+msgstr "Richiesto"
+
+#: lib/basa_web/components/basa_components.ex:205
+#, elixir-autogen, elixir-format
+msgid "Closed"
+msgstr "Chiuso"
+
+#: lib/basa_web/live/transaction_live.ex:546
+#, elixir-autogen, elixir-format
+msgid "Declare a dispute"
+msgstr "Dichiara una controversia"
+
+#: lib/basa_web/live/transaction_live.ex:488
+#, elixir-autogen, elixir-format
+msgid "Describe it in a few words."
+msgstr "Descrivilo in poche parole."
+
+#: lib/basa_web/live/transaction_live.ex:536
+#, elixir-autogen, elixir-format
+msgid "Dispute"
+msgstr "Controversia"
+
+#: lib/basa_web/components/basa_components.ex:206
+#, elixir-autogen, elixir-format
+msgid "Disputed"
+msgstr "In controversia"
+
+#: lib/basa_web/live/transaction_live.ex:1073
+#, elixir-autogen, elixir-format
+msgid "Do not agree"
+msgstr "Non accetto"
+
+#: lib/basa_web/live/transaction_live.ex:1092
+#, elixir-autogen, elixir-format
+msgid "In a few words"
+msgstr "In poche parole"
+
+#: lib/basa_web/live/transaction_live.ex:1042
+#, elixir-autogen, elixir-format
+msgid "Kept from the deposit"
+msgstr "Trattenuto dal deposito"
+
+#: lib/basa_web/live/transaction_live.ex:1108
+#, elixir-autogen, elixir-format
+msgid "Kept from the deposit (%{currency})"
+msgstr "Trattenuto dal deposito (%{currency})"
+
+#: lib/basa_web/live/transaction_live.ex:1114
+#, elixir-autogen, elixir-format
+msgid "Photos of the condition you return it in"
+msgstr "Foto dello stato alla restituzione"
+
+#: lib/basa_web/live/transaction_live.ex:1116
+#, elixir-autogen, elixir-format
+msgid "Photos of what is wrong"
+msgstr "Foto di ciò che non va"
+
+#: lib/basa_web/live/transaction_live.ex:545
+#, elixir-autogen, elixir-format
+msgid "Propose a settlement"
+msgstr "Proponi un accordo"
+
+#: lib/basa_web/live/transaction_live.ex:544
+#, elixir-autogen, elixir-format
+msgid "Raise a claim"
+msgstr "Presenta un reclamo"
+
+#: lib/basa_web/live/transaction_live.ex:530
+#, elixir-autogen, elixir-format
+msgid "Return"
+msgstr "Restituzione"
+
+#: lib/basa_web/live/transaction_live.ex:533
+#, elixir-autogen, elixir-format
+msgid "Return accepted"
+msgstr "Restituzione accettata"
+
+#: lib/basa_web/live/transaction_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Return accepted automatically"
+msgstr "Restituzione accettata automaticamente"
+
+#: lib/basa_web/live/transaction_live.ex:540
+#, elixir-autogen, elixir-format
+msgid "Return it"
+msgstr "Restituisci"
+
+#: lib/basa_web/components/basa_components.ex:202
+#, elixir-autogen, elixir-format
+msgid "Returned"
+msgstr "Restituito"
+
+#: lib/basa_web/components/basa_components.ex:204
+#, elixir-autogen, elixir-format
+msgid "Settled"
+msgstr "Concordato"
+
+#: lib/basa_web/live/transaction_live.ex:535
+#, elixir-autogen, elixir-format
+msgid "Settlement"
+msgstr "Accordo"
+
+#: lib/basa_web/live/transaction_live.ex:1133
+#, elixir-autogen, elixir-format
+msgid "Sign and send"
+msgstr "Firma e invia"
+
+#: lib/basa_web/live/transaction_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "The amount must be a positive number."
+msgstr "L'importo deve essere un numero positivo."
+
+#: lib/basa_web/live/transaction_live.ex:497
+#, elixir-autogen, elixir-format
+msgid "The claims window is over."
+msgstr "Il termine per i reclami è scaduto."
+
+#: lib/basa_web/live/transaction_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "The kept part must be between 0 and the deposit."
+msgstr "La parte trattenuta deve essere tra 0 e il deposito."
+
+#: lib/basa_web/live/transaction_live.ex:1002
+#, elixir-autogen, elixir-format
+msgid "The lessor can raise a claim until %{date}; after that the return counts as accepted."
+msgstr "Il locatore può presentare un reclamo fino al %{date}; dopo la restituzione si considera accettata."
+
+#: lib/basa_web/live/transaction_live.ex:551
+#, elixir-autogen, elixir-format
+msgid "held"
+msgstr "trattenuto"
+
+#: lib/basa_web/live/transaction_live.ex:553
+#, elixir-autogen, elixir-format
+msgid "kept by the lessor"
+msgstr "trattenuto dal locatore"
+
+#: lib/basa_web/live/transaction_live.ex:1032
+#, elixir-autogen, elixir-format
+msgid "not accepted"
+msgstr "non accettato"
+
+#: lib/basa_web/live/transaction_live.ex:552
+#, elixir-autogen, elixir-format
+msgid "returned to the lessee"
+msgstr "restituito al conduttore"
+
+#: lib/basa_web/live/transaction_live.ex:1030
+#, elixir-autogen, elixir-format
+msgid "waiting for the other side"
+msgstr "in attesa dell'altra parte"
+
+#: lib/basa_web/live/admin/witness_live.ex:298
+#, elixir-autogen, elixir-format
+msgid "Access log"
+msgstr "Registro degli accessi"
+
+#: lib/basa_web/live/admin/witness_live.ex:192
+#, elixir-autogen, elixir-format
+msgid "Act %{n}"
+msgstr "Atto %{n}"
+
+#: lib/basa_web/live/admin/witness_live.ex:341
+#, elixir-autogen, elixir-format
+msgid "Acts"
+msgstr "Atti"
+
+#: lib/basa_web/live/admin/witness_live.ex:203
+#, elixir-autogen, elixir-format
+msgid "Check"
+msgstr "Verifica"
+
+#: lib/basa_web/live/admin/witness_live.ex:330
+#, elixir-autogen, elixir-format
+msgid "Check all"
+msgstr "Verifica tutti"
+
+#: lib/basa_web/live/admin/witness_live.ex:244
+#, elixir-autogen, elixir-format
+msgid "Check now"
+msgstr "Verifica ora"
+
+#: lib/basa_web/live/admin/witness_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Checked %{count}, failed %{failed}."
+msgstr "Verificati: %{count}, non riusciti: %{failed}."
+
+#: lib/basa_web/live/admin/witness_live.ex:318
+#, elixir-autogen, elixir-format
+msgid "Checks keys, files, manifest, signatures, timestamp and the acts after sealing. Evidence itself stays closed to admins."
+msgstr "Verifica chiavi, file, manifesto, firme, marca temporale e gli atti dopo la sigillatura. Le prove restano chiuse agli amministratori."
+
+#: lib/basa_web/live/admin/witness_live.ex:12
+#: lib/basa_web/live/admin/witness_live.ex:223
+#: lib/basa_web/live/admin/witness_live.ex:316
+#: lib/basa_web/live/profile_live.ex:315
+#, elixir-autogen, elixir-format
+msgid "Contracts"
+msgstr "Contratti"
+
+#: lib/basa_web/live/admin/witness_live.ex:255
+#, elixir-autogen, elixir-format
+msgid "Everything checks out."
+msgstr "Tutto in ordine."
+
+#: lib/basa_web/live/admin/witness_live.ex:191
+#: lib/basa_web/live/verify_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "File %{n}"
+msgstr "File %{n}"
+
+#: lib/basa_web/live/admin/witness_live.ex:195
+#, elixir-autogen, elixir-format
+msgid "File order"
+msgstr "Ordine dei file"
+
+#: lib/basa_web/live/admin/witness_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Keys"
+msgstr "Chiavi"
+
+#: lib/basa_web/live/admin/witness_live.ex:342
+#, elixir-autogen, elixir-format
+msgid "Last check"
+msgstr "Ultima verifica"
+
+#: lib/basa_web/live/admin/witness_live.ex:196
+#, elixir-autogen, elixir-format
+msgid "Manifest"
+msgstr "Manifesto"
+
+#: lib/basa_web/live/admin/witness_live.ex:376
+#, elixir-autogen, elixir-format
+msgid "No contracts yet."
+msgstr "Ancora nessun contratto."
+
+#: lib/basa_web/live/admin/witness_live.ex:337
+#, elixir-autogen, elixir-format
+msgid "No."
+msgstr "N."
+
+#: lib/basa_web/live/admin/witness_live.ex:311
+#, elixir-autogen, elixir-format
+msgid "Nothing yet."
+msgstr "Ancora niente."
+
+#: lib/basa_web/live/admin/witness_live.ex:204
+#, elixir-autogen, elixir-format
+msgid "Opened"
+msgstr "Aperto"
+
+#: lib/basa_web/live/admin/witness_live.ex:255
+#, elixir-autogen, elixir-format
+msgid "Problems found."
+msgstr "Problemi trovati."
+
+#: lib/basa_web/live/admin/witness_live.ex:205
+#, elixir-autogen, elixir-format
+msgid "Recovery"
+msgstr "Recupero"
+
+#: lib/basa_web/live/admin/witness_live.ex:193
+#, elixir-autogen, elixir-format
+msgid "Signature: %{role}"
+msgstr "Firma: %{role}"
+
+#: lib/basa_web/live/admin/witness_live.ex:198
+#, elixir-autogen, elixir-format
+msgid "Timestamp"
+msgstr "Marca temporale"
+
+#: lib/basa_web/live/admin/witness_live.ex:369
+#, elixir-autogen, elixir-format
+msgid "failed"
+msgstr "non riuscita"
+
+#: lib/basa_web/live/admin/witness_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "mode"
+msgstr "modalità"
+
+#: lib/basa_web/live/admin/witness_live.ex:369
+#, elixir-autogen, elixir-format
+msgid "ok"
+msgstr "ok"
+
+#: lib/basa_web/live/admin/witness_live.ex:304
+#, elixir-autogen, elixir-format
+msgid "system"
+msgstr "sistema"
+
+#: lib/basa_web/live/transaction_live.ex:532
+#: lib/basa_web/live/transaction_live.ex:542
+#, elixir-autogen, elixir-format
+msgid "All is fine"
+msgstr "Tutto a posto"
+
+#: lib/basa_web/live/home_live.ex:377
+#: lib/basa_web/live/lot_live.ex:521
+#, elixir-autogen, elixir-format
+msgid "Buy"
+msgstr "Acquista"
+
+#: lib/basa_web/live/lot_live.ex:465
+#, elixir-autogen, elixir-format
+msgid "Buy %{title}"
+msgstr "Acquista %{title}"
+
+#: lib/basa_web/live/transaction_live.ex:564
+#, elixir-autogen, elixir-format
+msgid "Buyer"
+msgstr "Acquirente"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:432
+#, elixir-autogen, elixir-format
+msgid "Buyers book a one-hour handover within the hours below. When the buyer confirms delivery, the items are marked sold and taken off all your offers."
+msgstr "Gli acquirenti prenotano una consegna di un'ora negli orari qui sotto. Quando l'acquirente conferma la ricezione, gli oggetti vengono segnati come venduti e tolti da tutte le tue offerte."
+
+#: lib/basa_web/live/transaction_live.ex:541
+#, elixir-autogen, elixir-format
+msgid "Confirm delivery"
+msgstr "Conferma la ricezione"
+
+#: lib/basa_web/live/transaction_live.ex:537
+#, elixir-autogen, elixir-format
+msgid "Delivery accepted automatically"
+msgstr "Consegna accettata automaticamente"
+
+#: lib/basa_web/live/transaction_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "Delivery confirmed"
+msgstr "Ricezione confermata"
+
+#: lib/basa_web/components/basa_components.ex:386
+#: lib/basa_web/live/lot_live.ex:293
+#: lib/basa_web/live/my/lot_wizard_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "For sale"
+msgstr "In vendita"
+
+#: lib/basa_web/live/transaction_live.ex:754
+#, elixir-autogen, elixir-format
+msgid "I buy as a private person (consumer)"
+msgstr "Acquisto come privato (consumatore)"
+
+#: lib/basa_web/live/transaction_live.ex:1115
+#, elixir-autogen, elixir-format
+msgid "Photos of what you received"
+msgstr "Foto di ciò che hai ricevuto"
+
+#: lib/basa_web/live/lot_live.ex:399
+#, elixir-autogen, elixir-format
+msgid "Pick a handover time"
+msgstr "Scegli l'ora della consegna"
+
+#: lib/basa_web/live/home_live.ex:376
+#, elixir-autogen, elixir-format
+msgid "Rent"
+msgstr "Noleggiare"
+
+#: lib/basa_web/live/home_live.ex:375
+#, elixir-autogen, elixir-format
+msgid "Rent or buy"
+msgstr "Noleggiare o acquistare"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:438
+#, elixir-autogen, elixir-format
+msgid "Rent out"
+msgstr "Dare a noleggio"
+
+#: lib/basa_web/live/my/lot_wizard_live.ex:438
+#, elixir-autogen, elixir-format
+msgid "Sell"
+msgstr "Vendere"
+
+#: lib/basa_web/live/transaction_live.ex:563
+#, elixir-autogen, elixir-format
+msgid "Seller"
+msgstr "Venditore"
+
+#: lib/basa_web/live/my/items_live.ex:459
+#: lib/basa_web/live/my/items_live.ex:533
+#, elixir-autogen, elixir-format
+msgid "Sold"
+msgstr "Venduto"
+
+#: lib/basa_web/live/transaction_live.ex:1008
+#, elixir-autogen, elixir-format
+msgid "The buyer can raise a claim for hidden defects until %{date}; after that the delivery counts as accepted."
+msgstr "L'acquirente può segnalare difetti nascosti fino al %{date}; dopo la consegna si considera accettata."
+
+#: lib/basa_web/live/transaction_live.ex:760
+#, elixir-autogen, elixir-format
+msgid "The other party acts as a private person (consumer)."
+msgstr "L'altra parte agisce come privato (consumatore)."
+
+#: lib/basa_web/live/transaction_live.ex:761
+#, elixir-autogen, elixir-format
+msgid "The other party has not said they act as a private person."
+msgstr "L'altra parte non ha indicato di agire come privato."
+
+#: lib/basa_web/live/lot_live.ex:475
+#, elixir-autogen, elixir-format
+msgid "You meet the seller at this time; the items become yours at the handover."
+msgstr "A quest'ora incontri il venditore; gli oggetti diventano tuoi alla consegna."
+
+#: lib/basa_web/live/verify_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "A party to a BASA contract can give you a file together with its proof. Upload that package here: it shows whether the file is exactly the one sealed in the contract, who signed it and when. The package is checked here and not stored."
+msgstr "Una parte di un contratto BASA può darti un file insieme alla sua prova. Carica qui il pacchetto: vedrai se il file è esattamente quello sigillato nel contratto, chi l'ha firmato e quando. Il pacchetto viene verificato qui e non conservato."
+
+#: lib/basa_web/live/transaction_live.ex:947
+#, elixir-autogen, elixir-format
+msgid "Anyone can check a shared file at"
+msgstr "Chiunque può verificare un file condiviso su"
+
+#: lib/basa_web/live/verify_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "Authentic: every check passed."
+msgstr "Autentico: tutte le verifiche superate."
+
+#: lib/basa_web/live/verify_live.ex:10
+#: lib/basa_web/live/verify_live.ex:72
+#, elixir-autogen, elixir-format
+msgid "Check a document"
+msgstr "Verifica un documento"
+
+#: lib/basa_web/live/verify_live.ex:83
+#, elixir-autogen, elixir-format
+msgid "Choose the package (.json)"
+msgstr "Scegli il pacchetto (.json)"
+
+#: lib/basa_web/live/transaction_live.ex:1238
+#, elixir-autogen, elixir-format
+msgid "Download this file with the proof that it belongs to the contract, to give to someone else"
+msgstr "Scarica questo file con la prova che appartiene al contratto, per darlo a qualcun altro"
+
+#: lib/basa_web/live/verify_live.ex:38
+#, elixir-autogen, elixir-format
+msgid "Independent timestamp"
+msgstr "Marca temporale indipendente"
+
+#: lib/basa_web/live/verify_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "Not proven: see below."
+msgstr "Non provato: vedi sotto."
+
+#: lib/basa_web/live/verify_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Package"
+msgstr "Pacchetto"
+
+#: lib/basa_web/live/verify_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "Sealed no later than %{time} UTC (timestamp authority)."
+msgstr "Sigillato non oltre il %{time} UTC (autorità di marcatura temporale)."
+
+#: lib/basa_web/live/transaction_live.ex:1243
+#, elixir-autogen, elixir-format
+msgid "Share with proof"
+msgstr "Condividi con prova"
+
+#: lib/basa_web/live/verify_live.ex:36
+#, elixir-autogen, elixir-format
+msgid "Signature of the acceptor (lessee or buyer)"
+msgstr "Firma dell'accettante (conduttore o acquirente)"
+
+#: lib/basa_web/live/verify_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "Signature of the offeror (lessor or seller)"
+msgstr "Firma del proponente (locatore o venditore)"
+
+#: lib/basa_web/live/verify_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "The manifest matches its BASA-HASH"
+msgstr "Il manifesto corrisponde al suo BASA-HASH"
+
+#: lib/basa_web/live/verify_live.ex:63
+#, elixir-autogen, elixir-format
+msgid "does not match"
+msgstr "non corrisponde"
+
+#: lib/basa_web/live/verify_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "not included"
+msgstr "non incluso"
+
+#: lib/basa_web/live/verify_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "the file is not part of this contract"
+msgstr "il file non fa parte di questo contratto"
+
+#: lib/basa_web/live/verify_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "the file was changed"
+msgstr "il file è stato modificato"
+
+#: lib/basa_web/live/verify_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "the signature does not match"
+msgstr "la firma non corrisponde"
+
+#: lib/basa_web/live/verify_live.ex:64
+#: lib/basa_web/live/verify_live.ex:65
+#, elixir-autogen, elixir-format
+msgid "this is not a BASA package"
+msgstr "questo non è un pacchetto BASA"
+
+#: lib/basa_web/live/transaction_live.ex:284
+#, elixir-autogen, elixir-format
+msgid "This device cannot open the files. Use the device you connected."
+msgstr "Questo dispositivo non può aprire i file. Usa il dispositivo che hai collegato."
+
+#: lib/basa_web/live/admin/witness_live.ex:393
+#, elixir-autogen, elixir-format
+msgid "A court order or another lawful request, or no party can act any more. A second admin decides; the parties are told unless the law forbids it; the recovery key holders open the kit offline."
+msgstr "Un ordine del giudice o un'altra richiesta legittima, oppure nessuna parte può più agire. Decide un secondo amministratore; le parti vengono informate salvo divieto di legge; i custodi della chiave di recupero aprono il kit offline."
+
+#: lib/basa_web/live/transaction_live.ex:631
+#, elixir-autogen, elixir-format
+msgid "Access by an authority"
+msgstr "Accesso da parte di un'autorità"
+
+#: lib/basa_web/live/admin/witness_live.ex:462
+#, elixir-autogen, elixir-format
+msgid "Another admin has to decide on a request you filed."
+msgstr "Un altro amministratore deve decidere su una richiesta che hai registrato tu."
+
+#: lib/basa_web/live/admin/witness_live.ex:445
+#, elixir-autogen, elixir-format
+msgid "Approve access for this authority?"
+msgstr "Approvare l'accesso per questa autorità?"
+
+#: lib/basa_web/live/admin/witness_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "Authority request"
+msgstr "Richiesta di un'autorità"
+
+#: lib/basa_web/live/admin/witness_live.ex:391
+#, elixir-autogen, elixir-format
+msgid "Authority requests"
+msgstr "Richieste delle autorità"
+
+#: lib/basa_web/live/admin/witness_live.ex:530
+#, elixir-autogen, elixir-format
+msgid "Basis"
+msgstr "Base giuridica"
+
+#: lib/basa/witness/authority_notify_worker.ex:30
+#, elixir-autogen, elixir-format
+msgid "Contract No. %{number}: %{authority} was given access to its evidence (reference %{reference}). Details are on the contract page."
+msgstr "Contratto n. %{number}: %{authority} ha avuto accesso alle sue prove (riferimento %{reference}). Dettagli nella pagina del contratto."
+
+#: lib/basa_web/live/admin/witness_live.ex:208
+#: lib/basa_web/live/admin/witness_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "Court order"
+msgstr "Ordine del giudice"
+
+#: lib/basa_web/live/admin/witness_live.ex:521
+#, elixir-autogen, elixir-format
+msgid "File a request"
+msgstr "Registra una richiesta"
+
+#: lib/basa_web/live/admin/witness_live.ex:565
+#, elixir-autogen, elixir-format
+msgid "File the request"
+msgstr "Registra la richiesta"
+
+#: lib/basa_web/live/admin/witness_live.ex:503
+#, elixir-autogen, elixir-format
+msgid "Handed over to"
+msgstr "Consegnato a"
+
+#: lib/basa_web/live/admin/witness_live.ex:550
+#, elixir-autogen, elixir-format
+msgid "Notes"
+msgstr "Note"
+
+#: lib/basa_web/live/admin/witness_live.ex:425
+#, elixir-autogen, elixir-format
+msgid "Notice withheld"
+msgstr "Avviso rinviato"
+
+#: lib/basa_web/live/admin/witness_live.ex:429
+#, elixir-autogen, elixir-format
+msgid "Opened by %{holders}; handed over to %{to}."
+msgstr "Aperto da %{holders}; consegnato a %{to}."
+
+#: lib/basa_web/live/admin/witness_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Opened by (key holders)"
+msgstr "Aperto da (custodi della chiave)"
+
+#: lib/basa_web/live/admin/witness_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Opening recorded."
+msgstr "Apertura registrata."
+
+#: lib/basa_web/live/admin/witness_live.ex:209
+#: lib/basa_web/live/admin/witness_live.ex:532
+#, elixir-autogen, elixir-format
+msgid "Other lawful request"
+msgstr "Altra richiesta legittima"
+
+#: lib/basa_web/live/admin/witness_live.ex:423
+#, elixir-autogen, elixir-format
+msgid "Parties told on %{date}."
+msgstr "Parti informate il %{date}."
+
+#: lib/basa_web/live/admin/witness_live.ex:420
+#, elixir-autogen, elixir-format
+msgid "Reason"
+msgstr "Motivo"
+
+#: lib/basa_web/live/admin/witness_live.ex:546
+#, elixir-autogen, elixir-format
+msgid "Received on"
+msgstr "Ricevuto il"
+
+#: lib/basa_web/live/admin/witness_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "Record the opening"
+msgstr "Registra l'apertura"
+
+#: lib/basa_web/live/admin/witness_live.ex:472
+#, elixir-autogen, elixir-format
+msgid "Recovery kit"
+msgstr "Kit di recupero"
+
+#: lib/basa_web/live/admin/witness_live.ex:458
+#, elixir-autogen, elixir-format
+msgid "Reject"
+msgstr "Respingi"
+
+#: lib/basa_web/live/admin/witness_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "Report SHA-256"
+msgstr "SHA-256 del rapporto"
+
+#: lib/basa_web/live/admin/witness_live.ex:135
+#, elixir-autogen, elixir-format
+msgid "Request approved."
+msgstr "Richiesta approvata."
+
+#: lib/basa_web/live/admin/witness_live.ex:128
+#, elixir-autogen, elixir-format
+msgid "Request filed. A second admin decides on it."
+msgstr "Richiesta registrata. Decide un secondo amministratore."
+
+#: lib/basa_web/live/admin/witness_live.ex:142
+#, elixir-autogen, elixir-format
+msgid "Request rejected."
+msgstr "Richiesta respinta."
+
+#: lib/basa_web/live/admin/witness_live.ex:482
+#, elixir-autogen, elixir-format
+msgid "Tell the parties"
+msgstr "Informa le parti"
+
+#: lib/basa_web/live/admin/witness_live.ex:480
+#, elixir-autogen, elixir-format
+msgid "Tell the parties now? Only when the law allows it."
+msgstr "Informare ora le parti? Solo se la legge lo consente."
+
+#: lib/basa_web/live/admin/witness_live.ex:554
+#, elixir-autogen, elixir-format
+msgid "The law forbids telling the parties for now"
+msgstr "La legge vieta per ora di informare le parti"
+
+#: lib/basa_web/live/admin/witness_live.ex:149
+#, elixir-autogen, elixir-format
+msgid "The parties are told."
+msgstr "Le parti sono informate."
+
+#: lib/basa_web/live/admin/witness_live.ex:210
+#: lib/basa_web/live/admin/witness_live.ex:533
+#, elixir-autogen, elixir-format
+msgid "The parties cannot act"
+msgstr "Le parti non possono agire"
+
+#: lib/basa_web/live/admin/witness_live.ex:169
+#, elixir-autogen, elixir-format
+msgid "The report hash is 64 hexadecimal characters."
+msgstr "L'hash del rapporto è di 64 caratteri esadecimali."
+
+#: lib/basa_web/live/admin/witness_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Their reference (case, order No.)"
+msgstr "Loro riferimento (causa, n. ordine)"
+
+#: lib/basa_web/live/admin/witness_live.ex:526
+#, elixir-autogen, elixir-format
+msgid "Who asks (court, body)"
+msgstr "Chi chiede (tribunale, ente)"
+
+#: lib/basa_web/live/admin/witness_live.ex:454
+#, elixir-autogen, elixir-format
+msgid "Why it is rejected"
+msgstr "Perché viene respinta"
+
+#: lib/basa_web/live/admin/witness_live.ex:560
+#, elixir-autogen, elixir-format
+msgid "Why the parties may not be told (legal ground)"
+msgstr "Perché le parti non possono essere informate (base giuridica)"
+
+#: lib/basa_web/live/admin/witness_live.ex:213
+#, elixir-autogen, elixir-format
+msgid "approved"
+msgstr "approvata"
+
+#: lib/basa_web/live/transaction_live.ex:640
+#, elixir-autogen, elixir-format
+msgid "approved on %{date}"
+msgstr "approvata il %{date}"
+
+#: lib/basa_web/live/admin/witness_live.ex:417
+#, elixir-autogen, elixir-format
+msgid "decided by"
+msgstr "decisa da"
+
+#: lib/basa_web/live/admin/witness_live.ex:416
+#, elixir-autogen, elixir-format
+msgid "filed by"
+msgstr "registrata da"
+
+#: lib/basa_web/live/transaction_live.ex:645
+#, elixir-autogen, elixir-format
+msgid "handed over on %{date}"
+msgstr "consegnato il %{date}"
+
+#: lib/basa_web/live/admin/witness_live.ex:215
+#, elixir-autogen, elixir-format
+msgid "opened and handed over"
+msgstr "aperta e consegnata"
+
+#: lib/basa_web/live/admin/witness_live.ex:412
+#, elixir-autogen, elixir-format
+msgid "received"
+msgstr "ricevuta"
+
+#: lib/basa_web/live/transaction_live.ex:640
+#, elixir-autogen, elixir-format
+msgid "reference"
+msgstr "riferimento"
+
+#: lib/basa_web/live/admin/witness_live.ex:214
+#, elixir-autogen, elixir-format
+msgid "rejected"
+msgstr "respinta"
+
+#: lib/basa_web/live/admin/witness_live.ex:212
+#, elixir-autogen, elixir-format
+msgid "waiting for a second admin"
+msgstr "in attesa di un secondo amministratore"
+
+#: lib/basa_web/live/transaction_live.ex:633
+#, elixir-autogen, elixir-format
+msgid "An authority asked for this contract's evidence, under the procedure in the contract. Two BASA admins approved the request; the files are opened only offline, with the recovery key."
+msgstr "Un'autorità ha chiesto le prove di questo contratto, secondo la procedura del contratto. Due amministratori BASA hanno approvato la richiesta; i file si aprono solo offline, con la chiave di recupero."
+
+#: lib/basa_web/live/home_live.ex:322
+#, elixir-autogen, elixir-format
+msgid "Recording studios, music gear, tools and outfits: rent by the hour or day, or buy."
+msgstr "Studi di registrazione, strumenti musicali, attrezzi e abiti: noleggia a ore o a giorni, oppure compra."
+
+#: lib/basa_web/live/verify_live.ex:49
+#, elixir-autogen, elixir-format
+msgid "Both parties confirmed it in person in MEM (their phones swapped fresh codes)"
+msgstr "Entrambe le parti l'hanno confermato di persona in MEM (i loro telefoni si sono scambiati codici nuovi)"
+
+#: lib/basa_web/live/transaction_live.ex:1397
+#, elixir-autogen, elixir-format
+msgid "Confirm in person in MEM"
+msgstr "Conferma di persona in MEM"
+
+#: lib/basa_web/live/admin/witness_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "Confirmed in person in MEM"
+msgstr "Confermato di persona in MEM"
+
+#: lib/basa_web/live/transaction_live.ex:1407
+#, elixir-autogen, elixir-format
+msgid "Confirmed in person in MEM on %{date}: both phones swapped fresh codes."
+msgstr "Confermato di persona in MEM il %{date}: entrambi i telefoni si sono scambiati codici nuovi."
+
+#: lib/basa_web/live/transaction_live.ex:1439
+#, elixir-autogen, elixir-format
+msgid "Copy the code instead"
+msgstr "Copia invece il codice"
+
+#: lib/basa_web/live/transaction_live.ex:1448
+#, elixir-autogen, elixir-format
+msgid "If MEM could not send it: paste MEM's code here"
+msgstr "Se MEM non è riuscito a inviarlo: incolla qui il codice di MEM"
+
+#: lib/basa_web/live/transaction_live.ex:441
+#, elixir-autogen, elixir-format
+msgid "MEM's code was not accepted. Show a new code and confirm again."
+msgstr "Il codice di MEM non è stato accettato. Mostra un nuovo codice e conferma di nuovo."
+
+#: lib/basa_web/live/transaction_live.ex:1399
+#, elixir-autogen, elixir-format
+msgid "Optional, when you meet: each of you opens “Confirm in person” in MEM, scans your own code from this page, then you scan each other's phones. It records that you both confirmed this contract face to face."
+msgstr "Facoltativo, quando vi incontrate: ciascuno apre «Conferma di persona» in MEM, scansiona il proprio codice da questa pagina, poi scansionate l'uno il telefono dell'altro. Così resta registrato che entrambi avete confermato questo contratto di persona."
+
+#: lib/basa_web/live/transaction_live.ex:1432
+#, elixir-autogen, elixir-format
+msgid "Scan this in MEM. MEM shows what you confirm: %{label}…"
+msgstr "Scansiona questo in MEM. MEM mostra cosa confermi: %{label}…"
+
+#: lib/basa_web/live/transaction_live.ex:1458
+#, elixir-autogen, elixir-format
+msgid "Show my MEM code"
+msgstr "Mostra il mio codice MEM"
+
+#: lib/basa_web/live/transaction_live.ex:1436
+#, elixir-autogen, elixir-format
+msgid "The code works once, for 15 minutes."
+msgstr "Il codice vale una volta, per 15 minuti."
+
+#: lib/basa_web/live/transaction_live.ex:423
+#, elixir-autogen, elixir-format
+msgid "This contract cannot be confirmed in person."
+msgstr "Questo contratto non può essere confermato di persona."
+
+#: lib/basa_web/live/transaction_live.ex:1417
+#, elixir-autogen, elixir-format
+msgid "confirmed"
+msgstr "confermato"
+
+#: lib/basa_web/live/transaction_live.ex:1352
+#: lib/basa_web/live/transaction_live.ex:1420
+#, elixir-autogen, elixir-format
+msgid "not yet"
+msgstr "non ancora"
+
+#: lib/basa_web/live/transaction_live.ex:1268
+#, elixir-autogen, elixir-format
+msgid "Both parties signed with a qualified signature (%{date})."
+msgstr "Entrambe le parti hanno firmato con una firma qualificata (%{date})."
+
+#: lib/basa_web/live/dev/qes_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Certificate for"
+msgstr "Certificato per"
+
+#: lib/basa_web/live/dev/qes_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Development only"
+msgstr "Solo per lo sviluppo"
+
+#: lib/basa_web/live/dev/qes_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "Document"
+msgstr "Documento"
+
+#: lib/basa_web/live/transaction_live.ex:1304
+#, elixir-autogen, elixir-format
+msgid "Optional: each of you also signs the contract with Дія.Підпис or an EU qualified signature. It has the legal force of a handwritten signature."
+msgstr "Facoltativo: ciascuno firma anche il contratto con Дія.Підпис o una firma qualificata UE. Ha il valore legale di una firma autografa."
+
+#: lib/basa_web/live/transaction_live.ex:1260
+#, elixir-autogen, elixir-format
+msgid "Qualified electronic signature"
+msgstr "Firma elettronica qualificata"
+
+#: lib/basa_web/live/verify_live.ex:46
+#, elixir-autogen, elixir-format
+msgid "Qualified signature"
+msgstr "Firma qualificata"
+
+#: lib/basa_web/live/verify_live.ex:44
+#, elixir-autogen, elixir-format
+msgid "Qualified signature of the acceptor (lessee or buyer)"
+msgstr "Firma qualificata dell'accettante (conduttore o acquirente)"
+
+#: lib/basa_web/live/verify_live.ex:41
+#, elixir-autogen, elixir-format
+msgid "Qualified signature of the offeror (lessor or seller)"
+msgstr "Firma qualificata dell'offerente (locatore o venditore)"
+
+#: lib/basa_web/live/admin/witness_live.ex:200
+#, elixir-autogen, elixir-format
+msgid "Qualified signature: %{role}"
+msgstr "Firma qualificata: %{role}"
+
+#: lib/basa_web/live/dev/qes_live.ex:81
+#, elixir-autogen, elixir-format
+msgid "Sign (test)"
+msgstr "Firma (test)"
+
+#: lib/basa_web/live/transaction_live.ex:1383
+#, elixir-autogen, elixir-format
+msgid "Sign with the test certification authority"
+msgstr "Firma con l'autorità di certificazione di test"
+
+#: lib/basa_web/live/transaction_live.ex:467
+#, elixir-autogen, elixir-format
+msgid "Signing could not start. Try again later."
+msgstr "Non è stato possibile avviare la firma. Riprova più tardi."
+
+#: lib/basa_web/controllers/qes_controller.ex:53
+#: lib/basa_web/controllers/qes_controller.ex:59
+#, elixir-autogen, elixir-format
+msgid "Signing was cancelled or failed. You can try again."
+msgstr "La firma è stata annullata o non è riuscita. Puoi riprovare."
+
+#: lib/basa_web/live/dev/qes_live.ex:24
+#: lib/basa_web/live/dev/qes_live.ex:64
+#, elixir-autogen, elixir-format
+msgid "Test certification authority"
+msgstr "Autorità di certificazione di test"
+
+#: lib/basa_web/controllers/qes_controller.ex:40
+#, elixir-autogen, elixir-format
+msgid "The signature was not accepted: it is not for this contract or not from a trusted certificate."
+msgstr "La firma non è stata accettata: non riguarda questo contratto o non proviene da un certificato attendibile."
+
+#: lib/basa_web/live/dev/qes_live.ex:66
+#, elixir-autogen, elixir-format
+msgid "This page stands in for Дія.Підпис or an eIDAS provider. It makes a test signature: it checks the whole flow, but it is not a qualified signature and has no legal effect."
+msgstr "Questa pagina sostituisce Дія.Підпис o un fornitore eIDAS. Crea una firma di test: verifica l'intero percorso, ma non è una firma qualificata e non ha effetti legali."
+
+#: lib/basa_web/controllers/qes_controller.ex:24
+#: lib/basa_web/live/dev/qes_live.ex:33
+#, elixir-autogen, elixir-format
+msgid "This signing session is not valid any more."
+msgstr "Questa sessione di firma non è più valida."
+
+#: lib/basa_web/controllers/qes_controller.ex:32
+#, elixir-autogen, elixir-format
+msgid "Your qualified signature was added to the contract."
+msgstr "La tua firma qualificata è stata aggiunta al contratto."
+
+#: lib/basa_web/live/admin/witness_live.ex:279
+#: lib/basa_web/live/transaction_live.ex:1320
+#: lib/basa_web/live/verify_live.ex:55
+#, elixir-autogen, elixir-format
+msgid "test signature, not qualified"
+msgstr "firma di test, non qualificata"
+
+#: lib/basa_web/live/verify_live.ex:58
+#, elixir-autogen, elixir-format
+msgid "the certificate is not from a trusted provider"
+msgstr "il certificato non proviene da un fornitore attendibile"
+
+#: lib/basa_web/live/transaction_live.ex:1349
+#, elixir-autogen, elixir-format
+msgid "the name on the certificate differs from the legal name in the contract"
+msgstr "il nome nel certificato è diverso dal nome legale nel contratto"
+
+#: lib/basa_web/live/transaction_live.ex:1278
+#, elixir-autogen, elixir-format
+msgid "Both parties signed, but with test signatures: the contract reaches this level only with qualified signatures."
+msgstr "Entrambe le parti hanno firmato, ma con firme di test: il contratto raggiunge questo livello solo con firme qualificate."
+
+#: lib/basa_web/live/transaction_live.ex:1384
+#, elixir-autogen, elixir-format
+msgid "Sign with an EU qualified signature (eIDAS)"
+msgstr "Firma con una firma qualificata UE (eIDAS)"
+
+#: lib/basa_web/live/transaction_live.ex:1288
+#, elixir-autogen, elixir-format
+msgid "Both parties signed, but the EU check did not confirm both signatures as qualified: the contract reaches this level only with qualified signatures."
+msgstr "Entrambe le parti hanno firmato, ma la verifica UE non ha confermato entrambe le firme come qualificate: il contratto raggiunge questo livello solo con firme qualificate."
+
+#: lib/basa_web/live/transaction_live.ex:1298
+#, elixir-autogen, elixir-format
+msgid "Both parties signed; the EU check of the signatures is not finished yet."
+msgstr "Entrambe le parti hanno firmato; la verifica UE delle firme non è ancora conclusa."
+
+#: lib/basa_web/live/transaction_live.ex:1343
+#, elixir-autogen, elixir-format
+msgid "EU check not finished yet"
+msgstr "Verifica UE non ancora conclusa"
+
+#: lib/basa_web/live/transaction_live.ex:1327
+#, elixir-autogen, elixir-format
+msgid "qualified, confirmed by the EU check"
+msgstr "qualificata, confermata dalla verifica UE"
+
+#: lib/basa_web/live/admin/witness_live.ex:285
+#, elixir-autogen, elixir-format
+msgid "waiting for the EU DSS check"
+msgstr "in attesa della verifica EU DSS"
+
+#: lib/basa_web/live/transaction_live.ex:1334
+#, elixir-autogen, elixir-format
+msgid "not a qualified signature (EU check: %{result})"
+msgstr "non è una firma qualificata (verifica UE: %{result})"
+
+#: lib/basa_web/live/admin/witness_live.ex:282
+#, elixir-autogen, elixir-format
+msgid "not qualified (EU DSS)"
+msgstr "non qualificata (EU DSS)"
+
+#: lib/basa_web/live/admin/settings_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "AI suggestions"
+msgstr "Suggerimenti dell'IA"
+
+#: lib/basa_web/live/admin/settings_live.ex:201
+#, elixir-autogen, elixir-format
+msgid "Account confirmation and password reset emails."
+msgstr "Email di conferma dell'account e di reimpostazione della password."
+
+#: lib/basa_web/live/profile_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Add an email and a password, so you can still sign in and reach your contracts when Telegram is unavailable."
+msgstr "Aggiungi un'email e una password, così potrai accedere e aprire i tuoi contratti anche quando Telegram non è disponibile."
+
+#: lib/basa_web/live/profile_live.ex:94
+#, elixir-autogen, elixir-format
+msgid "Check the email: it may be empty or already used by another account."
+msgstr "Controlla l'email: potrebbe essere vuota o già usata da un altro account."
+
+#: lib/basa_web/live/admin/settings_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "Confirming a contract in person in MEM (level 3)."
+msgstr "Confermare un contratto di persona in MEM (livello 3)."
+
+#: lib/basa_web/live/admin/settings_live.ex:220
+#, elixir-autogen, elixir-format
+msgid "Contracts are sealed without it; the timestamps are requested when switched on again."
+msgstr "I contratti vengono sigillati senza di essa; le marche temporali vengono richieste quando viene riattivata."
+
+#: lib/basa_web/live/admin/settings_live.ex:226
+#, elixir-autogen, elixir-format
+msgid "Finding cities BASA doesn't have yet."
+msgstr "Trovare le città che BASA non ha ancora."
+
+#: lib/basa_web/live/admin/settings_live.ex:258
+#, elixir-autogen, elixir-format
+msgid "Items are described by hand."
+msgstr "Gli oggetti si descrivono a mano."
+
+#: lib/basa_web/live/admin/settings_live.ex:206
+#, elixir-autogen, elixir-format
+msgid "MEM"
+msgstr "MEM"
+
+#: lib/basa_web/live/admin/settings_live.ex:195
+#, elixir-autogen, elixir-format
+msgid "Messages stay in BASA's inbox; people sign in with the email and password from their profile."
+msgstr "I messaggi restano nella posta in arrivo di BASA; si accede con l'email e la password del proprio profilo."
+
+#: lib/basa_web/live/admin/settings_live.ex:202
+#, elixir-autogen, elixir-format
+msgid "No emails are sent; a forgotten password can't be reset by email."
+msgstr "Non viene inviata nessuna email; una password dimenticata non si può reimpostare via email."
+
+#: lib/basa_web/live/transaction_live.ex:967
+#, elixir-autogen, elixir-format
+msgid "No independent timestamp yet: the timestamp service is switched off. Your signatures hold without it; it is added when the service is back."
+msgstr "Ancora nessuna marca temporale indipendente: il servizio di marcatura temporale è disattivato. Le vostre firme valgono anche senza; verrà aggiunta quando il servizio tornerà."
+
+#: lib/basa_web/live/admin/settings_live.ex:207
+#, elixir-autogen, elixir-format
+msgid "Not offered; contracts already confirmed keep their confirmation."
+msgstr "Non viene offerto; i contratti già confermati mantengono la conferma."
+
+#: lib/basa_web/live/admin/settings_live.ex:213
+#, elixir-autogen, elixir-format
+msgid "Not offered; stored signatures still verify, and their EU check runs when switched on again."
+msgstr "Non viene offerto; le firme salvate restano verificabili e la loro verifica UE avviene alla riattivazione."
+
+#: lib/basa_web/live/admin/settings_live.ex:329
+#: lib/basa_web/live/admin/settings_live.ex:562
+#, elixir-autogen, elixir-format
+msgid "Not set up"
+msgstr "Non configurato"
+
+#: lib/basa_web/live/admin/settings_live.ex:227
+#, elixir-autogen, elixir-format
+msgid "Only cities BASA already has can be chosen; missed searches are still counted."
+msgstr "Si possono scegliere solo le città che BASA ha già; le ricerche senza risultato vengono comunque contate."
+
+#: lib/basa_web/live/admin/settings_live.ex:226
+#, elixir-autogen, elixir-format
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: lib/basa_web/live/admin/settings_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Outside services"
+msgstr "Servizi esterni"
+
+#: lib/basa_web/live/profile_live.ex:198
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr "Password"
+
+#: lib/basa_web/live/profile_live.ex:204
+#, elixir-autogen, elixir-format
+msgid "Password again"
+msgstr "Ripeti la password"
+
+#: lib/basa_web/live/admin/settings_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Paying BASA's commission and premium services."
+msgstr "Pagamento della commissione di BASA e dei servizi premium."
+
+#: lib/basa_web/live/admin/settings_live.ex:263
+#, elixir-autogen, elixir-format
+msgid "Payment buttons are hidden; payments already started still finish."
+msgstr "I pulsanti di pagamento sono nascosti; i pagamenti già avviati si concludono comunque."
+
+#: lib/basa_web/live/admin/settings_live.ex:211
+#, elixir-autogen, elixir-format
+msgid "Qualified signatures"
+msgstr "Firme qualificate"
+
+#: lib/basa_web/live/profile_live.ex:66
+#, elixir-autogen, elixir-format
+msgid "Saved. You can now also sign in with your email and password."
+msgstr "Salvato. Ora puoi accedere anche con la tua email e la tua password."
+
+#: lib/basa_web/live/admin/settings_live.ex:540
+#, elixir-autogen, elixir-format
+msgid "Services BASA uses but can't guarantee. Switch one off when it fails or isn't wanted: contracts keep working from booking to closing, on the parties' word in BASA."
+msgstr "Servizi che BASA usa ma non può garantire. Disattivane uno se non funziona o non serve: i contratti continuano a funzionare dalla prenotazione alla chiusura, sulla parola delle parti in BASA."
+
+#: lib/basa_web/live/profile_live.ex:180
+#, elixir-autogen, elixir-format
+msgid "Sign in without Telegram"
+msgstr "Accesso senza Telegram"
+
+#: lib/basa_web/controllers/telegram_controller.ex:43
+#, elixir-autogen, elixir-format
+msgid "Sign-in with Telegram is switched off for now. Sign in with your email and password."
+msgstr "L'accesso con Telegram è disattivato per ora. Accedi con la tua email e la tua password."
+
+#: lib/basa_web/live/admin/settings_live.ex:212
+#, elixir-autogen, elixir-format
+msgid "Signing with Дія.Підпис or an eIDAS provider, checked by the EU DSS (level 4)."
+msgstr "Firma con Дія.Підпис o un fornitore eIDAS, verificata dall'EU DSS (livello 4)."
+
+#: lib/basa_web/live/admin/settings_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "Suggestions from item photos (Claude)."
+msgstr "Suggerimenti dalle foto degli oggetti (Claude)."
+
+#: lib/basa_web/live/admin/settings_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Telegram"
+msgstr "Telegram"
+
+#: lib/basa_web/live/admin/settings_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "The bot, messages to Telegram and sign-in with Telegram."
+msgstr "Il bot, i messaggi su Telegram e l'accesso con Telegram."
+
+#: lib/basa_web/live/admin/settings_live.ex:219
+#, elixir-autogen, elixir-format
+msgid "The independent time of each sealed contract."
+msgstr "L'ora indipendente di ogni contratto sigillato."
+
+#: lib/basa_web/live/profile_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "The password needs at least 8 characters."
+msgstr "La password deve avere almeno 8 caratteri."
+
+#: lib/basa_web/live/profile_live.ex:100
+#, elixir-autogen, elixir-format
+msgid "The passwords don't match."
+msgstr "Le password non coincidono."
+
+#: lib/basa_web/live/admin/settings_live.ex:219
+#, elixir-autogen, elixir-format
+msgid "Timestamp authority"
+msgstr "Autorità di marcatura temporale"
+
+#: lib/basa_web/live/admin/settings_live.ex:556
+#, elixir-autogen, elixir-format
+msgid "When off:"
+msgstr "Se disattivato:"
+
+#: lib/basa_web/live/my/items_live.ex:311
+#, elixir-autogen, elixir-format
+msgid "Couldn't add that picture. Try another one."
+msgstr "Impossibile aggiungere questa immagine. Provane un'altra."
+
+#: lib/basa_web/live/admin/settings_live.ex:232
+#, elixir-autogen, elixir-format
+msgid "Finding openly licensed pictures (Openverse) for items without photos."
+msgstr "Trovare immagini con licenza aperta (Openverse) per gli oggetti senza foto."
+
+#: lib/basa_web/components/basa_components.ex:350
+#: lib/basa_web/components/basa_components.ex:568
+#, elixir-autogen, elixir-format
+msgid "Illustration"
+msgstr "Illustrazione"
+
+#: lib/basa_web/components/basa_components.ex:290
+#, elixir-autogen, elixir-format
+msgid "Illustrations, not photos of this item:"
+msgstr "Illustrazioni, non foto di questo oggetto:"
+
+#: lib/basa_web/live/my/items_live.ex:675
+#, elixir-autogen, elixir-format
+msgid "Looking for pictures…"
+msgstr "Ricerca di immagini…"
+
+#: lib/basa_web/live/my/items_live.ex:657
+#, elixir-autogen, elixir-format
+msgid "No photos yet? Pictures that may fit"
+msgstr "Ancora nessuna foto? Immagini che potrebbero andare bene"
+
+#: lib/basa_web/live/my/items_live.ex:671
+#, elixir-autogen, elixir-format
+msgid "No pictures"
+msgstr "Nessuna immagine"
+
+#: lib/basa_web/live/my/items_live.ex:725
+#, elixir-autogen, elixir-format
+msgid "No pictures are suggested for this item."
+msgstr "Per questo oggetto non vengono suggerite immagini."
+
+#: lib/basa_web/live/my/items_live.ex:681
+#: lib/basa_web/live/my/items_live.ex:716
+#, elixir-autogen, elixir-format
+msgid "No pictures found. Add your own photos."
+msgstr "Nessuna immagine trovata. Aggiungi le tue foto."
+
+#: lib/basa_web/live/admin/settings_live.ex:233
+#, elixir-autogen, elixir-format
+msgid "Only pictures BASA already keeps are suggested; owners add their own photos."
+msgstr "Vengono suggerite solo le immagini che BASA conserva già; i proprietari aggiungono le proprie foto."
+
+#: lib/basa_web/live/my/items_live.ex:659
+#, elixir-autogen, elixir-format
+msgid "Openly licensed pictures of similar things. Renters see them marked as illustrations, with the author's credit. Your own photos show your item best."
+msgstr "Immagini con licenza aperta di cose simili. Chi noleggia le vede segnate come illustrazioni, con il nome dell'autore. Le tue foto mostrano meglio il tuo oggetto."
+
+#: lib/basa_web/components/basa_components.ex:264
+#: lib/basa_web/components/basa_components.ex:265
+#, elixir-autogen, elixir-format
+msgid "Picture"
+msgstr "Immagine"
+
+#: lib/basa_web/live/admin/settings_live.ex:231
+#, elixir-autogen, elixir-format
+msgid "Pictures for listings"
+msgstr "Immagini per gli annunci"
+
+#: lib/basa_web/components/basa_components.ex:279
+#, elixir-autogen, elixir-format
+msgid "Public domain"
+msgstr "Pubblico dominio"
+
+#: lib/basa_web/live/my/items_live.ex:732
+#, elixir-autogen, elixir-format
+msgid "Suggest pictures"
+msgstr "Suggerisci immagini"
+
+#: lib/basa_web/live/my/items_live.ex:678
+#, elixir-autogen, elixir-format
+msgid "Type a title to see pictures that may fit."
+msgstr "Scrivi un titolo per vedere immagini che potrebbero andare bene."
+
+#: lib/basa_web/live/my/items_live.ex:693
+#: lib/basa_web/live/my/items_live.ex:694
+#, elixir-autogen, elixir-format
+msgid "Use this picture"
+msgstr "Usa questa immagine"
+
+#: lib/basa_web/components/basa_components.ex:265
+#: lib/basa_web/components/basa_components.ex:305
+#, elixir-autogen, elixir-format
+msgid "by %{author}"
+msgstr "di %{author}"
+
+#: lib/basa_web/components/basa_components.ex:225
+#, elixir-autogen, elixir-format
+msgid "More information"
+msgstr "Maggiori informazioni"
+
+#: lib/basa_web/live/transaction_live.ex:944
+#, elixir-autogen, elixir-format
+msgid "Keep the BASA-HASH: it finds this contract and proves it unchanged."
+msgstr "Conserva il BASA-HASH: trova questo contratto e prova che non è cambiato."
+
+#: lib/basa_web/live/transaction_live.ex:953
+#, elixir-autogen, elixir-format
+msgid "Signed by both parties on %{date}."
+msgstr "Firmato da entrambe le parti il %{date}."
+
+#: lib/basa_web/components/basa_components.ex:483
+#, elixir-autogen, elixir-format
+msgid "%{count} of %{max} photos"
+msgstr "%{count} di %{max} foto"
+
+#: lib/basa_web/live/admin/settings_live.ex:165
+#: lib/basa_web/live/home_live.ex:313
+#, elixir-autogen, elixir-format
+msgid "%{km} km"
+msgstr "%{km} km"
+
+#: lib/basa_web/live/admin/settings_live.ex:322
+#, elixir-autogen, elixir-format
+msgid "Also needs the Telegram service on (Outside services below)."
+msgstr "Richiede anche il servizio Telegram attivo (Servizi esterni, qui sotto)."
+
+#: lib/basa_web/live/admin/settings_live.ex:303
+#, elixir-autogen, elixir-format
+msgid "Buttons on the sign-in page besides email and password, which always stay. People who signed up with a switched-off option add a password on their profile."
+msgstr "Pulsanti della pagina di accesso oltre a email e password, che restano sempre. Chi si è registrato con un'opzione disattivata aggiunge una password nel profilo."
+
+#: lib/basa_web/live/admin/settings_live.ex:426
+#, elixir-autogen, elixir-format
+msgid "Chosen at first"
+msgstr "Scelto all'inizio"
+
+#: lib/basa_web/live/admin/settings_live.ex:375
+#, elixir-autogen, elixir-format
+msgid "Control"
+msgstr "Controllo"
+
+#: lib/basa_web/live/admin/settings_live.ex:393
+#, elixir-autogen, elixir-format
+msgid "Distances, km"
+msgstr "Distanze, km"
+
+#: lib/basa_web/live/home_live.ex:246
+#: lib/basa_web/live/home_live.ex:259
+#: lib/basa_web/live/home_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "How far"
+msgstr "Quanto lontano"
+
+#: lib/basa_web/live/admin/settings_live.ex:368
+#, elixir-autogen, elixir-format
+msgid "How far from their location lessees search. \"Whole city\" and \"whole region\" use the city they are in."
+msgstr "Quanto lontano dalla loro posizione cercano gli affittuari. «Tutta la città» e «tutta la regione» usano la città in cui si trovano."
+
+#: lib/basa_web/live/admin/settings_live.ex:317
+#, elixir-autogen, elixir-format
+msgid "Instagram signs in only professional (business or creator) accounts; Meta closed sign-in for personal ones."
+msgstr "Instagram consente l'accesso solo agli account professionali (aziendali o creator); Meta l'ha chiuso per quelli personali."
+
+#: lib/basa_web/live/admin/settings_live.ex:366
+#, elixir-autogen, elixir-format
+msgid "Near me search"
+msgstr "Ricerca vicino a me"
+
+#: lib/basa_web/live/my/items_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "No"
+msgstr "No"
+
+#: lib/basa/system/validations/near_steps.ex:12
+#, elixir-autogen, elixir-format
+msgid "Offer at least one distance."
+msgstr "Offri almeno una distanza."
+
+#: lib/basa_web/components/basa_components.ex:490
+#: lib/basa_web/components/basa_components.ex:500
+#, elixir-autogen, elixir-format
+msgid "Photo size"
+msgstr "Dimensione delle foto"
+
+#: lib/basa/system/validations/near_steps.ex:16
+#, elixir-autogen, elixir-format
+msgid "Pick the first choice from the offered ones."
+msgstr "Scegli la scelta iniziale tra quelle offerte."
+
+#: lib/basa_web/live/home_live.ex:312
+#, elixir-autogen, elixir-format
+msgid "Region"
+msgstr "Regione"
+
+#: lib/basa_web/live/admin/settings_live.ex:332
+#, elixir-autogen, elixir-format
+msgid "Set %{keys} on the server."
+msgstr "Imposta %{keys} sul server."
+
+#: lib/basa_web/live/sign_in_live.ex:118
+#, elixir-autogen, elixir-format
+msgid "Sign in with Facebook"
+msgstr "Accedi con Facebook"
+
+#: lib/basa_web/live/sign_in_live.ex:117
+#, elixir-autogen, elixir-format
+msgid "Sign in with Google"
+msgstr "Accedi con Google"
+
+#: lib/basa_web/live/sign_in_live.ex:119
+#, elixir-autogen, elixir-format
+msgid "Sign in with Instagram"
+msgstr "Accedi con Instagram"
+
+#: lib/basa_web/live/sign_in_live.ex:82
+#, elixir-autogen, elixir-format
+msgid "Sign in with Telegram"
+msgstr "Accedi con Telegram"
+
+#: lib/basa_web/live/admin/settings_live.ex:301
+#, elixir-autogen, elixir-format
+msgid "Sign-in options"
+msgstr "Opzioni di accesso"
+
+#: lib/basa_web/live/admin/settings_live.ex:159
+#, elixir-autogen, elixir-format
+msgid "Slider with steps"
+msgstr "Cursore a passi"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:31
+#: lib/basa_web/live/my/import_source_live.ex:113
+#, elixir-autogen, elixir-format
+msgid "The JSON isn't valid: %{error}"
+msgstr "Il JSON non è valido: %{error}"
+
+#: lib/basa/accounts/user/changes/from_oauth.ex:16
+#, elixir-autogen, elixir-format
+msgid "The sign-in didn't return what BASA needs."
+msgstr "L'accesso non ha restituito ciò che serve a BASA."
+
+#: lib/basa_web/plugs/sign_in_gate.ex:18
+#, elixir-autogen, elixir-format
+msgid "This sign-in option is switched off. Use another one."
+msgstr "Questa opzione di accesso è disattivata. Usane un'altra."
+
+#: lib/basa_web/components/basa_components.ex:547
+#, elixir-autogen, elixir-format
+msgid "Up to %{max} photos."
+msgstr "Fino a %{max} foto."
+
+#: lib/basa_web/photo_uploads.ex:19
+#, elixir-autogen, elixir-format
+msgid "Up to %{max} photos. The extra ones were not added."
+msgstr "Fino a %{max} foto. Quelle in più non sono state aggiunte."
+
+#: lib/basa_web/live/admin/settings_live.ex:163
+#: lib/basa_web/live/admin/settings_live.ex:408
+#, elixir-autogen, elixir-format
+msgid "Whole city"
+msgstr "Tutta la città"
+
+#: lib/basa_web/live/home_live.ex:299
+#, elixir-autogen, elixir-format
+msgid "Whole city: %{city}"
+msgstr "Tutta la città: %{city}"
+
+#: lib/basa_web/live/admin/settings_live.ex:164
+#: lib/basa_web/live/admin/settings_live.ex:420
+#, elixir-autogen, elixir-format
+msgid "Whole region"
+msgstr "Tutta la regione"
+
+#: lib/basa_web/live/home_live.ex:302
+#, elixir-autogen, elixir-format
+msgid "Whole region around %{city}"
+msgstr "Tutta la regione intorno a %{city}"
+
+#: lib/basa_web/live/my/items_live.ex:491
+#, elixir-autogen, elixir-format
+msgid "Yes"
+msgstr "Sì"
+
+#: lib/basa_web/live/sign_in_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "or"
+msgstr "o"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "Graph"
+msgstr "Grafo"
+
+#: lib/basa_web/live/admin/rule_editor_live.ex:96
+#, elixir-autogen, elixir-format
+msgid "Test runs the rule on the test input and shows the results on the graph: open a node to see what it received and returned."
+msgstr "Test esegue la regola sull'input di prova e mostra i risultati sul grafo: apri un nodo per vedere cosa ha ricevuto e restituito."
+
+#: lib/basa_web/live/home_live.ex:289
+#, elixir-autogen, elixir-format
+msgid "How far to search: from your location, or from the city's centre. Or the whole city, or its whole region."
+msgstr "Quanto lontano cercare: dalla tua posizione o dal centro della città. Oppure in tutta la città o in tutta la sua regione."
+
+#: lib/basa_web/live/city_picker.ex:124
+#, elixir-autogen, elixir-format
+msgid "Location is blocked for BASA: allow it in your browser's site settings."
+msgstr "La posizione è bloccata per BASA: consentila nelle impostazioni del sito del browser."
+
+#: lib/basa_web/live/city_picker.ex:126
+#, elixir-autogen, elixir-format
+msgid "Location works only on a secure (https) page."
+msgstr "La posizione funziona solo su una pagina sicura (https)."
+
+#: lib/basa_web/live/city_picker.ex:233
+#, elixir-autogen, elixir-format
+msgid "Searching around you"
+msgstr "Ricerca intorno a te"
+
+#: lib/basa_web/live/city_picker.ex:132
+#, elixir-autogen, elixir-format
+msgid "The search stays around the chosen city."
+msgstr "La ricerca resta intorno alla città scelta."
+
+#: lib/basa_web/live/city_picker.ex:129
+#, elixir-autogen, elixir-format
+msgid "This device couldn't tell its location (location services may be off)."
+msgstr "Questo dispositivo non è riuscito a rilevare la posizione (forse i servizi di localizzazione sono disattivati)."
+
+#: lib/basa_web/live/city_picker.ex:131
+#, elixir-autogen, elixir-format
+msgid "Type the city instead."
+msgstr "Scrivi invece la città."
+
+#: lib/basa_web/live/city_picker.ex:233
+#: lib/basa_web/live/city_picker.ex:234
+#, elixir-autogen, elixir-format
+msgid "Use my location"
+msgstr "Usa la mia posizione"
+
+#: lib/basa_web/live/home_live.ex:307
+#, elixir-autogen, elixir-format
+msgid "Within %{km} km of %{city}"
+msgstr "Entro %{km} km da %{city}"
+
+#: lib/basa_web/live/home_live.ex:304
+#, elixir-autogen, elixir-format
+msgid "Within %{km} km of you"
+msgstr "Entro %{km} km da te"
+
+#: lib/basa_web/live/admin/import_live.ex:13
+#: lib/basa_web/live/admin/import_live.ex:80
+#: lib/basa_web/live/admin/settings_live.ex:237
+#: lib/basa_web/live/my/import_live.ex:8
+#: lib/basa_web/live/my/import_live.ex:78
+#: lib/basa_web/live/my/import_source_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "Import from web pages"
+msgstr "Importazione da pagine web"
+
+#: lib/basa_web/live/admin/settings_live.ex:239
+#, elixir-autogen, elixir-format
+msgid "Owners add their listings by hand."
+msgstr "I proprietari inseriscono gli annunci a mano."
+
+#: lib/basa_web/live/admin/settings_live.ex:238
+#, elixir-autogen, elixir-format
+msgid "Reading listings from web pages: name, price, photos and details."
+msgstr "Lettura di annunci da pagine web: nome, prezzo, foto e dettagli."
+
+#: lib/basa_web/live/my/import_source_live.ex:512
+#, elixir-autogen, elixir-format
+msgid "1 photo"
+msgid_plural "%{count} photos"
+msgstr[0] "%{count} foto"
+msgstr[1] "%{count} foto"
+
+#: lib/basa_web/live/my/import_live.ex:135
+#, elixir-autogen, elixir-format
+msgid "1 sample page"
+msgid_plural "%{count} sample pages"
+msgstr[0] "%{count} pagina di esempio"
+msgstr[1] "%{count} pagine di esempio"
+
+#: lib/basa_web/live/admin/import_live.ex:90
+#, elixir-autogen, elixir-format
+msgid "Access"
+msgstr "Accesso"
+
+#: lib/basa_web/live/admin/import_live.ex:31
+#, elixir-autogen, elixir-format
+msgid "Access granted."
+msgstr "Accesso concesso."
+
+#: lib/basa_web/live/admin/import_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Access revoked."
+msgstr "Accesso revocato."
+
+#: lib/basa_web/live/admin/import_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Agreement not confirmed yet"
+msgstr "Accordo non ancora confermato"
+
+#: lib/basa_web/live/admin/import_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Agreement version %{v} confirmed"
+msgstr "Accordo versione %{v} confermato"
+
+#: lib/basa_web/live/admin/import_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "Agreement version %{v} published."
+msgstr "Accordo versione %{v} pubblicato."
+
+#: lib/basa_web/live/my/import_source_live.ex:674
+#, elixir-autogen, elixir-format
+msgid "Always"
+msgstr "Sempre"
+
+#: lib/basa_web/live/my/import_source_live.ex:490
+#, elixir-autogen, elixir-format
+msgid "Area"
+msgstr "Superficie"
+
+#: lib/basa_web/live/my/import_source_live.ex:487
+#, elixir-autogen, elixir-format
+msgid "Article number"
+msgstr "Codice articolo"
+
+#: lib/basa_web/live/my/import_source_live.ex:667
+#, elixir-autogen, elixir-format
+msgid "Browser"
+msgstr "Browser"
+
+#: lib/basa_web/live/admin/import_live.ex:65
+#, elixir-autogen, elixir-format
+msgid "By using the import tool you confirm that you have the right to use the content you import (texts, prices, photos) and that you take full responsibility for how it is used on BASA. BASA reads the pages you point it to on your behalf; imported listings are drafts until you review and publish them.\n"
+msgstr "Usando lo strumento di importazione confermi di avere il diritto di usare i contenuti importati (testi, prezzi, foto) e ti assumi la piena responsabilità di come vengono usati su BASA. BASA legge per tuo conto le pagine che indichi; gli annunci importati restano bozze finché non li controlli e pubblichi.\n"
+
+#: lib/basa_web/live/my/import_source_live.ex:715
+#, elixir-autogen, elixir-format
+msgid "Click the value on the page."
+msgstr "Fai clic sul valore nella pagina."
+
+#: lib/basa_web/live/my/import_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Create"
+msgstr "Crea"
+
+#: lib/basa_web/live/my/import_source_live.ex:707
+#, elixir-autogen, elixir-format
+msgid "Field to pick"
+msgstr "Campo da scegliere"
+
+#: lib/basa_web/live/my/import_source_live.ex:546
+#, elixir-autogen, elixir-format
+msgid "Found"
+msgstr "Trovato"
+
+#: lib/basa_web/live/my/import_source_live.ex:504
+#, elixir-autogen, elixir-format
+msgid "Gallery"
+msgstr "Galleria"
+
+#: lib/basa_web/live/admin/import_live.ex:101
+#, elixir-autogen, elixir-format
+msgid "Grant"
+msgstr "Concedi"
+
+#: lib/basa_web/live/my/import_live.ex:116
+#, elixir-autogen, elixir-format
+msgid "I have read the agreement and accept it"
+msgstr "Ho letto l’accordo e lo accetto"
+
+#: lib/basa_web/live/my/dashboard_live.ex:105
+#: lib/basa_web/live/profile_live.ex:321
+#, elixir-autogen, elixir-format
+msgid "Import"
+msgstr "Importa"
+
+#: lib/basa_web/live/my/import_live.ex:87
+#: lib/basa_web/live/my/import_source_live.ex:522
+#, elixir-autogen, elixir-format
+msgid "Import from web pages is switched off for now."
+msgstr "L’importazione da pagine web è disattivata per ora."
+
+#: lib/basa_web/live/my/import_source_live.ex:676
+#, elixir-autogen, elixir-format
+msgid "Never"
+msgstr "Mai"
+
+#: lib/basa_web/live/my/import_live.ex:147
+#, elixir-autogen, elixir-format
+msgid "New source"
+msgstr "Nuova fonte"
+
+#: lib/basa_web/live/admin/import_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "No one has access yet."
+msgstr "Nessuno ha ancora accesso."
+
+#: lib/basa_web/live/my/import_source_live.ex:719
+#, elixir-autogen, elixir-format
+msgid "No rule picks exactly this; try the element around the value."
+msgstr "Nessuna regola seleziona esattamente questo; prova l’elemento intorno al valore."
+
+#: lib/basa_web/live/my/import_live.ex:124
+#, elixir-autogen, elixir-format
+msgid "No sources yet."
+msgstr "Ancora nessuna fonte."
+
+#: lib/basa_web/live/admin/import_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "No user with this email."
+msgstr "Nessun utente con questa email."
+
+#: lib/basa_web/live/admin/import_live.ex:82
+#, elixir-autogen, elixir-format
+msgid "Only users you grant access can import listings from web pages, and only after they confirm the current user agreement. Publishing a new version asks everyone to confirm again."
+msgstr "Solo gli utenti a cui concedi l’accesso possono importare annunci da pagine web, e solo dopo aver confermato l’accordo utente in vigore. Una nuova versione chiede a tutti di confermare di nuovo."
+
+#: lib/basa_web/live/my/import_source_live.ex:506
+#, elixir-autogen, elixir-format
+msgid "Page"
+msgstr "Pagina"
+
+#: lib/basa_web/live/my/import_source_live.ex:492
+#, elixir-autogen, elixir-format
+msgid "Page address"
+msgstr "Indirizzo della pagina"
+
+#: lib/basa_web/live/my/import_source_live.ex:505
+#, elixir-autogen, elixir-format
+msgid "Page data"
+msgstr "Dati della pagina"
+
+#: lib/basa_web/live/my/import_source_live.ex:696
+#, elixir-autogen, elixir-format
+msgid "Page preview"
+msgstr "Anteprima della pagina"
+
+#: lib/basa_web/live/my/import_source_live.ex:547
+#, elixir-autogen, elixir-format
+msgid "Pick"
+msgstr "Scegli"
+
+#: lib/basa_web/live/my/import_live.ex:80
+#, elixir-autogen, elixir-format
+msgid "Point BASA to pages of a site you list from: it finds the name, price, photos and details, and you pick what it missed. Imported listings stay drafts until you review them."
+msgstr "Indica a BASA le pagine del sito da cui pubblichi: trova nome, prezzo, foto e dettagli, e tu scegli ciò che manca. Gli annunci importati restano bozze finché non li controlli."
+
+#: lib/basa_web/live/admin/import_live.ex:145
+#, elixir-autogen, elixir-format
+msgid "Publish new version"
+msgstr "Pubblica nuova versione"
+
+#: lib/basa_web/live/my/import_source_live.ex:643
+#, elixir-autogen, elixir-format
+msgid "Read a sample page to see what BASA finds on it."
+msgstr "Leggi una pagina di esempio per vedere cosa vi trova BASA."
+
+#: lib/basa_web/live/my/import_source_live.ex:594
+#: lib/basa_web/live/my/import_source_live.ex:965
+#, elixir-autogen, elixir-format
+msgid "Read again"
+msgstr "Rileggi"
+
+#: lib/basa_web/live/my/import_source_live.ex:611
+#, elixir-autogen, elixir-format
+msgid "Read in the browser"
+msgstr "Letto nel browser"
+
+#: lib/basa_web/live/my/import_source_live.ex:594
+#, elixir-autogen, elixir-format
+msgid "Read page"
+msgstr "Leggi la pagina"
+
+#: lib/basa_web/live/my/import_source_live.ex:612
+#, elixir-autogen, elixir-format
+msgid "Read without a browser"
+msgstr "Letto senza browser"
+
+#: lib/basa_web/live/my/import_source_live.ex:811
+#: lib/basa_web/live/my/import_source_live.ex:1008
+#, elixir-autogen, elixir-format
+msgid "Reading the pages…"
+msgstr "Lettura delle pagine…"
+
+#: lib/basa_web/live/my/import_source_live.ex:599
+#, elixir-autogen, elixir-format
+msgid "Reading the page…"
+msgstr "Lettura della pagina…"
+
+#: lib/basa_web/live/my/import_source_live.ex:592
+#, elixir-autogen, elixir-format
+msgid "Reading…"
+msgstr "Lettura…"
+
+#: lib/basa_web/live/admin/import_live.ex:120
+#: lib/basa_web/live/profile_live.ex:293
+#, elixir-autogen, elixir-format
+msgid "Revoke"
+msgstr "Revoca"
+
+#: lib/basa_web/live/admin/import_live.ex:118
+#, elixir-autogen, elixir-format
+msgid "Revoke access for %{email}?"
+msgstr "Revocare l’accesso a %{email}?"
+
+#: lib/basa_web/live/admin/import_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Revoked"
+msgstr "Revocato"
+
+#: lib/basa_web/live/my/import_source_live.ex:574
+#, elixir-autogen, elixir-format
+msgid "Sample page"
+msgstr "Pagina di esempio"
+
+#: lib/basa_web/live/my/import_live.ex:161
+#: lib/basa_web/live/my/import_source_live.ex:662
+#, elixir-autogen, elixir-format
+msgid "Sample pages, one address per line (up to 5)"
+msgstr "Pagine di esempio, un indirizzo per riga (fino a 5)"
+
+#: lib/basa_web/live/my/import_source_live.ex:497
+#: lib/basa_web/live/my/import_source_live.ex:822
+#, elixir-autogen, elixir-format
+msgid "Skipped by the rules"
+msgstr "Saltata dalle regole"
+
+#: lib/basa_web/live/my/import_source_live.ex:648
+#, elixir-autogen, elixir-format
+msgid "Source"
+msgstr "Fonte"
+
+#: lib/basa_web/live/my/import_source_live.ex:809
+#, elixir-autogen, elixir-format
+msgid "Test on every sample page"
+msgstr "Prova su tutte le pagine di esempio"
+
+#: lib/basa_web/live/my/import_source_live.ex:806
+#, elixir-autogen, elixir-format
+msgid "Testing…"
+msgstr "Test in corso…"
+
+#: lib/basa_web/live/my/import_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "Thank you. The import tool is open."
+msgstr "Grazie. Lo strumento di importazione è aperto."
+
+#: lib/basa_web/live/my/import_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "The agreement changed. Please read the new version."
+msgstr "L’accordo è cambiato. Leggi la nuova versione."
+
+#: lib/basa_web/live/my/import_live.ex:92
+#, elixir-autogen, elixir-format
+msgid "The import tool opens on request: ask the BASA administrator for access."
+msgstr "Lo strumento di importazione si apre su richiesta: chiedi l’accesso all’amministratore di BASA."
+
+#: lib/basa_web/live/my/import_source_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "The page could not be read."
+msgstr "Non è stato possibile leggere la pagina."
+
+#: lib/basa_web/live/my/import_source_live.ex:523
+#, elixir-autogen, elixir-format
+msgid "The page took too long to read."
+msgstr "La lettura della pagina ha richiesto troppo tempo."
+
+#: lib/basa_web/live/my/import_source_live.ex:127
+#, elixir-autogen, elixir-format
+msgid "The rules aren't valid: %{error}"
+msgstr "Le regole non sono valide: %{error}"
+
+#: lib/basa_web/live/my/import_source_live.ex:765
+#, elixir-autogen, elixir-format
+msgid "The rules get the fields found (fields.price, fields.name…), the page's details (specs['Label']) and its address (url). Outputs named like a field replace it; skip set to true leaves the page out."
+msgstr "Le regole ricevono i campi trovati (fields.price, fields.name…), i dettagli della pagina (specs['Etichetta']) e il suo indirizzo (url). Un'uscita con il nome di un campo lo sostituisce; skip a true esclude la pagina."
+
+#: lib/basa_web/live/my/import_source_live.ex:607
+#, elixir-autogen, elixir-format
+msgid "The rules skip this page."
+msgstr "Le regole saltano questa pagina."
+
+#: lib/basa_web/live/my/import_source_live.ex:529
+#, elixir-autogen, elixir-format
+msgid "The rules stopped with an error; the result is shown without them."
+msgstr "Le regole si sono fermate con un errore; il risultato è mostrato senza di esse."
+
+#: lib/basa_web/live/my/import_source_live.ex:520
+#, elixir-autogen, elixir-format
+msgid "The site answered with a bot check; BASA does not get past those."
+msgstr "Il sito ha risposto con un controllo anti-bot; BASA non li aggira."
+
+#: lib/basa_web/live/my/import_source_live.ex:526
+#, elixir-autogen, elixir-format
+msgid "The site answered with an error (%{status})."
+msgstr "Il sito ha risposto con un errore (%{status})."
+
+#: lib/basa_web/live/my/import_source_live.ex:27
+#: lib/basa_web/live/my/import_source_live.ex:221
+#, elixir-autogen, elixir-format
+msgid "This source is not available."
+msgstr "Questa fonte non è disponibile."
+
+#: lib/basa_web/live/my/import_live.ex:41
+#: lib/basa_web/live/my/import_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Tick the box to confirm you read the agreement."
+msgstr "Spunta la casella per confermare di aver letto l’accordo."
+
+#: lib/basa_web/live/my/import_source_live.ex:736
+#, elixir-autogen, elixir-format
+msgid "Use for %{field}"
+msgstr "Usa per %{field}"
+
+#: lib/basa_web/live/admin/import_live.ex:129
+#: lib/basa_web/live/my/import_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "User agreement"
+msgstr "Accordo utente"
+
+#: lib/basa_web/live/admin/import_live.ex:97
+#, elixir-autogen, elixir-format
+msgid "User's email"
+msgstr "Email dell’utente"
+
+#: lib/basa_web/live/my/import_source_live.ex:671
+#, elixir-autogen, elixir-format
+msgid "When needed"
+msgstr "Quando serve"
+
+#: lib/basa_web/live/my/import_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "Your access is ready; the user agreement will be published soon."
+msgstr "Il tuo accesso è pronto; l’accordo utente sarà pubblicato a breve."
+
+#: lib/basa_web/live/my/import_source_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "Your pick"
+msgstr "La tua scelta"
+
+#: lib/basa_web/live/my/import_source_live.ex:742
+#, elixir-autogen, elixir-format
+msgid "Your picks"
+msgstr "Le tue scelte"
+
+#: lib/basa_web/live/my/import_source_live.ex:516
+#, elixir-autogen, elixir-format
+msgid "next to “%{label}”"
+msgstr "accanto a «%{label}»"
+
+#: lib/basa_web/live/my/import_source_live.ex:827
+#, elixir-autogen, elixir-format
+msgid "no price"
+msgstr "nessun prezzo"
+
+#: lib/basa_web/live/admin/import_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "not published yet"
+msgstr "non ancora pubblicato"
+
+#: lib/basa_web/live/admin/import_live.ex:131
+#: lib/basa_web/live/my/import_live.ex:105
+#, elixir-autogen, elixir-format
+msgid "version %{v}"
+msgstr "versione %{v}"
+
+#: lib/basa_web/live/my/import_source_live.ex:494
+#, elixir-autogen, elixir-format
+msgid "Added as a draft"
+msgstr "Aggiunto come bozza"
+
+#: lib/basa_web/live/my/import_source_live.ex:836
+#, elixir-autogen, elixir-format
+msgid "Categories"
+msgstr "Categorie"
+
+#: lib/basa_web/live/my/import_source_live.ex:495
+#, elixir-autogen, elixir-format
+msgid "Draft updated"
+msgstr "Bozza aggiornata"
+
+#: lib/basa_web/live/my/import_source_live.ex:857
+#, elixir-autogen, elixir-format
+msgid "Everything else"
+msgstr "Tutto il resto"
+
+#: lib/basa_web/live/my/import_source_live.ex:882
+#, elixir-autogen, elixir-format
+msgid "Import every sample page as a draft"
+msgstr "Importa tutte le pagine di esempio come bozze"
+
+#: lib/basa_web/live/my/import_source_live.ex:639
+#, elixir-autogen, elixir-format
+msgid "Import this page as a draft"
+msgstr "Importa questa pagina come bozza"
+
+#: lib/basa_web/live/my/import_source_live.ex:1028
+#, elixir-autogen, elixir-format
+msgid "Imported"
+msgstr "Importato"
+
+#: lib/basa_web/live/my/import_source_live.ex:276
+#, elixir-autogen, elixir-format
+msgid "Imported as drafts in your items."
+msgstr "Importato come bozze tra i tuoi oggetti."
+
+#: lib/basa_web/live/my/import_source_live.ex:885
+#, elixir-autogen, elixir-format
+msgid "Imported pages become items in your inventory, seen only by you until you make an offer of them. Importing a page again updates its item."
+msgstr "Le pagine importate diventano oggetti del tuo inventario, visibili solo a te finché non ne fai un’offerta. Importare di nuovo una pagina aggiorna il suo oggetto."
+
+#: lib/basa_web/live/my/import_source_live.ex:637
+#: lib/basa_web/live/my/import_source_live.ex:880
+#: lib/basa_web/live/my/import_source_live.ex:891
+#, elixir-autogen, elixir-format
+msgid "Importing…"
+msgstr "Importazione…"
+
+#: lib/basa_web/live/my/import_source_live.ex:860
+#, elixir-autogen, elixir-format
+msgid "No category"
+msgstr "Nessuna categoria"
+
+#: lib/basa_web/live/my/import_source_live.ex:498
+#, elixir-autogen, elixir-format
+msgid "Not imported"
+msgstr "Non importato"
+
+#: lib/basa_web/live/my/import_source_live.ex:845
+#, elixir-autogen, elixir-format
+msgid "Not mapped"
+msgstr "Non associata"
+
+#: lib/basa_web/live/my/import_source_live.ex:1045
+#, elixir-autogen, elixir-format
+msgid "Open item"
+msgstr "Apri oggetto"
+
+#: lib/basa_web/live/my/import_source_live.ex:496
+#, elixir-autogen, elixir-format
+msgid "Unchanged since the last import"
+msgstr "Invariato dall’ultima importazione"
+
+#: lib/basa_web/live/my/items_live.ex:393
+#, elixir-autogen, elixir-format
+msgid "Renters see the item like this on its offer page once you make an offer of it; until then only you see it."
+msgstr "Così gli affittuari vedranno l’oggetto nella sua pagina dell’offerta quando ne farai un’offerta; fino ad allora lo vedi solo tu."
+
+#: lib/basa_web/live/my/import_source_live.ex:1012
+#, elixir-autogen, elixir-format
+msgid "%{count} item pages on %{pages} catalogue pages."
+msgstr "%{count} pagine di articoli su %{pages} pagine di catalogo."
+
+#: lib/basa_web/live/my/import_source_live.ex:1022
+#, elixir-autogen, elixir-format
+msgid "Add catalogue pages or the sitemap first."
+msgstr "Aggiungi prima pagine di catalogo o la mappa del sito."
+
+#: lib/basa_web/live/my/import_source_live.ex:940
+#, elixir-autogen, elixir-format
+msgid "Also use the site's sitemap"
+msgstr "Usa anche la mappa del sito"
+
+#: lib/basa_web/live/my/import_source_live.ex:900
+#, elixir-autogen, elixir-format
+msgid "BASA reads the catalogue pages, follows their next pages and imports every item page whose address contains the given piece (/catalog/product/details/). For a regular expression, start with re: (re:/p/\\d+$)."
+msgstr "BASA legge le pagine di catalogo, segue le pagine successive e importa ogni pagina di articolo il cui indirizzo contiene il frammento indicato (/catalog/product/details/). Per un’espressione regolare, inizia con re: (re:/p/\\d+$)."
+
+#: lib/basa_web/live/my/import_source_live.ex:549
+#: lib/basa_web/live/my/import_source_live.ex:898
+#, elixir-autogen, elixir-format
+msgid "Catalogue"
+msgstr "Catalogo"
+
+#: lib/basa_web/live/my/import_source_live.ex:947
+#, elixir-autogen, elixir-format
+msgid "Catalogue pages at most"
+msgstr "Pagine di catalogo al massimo"
+
+#: lib/basa_web/live/my/import_source_live.ex:911
+#, elixir-autogen, elixir-format
+msgid "Catalogue pages, one address per line"
+msgstr "Pagine di catalogo, un indirizzo per riga"
+
+#: lib/basa_web/live/my/import_source_live.ex:988
+#, elixir-autogen, elixir-format
+msgid "Crawl and import now"
+msgstr "Esplora e importa ora"
+
+#: lib/basa_web/live/my/import_source_live.ex:217
+#, elixir-autogen, elixir-format
+msgid "Crawling started: pages are imported one by one, a few seconds apart."
+msgstr "Esplorazione avviata: le pagine vengono importate una alla volta, a pochi secondi di distanza."
+
+#: lib/basa_web/live/my/import_source_live.ex:972
+#, elixir-autogen, elixir-format
+msgid "Every night"
+msgstr "Ogni notte"
+
+#: lib/basa_web/live/my/import_source_live.ex:975
+#, elixir-autogen, elixir-format
+msgid "Every week"
+msgstr "Ogni settimana"
+
+#: lib/basa_web/live/my/import_source_live.ex:985
+#, elixir-autogen, elixir-format
+msgid "Find links"
+msgstr "Trova i link"
+
+#: lib/basa_web/live/my/import_source_live.ex:918
+#, elixir-autogen, elixir-format
+msgid "Item addresses contain"
+msgstr "Gli indirizzi degli articoli contengono"
+
+#: lib/basa_web/live/my/import_source_live.ex:956
+#, elixir-autogen, elixir-format
+msgid "Items at most"
+msgstr "Articoli al massimo"
+
+#: lib/basa_web/live/my/import_source_live.ex:1001
+#, elixir-autogen, elixir-format
+msgid "Last crawl: %{when}, %{count} item pages found."
+msgstr "Ultima esplorazione: %{when}, %{count} pagine di articoli trovate."
+
+#: lib/basa_web/live/my/import_source_live.ex:932
+#, elixir-autogen, elixir-format
+msgid "Next page link (CSS, optional)"
+msgstr "Link alla pagina successiva (CSS, facoltativo)"
+
+#: lib/basa_web/live/my/import_source_live.ex:969
+#, elixir-autogen, elixir-format
+msgid "Only when I ask"
+msgstr "Solo quando lo chiedo"
+
+#: lib/basa_web/live/my/import_source_live.ex:996
+#, elixir-autogen, elixir-format
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: lib/basa_web/live/my/import_source_live.ex:925
+#, elixir-autogen, elixir-format
+msgid "List pages contain (optional)"
+msgstr "Le pagine di elenco contengono (facoltativo)"
+
+#: lib/basa_web/live/profile_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "30 days"
+msgstr "30 giorni"
+
+#: lib/basa_web/live/profile_live.ex:263
+#, elixir-autogen, elixir-format
+msgid "90 days"
+msgstr "90 giorni"
+
+#: lib/basa_web/live/profile_live.ex:264
+#, elixir-autogen, elixir-format
+msgid "A year"
+msgstr "Un anno"
+
+#: lib/basa_web/live/profile_live.ex:225
+#, elixir-autogen, elixir-format
+msgid "API documentation"
+msgstr "Documentazione API"
+
+#: lib/basa_web/live/profile_live.ex:217
+#, elixir-autogen, elixir-format
+msgid "API keys"
+msgstr "Chiavi API"
+
+#: lib/basa_web/live/profile_live.ex:236
+#, elixir-autogen, elixir-format
+msgid "Copied"
+msgstr "Copiato"
+
+#: lib/basa_web/live/profile_live.ex:220
+#, elixir-autogen, elixir-format
+msgid "For your own programs and shop systems: a key works like you on the BASA API (categories, your items). Send it as Authorization: Bearer and the key. It is shown once; keep it secret, and revoke it if it leaks."
+msgstr "Per i tuoi programmi e sistemi di negozio: una chiave agisce come te sull’API di BASA (categorie, i tuoi oggetti). Inviala come Authorization: Bearer seguito dalla chiave. Viene mostrata una sola volta; tienila segreta e revocala se trapela."
+
+#: lib/basa_web/live/profile_live.ex:241
+#, elixir-autogen, elixir-format
+msgid "I saved it"
+msgstr "L’ho salvata"
+
+#: lib/basa_web/live/profile_live.ex:251
+#, elixir-autogen, elixir-format
+msgid "Key name"
+msgstr "Nome della chiave"
+
+#: lib/basa_web/live/profile_live.ex:51
+#, elixir-autogen, elixir-format
+msgid "Key revoked."
+msgstr "Chiave revocata."
+
+#: lib/basa_web/live/profile_live.ex:266
+#, elixir-autogen, elixir-format
+msgid "Make a key"
+msgstr "Crea una chiave"
+
+#: lib/basa_web/live/profile_live.ex:290
+#, elixir-autogen, elixir-format
+msgid "Revoke the key “%{name}”? Programs using it stop working."
+msgstr "Revocare la chiave «%{name}»? I programmi che la usano smetteranno di funzionare."
+
+#: lib/basa_web/live/profile_live.ex:252
+#, elixir-autogen, elixir-format
+msgid "Shop sync"
+msgstr "Sincronizzazione negozio"
+
+#: lib/basa_web/live/profile_live.ex:259
+#, elixir-autogen, elixir-format
+msgid "Valid for"
+msgstr "Valida per"
+
+#: lib/basa_web/live/profile_live.ex:278
+#, elixir-autogen, elixir-format
+msgid "Valid until %{date}"
+msgstr "Valida fino al %{date}"
+
+#: lib/basa_web/live/profile_live.ex:230
+#, elixir-autogen, elixir-format
+msgid "Your new key, shown only now:"
+msgstr "La tua nuova chiave, mostrata solo ora:"
+
+#: lib/basa_web/live/profile_live.ex:280
+#, elixir-autogen, elixir-format
+msgid "last used %{date}"
+msgstr "ultimo uso il %{date}"
+
+#: lib/basa_web/live/profile_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "not used yet"
+msgstr "non ancora usata"
+
+#: lib/basa_web/live/my/schedule_live.ex:203
+#, elixir-autogen, elixir-format
+msgid "Colours"
+msgstr "Colori"
+
+#: lib/basa_web/live/my/schedule_live.ex:200
+#, elixir-autogen, elixir-format
+msgid "Earlier"
+msgstr "Prima"
+
+#: lib/basa_web/live/my/schedule_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Gear"
+msgstr "Attrezzatura"
+
+#: lib/basa_web/live/my/schedule_live.ex:201
+#, elixir-autogen, elixir-format
+msgid "Later"
+msgstr "Dopo"
+
+#: lib/basa_web/live/my/schedule_live.ex:198
+#, elixir-autogen, elixir-format
+msgid "Month"
+msgstr "Mese"
+
+#: lib/basa_web/live/my/schedule_live.ex:207
+#, elixir-autogen, elixir-format
+msgid "Nothing to show yet: add rooms, gear or people to your offers."
+msgstr "Ancora niente da mostrare: aggiungi spazi, attrezzatura o persone alle tue offerte."
+
+#: lib/basa_web/live/my/schedule_live.ex:202
+#, elixir-autogen, elixir-format
+msgid "Now"
+msgstr "Adesso"
+
+#: lib/basa_web/live/my/schedule_live.ex:195
+#, elixir-autogen, elixir-format
+msgid "People"
+msgstr "Persone"
+
+#: lib/basa_web/live/my/schedule_live.ex:189
+#, elixir-autogen, elixir-format
+msgid "Room, gear or person"
+msgstr "Spazio, attrezzatura o persona"
+
+#: lib/basa_web/live/my/schedule_live.ex:199
+#, elixir-autogen, elixir-format
+msgid "Today"
+msgstr "Oggi"
+
+#: lib/basa_web/live/my/schedule_live.ex:197
+#, elixir-autogen, elixir-format
+msgid "Week"
+msgstr "Settimana"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:462
+#, elixir-autogen, elixir-format
+msgid "%{m} m away"
+msgstr "a %{m} m"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:411
+#, elixir-autogen, elixir-format
+msgid "A street-level photo near the address helps renters find the entrance. It is shown beside the map, never as a photo of the room. Pick one only if it shows your building."
+msgstr "Una foto della strada vicino all'indirizzo aiuta chi affitta a trovare l'ingresso. Compare accanto alla mappa, mai come foto della sala. Sceglila solo se mostra il tuo edificio."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:444
+#, elixir-autogen, elixir-format
+msgid "Find street views near the pin"
+msgstr "Cerca viste della strada vicino al segnaposto"
+
+#: lib/basa_web/live/admin/settings_live.ex:244
+#, elixir-autogen, elixir-format
+msgid "Finding street-level photos near a room (Mapillary) to help renters find it."
+msgstr "Trovare foto della strada vicino a una sala (Mapillary) per aiutare chi affitta a trovarla."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:449
+#, elixir-autogen, elixir-format
+msgid "Looking…"
+msgstr "Ricerca…"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:447
+#, elixir-autogen, elixir-format
+msgid "No street views near the pin yet."
+msgstr "Ancora nessuna vista della strada vicino al segnaposto."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:474
+#, elixir-autogen, elixir-format
+msgid "None of these show my building"
+msgstr "Nessuna mostra il mio edificio"
+
+#: lib/basa_web/live/admin/settings_live.ex:245
+#, elixir-autogen, elixir-format
+msgid "Owners can't pick new views; views already picked keep showing."
+msgstr "I proprietari non possono scegliere nuove viste; quelle già scelte restano visibili."
+
+#: lib/basa_web/components/basa_components.ex:304
+#: lib/basa_web/live/admin/photos_live.ex:42
+#: lib/basa_web/live/admin/settings_live.ex:243
+#: lib/basa_web/live/my/room_wizard_live.ex:409
+#, elixir-autogen, elixir-format
+msgid "Street view"
+msgstr "Vista della strada"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:292
+#, elixir-autogen, elixir-format
+msgid "Street views can't be looked up right now."
+msgstr "Al momento non è possibile cercare viste della strada."
+
+#: lib/basa_web/live/lot_live.ex:385
+#, elixir-autogen, elixir-format
+msgid "The street near the address"
+msgstr "La strada vicino all'indirizzo"
+
+#: lib/basa_web/live/lot_live.ex:390
+#, elixir-autogen, elixir-format
+msgid "The street near the address, not the room."
+msgstr "La strada vicino all'indirizzo, non la sala."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:577
+#, elixir-autogen, elixir-format
+msgid "How to find it (optional)"
+msgstr "Come trovarlo (facoltativo)"
+
+#: lib/basa_web/live/my/room_wizard_live.ex:579
+#, elixir-autogen, elixir-format
+msgid "Photos of the entrance or the street help renters find the place. They are shown beside the map, not among the room's photos."
+msgstr "Le foto dell'ingresso o della strada aiutano chi affitta a trovare il posto. Compaiono accanto alla mappa, non tra le foto della sala."
+
+#: lib/basa_web/live/admin/photos_live.ex:41
+#: lib/basa_web/live/lot_live.ex:372
+#, elixir-autogen, elixir-format
+msgid "The way in"
+msgstr "L'ingresso"
+
+#: lib/basa_web/live/lot_live.ex:379
+#, elixir-autogen, elixir-format
+msgid "The way in, photographed by the owner."
+msgstr "L'ingresso, fotografato dal proprietario."
+
+#: lib/basa_web/live/my/room_wizard_live.ex:355
+#, elixir-autogen, elixir-format
+msgid "Your photos of the entrance or street"
+msgstr "Le tue foto dell'ingresso o della strada"
+
+#: lib/basa_web/live/admin/settings_live.ex:73
+#, elixir-autogen, elixir-format
+msgid "%{count} photos will be checked again."
+msgstr "%{count} foto verranno ricontrollate."
+
+#: lib/basa_web/live/admin/settings_live.ex:484
+#, elixir-autogen, elixir-format
+msgid "%{mb} MB"
+msgstr "%{mb} MB"
+
+#: lib/basa_web/live/admin/settings_live.ex:189
+#, elixir-autogen, elixir-format
+msgid "1 · Light"
+msgstr "1 · Leggero"
+
+#: lib/basa_web/live/admin/settings_live.ex:190
+#, elixir-autogen, elixir-format
+msgid "2 · Standard"
+msgstr "2 · Standard"
+
+#: lib/basa_web/live/admin/settings_live.ex:531
+#, elixir-autogen, elixir-format
+msgid "Check all photos again"
+msgstr "Ricontrolla tutte le foto"
+
+#: lib/basa_web/live/admin/settings_live.ex:529
+#, elixir-autogen, elixir-format
+msgid "Check every photo again with the level in use?"
+msgstr "Ricontrollare tutte le foto con il livello in uso?"
+
+#: lib/basa_web/live/admin/settings_live.ex:250
+#, elixir-autogen, elixir-format
+msgid "Checking every photo on this server with open image models (nudity, weapons, documents): clear cases are hidden, others go to an admin."
+msgstr "Controllo di ogni foto su questo server con modelli di immagine aperti (nudità, armi, documenti): i casi chiari vengono nascosti, gli altri vanno a un admin."
+
+#: lib/basa_web/live/admin/photos_live.ex:90
+#, elixir-autogen, elixir-format
+msgid "Hidden"
+msgstr "Nascosta"
+
+#: lib/basa_web/live/my/dashboard_live.ex:165
+#, elixir-autogen, elixir-format
+msgid "Hidden photos"
+msgstr "Foto nascoste"
+
+#: lib/basa_web/live/admin/settings_live.ex:497
+#, elixir-autogen, elixir-format
+msgid "In use: level %{level}"
+msgstr "In uso: livello %{level}"
+
+#: lib/basa_web/live/admin/photos_live.ex:39
+#, elixir-autogen, elixir-format
+msgid "Item photo"
+msgstr "Foto dell'articolo"
+
+#: lib/basa_web/live/admin/photos_live.ex:117
+#, elixir-autogen, elixir-format
+msgid "Keep"
+msgstr "Mantieni"
+
+#: lib/basa_web/live/admin/photos_live.ex:43
+#, elixir-autogen, elixir-format
+msgid "Kept picture"
+msgstr "Immagine conservata"
+
+#: lib/basa_web/live/admin/photos_live.ex:30
+#, elixir-autogen, elixir-format
+msgid "Kept: renters see the photo."
+msgstr "Mantenuta: chi affitta vede la foto."
+
+#: lib/basa_web/live/admin/settings_live.ex:468
+#, elixir-autogen, elixir-format
+msgid "Level"
+msgstr "Livello"
+
+#: lib/basa_web/live/admin/photos_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Nothing to review."
+msgstr "Niente da controllare."
+
+#: lib/basa_web/live/admin/photos_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "Nudity %{p}"
+msgstr "Nudità %{p}"
+
+#: lib/basa_web/live/admin/settings_live.ex:448
+#, elixir-autogen, elixir-format
+msgid "Open image models check every photo on this server; photos never leave it. A higher level downloads larger models once and checks more precisely, a little slower. The models in use keep checking until the new ones are ready."
+msgstr "Modelli di immagine aperti controllano ogni foto su questo server; le foto non lo lasciano mai. Un livello più alto scarica una volta modelli più grandi e controlla con più precisione, un po' più lentamente. I modelli in uso continuano finché i nuovi non sono pronti."
+
+#: lib/basa_web/live/admin/photos_live.ex:9
+#: lib/basa_web/live/admin/photos_live.ex:60
+#: lib/basa_web/live/admin/settings_live.ex:249
+#: lib/basa_web/live/admin/settings_live.ex:446
+#: lib/basa_web/live/profile_live.ex:309
+#, elixir-autogen, elixir-format
+msgid "Photo checks"
+msgstr "Controllo delle foto"
+
+#: lib/basa_web/live/admin/settings_live.ex:253
+#, elixir-autogen, elixir-format
+msgid "Photos are not checked; they wait and are checked when it is switched on again."
+msgstr "Le foto non vengono controllate; aspettano e saranno controllate alla riattivazione."
+
+#: lib/basa_web/live/admin/photos_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Photos the checks hid or sent here. Keep one and renters see it again; remove it and they don't. Your decision stays when photos are checked again."
+msgstr "Foto che il controllo ha nascosto o inviato qui. Mantienine una e chi affitta la rivede; rimuovila e non la vede. La tua decisione resta nei nuovi controlli."
+
+#: lib/basa_web/live/admin/settings_live.ex:492
+#, elixir-autogen, elixir-format
+msgid "Preparing level %{level}: %{percent}%"
+msgstr "Preparazione del livello %{level}: %{percent}%"
+
+#: lib/basa_web/live/admin/photos_live.ex:127
+#, elixir-autogen, elixir-format
+msgid "Remove this photo for renters?"
+msgstr "Rimuovere questa foto per chi affitta?"
+
+#: lib/basa_web/live/my/dashboard_live.ex:181
+#, elixir-autogen, elixir-format
+msgid "Removed by an admin."
+msgstr "Rimossa da un admin."
+
+#: lib/basa_web/live/admin/photos_live.ex:31
+#, elixir-autogen, elixir-format
+msgid "Removed: renters don't see the photo."
+msgstr "Rimossa: chi affitta non vede la foto."
+
+#: lib/basa_web/live/my/dashboard_live.ex:167
+#, elixir-autogen, elixir-format
+msgid "Renters don't see these photos after a check. Remove or replace them; if a check got it wrong, an admin can bring a photo back."
+msgstr "Dopo un controllo chi affitta non vede queste foto. Rimuovile o sostituiscile; se il controllo ha sbagliato, un admin può ripristinare una foto."
+
+#: lib/basa_web/live/admin/photos_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Room photo"
+msgstr "Foto della sala"
+
+#: lib/basa_web/live/admin/settings_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Saved. The checker prepares the new level."
+msgstr "Salvato. Il controllo prepara il nuovo livello."
+
+#: lib/basa_web/live/admin/settings_live.ex:499
+#, elixir-autogen, elixir-format
+msgid "Starting…"
+msgstr "Avvio…"
+
+#: lib/basa_web/live/admin/settings_live.ex:510
+#, elixir-autogen, elixir-format
+msgid "The checker is not answering right now."
+msgstr "Il controllo non risponde al momento."
+
+#: lib/basa_web/live/admin/settings_live.ex:459
+#, elixir-autogen, elixir-format
+msgid "The checker is not installed on this server (docker compose build moderate)."
+msgstr "Il controllo non è installato su questo server (docker compose build moderate)."
+
+#: lib/basa_web/live/admin/settings_live.ex:507
+#, elixir-autogen, elixir-format
+msgid "The new level could not be prepared: %{error}"
+msgstr "Impossibile preparare il nuovo livello: %{error}"
+
+#: lib/basa_web/live/admin/photos_live.ex:93
+#, elixir-autogen, elixir-format
+msgid "To check"
+msgstr "Da controllare"
+
+#: lib/basa_web/live/admin/settings_live.ex:515
+#, elixir-autogen, elixir-format
+msgid "Waiting: %{pending} · To review: %{review}"
+msgstr "In attesa: %{pending} · Da controllare: %{review}"
+
+#: lib/basa_web/live/admin/photos_live.ex:105
+#, elixir-autogen, elixir-format
+msgid "level %{level}"
+msgstr "livello %{level}"
+
+#: lib/basa_web/live/help_live.ex:29
+#, elixir-autogen, elixir-format
+msgid "For admins"
+msgstr "Per gli admin"
+
+#: lib/basa/telegram/bot.ex:251
+#: lib/basa/telegram/bot.ex:312
+#: lib/basa_web/components/basa_components.ex:65
+#: lib/basa_web/components/basa_components.ex:66
+#: lib/basa_web/components/layouts.ex:98
+#: lib/basa_web/components/layouts.ex:111
+#: lib/basa_web/live/app_home_live.ex:26
+#: lib/basa_web/live/help_live.ex:22
+#: lib/basa_web/live/help_live.ex:39
+#: lib/basa_web/live/help_live.ex:57
+#, elixir-autogen, elixir-format
+msgid "Help"
+msgstr "Aiuto"
+
+#: lib/basa_web/live/help_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "No such help page."
+msgstr "Questa pagina di aiuto non esiste."
+
+#: lib/basa_web/live/help_live.ex:27
+#, elixir-autogen, elixir-format
+msgid "Offering your space or gear"
+msgstr "Offrire il tuo spazio o la tua attrezzatura"
+
+#: lib/basa_web/live/help_live.ex:26
+#, elixir-autogen, elixir-format
+msgid "Renting"
+msgstr "Noleggiare"
+
+#: lib/basa_web/live/help_live.ex:60
+#, elixir-autogen, elixir-format
+msgid "This page is not in your language yet; here it is in English."
+msgstr "Questa pagina non è ancora nella tua lingua; eccola in inglese."
+
+#: lib/basa_web/live/help_live.ex:28
+#, elixir-autogen, elixir-format
+msgid "Your account"
+msgstr "Il tuo account"
+
+#: lib/basa_web/live/app_home_live.ex:38
+#, elixir-autogen, elixir-format
+msgid "Hi, %{name}!"
+msgstr "Ciao, %{name}!"
+
+#: lib/basa/telegram/bot.ex:291
+#, elixir-autogen, elixir-format
+msgid "Open messages"
+msgstr "Apri i messaggi"
+
+#: lib/basa/telegram/bot.ex:280
+#, elixir-autogen, elixir-format
+msgid "Open search"
+msgstr "Apri la ricerca"
+
+#: lib/basa/telegram/bot.ex:142
+#, elixir-autogen, elixir-format
+msgid "The menu is below the message field."
+msgstr "Il menu è sotto il campo del messaggio."
+
+#: lib/basa/telegram/bot.ex:144
+#, elixir-autogen, elixir-format
+msgid "The menu is below the message field. Tap “Verify phone” to confirm your number."
+msgstr "Il menu è sotto il campo del messaggio. Tocca «Verifica telefono» per confermare il tuo numero."
+
+#: lib/basa/telegram/bot.ex:309
+#, elixir-autogen, elixir-format
+msgid "Use the menu below: find a place or gear, see your bookings and messages, manage your offers, or send a photo to add an item. The full app opens with the BASA button."
+msgstr "Usa il menu qui sotto: trova un posto o un'attrezzatura, vedi prenotazioni e messaggi, gestisci le offerte o invia una foto per aggiungere un articolo. L'app completa si apre con il pulsante BASA."
+
+#: lib/basa/telegram/bot.ex:252
+#, elixir-autogen, elixir-format
+msgid "Verify phone"
+msgstr "Verifica telefono"
+
+#: lib/basa/telegram/bot.ex:279
+#, elixir-autogen, elixir-format
+msgid "Write a city or what you need, for example “Odesa” or “microphone”."
+msgstr "Scrivi una città o ciò che ti serve, per esempio «Odesa» o «microfono»."
+
+#: lib/basa/telegram/bot.ex:290
+#, elixir-autogen, elixir-format
+msgid "Your conversations with owners and renters:"
+msgstr "Le tue conversazioni con proprietari e affittuari:"
+
+#: lib/basa/telegram/bot.ex:298
+#, elixir-autogen, elixir-format
+msgid "Your offers and their bookings:"
+msgstr "Le tue offerte e le loro prenotazioni:"

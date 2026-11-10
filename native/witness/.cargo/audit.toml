@@ -1,0 +1,11 @@
+# Advisories checked and accepted (2026-11-05). Fixes need RustCrypto's next
+# generation (rsa 0.10, cms 0.3, still release candidates); move when they are stable.
+[advisories]
+ignore = [
+  # rsa 0.9 (Marvin): private-key timing. BASA only verifies RSA signatures
+  # (public key); the private key appears only in a test.
+  "RUSTSEC-2023-0071",
+  # crypto-bigint 0.5 timing (via p256 0.13): secret-key operations are only the
+  # dev/test QES CA (qes_dev_*); real use is verifying public signatures.
+  "RUSTSEC-2026-0387",
+]

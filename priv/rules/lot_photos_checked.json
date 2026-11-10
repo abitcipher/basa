@@ -1,0 +1,77 @@
+{
+  "key": "lot_photos_checked",
+  "version": 1,
+  "label": "Hidden photos keep an offer back",
+  "description": "An offer with a photo hidden after a check goes back to draft until the photo is removed or an admin brings it back.",
+  "severity": "block",
+  "points": [
+    "lot.submit"
+  ],
+  "subjects": [
+    "lot"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "Hidden photos keep an offer back",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "lot.photosHidden == 0"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(lot.photosHidden == 0) ? null : 'lot_photos_checked'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(lot.photosHidden == 0) ? null : 'Some photos were hidden after a check: remove or replace them'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "key": "lot_has_content",
+  "version": 1,
+  "label": "Something to rent",
+  "description": "The offer includes at least one item, a person or a room.",
+  "severity": "block",
+  "points": [
+    "lot.submit"
+  ],
+  "subjects": [
+    "lot"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "Something to rent",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "lot.itemCount + lot.attendantCount > 0 or lot.hasRoom"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(lot.itemCount + lot.attendantCount > 0 or lot.hasRoom) ? null : 'lot_empty'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(lot.itemCount + lot.attendantCount > 0 or lot.hasRoom) ? null : 'Add at least one item, attendant or a room'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

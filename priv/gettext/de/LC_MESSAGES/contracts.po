@@ -1,0 +1,250 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/basa/witness/contract.ex:68
+#, elixir-autogen, elixir-format
+msgid "Acceptor: %{name} (BASA user %{id})."
+msgstr "Annehmender: %{name} (BASA-Nutzer %{id})."
+
+#: lib/basa/witness/contract.ex:221
+#, elixir-autogen, elixir-format
+msgid "At the end of the term the acceptor returns it in the same condition, apart from normal wear, and files a return act with photos."
+msgstr "Am Ende der Laufzeit gibt der Annehmende alles im gleichen Zustand, abgesehen von normaler Abnutzung, zurück und erstellt ein Rückgabeprotokoll mit Fotos."
+
+#: lib/basa/witness/contract.ex:75
+#, elixir-autogen, elixir-format
+msgid "BASA keeps the evidence package of this contract: this document, photos, voice recordings and other files the parties add. Its BASA-HASH identifies it."
+msgstr "BASA bewahrt das Beweispaket dieses Vertrags auf: dieses Dokument, Fotos, Sprachaufnahmen und weitere Dateien, die die Parteien hinzufügen. Der BASA-HASH identifiziert es."
+
+#: lib/basa/witness/contract.ex:83
+#, elixir-autogen, elixir-format
+msgid "BASA provides reliable information, verified cryptographically and procedurally, to the witness, who is a party to this contract. BASA itself is not a party to this contract."
+msgstr "BASA stellt dem Zeugen, der Partei dieses Vertrags ist, verlässliche, kryptografisch und verfahrensmäßig geprüfte Informationen bereit. BASA selbst ist nicht Partei dieses Vertrags."
+
+#: lib/basa/witness/contract.ex:216
+#, elixir-autogen, elixir-format
+msgid "Condition and return"
+msgstr "Zustand und Rückgabe"
+
+#: lib/basa/witness/contract.ex:95
+#, elixir-autogen, elixir-format
+msgid "Consumer rights"
+msgstr "Verbraucherrechte"
+
+#: lib/basa/witness/contract.ex:236
+#, elixir-autogen, elixir-format
+msgid "Draft template: not legal text until a lawyer has reviewed it."
+msgstr "Vorlagenentwurf: kein Rechtstext, bis ein Anwalt ihn geprüft hat."
+
+#: lib/basa/witness/contract.ex:89
+#, elixir-autogen, elixir-format
+msgid "Each party agrees that BASA stores their voice recordings and photos in the evidence package to identify them as a party to this contract. The files are kept for the period in BASA's terms and opened only as described above."
+msgstr "Jede Partei stimmt zu, dass BASA ihre Sprachaufnahmen und Fotos im Beweispaket speichert, um sie als Partei dieses Vertrags zu identifizieren. Die Dateien werden für die in den Bedingungen von BASA genannte Dauer aufbewahrt und nur wie oben beschrieben geöffnet."
+
+#: lib/basa/witness/contract.ex:113
+#, elixir-autogen, elixir-format
+msgid "Each party signs electronically on their own device, by signing the BASA-HASH of the evidence package that includes this document."
+msgstr "Jede Partei unterschreibt elektronisch auf dem eigenen Gerät, indem sie den BASA-HASH des Beweispakets signiert, zu dem dieses Dokument gehört."
+
+#: lib/basa/witness/contract.ex:74
+#, elixir-autogen, elixir-format
+msgid "Evidence"
+msgstr "Beweise"
+
+#: lib/basa/witness/contract.ex:196
+#, elixir-autogen, elixir-format
+msgid "From %{start} to %{end} (time zone %{timezone})."
+msgstr "Vom %{start} bis %{end} (Zeitzone %{timezone})."
+
+#: lib/basa/witness/contract.ex:96
+#, elixir-autogen, elixir-format
+msgid "Governing law and disputes"
+msgstr "Anwendbares Recht und Streitigkeiten"
+
+#: lib/basa/witness/contract.ex:104
+#, elixir-autogen, elixir-format
+msgid "Languages"
+msgstr "Sprachen"
+
+#: lib/basa/witness/contract.ex:126
+#, elixir-autogen, elixir-format
+msgid "Lease contract"
+msgstr "Mietvertrag"
+
+#: lib/basa/witness/contract.ex:283
+#, elixir-autogen, elixir-format
+msgid "Mobile setup based in %{city}; the parties agree the exact address."
+msgstr "Mobiles Setup mit Sitz in %{city}; die genaue Adresse vereinbaren die Parteien."
+
+#: lib/basa/witness/contract.ex:129
+#, elixir-autogen, elixir-format
+msgid "No. %{number} · %{date} · %{place}"
+msgstr "Nr. %{number} · %{date} · %{place}"
+
+#: lib/basa/witness/contract.ex:64
+#, elixir-autogen, elixir-format
+msgid "Offeror: %{name} (BASA user %{id})."
+msgstr "Anbieter: %{name} (BASA-Nutzer %{id})."
+
+#: lib/basa/witness/contract.ex:63
+#, elixir-autogen, elixir-format
+msgid "Parties"
+msgstr "Parteien"
+
+#: lib/basa/witness/contract.ex:88
+#, elixir-autogen, elixir-format
+msgid "Personal data"
+msgstr "Personenbezogene Daten"
+
+#: lib/basa/witness/contract.ex:149
+#: lib/basa/witness/contract.ex:194
+#, elixir-autogen, elixir-format
+msgid "Place"
+msgstr "Ort"
+
+#: lib/basa/witness/contract.ex:202
+#, elixir-autogen, elixir-format
+msgid "Price and deposit"
+msgstr "Preis und Kaution"
+
+#: lib/basa/witness/contract.ex:112
+#, elixir-autogen, elixir-format
+msgid "Signing"
+msgstr "Unterzeichnung"
+
+#: lib/basa/witness/contract.ex:141
+#: lib/basa/witness/contract.ex:186
+#, elixir-autogen, elixir-format
+msgid "Subject"
+msgstr "Gegenstand"
+
+#: lib/basa/witness/contract.ex:195
+#, elixir-autogen, elixir-format
+msgid "Term"
+msgstr "Laufzeit"
+
+#: lib/basa/witness/contract.ex:247
+#, elixir-autogen, elixir-format
+msgid "The acceptor is a consumer. Nothing in this contract limits the protection given to them by the mandatory consumer law of the country where they live."
+msgstr "Der Annehmende ist Verbraucher. Nichts in diesem Vertrag schränkt den Schutz ein, den ihm das zwingende Verbraucherrecht des Landes gewährt, in dem er lebt."
+
+#: lib/basa/witness/contract.ex:240
+#, elixir-autogen, elixir-format
+msgid "The acceptor is a consumer. Nothing in this contract limits their rights under the consumer protection law of Ukraine."
+msgstr "Der Annehmende ist Verbraucher. Nichts in diesem Vertrag schränkt seine Rechte nach dem Verbraucherschutzrecht der Ukraine ein."
+
+#: lib/basa/witness/contract.ex:210
+#, elixir-autogen, elixir-format
+msgid "The acceptor leaves a deposit of %{deposit}."
+msgstr "Der Annehmende hinterlegt eine Kaution von %{deposit}."
+
+#: lib/basa/witness/contract.ex:79
+#, elixir-autogen, elixir-format
+msgid "The files are encrypted with a key split between the offeror, the acceptor and BASA; any two of them can open the files. BASA also holds a recovery key, used only on a court order or another formal lawful request, or when the parties cannot act; every use is logged."
+msgstr "Die Dateien sind mit einem Schlüssel verschlüsselt, der zwischen Anbieter, Annehmendem und BASA aufgeteilt ist; je zwei von ihnen können die Dateien öffnen. BASA verfügt außerdem über einen Wiederherstellungsschlüssel, der nur auf gerichtliche Anordnung oder ein anderes förmliches rechtmäßiges Ersuchen oder dann verwendet wird, wenn die Parteien nicht handeln können; jede Verwendung wird protokolliert."
+
+#: lib/basa/witness/contract.ex:225
+#, elixir-autogen, elixir-format
+msgid "The offeror accepts the return act or raises a claim within %{count} day; after that the return counts as accepted."
+msgid_plural "The offeror accepts the return act or raises a claim within %{count} days; after that the return counts as accepted."
+msgstr[0] "Der Anbieter nimmt das Rückgabeprotokoll an oder erhebt innerhalb von %{count} Tag eine Beanstandung; danach gilt die Rückgabe als angenommen."
+msgstr[1] "Der Anbieter nimmt das Rückgabeprotokoll an oder erhebt innerhalb von %{count} Tagen eine Beanstandung; danach gilt die Rückgabe als angenommen."
+
+#: lib/basa/witness/contract.ex:165
+#: lib/basa/witness/contract.ex:217
+#, elixir-autogen, elixir-format
+msgid "The offeror hands over everything in the condition shown in the photos of the evidence package."
+msgstr "Der Anbieter übergibt alles in dem Zustand, der auf den Fotos des Beweispakets zu sehen ist."
+
+#: lib/basa/witness/contract.ex:188
+#, elixir-autogen, elixir-format
+msgid "The offeror lets the acceptor use “%{offer}”, made up of:"
+msgstr "Der Anbieter überlässt dem Annehmenden „%{offer}“ zur Nutzung, bestehend aus:"
+
+#: lib/basa/witness/contract.ex:98
+#, elixir-autogen, elixir-format
+msgid "The parties first try to settle any dispute amicably; otherwise a competent court decides."
+msgstr "Die Parteien versuchen zunächst, jeden Streit gütlich beizulegen; andernfalls entscheidet ein zuständiges Gericht."
+
+#: lib/basa/witness/contract.ex:158
+#: lib/basa/witness/contract.ex:203
+#, elixir-autogen, elixir-format
+msgid "The price is %{price}. The parties settle payment between themselves; BASA takes no part in the payment."
+msgstr "Der Preis beträgt %{price}. Die Parteien rechnen untereinander ab; BASA ist an der Zahlung nicht beteiligt."
+
+#: lib/basa/witness/contract.ex:213
+#, elixir-autogen, elixir-format
+msgid "There is no deposit."
+msgstr "Es gibt keine Kaution."
+
+#: lib/basa/witness/contract.ex:254
+#, elixir-autogen, elixir-format
+msgid "This contract is governed by the law of Ukraine, in particular the Civil Code of Ukraine."
+msgstr "Dieser Vertrag unterliegt dem Recht der Ukraine, insbesondere dem Zivilgesetzbuch der Ukraine."
+
+#: lib/basa/witness/contract.ex:261
+#, elixir-autogen, elixir-format
+msgid "This contract is governed by the law of the country where the offeror lives, without taking from a consumer the protection of the mandatory rules of their own country."
+msgstr "Dieser Vertrag unterliegt dem Recht des Landes, in dem der Anbieter lebt, ohne einem Verbraucher den Schutz der zwingenden Vorschriften seines eigenen Landes zu entziehen."
+
+#: lib/basa/witness/contract.ex:105
+#, elixir-autogen, elixir-format
+msgid "This contract is made in these languages: %{languages}. If the versions differ, the version in this language prevails: %{primary}."
+msgstr "Dieser Vertrag ist in diesen Sprachen abgefasst: %{languages}. Weichen die Fassungen voneinander ab, gilt die Fassung in dieser Sprache: %{primary}."
+
+#: lib/basa/witness/contract.ex:169
+#, elixir-autogen, elixir-format
+msgid "At the handover the acceptor confirms receipt with a delivery act and photos."
+msgstr "Bei der Übergabe bestätigt der Annehmende den Empfang mit einem Lieferprotokoll und Fotos."
+
+#: lib/basa/witness/contract.ex:164
+#, elixir-autogen, elixir-format
+msgid "Condition and claims"
+msgstr "Zustand und Beanstandungen"
+
+#: lib/basa/witness/contract.ex:150
+#, elixir-autogen, elixir-format
+msgid "Handover"
+msgstr "Übergabe"
+
+#: lib/basa/witness/contract.ex:155
+#, elixir-autogen, elixir-format
+msgid "Ownership passes to the acceptor at the handover."
+msgstr "Das Eigentum geht mit der Übergabe auf den Annehmenden über."
+
+#: lib/basa/witness/contract.ex:157
+#, elixir-autogen, elixir-format
+msgid "Price"
+msgstr "Preis"
+
+#: lib/basa/witness/contract.ex:125
+#, elixir-autogen, elixir-format
+msgid "Sale contract"
+msgstr "Kaufvertrag"
+
+#: lib/basa/witness/contract.ex:173
+#, elixir-autogen, elixir-format
+msgid "The acceptor may raise a claim for defects not shown in the photos within %{count} day of delivery; after that the delivery counts as accepted."
+msgid_plural "The acceptor may raise a claim for defects not shown in the photos within %{count} days of delivery; after that the delivery counts as accepted."
+msgstr[0] "Der Annehmende kann innerhalb von %{count} Tag nach der Lieferung Mängel beanstanden, die auf den Fotos nicht zu sehen sind; danach gilt die Lieferung als angenommen."
+msgstr[1] "Der Annehmende kann innerhalb von %{count} Tagen nach der Lieferung Mängel beanstanden, die auf den Fotos nicht zu sehen sind; danach gilt die Lieferung als angenommen."
+
+#: lib/basa/witness/contract.ex:151
+#, elixir-autogen, elixir-format
+msgid "The handover is on %{date} (time zone %{timezone})."
+msgstr "Die Übergabe findet am %{date} statt (Zeitzone %{timezone})."
+
+#: lib/basa/witness/contract.ex:143
+#, elixir-autogen, elixir-format
+msgid "The offeror sells to the acceptor “%{offer}”, made up of:"
+msgstr "Der Anbieter verkauft dem Annehmenden „%{offer}“, bestehend aus:"

@@ -1,0 +1,301 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+msgid "can't be blank"
+msgstr "boş bırakılamaz"
+
+#: lib/basa/i18n.ex:39
+#, elixir-autogen
+msgid "has already been taken"
+msgstr "zaten kullanılıyor"
+
+#: lib/basa/i18n.ex:37
+#, elixir-autogen
+msgid "is invalid"
+msgstr "geçersiz"
+
+msgid "must be accepted"
+msgstr "kabul edilmelidir"
+
+msgid "has invalid format"
+msgstr "biçimi geçersiz"
+
+msgid "has an invalid entry"
+msgstr "geçersiz bir giriş içeriyor"
+
+msgid "is reserved"
+msgstr "ayrılmış"
+
+msgid "does not match confirmation"
+msgstr "onayla eşleşmiyor"
+
+msgid "is still associated with this entry"
+msgstr "hâlâ bu kayıtla ilişkili"
+
+msgid "are still associated with this entry"
+msgstr "hâlâ bu kayıtla ilişkili"
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "%{count} öğe içermelidir"
+msgstr[1] "%{count} öğe içermelidir"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "%{count} karakter olmalıdır"
+msgstr[1] "%{count} karakter olmalıdır"
+
+msgid "should be %{count} byte(s)"
+msgid_plural "should be %{count} byte(s)"
+msgstr[0] "%{count} bayt olmalıdır"
+msgstr[1] "%{count} bayt olmalıdır"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "en az %{count} öğe içermelidir"
+msgstr[1] "en az %{count} öğe içermelidir"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "en az %{count} karakter olmalıdır"
+msgstr[1] "en az %{count} karakter olmalıdır"
+
+msgid "should be at least %{count} byte(s)"
+msgid_plural "should be at least %{count} byte(s)"
+msgstr[0] "en az %{count} bayt olmalıdır"
+msgstr[1] "en az %{count} bayt olmalıdır"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "en fazla %{count} öğe içermelidir"
+msgstr[1] "en fazla %{count} öğe içermelidir"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "en fazla %{count} karakter olmalıdır"
+msgstr[1] "en fazla %{count} karakter olmalıdır"
+
+msgid "should be at most %{count} byte(s)"
+msgid_plural "should be at most %{count} byte(s)"
+msgstr[0] "en fazla %{count} bayt olmalıdır"
+msgstr[1] "en fazla %{count} bayt olmalıdır"
+
+msgid "must be less than %{number}"
+msgstr "%{number} değerinden küçük olmalıdır"
+
+msgid "must be greater than %{number}"
+msgstr "%{number} değerinden büyük olmalıdır"
+
+msgid "must be less than or equal to %{number}"
+msgstr "%{number} değerine eşit veya küçük olmalıdır"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "%{number} değerine eşit veya büyük olmalıdır"
+
+msgid "must be equal to %{number}"
+msgstr "%{number} değerine eşit olmalıdır"
+
+#: lib/basa/i18n.ex:44
+#, elixir-autogen, elixir-format
+msgid "atom must be one of %{atom_list}, got: %{value}"
+msgstr "şunlardan biri olmalıdır: %{atom_list}, gelen: %{value}"
+
+#: lib/basa/i18n.ex:54
+#, elixir-autogen, elixir-format
+msgid "can no longer be cancelled (%{hours} h rule)"
+msgstr "artık iptal edilemez (%{hours} saat kuralı)"
+
+#: lib/basa/i18n.ex:56
+#, elixir-autogen, elixir-format
+msgid "is in the past"
+msgstr "geçmişte"
+
+#: lib/basa/i18n.ex:60
+#, elixir-autogen, elixir-format
+msgid "is longer than the maximum of %{units}"
+msgstr "en fazla %{units} sınırını aşıyor"
+
+#: lib/basa/i18n.ex:53
+#, elixir-autogen, elixir-format
+msgid "is not a known time zone"
+msgstr "bilinen bir saat dilimi değil"
+
+#: lib/basa/i18n.ex:50
+#, elixir-autogen, elixir-format
+msgid "is not available"
+msgstr "mevcut değil"
+
+#: lib/basa/i18n.ex:48
+#, elixir-autogen, elixir-format
+msgid "is not available for booking"
+msgstr "rezervasyona açık değil"
+
+#: lib/basa/i18n.ex:46
+#, elixir-autogen, elixir-format
+msgid "is not yours"
+msgstr "senin değil"
+
+#: lib/basa/i18n.ex:61
+#, elixir-autogen, elixir-format
+msgid "is outside the opening hours"
+msgstr "çalışma saatlerinin dışında"
+
+#: lib/basa/i18n.ex:34
+#, elixir-autogen, elixir-format
+msgid "is required"
+msgstr "zorunludur"
+
+#: lib/basa/i18n.ex:51
+#, elixir-autogen, elixir-format
+msgid "is required for slot pricing"
+msgstr "zaman dilimi fiyatı için zorunludur"
+
+#: lib/basa/i18n.ex:59
+#, elixir-autogen, elixir-format
+msgid "is shorter than the minimum of %{units}"
+msgstr "en az %{units} sınırının altında"
+
+#: lib/basa/i18n.ex:49
+#, elixir-autogen, elixir-format
+msgid "is your own offer"
+msgstr "kendi ilanın"
+
+#: lib/basa/i18n.ex:40
+#, elixir-autogen, elixir-format
+msgid "length must be greater than or equal to %{min}"
+msgstr "uzunluk en az %{min} olmalıdır"
+
+#: lib/basa/i18n.ex:41
+#, elixir-autogen, elixir-format
+msgid "length must be less than or equal to %{max}"
+msgstr "uzunluk en fazla %{max} olmalıdır"
+
+#: lib/basa/i18n.ex:55
+#, elixir-autogen, elixir-format
+msgid "must be after the start"
+msgstr "başlangıçtan sonra olmalıdır"
+
+#: lib/basa/i18n.ex:57
+#, elixir-autogen, elixir-format
+msgid "must be at least %{hours} h from now"
+msgstr "şu andan en az %{hours} saat sonra olmalıdır"
+
+#: lib/basa/i18n.ex:52
+#, elixir-autogen, elixir-format
+msgid "must be at least the minimum"
+msgstr "en az asgari değer olmalıdır"
+
+#: lib/basa/i18n.ex:42
+#, elixir-autogen, elixir-format
+msgid "must be greater than or equal to %{min}"
+msgstr "%{min} değerine eşit veya büyük olmalıdır"
+
+#: lib/basa/i18n.ex:43
+#, elixir-autogen, elixir-format
+msgid "must be less than or equal to %{max}"
+msgstr "%{max} değerine eşit veya küçük olmalıdır"
+
+#: lib/basa/i18n.ex:47
+#, elixir-autogen, elixir-format
+msgid "must be one of your own"
+msgstr "kendi kayıtlarından biri olmalıdır"
+
+#: lib/basa/i18n.ex:38
+#, elixir-autogen, elixir-format
+msgid "must be present"
+msgstr "bulunmalıdır"
+
+#: lib/basa/i18n.ex:58
+#, elixir-autogen, elixir-format
+msgid "must cover whole %{minutes}-minute slots"
+msgstr "%{minutes} dakikalık tam zaman dilimlerini kapsamalıdır"
+
+#: lib/basa/i18n.ex:45
+#, elixir-autogen, elixir-format
+msgid "this slot was just taken"
+msgstr "bu zaman dilimi az önce doldu"
+
+#: lib/basa/i18n.ex:63
+#, elixir-autogen, elixir-format
+msgid "can't be more than the booking"
+msgstr "rezervasyondan fazla olamaz"
+
+#: lib/basa/i18n.ex:62
+#, elixir-autogen, elixir-format
+msgid "card payments are available in UAH, USD and EUR"
+msgstr "kartla ödeme UAH, USD ve EUR ile yapılabilir"
+
+#: lib/basa/i18n.ex:64
+#, elixir-autogen, elixir-format
+msgid "payments are unavailable right now, please try later"
+msgstr "ödemeler şu anda kullanılamıyor, lütfen daha sonra dene"
+
+#: lib/basa/i18n.ex:65
+#, elixir-autogen, elixir-format
+msgid "lot_empty"
+msgstr "En az bir eşya, kişi veya mekân ekle"
+
+#: lib/basa/i18n.ex:69
+#, elixir-autogen, elixir-format
+msgid "lot_high_value"
+msgstr "Yüksek değerli ilan: bir yönetici inceler"
+
+#: lib/basa/i18n.ex:67
+#, elixir-autogen, elixir-format
+msgid "lot_price_zero"
+msgstr "Sıfırdan büyük bir fiyat belirle"
+
+#: lib/basa/i18n.ex:68
+#, elixir-autogen, elixir-format
+msgid "lot_room_location"
+msgstr "Mekânın bir konuma ihtiyacı var"
+
+#: lib/basa/i18n.ex:66
+#, elixir-autogen, elixir-format
+msgid "lot_title_short"
+msgstr "Başlık çok kısa"
+
+#: lib/basa/i18n.ex:36
+#, elixir-autogen, elixir-format
+msgid "is already reserved by a buyer"
+msgstr "bir alıcı tarafından zaten ayrıldı"
+
+#: lib/basa/i18n.ex:35
+#, elixir-autogen, elixir-format
+msgid "pick one handover time"
+msgstr "tek bir teslim zamanı seçin"
+
+#: lib/basa/i18n.ex:70
+#, elixir-autogen, elixir-format
+msgid "lot_photos_checked"
+msgstr "Bazı fotoğraflar kontrolden sonra gizlendi: kaldırın veya değiştirin"
+
+#: lib/basa/i18n.ex:74
+#, elixir-autogen, elixir-format
+msgid "photo_documents"
+msgstr "Fotoğraf bir belge veya banka kartı içerebilir: bir yönetici kontrol edecek"
+
+#: lib/basa/i18n.ex:73
+#, elixir-autogen, elixir-format
+msgid "photo_harm"
+msgstr "Fotoğraf silah, uyuşturucu veya yaralanma içerebilir: bir yönetici kontrol edecek"
+
+#: lib/basa/i18n.ex:71
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_clear"
+msgstr "Fotoğraf çıplaklık içeriyor gibi görünüyor, bu yüzden gizlendi"
+
+#: lib/basa/i18n.ex:72
+#, elixir-autogen, elixir-format
+msgid "photo_nudity_possible"
+msgstr "Fotoğraf çıplaklık içerebilir: bir yönetici kontrol edecek"

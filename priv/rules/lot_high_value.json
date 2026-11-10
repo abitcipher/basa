@@ -1,0 +1,77 @@
+{
+  "key": "lot_high_value",
+  "version": 1,
+  "label": "High-value offers are checked",
+  "description": "Offers whose items are worth more than 5,000,000 go to an admin first.",
+  "severity": "flag",
+  "points": [
+    "lot.submit"
+  ],
+  "subjects": [
+    "lot"
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "input",
+        "type": "inputNode",
+        "name": "Request",
+        "position": {
+          "x": 40,
+          "y": 200
+        }
+      },
+      {
+        "id": "check",
+        "type": "expressionNode",
+        "name": "High-value offers are checked",
+        "position": {
+          "x": 300,
+          "y": 200
+        },
+        "content": {
+          "expressions": [
+            {
+              "id": "e1",
+              "key": "valid",
+              "value": "lot.totalValue <= 5000000"
+            },
+            {
+              "id": "e2",
+              "key": "code",
+              "value": "(lot.totalValue <= 5000000) ? null : 'lot_high_value'"
+            },
+            {
+              "id": "e3",
+              "key": "message",
+              "value": "(lot.totalValue <= 5000000) ? null : 'High-value offer: an admin will check it'"
+            }
+          ]
+        }
+      },
+      {
+        "id": "output",
+        "type": "outputNode",
+        "name": "Response",
+        "position": {
+          "x": 560,
+          "y": 200
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "in",
+        "sourceId": "input",
+        "targetId": "check",
+        "type": "edge"
+      },
+      {
+        "id": "out",
+        "sourceId": "check",
+        "targetId": "output",
+        "type": "edge"
+      }
+    ]
+  }
+}

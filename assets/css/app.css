@@ -1,0 +1,848 @@
+
+@import "tailwindcss" source(none);
+@source "../../deps/ash_authentication_phoenix";
+@import "phoenix-colocated/basa/colocated.css";
+@import "../vendor/mishka_chelekom.css";
+@import "../../deps/basa_tma/assets/css/telegram.css";
+@source "../css";
+@source "../js";
+@source "../widgets/src";
+@source "../../lib/basa_web";
+@source "../../deps/basa_tma/lib";
+@source "../../_build/dev/phoenix-colocated/basa/*/";
+
+@plugin "../vendor/heroicons";
+
+@custom-variant phx-click-loading (.phx-click-loading&, .phx-click-loading &);
+@custom-variant phx-submit-loading (.phx-submit-loading&, .phx-submit-loading &);
+@custom-variant phx-change-loading (.phx-change-loading&, .phx-change-loading &);
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@theme {
+  --color-base-border-light: var(--base-border-light);
+  --color-base-border-dark: var(--base-border-dark);
+  --color-base-text-light: var(--base-text-light);
+  --color-base-text-dark: var(--base-text-dark);
+  --color-base-bg-dark: var(--base-bg-dark);
+  --color-base-hover-light: var(--base-hover-light);
+  --color-base-hover-dark: var(--base-hover-dark);
+  --color-base-text-hover-light: var(--base-text-hover-light);
+  --color-base-text-hover-dark: var(--base-text-hover-dark);
+  --color-base-disabled-bg-light: var(--base-disabled-bg-light);
+  --color-base-disabled-bg-dark: var(--base-disabled-bg-dark);
+  --color-base-disabled-text-light: var(--base-disabled-text-light);
+  --color-base-disabled-text-dark: var(--base-disabled-text-dark);
+  --color-base-disabled-border-light: var(--base-disabled-border-light);
+  --color-base-disabled-border-dark: var(--base-disabled-border-dark);
+  --color-base-tab-bg-light: var(--base-tab-bg-light);
+
+  --color-default-dark-bg: var(--default-dark-bg);
+  --color-ring-dark: var(--ring-dark);
+  --color-default-light-gray: var(--default-light-gray);
+  --color-default-device-dark: var(--default-device-dark);
+  --color-default-gray: var(--default-gray);
+  --color-range-light-gray: var(--range-light-gray);
+
+  --color-natural-light: var(--natural-light);
+  --color-natural-dark: var(--natural-dark);
+  --color-natural-hover-light: var(--natural-hover-light);
+  --color-natural-hover-dark: var(--natural-hover-dark);
+  --color-natural-bg-light: var(--natural-bg-light);
+  --color-natural-bg-dark: var(--natural-bg-dark);
+  --color-natural-border-light: var(--natural-border-light);
+  --color-natural-border-dark: var(--natural-border-dark);
+  --color-natural-bordered-text-light: var(--natural-bordered-text-light);
+  --color-natural-bordered-text-dark: var(--natural-bordered-text-dark);
+  --color-natural-bordered-bg-light: var(--natural-bordered-bg-light);
+  --color-natural-bordered-bg-dark: var(--natural-bordered-bg-dark);
+  --color-natural-disabled-light: var(--natural-disabled-light);
+  --color-natural-disabled-dark: var(--natural-disabled-dark);
+  --color-natural-bordered-hover-light: var(--natural-bordered-hover-light);
+  --color-natural-bordered-hover-dark: var(--natural-bordered-hover-dark);
+
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-hover-light: var(--primary-hover-light);
+  --color-primary-hover-dark: var(--primary-hover-dark);
+  --color-primary-bordered-text-light: var(--primary-bordered-text-light);
+  --color-primary-bordered-text-dark: var(--primary-bordered-text-dark);
+  --color-primary-bordered-bg-light: var(--primary-bordered-bg-light);
+  --color-primary-bordered-bg-dark: var(--primary-bordered-bg-dark);
+  --color-primary-bordered-hover-light: var(--primary-bordered-hover-light);
+  --color-primary-bordered-hover-dark: var(--primary-bordered-hover-dark);
+  --color-primary-indicator-light: var(--primary-indicator-light);
+  --color-primary-indicator-dark: var(--primary-indicator-dark);
+
+  --color-secondary-light: var(--secondary-light);
+  --color-secondary-dark: var(--secondary-dark);
+  --color-secondary-hover-light: var(--secondary-hover-light);
+  --color-secondary-hover-dark: var(--secondary-hover-dark);
+  --color-secondary-bordered-text-light: var(--secondary-bordered-text-light);
+  --color-secondary-bordered-text-dark: var(--secondary-bordered-text-dark);
+  --color-secondary-bordered-bg-light: var(--secondary-bordered-bg-light);
+  --color-secondary-bordered-bg-dark: var(--secondary-bordered-bg-dark);
+  --color-secondary-bordered-hover-light: var(--secondary-bordered-hover-light);
+  --color-secondary-bordered-hover-dark: var(--secondary-bordered-hover-dark);
+  --color-secondary-indicator-light: var(--secondary-indicator-light);
+  --color-secondary-indicator-dark: var(--secondary-indicator-dark);
+
+  --color-success-light: var(--success-light);
+  --color-success-dark: var(--success-dark);
+  --color-success-hover-light: var(--success-hover-light);
+  --color-success-hover-dark: var(--success-hover-dark);
+  --color-success-bordered-text-light: var(--success-bordered-text-light);
+  --color-success-bordered-text-dark: var(--success-bordered-text-dark);
+  --color-success-bordered-bg-light: var(--success-bordered-bg-light);
+  --color-success-bordered-bg-dark: var(--success-bordered-bg-dark);
+  --color-success-bordered-hover-light: var(--success-bordered-hover-light);
+  --color-success-bordered-hover-dark: var(--success-bordered-hover-dark);
+  --color-success-indicator-light: var(--success-indicator-light);
+  --color-success-indicator-alt-light: var(--success-indicator-alt-light);
+  --color-success-indicator-dark: var(--success-indicator-dark);
+
+  --color-warning-light: var(--warning-light);
+  --color-warning-dark: var(--warning-dark);
+  --color-warning-hover-light: var(--warning-hover-light);
+  --color-warning-hover-dark: var(--warning-hover-dark);
+  --color-warning-bordered-text-light: var(--warning-bordered-text-light);
+  --color-warning-bordered-text-dark: var(--warning-bordered-text-dark);
+  --color-warning-bordered-bg-light: var(--warning-bordered-bg-light);
+  --color-warning-bordered-bg-dark: var(--warning-bordered-bg-dark);
+  --color-warning-bordered-hover-light: var(--warning-bordered-hover-light);
+  --color-warning-bordered-hover-dark: var(--warning-bordered-hover-dark);
+  --color-warning-indicator-light: var(--warning-indicator-light);
+  --color-warning-indicator-alt-light: var(--warning-indicator-alt-light);
+  --color-warning-indicator-dark: var(--warning-indicator-dark);
+
+  --color-danger-light: var(--danger-light);
+  --color-danger-dark: var(--danger-dark);
+  --color-danger-hover-light: var(--danger-hover-light);
+  --color-danger-hover-dark: var(--danger-hover-dark);
+  --color-danger-bordered-text-light: var(--danger-bordered-text-light);
+  --color-danger-bordered-text-dark: var(--danger-bordered-text-dark);
+  --color-danger-bordered-bg-light: var(--danger-bordered-bg-light);
+  --color-danger-bordered-bg-dark: var(--danger-bordered-bg-dark);
+  --color-danger-bordered-hover-light: var(--danger-bordered-hover-light);
+  --color-danger-bordered-hover-dark: var(--danger-bordered-hover-dark);
+  --color-danger-indicator-light: var(--danger-indicator-light);
+  --color-danger-indicator-alt-light: var(--danger-indicator-alt-light);
+  --color-danger-indicator-dark: var(--danger-indicator-dark);
+
+  --color-info-light: var(--info-light);
+  --color-info-dark: var(--info-dark);
+  --color-info-hover-light: var(--info-hover-light);
+  --color-info-hover-dark: var(--info-hover-dark);
+  --color-info-bordered-text-light: var(--info-bordered-text-light);
+  --color-info-bordered-text-dark: var(--info-bordered-text-dark);
+  --color-info-bordered-bg-light: var(--info-bordered-bg-light);
+  --color-info-bordered-bg-dark: var(--info-bordered-bg-dark);
+  --color-info-bordered-hover-light: var(--info-bordered-hover-light);
+  --color-info-bordered-hover-dark: var(--info-bordered-hover-dark);
+  --color-info-indicator-light: var(--info-indicator-light);
+  --color-info-indicator-alt-light: var(--info-indicator-alt-light);
+  --color-info-indicator-dark: var(--info-indicator-dark);
+
+  --color-misc-light: var(--misc-light);
+  --color-misc-dark: var(--misc-dark);
+  --color-misc-hover-light: var(--misc-hover-light);
+  --color-misc-hover-dark: var(--misc-hover-dark);
+  --color-misc-bordered-text-light: var(--misc-bordered-text-light);
+  --color-misc-bordered-text-dark: var(--misc-bordered-text-dark);
+  --color-misc-bordered-bg-light: var(--misc-bordered-bg-light);
+  --color-misc-bordered-bg-dark: var(--misc-bordered-bg-dark);
+  --color-misc-bordered-hover-light: var(--misc-bordered-hover-light);
+  --color-misc-bordered-hover-dark: var(--misc-bordered-hover-dark);
+  --color-misc-indicator-light: var(--misc-indicator-light);
+  --color-misc-indicator-alt-light: var(--misc-indicator-alt-light);
+  --color-misc-indicator-dark: var(--misc-indicator-dark);
+
+  --color-dawn-light: var(--dawn-light);
+  --color-dawn-dark: var(--dawn-dark);
+  --color-dawn-hover-light: var(--dawn-hover-light);
+  --color-dawn-hover-dark: var(--dawn-hover-dark);
+  --color-dawn-bordered-text-light: var(--dawn-bordered-text-light);
+  --color-dawn-bordered-text-dark: var(--dawn-bordered-text-dark);
+  --color-dawn-bordered-bg-light: var(--dawn-bordered-bg-light);
+  --color-dawn-bordered-bg-dark: var(--dawn-bordered-bg-dark);
+  --color-dawn-bordered-hover-light: var(--dawn-bordered-hover-light);
+  --color-dawn-bordered-hover-dark: var(--dawn-bordered-hover-dark);
+  --color-dawn-indicator-light: var(--dawn-indicator-light);
+  --color-dawn-indicator-alt-light: var(--dawn-indicator-alt-light);
+  --color-dawn-indicator-dark: var(--dawn-indicator-dark);
+
+  --color-silver-light: var(--silver-light);
+  --color-silver-dark: var(--silver-dark);
+  --color-silver-hover-light: var(--silver-hover-light);
+  --color-silver-hover-dark: var(--silver-hover-dark);
+  --color-silver-hover-bordered-light: var(--silver-hover-bordered-light);
+  --color-silver-hover-bordered-dark: var(--silver-hover-bordered-dark);
+  --color-silver-bordered-text-light: var(--silver-bordered-text-light);
+  --color-silver-bordered-text-dark: var(--silver-bordered-text-dark);
+  --color-silver-bordered-bg-light: var(--silver-bordered-bg-light);
+  --color-silver-bordered-bg-dark: var(--silver-bordered-bg-dark);
+  --color-silver-bordered-hover-light: var(--silver-bordered-hover-light);
+  --color-silver-bordered-hover-dark: var(--silver-bordered-hover-dark);
+  --color-silver-indicator-light: var(--silver-indicator-light);
+  --color-silver-indicator-alt-light: var(--silver-indicator-alt-light);
+  --color-silver-indicator-dark: var(--silver-indicator-dark);
+
+  --color-bordered-white-border: var(--bordered-white-border);
+  --color-bordered-dark-bg: var(--bordered-dark-bg);
+  --color-bordered-dark-border: var(--bordered-dark-border);
+
+  --color-disabled-bg-light: var(--disabled-bg-light);
+  --color-disabled-bg-dark: var(--disabled-bg-dark);
+  --color-disabled-text-light: var(--disabled-text-light);
+  --color-disabled-text-dark: var(--disabled-text-dark);
+
+  --color-shadow-natural: var(--shadow-natural);
+  --color-shadow-primary: var(--shadow-primary);
+  --color-shadow-secondary: var(--shadow-secondary);
+  --color-shadow-success: var(--shadow-success);
+  --color-shadow-warning: var(--shadow-warning);
+  --color-shadow-danger: var(--shadow-danger);
+  --color-shadow-info: var(--shadow-info);
+  --color-shadow-misc: var(--shadow-misc);
+  --color-shadow-dawn: var(--shadow-dawn);
+  --color-shadow-silver: var(--shadow-silver);
+
+  --color-gradient-natural-from-light: var(--gradient-natural-from-light);
+  --color-gradient-natural-to-light: var(--gradient-natural-to-light);
+  --color-gradient-natural-from-dark: var(--gradient-natural-from-dark);
+
+  --color-gradient-primary-from-light: var(--gradient-primary-from-light);
+  --color-gradient-primary-to-light: var(--gradient-primary-to-light);
+  --color-gradient-primary-from-dark: var(--gradient-primary-from-dark);
+  --color-gradient-primary-to-dark: var(--gradient-primary-to-dark);
+
+  --color-gradient-secondary-from-light: var(--gradient-secondary-from-light);
+  --color-gradient-secondary-to-light: var(--gradient-secondary-to-light);
+  --color-gradient-secondary-from-dark: var(--gradient-secondary-from-dark);
+  --color-gradient-secondary-to-dark: var(--gradient-secondary-to-dark);
+
+  --color-gradient-success-from-light: var(--gradient-success-from-light);
+  --color-gradient-success-to-light: var(--gradient-success-to-light);
+  --color-gradient-success-from-dark: var(--gradient-success-from-dark);
+  --color-gradient-success-to-dark: var(--gradient-success-to-dark);
+
+  --color-gradient-warning-from-light: var(--gradient-warning-from-light);
+  --color-gradient-warning-to-light: var(--gradient-warning-to-light);
+  --color-gradient-warning-from-dark: var(--gradient-warning-from-dark);
+  --color-gradient-warning-to-dark: var(--gradient-warning-to-dark);
+
+  --color-gradient-danger-from-light: var(--gradient-danger-from-light);
+  --color-gradient-danger-to-light: var(--gradient-danger-to-light);
+  --color-gradient-danger-from-dark: var(--gradient-danger-from-dark);
+  --color-gradient-danger-to-dark: var(--gradient-danger-to-dark);
+
+  --color-gradient-info-from-light: var(--gradient-info-from-light);
+  --color-gradient-info-to-light: var(--gradient-info-to-light);
+  --color-gradient-info-from-dark: var(--gradient-info-from-dark);
+  --color-gradient-info-to-dark: var(--gradient-info-to-dark);
+
+  --color-gradient-misc-from-light: var(--gradient-misc-from-light);
+  --color-gradient-misc-to-light: var(--gradient-misc-to-light);
+  --color-gradient-misc-from-dark: var(--gradient-misc-from-dark);
+  --color-gradient-misc-to-dark: var(--gradient-misc-to-dark);
+
+  --color-gradient-dawn-from-light: var(--gradient-dawn-from-light);
+  --color-gradient-dawn-to-light: var(--gradient-dawn-to-light);
+  --color-gradient-dawn-from-dark: var(--gradient-dawn-from-dark);
+  --color-gradient-dawn-to-dark: var(--gradient-dawn-to-dark);
+
+  --color-gradient-silver-from-light: var(--gradient-silver-from-light);
+  --color-gradient-silver-to-light: var(--gradient-silver-to-light);
+  --color-gradient-silver-from-dark: var(--gradient-silver-from-dark);
+  --color-gradient-silver-to-dark: var(--gradient-silver-to-dark);
+
+  --color-primary-gradient-indicator-dark: var(
+      --primary-gradient-indicator-dark
+  );
+  --color-secondary-gradient-indicator-dark: var(
+      --secondary-gradient-indicator-dark
+  );
+  --color-success-gradient-indicator-dark: var(
+      --success-gradient-indicator-dark
+  );
+  --color-warning-gradient-indicator-dark: var(
+      --warning-gradient-indicator-dark
+  );
+  --color-danger-gradient-indicator-dark: var(
+      --danger-gradient-indicator-dark
+  );
+  --color-info-gradient-indicator-dark: var(--info-gradient-indicator-dark);
+  --color-misc-gradient-indicator-dark: var(--misc-gradient-indicator-dark);
+  --color-dawn-gradient-indicator-dark: var(--dawn-gradient-indicator-dark);
+
+  --color-primary-border-light: var(--primary-border-light);
+  --color-primary-border-dark: var(--primary-border-dark);
+  --color-secondary-border-light: var(--secondary-border-light);
+  --color-secondary-border-dark: var(--secondary-border-dark);
+  --color-success-border-light: var(--success-border-light);
+  --color-success-border-dark: var(--success-border-dark);
+  --color-warning-border-light: var(--warning-border-light);
+  --color-warning-border-dark: var(--warning-border-dark);
+  --color-danger-border-light: var(--danger-border-light);
+  --color-danger-border-dark: var(--danger-border-dark);
+  --color-info-border-light: var(--info-border-light);
+  --color-info-border-dark: var(--info-border-dark);
+  --color-misc-border-light: var(--misc-border-light);
+  --color-misc-border-dark: var(--misc-border-dark);
+  --color-dawn-border-light: var(--dawn-border-light);
+  --color-dawn-border-dark: var(--dawn-border-dark);
+  --color-silver-border-light: var(--silver-border-light);
+  --color-silver-border-dark: var(--silver-border-dark);
+
+  --color-base-form-border-light: var(--base-form-border-light);
+  --color-base-form-border-dark: var(--base-form-border-dark);
+  --color-base-form-focus-dark: var(--base-form-focus-dark);
+  --color-form-white-text: var(--form-white-text);
+  --color-form-white-focus: var(--form-white-focus);
+
+  --color-checkbox-white-checked: var(--checkbox-white-checked);
+  --color-checkbox-dark-checked: var(--checkbox-dark-checked);
+  --color-checkbox-unchecked-dark: var(--checkbox-unchecked-dark);
+  --color-checkbox-primary-checked: var(--checkbox-primary-checked);
+  --color-checkbox-secondary-checked: var(--checkbox-secondary-checked);
+  --color-checkbox-success-checked: var(--checkbox-success-checked);
+  --color-checkbox-warning-checked: var(--checkbox-warning-checked);
+  --color-checkbox-danger-checked: var(--checkbox-danger-checked);
+  --color-checkbox-info-checked: var(--checkbox-info-checked);
+  --color-checkbox-misc-checked: var(--checkbox-misc-checked);
+  --color-checkbox-dawn-checked: var(--checkbox-dawn-checked);
+  --color-checkbox-silver-checked: var(--checkbox-silver-checked);
+
+  --color-stepper-loading-icon-fill: var(--stepper-loading-icon-fill);
+  --color-stepper-current-step-text-light: var(
+      --stepper-current-step-text-light
+  );
+  --color-stepper-current-step-text-dark: var(
+      --stepper-current-step-text-dark
+  );
+  --color-stepper-current-step-border-light: var(
+      --stepper-current-step-border-light
+  );
+  --color-stepper-current-step-border-dark: var(
+      --stepper-current-step-border-dark
+  );
+  --color-stepper-completed-step-bg-light: var(
+      --stepper-completed-step-bg-light
+  );
+  --color-stepper-completed-step-bg-dark: var(
+      --stepper-completed-step-bg-dark
+  );
+  --color-stepper-completed-step-border-light: var(
+      --stepper-completed-step-border-light
+  );
+  --color-stepper-completed-step-border-dark: var(
+      --stepper-completed-step-border-dark
+  );
+  --color-stepper-canceled-step-bg-light: var(
+      --stepper-canceled-step-bg-light
+  );
+  --color-stepper-canceled-step-bg-dark: var(--stepper-canceled-step-bg-dark);
+  --color-stepper-canceled-step-border-light: var(
+      --stepper-canceled-step-border-light
+  );
+  --color-stepper-canceled-step-border-dark: var(
+      --stepper-canceled-step-border-dark
+  );
+  --color-stepper-separator-completed-border-light: var(
+      --stepper-separator-completed-border-light
+  );
+  --color-stepper-separator-completed-border-dark: var(
+      --stepper-separator-completed-border-dark
+  );
+}
+
+[data-phx-session], [data-phx-teleported-src] { display: contents }
+
+@layer base {
+  html, body { @apply bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100; }
+}
+
+html[data-telegram] .basa-header,
+html[data-telegram] #bottom-dock {
+  background-color: var(--tg-theme-bg-color);
+  border-color: var(--tg-theme-section-separator-color, transparent);
+}
+
+html[data-telegram] {
+  --primary-light: var(--tg-theme-button-color);
+  --primary-dark: var(--tg-theme-button-color);
+  --primary-hover-light: var(--tg-theme-button-color);
+  --primary-hover-dark: var(--tg-theme-button-color);
+}
+
+@layer components {
+  #app-main {
+    --glow-colour: color-mix(in oklab, rgb(var(--glow-rgb, 0 204 255)) 70%, white);
+    --glow-alpha: 0.95;
+  }
+
+  [data-theme="dark"] #app-main {
+    --glow-colour: rgb(var(--glow-rgb, 0 204 255));
+    --glow-alpha: 0.9;
+  }
+
+  :where(#app-main:not([data-glow="off"]))
+    :where([role="region"]:not(.fixed, .scroll-area-wrapper, [role="region"] [role="region"])) {
+    position: relative;
+  }
+
+  :where(#app-main:not([data-glow="off"]))
+    :where([role="region"]:not(.fixed, .scroll-area-wrapper, [role="region"] [role="region"]))::before,
+  :where([data-theme="dark"] #app-main:not([data-glow="off"]))
+    :where([role="region"]:not(.fixed, .scroll-area-wrapper, [role="region"] [role="region"]))::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: var(--glow-on, 0);
+    transition: opacity 300ms ease;
+  }
+
+  :where(#app-main:not([data-glow="off"]))
+    :where([role="region"]:not(.fixed, .scroll-area-wrapper, [role="region"] [role="region"]))::before {
+    padding: 1.5px;
+    background: radial-gradient(
+      18rem circle at var(--gx, -100rem) var(--gy, -100rem),
+      color-mix(in oklab, var(--glow-colour) calc(var(--glow-alpha) * 100%), transparent),
+      transparent 70%
+    );
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    mask-composite: exclude;
+  }
+
+  :where([data-theme="dark"] #app-main:not([data-glow="off"]))
+    :where([role="region"]:not(.fixed, .scroll-area-wrapper, [role="region"] [role="region"]))::after {
+    background: radial-gradient(
+      24rem circle at var(--gx, -100rem) var(--gy, -100rem),
+      color-mix(in oklab, var(--glow-colour) 7%, transparent),
+      transparent 70%
+    );
+  }
+}
+
+body > :where([data-floating-content], .dropdown-content) {
+  z-index: 60;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #app-main [role="region"]::before,
+  #app-main [role="region"]::after {
+    transition: none;
+  }
+}
+
+:root {
+  --brand-cyan: #00ccff;
+  --brand-green: #00d400;
+  --brand-yellow: #ffd42a;
+  --brand-orange: #ff7f2a;
+  --brand-cyan-deep: #007ea3;
+  --brand-green-deep: #0b7a1e;
+  --brand-yellow-deep: #8a6600;
+  --brand-orange-deep: #c2510a;
+  --brand-cyan-soft: #d9f6ff;
+  --brand-green-soft: #dcf9dc;
+  --brand-yellow-soft: #fff4c7;
+  --brand-orange-soft: #ffe6d5;
+}
+
+[data-theme="dark"] {
+  --brand-cyan-soft: #00394a;
+  --brand-green-soft: #0b3a12;
+  --brand-yellow-soft: #3d3000;
+  --brand-orange-soft: #47210a;
+}
+
+.hero-chevron-left,
+.hero-chevron-left-solid,
+.hero-chevron-left-mini,
+.hero-chevron-left-micro,
+.hero-arrow-left,
+.hero-arrow-left-solid,
+.hero-arrow-left-mini,
+.hero-arrow-left-micro {
+  -webkit-mask-image: url("/images/icons/brand/left.svg");
+  mask-image: url("/images/icons/brand/left.svg");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.hero-chevron-right,
+.hero-chevron-right-solid,
+.hero-chevron-right-mini,
+.hero-chevron-right-micro,
+.hero-arrow-right,
+.hero-arrow-right-solid,
+.hero-arrow-right-mini,
+.hero-arrow-right-micro {
+  -webkit-mask-image: url("/images/icons/brand/right.svg");
+  mask-image: url("/images/icons/brand/right.svg");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.hero-chevron-up,
+.hero-chevron-up-solid,
+.hero-chevron-up-mini,
+.hero-chevron-up-micro,
+.hero-arrow-up,
+.hero-arrow-up-solid,
+.hero-arrow-up-mini,
+.hero-arrow-up-micro {
+  -webkit-mask-image: url("/images/icons/brand/up.svg");
+  mask-image: url("/images/icons/brand/up.svg");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.hero-chevron-down,
+.hero-chevron-down-solid,
+.hero-chevron-down-mini,
+.hero-chevron-down-micro,
+.hero-arrow-down,
+.hero-arrow-down-solid,
+.hero-arrow-down-mini,
+.hero-arrow-down-micro {
+  -webkit-mask-image: url("/images/icons/brand/down.svg");
+  mask-image: url("/images/icons/brand/down.svg");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.brand-icon {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: var(--brand-icon) center / contain no-repeat;
+  mask: var(--brand-icon) center / contain no-repeat;
+}
+.brand-icon-up { --brand-icon: url("/images/icons/brand/up.svg"); }
+.brand-icon-down { --brand-icon: url("/images/icons/brand/down.svg"); }
+.brand-icon-left { --brand-icon: url("/images/icons/brand/left.svg"); }
+.brand-icon-right { --brand-icon: url("/images/icons/brand/right.svg"); }
+.brand-icon-left-alt { --brand-icon: url("/images/icons/brand/left-alt.svg"); }
+.brand-icon-right-alt { --brand-icon: url("/images/icons/brand/right-alt.svg"); }
+
+html[data-btn-action="cyan"] {
+  --ui-action: #007ea3;
+  --ui-action-hover: #006685;
+  --ui-action-text: #006685;
+  --ui-action-soft: #e6f9ff;
+  --ui-action-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-action="cyan"] {
+  --ui-action: #33d6ff;
+  --ui-action-hover: #80e6ff;
+  --ui-action-text: #80e6ff;
+  --ui-action-soft: #00303d;
+  --ui-action-on: #0a0a0a;
+}
+html[data-btn-nav="cyan"] {
+  --ui-nav: #007ea3;
+  --ui-nav-hover: #006685;
+  --ui-nav-text: #006685;
+  --ui-nav-soft: #e6f9ff;
+  --ui-nav-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-nav="cyan"] {
+  --ui-nav: #33d6ff;
+  --ui-nav-hover: #80e6ff;
+  --ui-nav-text: #80e6ff;
+  --ui-nav-soft: #00303d;
+  --ui-nav-on: #0a0a0a;
+}
+html[data-btn-action="green"] {
+  --ui-action: #0b7a1e;
+  --ui-action-hover: #086418;
+  --ui-action-text: #086418;
+  --ui-action-soft: #e8fbe8;
+  --ui-action-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-action="green"] {
+  --ui-action: #3ee05a;
+  --ui-action-hover: #8eeb9c;
+  --ui-action-text: #8eeb9c;
+  --ui-action-soft: #002b08;
+  --ui-action-on: #0a0a0a;
+}
+html[data-btn-nav="green"] {
+  --ui-nav: #0b7a1e;
+  --ui-nav-hover: #086418;
+  --ui-nav-text: #086418;
+  --ui-nav-soft: #e8fbe8;
+  --ui-nav-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-nav="green"] {
+  --ui-nav: #3ee05a;
+  --ui-nav-hover: #8eeb9c;
+  --ui-nav-text: #8eeb9c;
+  --ui-nav-soft: #002b08;
+  --ui-nav-on: #0a0a0a;
+}
+html[data-btn-action="yellow"] {
+  --ui-action: #8a6600;
+  --ui-action-hover: #6e5100;
+  --ui-action-text: #6e5100;
+  --ui-action-soft: #fff9e0;
+  --ui-action-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-action="yellow"] {
+  --ui-action: #ffd42a;
+  --ui-action-hover: #ffe07a;
+  --ui-action-text: #ffe07a;
+  --ui-action-soft: #332800;
+  --ui-action-on: #0a0a0a;
+}
+html[data-btn-nav="yellow"] {
+  --ui-nav: #8a6600;
+  --ui-nav-hover: #6e5100;
+  --ui-nav-text: #6e5100;
+  --ui-nav-soft: #fff9e0;
+  --ui-nav-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-nav="yellow"] {
+  --ui-nav: #ffd42a;
+  --ui-nav-hover: #ffe07a;
+  --ui-nav-text: #ffe07a;
+  --ui-nav-soft: #332800;
+  --ui-nav-on: #0a0a0a;
+}
+html[data-btn-action="orange"] {
+  --ui-action: #c2510a;
+  --ui-action-hover: #a04308;
+  --ui-action-text: #a04308;
+  --ui-action-soft: #fff2ea;
+  --ui-action-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-action="orange"] {
+  --ui-action: #ff9a57;
+  --ui-action-hover: #ffbf94;
+  --ui-action-text: #ffbf94;
+  --ui-action-soft: #3a1a05;
+  --ui-action-on: #0a0a0a;
+}
+html[data-btn-nav="orange"] {
+  --ui-nav: #c2510a;
+  --ui-nav-hover: #a04308;
+  --ui-nav-text: #a04308;
+  --ui-nav-soft: #fff2ea;
+  --ui-nav-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-nav="orange"] {
+  --ui-nav: #ff9a57;
+  --ui-nav-hover: #ffbf94;
+  --ui-nav-text: #ffbf94;
+  --ui-nav-soft: #3a1a05;
+  --ui-nav-on: #0a0a0a;
+}
+html[data-btn-style="black"] {
+  --ui-action: #0a0a0a; --ui-action-hover: #2a2a2a; --ui-action-text: #0a0a0a; --ui-action-soft: #ffffff; --ui-action-on: #ffffff;
+  --ui-nav: #0a0a0a; --ui-nav-hover: #2a2a2a; --ui-nav-text: #0a0a0a; --ui-nav-soft: #ffffff; --ui-nav-on: #ffffff;
+}
+html[data-theme="dark"][data-btn-style="black"] {
+  --ui-action: #0a0a0a; --ui-action-hover: #1f1f1f; --ui-action-text: #fafafa; --ui-action-soft: #0a0a0a; --ui-action-on: #fafafa;
+  --ui-nav: #0a0a0a; --ui-nav-hover: #1f1f1f; --ui-nav-text: #fafafa; --ui-nav-soft: #0a0a0a; --ui-nav-on: #fafafa;
+}
+html[data-btn-style="white"] {
+  --ui-action: #ffffff; --ui-action-hover: #f1f1f1; --ui-action-text: #0a0a0a; --ui-action-soft: #ffffff; --ui-action-on: #0a0a0a;
+  --ui-nav: #ffffff; --ui-nav-hover: #f1f1f1; --ui-nav-text: #0a0a0a; --ui-nav-soft: #ffffff; --ui-nav-on: #0a0a0a;
+}
+html[data-theme="dark"][data-btn-style="white"] {
+  --ui-action: #fafafa; --ui-action-hover: #e4e4e4; --ui-action-text: #fafafa; --ui-action-soft: #18181b; --ui-action-on: #0a0a0a;
+  --ui-nav: #fafafa; --ui-nav-hover: #e4e4e4; --ui-nav-text: #fafafa; --ui-nav-soft: #18181b; --ui-nav-on: #0a0a0a;
+}
+html[data-btn-style="black"] :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="bg-primary-light"],
+html[data-btn-style="black"] :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="bg-natural-light"],
+html[data-btn-style="black"] .basa-round-btn {
+  box-shadow: 0 0 0 1px rgb(255 255 255 / 0.18);
+}
+html[data-btn-style="white"] :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="bg-primary-light"],
+html[data-btn-style="white"] :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="bg-natural-light"],
+html[data-btn-style="white"] .basa-round-btn {
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.55);
+}
+
+html :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="primary"] {
+  --btn-tone: var(--ui-action, var(--brand-cyan-deep));
+}
+
+html :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="natural"] {
+  --btn-tone: var(--ui-nav, #71717a);
+}
+
+html :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="danger"] {
+  --btn-tone: #de1135;
+}
+
+html:is([data-btn-action]:not([data-btn-action="cyan"]), [data-btn-style="black"], [data-btn-style="white"])
+  :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="primary"] {
+  --color-primary-light: var(--ui-action);
+  --color-primary-dark: var(--ui-action);
+  --color-primary-hover-light: var(--ui-action-hover);
+  --color-primary-hover-dark: var(--ui-action-hover);
+  --color-primary-bordered-text-light: var(--ui-action-text);
+  --color-primary-bordered-text-dark: var(--ui-action-text);
+  --color-primary-bordered-bg-light: var(--ui-action-soft);
+  --color-primary-bordered-bg-dark: var(--ui-action-soft);
+  --color-primary-bordered-hover-light: var(--ui-action-soft);
+  --color-primary-bordered-hover-dark: var(--ui-action-soft);
+}
+
+html :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="bg-primary-light"]:not(:disabled) {
+  color: var(--ui-action-on, #ffffff);
+}
+
+html:is([data-btn-nav]:not([data-btn-nav="neutral"]), [data-btn-style="black"], [data-btn-style="white"])
+  :is(button, a)[class*="phx-submit-loading:opacity-75"][class*="natural"] {
+  --color-natural-light: var(--ui-nav-text);
+  --color-natural-dark: var(--ui-nav-text);
+  --color-natural-hover-light: var(--ui-nav-hover);
+  --color-natural-hover-dark: var(--ui-nav-hover);
+  --color-natural-bordered-text-light: var(--ui-nav-text);
+  --color-natural-bordered-text-dark: var(--ui-nav-text);
+  --color-natural-bordered-bg-light: var(--ui-nav-soft);
+  --color-natural-bordered-bg-dark: var(--ui-nav-soft);
+  --color-natural-bordered-hover-light: var(--ui-nav-soft);
+  --color-natural-bordered-hover-dark: var(--ui-nav-soft);
+}
+
+html:is([data-btn-nav]:not([data-btn-nav="neutral"]), [data-btn-style="black"], [data-btn-style="white"])
+  a[class*="phx-submit-loading:opacity-75"].bordered:not([class*="-light"]) {
+  color: var(--ui-nav-text);
+  border-color: var(--ui-nav-text);
+  background-color: var(--ui-nav-soft);
+}
+html:is([data-btn-nav]:not([data-btn-nav="neutral"]), [data-btn-style="black"], [data-btn-style="white"])
+  a[class*="phx-submit-loading:opacity-75"].bordered:not([class*="-light"]):hover {
+  color: var(--ui-nav-on);
+  background-color: var(--ui-nav);
+  border-color: var(--ui-nav);
+}
+html:is([data-btn-nav]:not([data-btn-nav="neutral"]), [data-btn-style="black"], [data-btn-style="white"])
+  a[class*="phx-submit-loading:opacity-75"].transparent:not([class*="-light"]) {
+  color: var(--ui-nav-text);
+}
+html:is([data-btn-nav]:not([data-btn-nav="neutral"]), [data-btn-style="black"], [data-btn-style="white"])
+  a[class*="phx-submit-loading:opacity-75"].transparent:not([class*="-light"]):hover {
+  color: var(--ui-nav-hover);
+}
+
+.basa-round-btn {
+  --spacing: calc(0.25rem * var(--ui-btn-scale, 1));
+  background-color: var(--ui-action, var(--brand-cyan-deep));
+  color: var(--ui-action-on, #ffffff);
+}
+.basa-round-btn:hover:not(:disabled) {
+  background-color: var(--ui-action-hover, #006685);
+}
+.basa-round-btn .basa-round-label {
+  font-size: calc(0.875rem * var(--ui-btn-text, 1));
+}
+
+:is(button, a)[class*="phx-submit-loading:opacity-75"] {
+  --spacing: calc(0.25rem * var(--ui-btn-scale, 1));
+  --text-xs: calc(0.75rem * var(--ui-btn-text, 1));
+  --text-sm: calc(0.875rem * var(--ui-btn-text, 1));
+  --text-base: calc(1rem * var(--ui-btn-text, 1));
+  --text-lg: calc(1.125rem * var(--ui-btn-text, 1));
+  --text-xl: calc(1.25rem * var(--ui-btn-text, 1));
+}
+:is(:is(button, a)[class*="phx-submit-loading:opacity-75"], .basa-round-btn)
+  :is([class*="hero-"], .brand-icon)[class*="size-"] {
+  --spacing: calc(0.25rem * var(--ui-btn-scale, 1) * var(--ui-icon-scale, 1));
+}
+:is(:is(button, a)[class*="phx-submit-loading:opacity-75"], .basa-round-btn)
+  :is([class*="hero-"], .brand-icon):not([class*="size-"]) {
+  zoom: calc(var(--ui-btn-scale, 1) * var(--ui-icon-scale, 1));
+}
+
+html[data-btn-disabled="tint"] :is(:is(button, a)[class*="phx-submit-loading:opacity-75"], .basa-round-btn):is(:disabled, [aria-disabled="true"]) {
+  background-color: color-mix(in oklab, var(--btn-tone, var(--ui-action, #007ea3)) 16%, #ffffff);
+  color: color-mix(in oklab, var(--btn-tone, var(--ui-action, #007ea3)) 50%, #ffffff);
+  border-color: color-mix(in oklab, var(--btn-tone, var(--ui-action, #007ea3)) 25%, #ffffff);
+  box-shadow: none;
+  opacity: 1;
+}
+html[data-theme="dark"][data-btn-disabled="tint"] :is(:is(button, a)[class*="phx-submit-loading:opacity-75"], .basa-round-btn):is(:disabled, [aria-disabled="true"]) {
+  background-color: color-mix(in oklab, var(--btn-tone, var(--ui-action, #33d6ff)) 18%, #18181b);
+  color: color-mix(in oklab, var(--btn-tone, var(--ui-action, #33d6ff)) 50%, #18181b);
+  border-color: color-mix(in oklab, var(--btn-tone, var(--ui-action, #33d6ff)) 28%, #18181b);
+}
+html[data-btn-disabled="gray"] :is(:is(button, a)[class*="phx-submit-loading:opacity-75"], .basa-round-btn):is(:disabled, [aria-disabled="true"]) {
+  background-color: #e4e4e7;
+  color: #a1a1aa;
+  border-color: #e4e4e7;
+  box-shadow: none;
+  opacity: 1;
+}
+html[data-theme="dark"][data-btn-disabled="gray"] :is(:is(button, a)[class*="phx-submit-loading:opacity-75"], .basa-round-btn):is(:disabled, [aria-disabled="true"]) {
+  background-color: #27272a;
+  color: #52525b;
+  border-color: #27272a;
+}
+
+.basa-json-editor .jsoneditor {
+  border-color: var(--brand-cyan-deep);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.basa-json-editor .jsoneditor-menu {
+  background-color: var(--brand-cyan-deep);
+  border-bottom-color: var(--brand-cyan-deep);
+}
+
+.basa-json-editor .jsoneditor-statusbar {
+  color: #3f3f46;
+}
+
+.basa-editor-pane {
+  height: max(28rem, calc(100dvh - 17.5rem));
+}
+
+.basa-help { line-height: 1.6; }
+.basa-help h2 { margin: 1.25rem 0 0.5rem; font-size: 1.15rem; font-weight: 600; }
+.basa-help p { margin: 0.5rem 0; }
+.basa-help ol { margin: 0.5rem 0 0.5rem 1.25rem; list-style: decimal; }
+.basa-help ul { margin: 0.5rem 0 0.5rem 1.25rem; list-style: disc; }
+.basa-help li { margin: 0.25rem 0; }
+.basa-help li > ul, .basa-help li > ol { margin-top: 0.25rem; }
+.basa-help code { font-size: 0.875em; padding: 0.05rem 0.3rem; border-radius: 0.25rem; background: rgb(127 127 127 / 0.15); }
+.basa-help a { text-decoration: underline; }
+
+.tma-tile:hover {
+  border-color: var(--brand-cyan, #00ccff);
+}
+
+.tma-tile-icon {
+  background-color: var(--brand-cyan-soft, #d9f6ff);
+  color: var(--brand-cyan-deep, #007ea3);
+}
+
+[data-theme="dark"] .tma-tile-icon {
+  background-color: #27272a;
+  color: var(--brand-cyan, #00ccff);
+}

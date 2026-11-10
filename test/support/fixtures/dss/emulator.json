@@ -1,0 +1,103 @@
+{
+ "SimpleReport": {
+  "ValidationPolicy": {
+   "PolicyName": "QES AES/QC AES TL based",
+   "PolicyDescription": "Validates electronic signatures and indicates whether they are advanced electronic signatures (AES), AES supported by a qualified certificate (AES/QC) or a\n\t\tqualified electronic signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\n\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\n\t"
+  },
+  "DocumentName": "sig.p7s",
+  "ValidSignaturesCount": 0,
+  "SignaturesCount": 1,
+  "ContainerType": null,
+  "PDFAInfo": null,
+  "signatureOrTimestampOrEvidenceRecord": [
+   {
+    "Signature": {
+     "SigningTime": "2026-11-03T01:23:37Z",
+     "BestSignatureTime": "2026-11-03T01:23:37Z",
+     "SignedBy": "Olena Kovalenko",
+     "SignatureLevel": {
+      "value": "N/A",
+      "description": "Not applicable"
+     },
+     "SignatureScope": [
+      {
+       "value": "Digest of the document content",
+       "Id": "D-24DF8CBC07AE96428CCF67F099826DF02E45B6CC80FB84873F23F01A0C70E14B",
+       "name": "contract",
+       "scope": "DIGEST"
+      }
+     ],
+     "Timestamps": null,
+     "EvidenceRecords": null,
+     "Filename": null,
+     "CertificateChain": {
+      "Certificate": [
+       {
+        "QualifiedName": "Olena Kovalenko",
+        "TrustAnchors": null,
+        "Id": "C-623A580B7A853DA000A742D375E97AD5878BD4608F4C2D8325D856273F436CC1",
+        "trusted": null,
+        "sunsetDate": null
+       },
+       {
+        "QualifiedName": "BASA test CA (not qualified)",
+        "TrustAnchors": null,
+        "Id": "C-F7841F439CC3DC91770D907BE478A34744A8FE653D4D5BA8BEFF280A6C1C154A",
+        "trusted": true,
+        "sunsetDate": null
+       }
+      ]
+     },
+     "Indication": "INDETERMINATE",
+     "SubIndication": "CERTIFICATE_CHAIN_GENERAL_FAILURE",
+     "AdESValidationDetails": {
+      "Error": [
+       {
+        "value": "The certificate validation is not conclusive!",
+        "Key": "BBB_XCV_SUB_ANS"
+       },
+       {
+        "value": "No revocation data found for the certificate!",
+        "Key": "BBB_XCV_IRDPFC_ANS"
+       }
+      ],
+      "Warning": [
+       {
+        "value": "The authority info access is not present!",
+        "Key": "BBB_XCV_AIA_PRES_ANS"
+       },
+       {
+        "value": "The revocation info access is not present!",
+        "Key": "BBB_XCV_REVOC_PRES_ANS"
+       }
+      ],
+      "Info": []
+     },
+     "QualificationDetails": {
+      "Error": [
+       {
+        "value": "Unable to build a certificate chain up to a trusted list!",
+        "Key": "QUAL_CERT_TRUSTED_LIST_REACHED_ANS"
+       }
+      ],
+      "Warning": [
+       {
+        "value": "The signature/seal is an INDETERMINATE AdES digital signature!",
+        "Key": "QUAL_IS_ADES_IND"
+       }
+      ],
+      "Info": []
+     },
+     "ExtensionPeriodMin": null,
+     "ExtensionPeriodMax": null,
+     "Id": "S-F5AF0FC7F42A66096930BEDE2954C656767FEFEE9A28F08C1EA829D2C5526861",
+     "CounterSignature": null,
+     "ParentId": null,
+     "SignatureFormat": "CAdES-BASELINE-B"
+    }
+   }
+  ],
+  "Semantic": null,
+  "ValidationTime": "2026-11-03T01:23:37Z"
+ }
+}

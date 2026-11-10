@@ -1,0 +1,5 @@
+# TLS is automatic for a public domain. Telegram webhooks require HTTPS.
+{$BASA_HOST} {
+	encode zstd gzip
+	reverse_proxy app:4000
+}
